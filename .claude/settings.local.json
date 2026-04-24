@@ -16,7 +16,11 @@
       "PowerShell(python --version)",
       "PowerShell(py --version)",
       "PowerShell(Get-Command python, py -ErrorAction SilentlyContinue)",
-      "PowerShell(Get-Command python -ErrorAction SilentlyContinue)"
+      "PowerShell(Get-Command python -ErrorAction SilentlyContinue)",
+      "PowerShell(& \"c:\\\\Users\\\\matth\\\\.local\\\\bin\\\\python3.14.exe\" --version)",
+      "PowerShell(& \"c:\\\\Users\\\\matth\\\\.local\\\\bin\\\\python3.14.exe\" -m pip install requests)",
+      "PowerShell(uv --version)",
+      "PowerShell(Get-Command uv)"
     ]
   }
 }
