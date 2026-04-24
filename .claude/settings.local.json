@@ -10,7 +10,13 @@
       "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{ const j=JSON.parse\\(d\\); console.log\\(JSON.stringify\\(j.drinks[0],null,2\\)\\); }\\)\")",
       "Bash(node -e ' *)",
       "Bash(curl -s \"https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a\")",
-      "Bash(node -e \" let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{ const drinks = JSON.parse\\(d\\).drinks; const measures = new Set\\(\\); drinks.forEach\\(dr => { for\\(let i=1;i<=15;i++\\){ const m = dr['strMeasure'+i]; if\\(m\\) measures.add\\(m.trim\\(\\)\\); } }\\); // print unique measure strings [...measures].sort\\(\\).forEach\\(m => console.log\\(JSON.stringify\\(m\\)\\)\\); }\\);\")"
+      "Bash(node -e \" let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{ const drinks = JSON.parse\\(d\\).drinks; const measures = new Set\\(\\); drinks.forEach\\(dr => { for\\(let i=1;i<=15;i++\\){ const m = dr['strMeasure'+i]; if\\(m\\) measures.add\\(m.trim\\(\\)\\); } }\\); // print unique measure strings [...measures].sort\\(\\).forEach\\(m => console.log\\(JSON.stringify\\(m\\)\\)\\); }\\);\")",
+      "Bash(py --version)",
+      "Bash(where py *)",
+      "PowerShell(python --version)",
+      "PowerShell(py --version)",
+      "PowerShell(Get-Command python, py -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Command python -ErrorAction SilentlyContinue)"
     ]
   }
 }
