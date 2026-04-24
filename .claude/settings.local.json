@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(python scripts/fetch_cocktaildb.py)",
+      "Bash(python3 scripts/fetch_cocktaildb.py)",
+      "Bash(curl -s \"https://www.thecocktaildb.com/api/json/v1/1/search.php?f=m\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d['drinks'][0], indent=2\\)\\)\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{ const j=JSON.parse\\(d\\); console.log\\(JSON.stringify\\(j.drinks[0],null,2\\)\\); }\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(curl -s \"https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a\")",
+      "Bash(node -e \" let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{ const drinks = JSON.parse\\(d\\).drinks; const measures = new Set\\(\\); drinks.forEach\\(dr => { for\\(let i=1;i<=15;i++\\){ const m = dr['strMeasure'+i]; if\\(m\\) measures.add\\(m.trim\\(\\)\\); } }\\); // print unique measure strings [...measures].sort\\(\\).forEach\\(m => console.log\\(JSON.stringify\\(m\\)\\)\\); }\\);\")"
     ]
   }
 }
