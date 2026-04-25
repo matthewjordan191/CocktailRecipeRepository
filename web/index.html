@@ -13,6 +13,7 @@
 
   <nav id="main-nav">
     <button class="nav-btn active" data-view="list">Browse</button>
+    <button class="nav-btn" data-view="favorites">Favorites</button>
     <button class="nav-btn" data-view="bar">My Bar</button>
   </nav>
 
@@ -29,6 +30,18 @@
       <div id="all-tags-panel" hidden></div>
       <ul id="cocktail-list"></ul>
       <p id="error" hidden></p>
+    </main>
+  </div>
+
+  <!-- Favorites view -->
+  <div id="view-favorites" hidden>
+    <header>
+      <h1>Favorites</h1>
+      <p class="subtitle" id="fav-count"></p>
+    </header>
+    <main>
+      <ul id="favorites-list"></ul>
+      <p id="fav-empty" hidden>No favorites yet — tap ☆ on any recipe to save it.</p>
     </main>
   </div>
 

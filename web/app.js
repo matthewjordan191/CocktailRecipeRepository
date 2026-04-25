@@ -100,14 +100,16 @@ const inventory = new Set(
 const FAVORITES_KEY = "cocktail-bar-favorites";
 const favorites = new Set(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]"));
 
-// Set by initBrowse once the browse view is ready; used by renderDetail.
+// Set by initBrowse / initFavorites once views are ready; used by renderDetail.
 let filterByTag = null;
+let refreshFavorites = null;
 
 // ── Navigation ─────────────────────────────────────────────────────────────
 const views = {
-  list:   document.getElementById("view-list"),
-  bar:    document.getElementById("view-bar"),
-  detail: document.getElementById("view-detail"),
+  list:      document.getElementById("view-list"),
+  favorites: document.getElementById("view-favorites"),
+  bar:       document.getElementById("view-bar"),
+  detail:    document.getElementById("view-detail"),
 };
 const nav = document.getElementById("main-nav");
 let previousView = "list";
@@ -118,6 +120,7 @@ function showView(name) {
   nav.querySelectorAll(".nav-btn").forEach(btn => {
     btn.classList.toggle("active", btn.dataset.view === name);
   });
+  if (name === "favorites" && refreshFavorites) refreshFavorites();
 }
 
 nav.addEventListener("click", e => {
@@ -157,6 +160,7 @@ function renderDetail(c) {
     if (favorites.has(c.name)) favorites.delete(c.name); else favorites.add(c.name);
     localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
     updateFavBtn();
+    if (refreshFavorites) refreshFavorites();
   };
 
   const img = document.getElementById("detail-img");
@@ -345,13 +349,11 @@ function initBrowse(cocktails) {
   list.appendChild(frag);
 
   let activeFilter = null;
-  let favFilterActive = false;
   const pills = FILTERS.map(f => {
     const btn = document.createElement("button");
     btn.className = "filter-pill";
     btn.textContent = f.label;
     btn.addEventListener("click", () => {
-      favFilterActive = false;
       if (activeFilter === f) {
         activeFilter = null;
         btn.classList.remove("active");
@@ -408,7 +410,6 @@ function initBrowse(cocktails) {
       const isActive = activeFilter?.tags?.[0] === tag && activeFilter.tags.length === 1;
       pills.forEach(p => p.classList.remove("active"));
       tagPills.forEach(p => p.classList.remove("active"));
-      favFilterActive = false;
       if (isActive) {
         activeFilter = null;
       } else {
@@ -424,29 +425,11 @@ function initBrowse(cocktails) {
   function filterByTag(tag) {
     pills.forEach(p => p.classList.remove("active"));
     tagPills.forEach(p => p.classList.remove("active"));
-    favFilterActive = false;
-    favPill.classList.remove("active");
     activeFilter = { tags: [tag] };
     const match = tagPills.find(p => p._tag === tag);
     if (match) match.classList.add("active");
     applyFilters();
   }
-
-  // Favourites pill — inserted first in the filter bar.
-  const favPill = document.createElement("button");
-  favPill.className = "filter-pill";
-  favPill.textContent = "★ Favorites";
-  favPill.addEventListener("click", () => {
-    favFilterActive = !favFilterActive;
-    favPill.classList.toggle("active", favFilterActive);
-    if (favFilterActive) {
-      pills.forEach(p => p.classList.remove("active"));
-      tagPills.forEach(p => p.classList.remove("active"));
-      activeFilter = null;
-    }
-    applyFilters();
-  });
-  filterBar.insertBefore(favPill, filterBar.firstChild);
 
   moreBtn.addEventListener("click", () => {
     panelOpen = !panelOpen;
@@ -461,11 +444,10 @@ function initBrowse(cocktails) {
     for (const li of items) {
       const matchesSearch = !query || fuzzyMatch(query, li.dataset.name);
       const matchesFilter = !filterTags || [...filterTags].some(t => li._tagSet.has(t));
-      const matchesFav = !favFilterActive || favorites.has(li._cocktailName);
-      li.hidden = !(matchesSearch && matchesFilter && matchesFav);
+      li.hidden = !(matchesSearch && matchesFilter);
       if (!li.hidden) visible++;
     }
-    count.textContent = (query || filterTags || favFilterActive)
+    count.textContent = (query || filterTags)
       ? `${visible} of ${total} cocktails`
       : `${total} cocktails`;
   }
@@ -473,6 +455,37 @@ function initBrowse(cocktails) {
   search.addEventListener("input", applyFilters);
 
   return filterByTag;
+}
+
+// ── Favorites view ─────────────────────────────────────────────────────────
+function initFavorites(cocktails) {
+  const list  = document.getElementById("favorites-list");
+  const empty = document.getElementById("fav-empty");
+  const count = document.getElementById("fav-count");
+
+  function refresh() {
+    list.innerHTML = "";
+    const favCocktails = cocktails.filter(c => favorites.has(c.name));
+    const n = favCocktails.length;
+    if (n === 0) {
+      empty.hidden = false;
+      count.textContent = "";
+    } else {
+      empty.hidden = true;
+      count.textContent = `${n} recipe${n === 1 ? "" : "s"}`;
+      const frag = document.createDocumentFragment();
+      for (const cocktail of favCocktails) {
+        const li = document.createElement("li");
+        li.textContent = cocktail.name;
+        li.addEventListener("click", () => { previousView = "favorites"; showDetail(cocktail); });
+        frag.appendChild(li);
+      }
+      list.appendChild(frag);
+    }
+  }
+
+  refresh();
+  return refresh;
 }
 
 // ── Boot ───────────────────────────────────────────────────────────────────
@@ -502,9 +515,10 @@ async function init() {
   const allIngredients = [...ingSet].sort();
 
   filterByTag = initBrowse(cocktails);
+  refreshFavorites = initFavorites(cocktails);
   initBar(allIngredients);
 
-  showView("list");
+  showView(favorites.size > 0 ? "favorites" : "list");
 }
 
 init();
