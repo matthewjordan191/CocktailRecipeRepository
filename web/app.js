@@ -63,6 +63,20 @@ function isAlcoholicIngredient(name) {
   return ALCOHOLIC_PATTERNS.some(p => n.includes(p));
 }
 
+// Canonical form for deduplication and matching.
+// Strips accents and possessives so variants like "cachaça"/"cachaca" and
+// "peychaud's bitters"/"peychaud bitters" collapse to the same entry.
+function normalizeIngName(name) {
+  return name
+    .toLowerCase()
+    .trim()
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")  // cachaça→cachaca, kahlúa→kahlua
+    .replace(/['']\s*s\b/g, "")  // possessives: peychaud's→peychaud
+    .replace(/['']/g, "")         // any remaining apostrophes
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 // ── Filter definitions ─────────────────────────────────────────────────────
 const FILTERS = [
   { label: "IBA",           tags: ["iba"] },
@@ -77,7 +91,10 @@ const FILTERS = [
 ];
 
 // ── Inventory (module-level so detail view can read it) ────────────────────
-const inventory = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"));
+// Normalize on load so old stored names stay compatible after name cleanup.
+const inventory = new Set(
+  JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]").map(normalizeIngName)
+);
 
 // ── Navigation ─────────────────────────────────────────────────────────────
 const views = {
@@ -181,8 +198,9 @@ function renderDetail(c) {
 // its name or its name is a substring of the selected item.
 // e.g. selecting "rum" covers "white rum", "dark rum", "spiced rum".
 function isCovered(ingName, selectedSet) {
+  const n = normalizeIngName(ingName);
   for (const sel of selectedSet) {
-    if (ingName.includes(sel) || sel.includes(ingName)) return true;
+    if (n.includes(sel) || sel.includes(n)) return true;
   }
   return false;
 }
@@ -393,7 +411,7 @@ async function init() {
   for (const c of cocktails) {
     for (const i of c.ingredients) {
       if (i.name && isAlcoholicIngredient(i.name)) {
-        ingSet.add(i.name.toLowerCase().trim());
+        ingSet.add(normalizeIngName(i.name));
       }
     }
   }
