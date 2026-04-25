@@ -179,6 +179,15 @@ h3 {
 .filter-pill:hover  { border-color: var(--accent); color: var(--accent); }
 .filter-pill.active { border-color: var(--accent); color: var(--bg); background: var(--accent); }
 
+/* ── All tags panel ── */
+#all-tags-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
 /* ── Browse list ── */
 #cocktail-list { list-style: none; }
 

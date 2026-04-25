@@ -25,7 +25,10 @@
     <main>
       <input id="search" type="search" placeholder="Search cocktails…"
              autocomplete="off" autocorrect="off" spellcheck="false" />
-      <div id="filter-bar" role="group" aria-label="Filter by category"></div>
+      <div id="filter-bar" role="group" aria-label="Filter by category">
+        <button id="filter-more-btn" class="filter-pill">More ▾</button>
+      </div>
+      <div id="all-tags-panel" hidden></div>
       <ul id="cocktail-list"></ul>
       <p id="error" hidden></p>
     </main>

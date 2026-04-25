@@ -296,6 +296,60 @@ function initBrowse(cocktails) {
     return btn;
   });
 
+  // Build expanded all-tags panel from data, sorted by frequency.
+  const EXCLUDED_TAGS = new Set([
+    // Duplicates of curated filters
+    "contemporaryclassic", "newera", "alcoholic",
+    // Too vague
+    "ordinary drink", "cocktail", "mixed drink", "other / unknown", "shake",
+    // Single-cocktail noise
+    "drunk", "lazy", "nature", "passion", "adult", "colourful", "bubbly",
+    "dark", "spanish", "german", "expensive", "savory", "mild", "vegan",
+    "vegetarian", "fruity", "breakfast", "simple", "clear", "frozen", "cold",
+    "dinnerparty", "datenight", "dairy", "holiday", "brazilian",
+  ]);
+
+  const tagCounts = {};
+  for (const cocktail of cocktails) {
+    for (const tag of cocktail.tags || []) {
+      tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+    }
+  }
+  const allTags = Object.entries(tagCounts)
+    .sort((a, b) => b[1] - a[1])
+    .map(([tag]) => tag)
+    .filter(tag => !EXCLUDED_TAGS.has(tag));
+
+  const allTagsPanel = document.getElementById("all-tags-panel");
+  const moreBtn = document.getElementById("filter-more-btn");
+  let panelOpen = false;
+
+  const tagPills = allTags.map(tag => {
+    const btn = document.createElement("button");
+    btn.className = "filter-pill";
+    btn.textContent = `${tag} (${tagCounts[tag]})`;
+    btn.addEventListener("click", () => {
+      const isActive = activeFilter?.tags?.[0] === tag && activeFilter.tags.length === 1;
+      pills.forEach(p => p.classList.remove("active"));
+      tagPills.forEach(p => p.classList.remove("active"));
+      if (isActive) {
+        activeFilter = null;
+      } else {
+        btn.classList.add("active");
+        activeFilter = { tags: [tag] };
+      }
+      applyFilters();
+    });
+    allTagsPanel.appendChild(btn);
+    return btn;
+  });
+
+  moreBtn.addEventListener("click", () => {
+    panelOpen = !panelOpen;
+    allTagsPanel.hidden = !panelOpen;
+    moreBtn.textContent = panelOpen ? "Less ▴" : "More ▾";
+  });
+
   function applyFilters() {
     const query = search.value.toLowerCase().trim();
     const filterTags = activeFilter ? new Set(activeFilter.tags) : null;
