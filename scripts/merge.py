@@ -139,7 +139,7 @@ def main():
                 merged[key] = merge_records(merged[key], record)
 
     # Strip fields the web app never reads to keep cocktails.json lean.
-    STRIP_FIELDS = {"id", "source", "sources", "image_url"}
+    STRIP_FIELDS = {"id", "source", "sources"}
     output = [
         {k: v for k, v in r.items() if k not in STRIP_FIELDS}
         for r in sorted(merged.values(), key=lambda r: r["name"].lower())

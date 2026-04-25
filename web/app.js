@@ -139,6 +139,15 @@ function formatAmount(ing) {
 function renderDetail(c) {
   document.getElementById("detail-name").textContent = c.name;
 
+  const img = document.getElementById("detail-img");
+  if (c.image_url) {
+    img.src = c.image_url;
+    img.alt = c.name;
+    img.hidden = false;
+  } else {
+    img.hidden = true;
+  }
+
   const meta = document.getElementById("detail-meta");
   meta.innerHTML = "";
   for (const val of [c.method, c.glass].filter(Boolean)) {
