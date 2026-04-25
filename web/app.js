@@ -1,3 +1,7 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+
 const STORAGE_KEY = "cocktail-bar-inventory";
 
 // ── Alcoholic ingredient filter ────────────────────────────────────────────
