@@ -6,9 +6,12 @@
   --text:     #e2e2e2;
   --muted:    #777777;
   --accent:   #7dd3fc;
+  --green:    #86efac;
+  --amber:    #fcd34d;
   --font:     ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
   --radius:   6px;
   --max-w:    680px;
+  --nav-h:    48px;
 }
 
 /* ── Reset ── */
@@ -23,20 +26,49 @@ body {
   font-family: var(--font);
   line-height: 1.6;
   min-height: 100dvh;
-  padding: 1.5rem 1rem;
+  padding-top: var(--nav-h);
 }
 
-/* ── Layout ── */
+/* ── Nav ── */
+#main-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--nav-h);
+  display: flex;
+  background: #0a0a0a;
+  border-bottom: 1px solid var(--border);
+  z-index: 10;
+}
+
+.nav-btn {
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-family: var(--font);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: color 120ms ease;
+  border-bottom: 2px solid transparent;
+}
+.nav-btn:hover  { color: var(--text); }
+.nav-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ── Page padding ── */
 header, main {
   max-width: var(--max-w);
   margin-inline: auto;
+  padding-inline: 1rem;
 }
 
 header {
-  padding-block: 2rem 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--border);
   margin-bottom: 1.5rem;
 }
+
+main { padding-bottom: 3rem; }
 
 /* ── Typography ── */
 h1 {
@@ -84,7 +116,7 @@ h3 {
 }
 #back-btn:hover { opacity: 1; }
 
-/* ── Meta chips ── */
+/* ── Detail meta chips ── */
 #detail-meta {
   display: flex;
   flex-wrap: wrap;
@@ -101,8 +133,8 @@ h3 {
   text-transform: capitalize;
 }
 
-/* ── Search ── */
-#search {
+/* ── Search inputs ── */
+#search, #ing-search {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
@@ -116,13 +148,39 @@ h3 {
   outline: none;
   transition: border-color 120ms ease;
 }
-#search::placeholder { color: var(--muted); }
-#search:focus { border-color: var(--accent); }
+#search::placeholder, #ing-search::placeholder { color: var(--muted); }
+#search:focus, #ing-search:focus { border-color: var(--accent); }
 
-/* ── List ── */
-#cocktail-list {
-  list-style: none;
+/* ── Filter bar ── */
+#filter-bar {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
+  -webkit-overflow-scrolling: touch;
 }
+#filter-bar::-webkit-scrollbar { display: none; }
+
+.filter-pill {
+  flex-shrink: 0;
+  font-family: var(--font);
+  font-size: 0.78rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+  transition: border-color 120ms ease, color 120ms ease, background 120ms ease;
+  white-space: nowrap;
+}
+.filter-pill:hover  { border-color: var(--accent); color: var(--accent); }
+.filter-pill.active { border-color: var(--accent); color: var(--bg); background: var(--accent); }
+
+/* ── Browse list ── */
+#cocktail-list { list-style: none; }
 
 #cocktail-list li {
   padding: 0.65rem 0.75rem;
@@ -131,32 +189,115 @@ h3 {
   cursor: pointer;
   transition: background 120ms ease, color 120ms ease;
 }
-
-#cocktail-list li:not(:last-child) {
-  border-bottom: 1px solid var(--border);
-}
-
+#cocktail-list li:not(:last-child) { border-bottom: 1px solid var(--border); }
 #cocktail-list li:hover  { background: var(--surface); color: var(--accent); }
 #cocktail-list li:active { background: var(--border); }
 
-/* ── Detail sections ── */
+/* ── Ingredient checklist ── */
+#ing-list {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.ing-check-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.ing-check-item input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: none;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background 120ms ease, border-color 120ms ease;
+  position: relative;
+}
+.ing-check-item input[type="checkbox"]:checked {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.ing-check-item input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  left: 3px; top: 1px;
+  width: 5px; height: 8px;
+  border: 2px solid #000;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg);
+}
+
+.ing-check-item label {
+  font-size: 0.875rem;
+  cursor: pointer;
+  color: var(--text);
+  user-select: none;
+}
+.ing-check-item:has(input:checked) label { color: var(--accent); }
+
+/* ── Bar results ── */
+#bar-results { display: flex; flex-direction: column; gap: 2rem; }
+
+#bar-empty {
+  font-size: 0.875rem;
+  color: var(--muted);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.result-count {
+  color: var(--muted);
+  font-weight: normal;
+  font-size: 0.75rem;
+  margin-left: 0.3rem;
+}
+
+#can-make-section h3  { color: var(--green); }
+#almost-section h3    { color: var(--amber); }
+
+.result-list { list-style: none; }
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+.result-item:not(:last-child) { border-bottom: 1px solid var(--border); }
+.result-item:hover  { background: var(--surface); }
+.result-item:active { background: var(--border); }
+
+.result-name    { font-size: 0.9rem; }
+.result-missing {
+  font-size: 0.75rem;
+  color: var(--amber);
+  flex-shrink: 0;
+  text-align: right;
+}
+
+/* ── Detail view ── */
 #view-detail main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-#detail-ingredients,
-#detail-garnish,
-#detail-instructions,
-#detail-tags { }
-
-/* Ingredient rows */
 #ingredient-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.1rem;
 }
 
 #ingredient-list li {
@@ -174,23 +315,15 @@ h3 {
   flex-shrink: 0;
   text-align: right;
 }
+.ing-name  { color: var(--text); }
+.ing-full  { min-width: unset; text-align: left; }
 
-.ing-name { color: var(--text); }
-
-.ing-full {
-  min-width: unset;
-  text-align: left;
-}
-
-/* Garnish / Instructions */
-#garnish-text,
-#instructions-text {
+#garnish-text, #instructions-text {
   font-size: 0.9rem;
   color: var(--text);
   line-height: 1.7;
 }
 
-/* Tags */
 #tags-list {
   list-style: none;
   display: flex;
@@ -218,12 +351,11 @@ h3 {
 
 /* ── Responsive ── */
 @media (min-width: 480px) {
-  body { padding: 2rem 1.5rem; }
+  header, main { padding-inline: 1.5rem; }
 }
 
 @media (min-width: 768px) {
-  body { padding: 3rem 2rem; }
-  #cocktail-list li { font-size: 0.95rem; }
-  #ingredient-list li { font-size: 0.95rem; }
+  header, main { padding-inline: 2rem; }
+  #cocktail-list li, .result-name, #ingredient-list li { font-size: 0.95rem; }
   .ing-amount { min-width: 5.5rem; }
 }

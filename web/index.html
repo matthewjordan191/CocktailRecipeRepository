@@ -8,30 +8,55 @@
 </head>
 <body>
 
-  <!-- List view -->
+  <nav id="main-nav">
+    <button class="nav-btn active" data-view="list">Browse</button>
+    <button class="nav-btn" data-view="bar">My Bar</button>
+  </nav>
+
+  <!-- Browse view -->
   <div id="view-list">
     <header>
       <h1>Cocktails</h1>
       <p class="subtitle" id="count"></p>
     </header>
     <main>
-      <input
-        id="search"
-        type="search"
-        placeholder="Search cocktails…"
-        autocomplete="off"
-        autocorrect="off"
-        spellcheck="false"
-      />
+      <input id="search" type="search" placeholder="Search cocktails…"
+             autocomplete="off" autocorrect="off" spellcheck="false" />
+      <div id="filter-bar" role="group" aria-label="Filter by category"></div>
       <ul id="cocktail-list"></ul>
       <p id="error" hidden></p>
+    </main>
+  </div>
+
+  <!-- My Bar view -->
+  <div id="view-bar" hidden>
+    <header>
+      <h1>My Bar</h1>
+      <p class="subtitle" id="bar-subtitle">Check off what you have</p>
+    </header>
+    <main>
+      <input id="ing-search" type="search" placeholder="Search ingredients…"
+             autocomplete="off" autocorrect="off" spellcheck="false" />
+      <ul id="ing-list"></ul>
+
+      <div id="bar-results">
+        <section id="can-make-section" hidden>
+          <h3>Can make <span class="result-count" id="can-make-count"></span></h3>
+          <ul id="can-make-list" class="result-list"></ul>
+        </section>
+        <section id="almost-section" hidden>
+          <h3>Almost there <span class="result-count" id="almost-count"></span></h3>
+          <ul id="almost-list" class="result-list"></ul>
+        </section>
+        <p id="bar-empty">Select ingredients above to see what you can make.</p>
+      </div>
     </main>
   </div>
 
   <!-- Detail view -->
   <div id="view-detail" hidden>
     <header>
-      <button id="back-btn" aria-label="Back to list">&#8592; Back</button>
+      <button id="back-btn" aria-label="Back">&#8592; Back</button>
       <h2 id="detail-name"></h2>
       <div id="detail-meta"></div>
     </header>
