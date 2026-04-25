@@ -3,13 +3,12 @@ import logging
 import os
 import re
 
+from utils import CL_TO_OZ, ML_TO_OZ, infer_method, round_to_quarter, slugify
+
 INPUT_PATH = "data/raw/iba.json"
 OUTPUT_PATH = "data/processed/iba_normalized.json"
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
-
-ML_TO_OZ = 0.033814
-CL_TO_OZ = 0.33814
 
 # Canonical unit after normalization
 UNIT_CANONICAL = {
@@ -62,10 +61,6 @@ NUMBER_RE = re.compile(r"^(\d+/\d+|\d+(?:\.\d+)?)(?:\s*(?:to|-)\s*\d+(?:\.\d+)?)
 
 # Catches leftover measure fragments inside a name, e.g. "Goslings Rum100 ml Ginger Beer".
 TRAILING_MEASURE_RE = re.compile(r"\s*\d+\s*(?:ml|cl|oz)\s+.*$", re.IGNORECASE)
-
-
-def round_to_quarter(value: float) -> float:
-    return round(value * 4) / 4
 
 
 def parse_number(s: str) -> float | None:
@@ -144,28 +139,6 @@ def parse_ingredient(raw: str, cocktail_name: str) -> dict:
         unit = "oz"
 
     return {"name": name, "amount": amount, "unit": unit, "notes": None, "raw": original_raw}
-
-
-def infer_method(instructions: str | None) -> str | None:
-    if not instructions:
-        return None
-    lower = instructions.lower()
-    if "shake" in lower or "shaken" in lower:
-        return "shaken"
-    if "blend" in lower or "blended" in lower:
-        return "blended"
-    if "stir" in lower or "stirred" in lower:
-        return "stirred"
-    if "build" in lower or "built" in lower:
-        return "built"
-    return None
-
-
-def slugify(name: str) -> str:
-    name = name.lower()
-    name = re.sub(r"[^\w\s-]", "", name)
-    name = re.sub(r"[\s_]+", "-", name)
-    return name.strip("-")
 
 
 def normalize_cocktail(raw: dict) -> dict:

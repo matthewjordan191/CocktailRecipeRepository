@@ -3,13 +3,13 @@ import logging
 import os
 import re
 
+from utils import CL_TO_OZ, ML_TO_OZ, infer_method, round_to_quarter, slugify
+
 INPUT_PATH = "data/raw/cocktaildb.json"
 OUTPUT_PATH = "data/processed/cocktaildb_normalized.json"
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
 
-ML_TO_OZ = 0.033814
-CL_TO_OZ = 0.33814
 SHOT_TO_OZ = 1.5  # standard US shot
 
 # Maps raw unit strings (lowercase) to a canonical unit or conversion action.
@@ -45,10 +45,6 @@ UNIT_RE = re.compile(
     r"^\s*(oz|ml|cl|shots?|tsps?|tblsps?|tbsps?|dashes?|dash|parts?|twists?|drops?|pieces?)\b",
     re.IGNORECASE,
 )
-
-
-def round_to_quarter(value: float) -> float:
-    return round(value * 4) / 4
 
 
 def parse_number(s: str) -> float | None:
@@ -118,28 +114,6 @@ def parse_measure(raw: str, drink_name: str, ing_name: str) -> tuple[float | Non
         return round_to_quarter(to_oz(amount, canonical_unit)), "oz"
 
     return amount, canonical_unit
-
-
-def slugify(name: str) -> str:
-    name = name.lower()
-    name = re.sub(r"[^\w\s-]", "", name)
-    name = re.sub(r"[\s_]+", "-", name)
-    return name.strip("-")
-
-
-def infer_method(instructions: str | None) -> str | None:
-    if not instructions:
-        return None
-    lower = instructions.lower()
-    if "shake" in lower or "shaken" in lower:
-        return "shaken"
-    if "blend" in lower or "blended" in lower:
-        return "blended"
-    if "stir" in lower or "stirred" in lower:
-        return "stirred"
-    if "build" in lower or "built" in lower:
-        return "built"
-    return None
 
 
 def normalize_drink(drink: dict) -> dict:
