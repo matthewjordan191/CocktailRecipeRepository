@@ -4,6 +4,24 @@ if ("serviceWorker" in navigator) {
 
 const STORAGE_KEY = "cocktail-bar-inventory";
 
+// ── Fuzzy search ───────────────────────────────────────────────────────────
+function trigrams(str) {
+  const s = str.toLowerCase();
+  const out = new Set();
+  for (let i = 0; i <= s.length - 3; i++) out.add(s.slice(i, i + 3));
+  return out;
+}
+
+function fuzzyMatch(query, name) {
+  if (name.includes(query)) return true;
+  if (query.length < 3) return false;
+  const qt = trigrams(query);
+  const nt = trigrams(name);
+  let shared = 0;
+  for (const g of qt) if (nt.has(g)) shared++;
+  return (2 * shared) / (qt.size + nt.size) > 0.3;
+}
+
 // ── Alcoholic ingredient filter ────────────────────────────────────────────
 // Substrings that reliably indicate an alcoholic ingredient.
 const ALCOHOLIC_PATTERNS = [
@@ -272,7 +290,7 @@ function initBrowse(cocktails) {
     const filterTags = activeFilter ? new Set(activeFilter.tags) : null;
     let visible = 0;
     for (const li of items) {
-      const matchesSearch = !query || li.dataset.name.includes(query);
+      const matchesSearch = !query || fuzzyMatch(query, li.dataset.name);
       const matchesFilter = !filterTags || [...filterTags].some(t => li._tagSet.has(t));
       li.hidden = !(matchesSearch && matchesFilter);
       if (!li.hidden) visible++;
