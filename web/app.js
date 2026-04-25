@@ -162,9 +162,16 @@ function renderDetail(c) {
 
   const ingList = document.getElementById("ingredient-list");
   ingList.innerHTML = "";
+
+  // Equal-parts detection: all amounted ingredients share the same fractional
+  // "piece" amount (e.g. ABC where each is stored as raw "1/3" with no unit).
+  const amountedIngs = c.ingredients.filter(i => i.amount != null);
+  const isEqualParts = amountedIngs.length >= 2 &&
+    amountedIngs.every(i => i.unit === "piece" && i.amount < 1 && i.amount === amountedIngs[0].amount);
+
   for (const ing of c.ingredients) {
     const li = document.createElement("li");
-    const amount = formatAmount(ing);
+    const amount = isEqualParts && ing.amount != null ? "1 part" : formatAmount(ing);
     const notes = ing.notes ? ` (${ing.notes})` : "";
 
     // Colour-code alcoholic ingredients based on inventory.
