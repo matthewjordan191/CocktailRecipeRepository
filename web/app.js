@@ -161,9 +161,16 @@ function renderDetail(c) {
       statusClass = isCovered(ing.name, inventory) ? " ing-have" : "";
     }
 
-    li.innerHTML = amount
-      ? `<span class="ing-amount">${amount}</span><span class="ing-name${statusClass}">${ing.name}${notes}</span>`
-      : `<span class="ing-name ing-full${statusClass}">${ing.name}${notes}</span>`;
+    if (amount) {
+      const amountSpan = document.createElement("span");
+      amountSpan.className = "ing-amount";
+      amountSpan.textContent = amount;
+      li.appendChild(amountSpan);
+    }
+    const nameSpan = document.createElement("span");
+    nameSpan.className = amount ? `ing-name${statusClass}` : `ing-name ing-full${statusClass}`;
+    nameSpan.textContent = ing.name + (ing.notes ? ` (${ing.notes})` : "");
+    li.appendChild(nameSpan);
     ingList.appendChild(li);
   }
 
