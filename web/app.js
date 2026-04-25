@@ -296,6 +296,12 @@ function initBrowse(cocktails) {
     return btn;
   });
 
+  // Add More button at the end of the curated pills row.
+  const moreBtn = document.createElement("button");
+  moreBtn.className = "filter-pill filter-more";
+  moreBtn.textContent = "More ▾";
+  filterBar.appendChild(moreBtn);
+
   // Build expanded all-tags panel from data, sorted by frequency.
   const EXCLUDED_TAGS = new Set([
     // Duplicates of curated filters
@@ -321,7 +327,6 @@ function initBrowse(cocktails) {
     .filter(tag => !EXCLUDED_TAGS.has(tag));
 
   const allTagsPanel = document.getElementById("all-tags-panel");
-  const moreBtn = document.getElementById("filter-more-btn");
   let panelOpen = false;
 
   const tagPills = allTags.map(tag => {
