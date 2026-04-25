@@ -1,5 +1,35 @@
 const STORAGE_KEY = "cocktail-bar-inventory";
 
+// ── Alcoholic ingredient filter ────────────────────────────────────────────
+// Substrings that reliably indicate an alcoholic ingredient.
+const ALCOHOLIC_PATTERNS = [
+  "vodka", "gin", "rum", "tequila", "whiskey", "whisky", "bourbon", "scotch",
+  "brandy", "cognac", "mezcal", "pisco", "cachaca", "cachaça", "calvados",
+  "grappa", "everclear", "applejack", "absinthe", "ouzo", "pernod", "ricard",
+  "anisette", "champagne", "prosecco", "cider", "lager", "stout", "vermouth",
+  "sherry", "liqueur", "schnapps", "amaretto", "cointreau", "curacao", "curaçao",
+  "campari", "aperol", "drambuie", "galliano", "chartreuse", "benedictine",
+  "bénédictine", "sambuca", "frangelico", "malibu", "kahlua", "kahlúa",
+  "midori", "passoa", "lillet", "dubonnet", "advocaat", "falernum", "fernet",
+  "amaro", "bitters", "absolut", "bacardi", "jager", "goldschlager", "baileys",
+  "grand marnier", "triple sec", "southern comfort", "crown royal", "wild turkey",
+  "jim beam", "jack daniels", "tia maria", "godiva", "yukon", "sloe",
+  "heering", "pisang", "chambord", "creme de", "crème de", "st. germain",
+  "beer", "wine", "port", "anis", "apfelkorn",
+];
+
+// Ingredient names that match a pattern above but are NOT alcoholic.
+const NON_ALCOHOLIC_EXCEPTIONS = new Set([
+  "ginger", "ginger ale", "ginger beer", "ginger beer to top up",
+  "ginger syrup", "root beer", "cream of coconut", "port wine reduction",
+]);
+
+function isAlcoholicIngredient(name) {
+  const n = name.toLowerCase().trim();
+  if (NON_ALCOHOLIC_EXCEPTIONS.has(n)) return false;
+  return ALCOHOLIC_PATTERNS.some(p => n.includes(p));
+}
+
 // ── Filter definitions ─────────────────────────────────────────────────────
 const FILTERS = [
   { label: "IBA",           tags: ["iba"] },
@@ -115,7 +145,8 @@ function isCovered(ingName, selectedSet) {
 }
 
 function scoreCocktail(cocktail, selectedSet) {
-  const ings = cocktail.ingredients.filter(i => i.name);
+  // Only gate on alcoholic ingredients — juices, mixers, garnishes assumed available.
+  const ings = cocktail.ingredients.filter(i => i.name && isAlcoholicIngredient(i.name));
   const missing = ings.filter(i => !isCovered(i.name, selectedSet));
   return { total: ings.length, missingCount: missing.length, missing };
 }
@@ -322,11 +353,13 @@ async function init() {
     return;
   }
 
-  // Extract and sort all unique ingredient names.
+  // Extract alcoholic ingredient names only for the bar checklist.
   const ingSet = new Set();
   for (const c of cocktails) {
     for (const i of c.ingredients) {
-      if (i.name) ingSet.add(i.name.toLowerCase().trim());
+      if (i.name && isAlcoholicIngredient(i.name)) {
+        ingSet.add(i.name.toLowerCase().trim());
+      }
     }
   }
   const allIngredients = [...ingSet].sort();
