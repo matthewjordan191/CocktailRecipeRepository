@@ -216,19 +216,20 @@ h3 {
 }
 #all-tags-panel[hidden] { display: none; }
 
-/* ── Browse list ── */
-#cocktail-list { list-style: none; }
+/* ── Browse / Favorites list ── */
+#cocktail-list, #favorites-list { list-style: none; }
 
-#cocktail-list li {
+#cocktail-list li, #favorites-list li {
   padding: 0.65rem 0.75rem;
   border-radius: var(--radius);
   font-size: 0.9rem;
   cursor: pointer;
   transition: background 120ms ease, color 120ms ease;
 }
-#cocktail-list li:not(:last-child) { border-bottom: 1px solid var(--border); }
-#cocktail-list li:hover  { background: var(--surface); color: var(--accent); }
-#cocktail-list li:active { background: var(--border); }
+#cocktail-list li:not(:last-child),
+#favorites-list li:not(:last-child) { border-bottom: 1px solid var(--border); }
+#cocktail-list li:hover,  #favorites-list li:hover  { background: var(--surface); color: var(--accent); }
+#cocktail-list li:active, #favorites-list li:active { background: var(--border); }
 
 /* ── Ingredient checklist ── */
 #ing-list {

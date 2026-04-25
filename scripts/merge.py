@@ -147,7 +147,7 @@ def main():
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(output, f, separators=(',', ':'), ensure_ascii=False)
 
     duplicates = total_loaded - len(output)
     log.info(
