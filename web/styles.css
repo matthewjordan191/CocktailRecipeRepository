@@ -46,10 +46,59 @@ h1 {
   color: var(--accent);
 }
 
+h2 {
+  font-size: clamp(1.2rem, 4vw, 1.6rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+  margin-top: 0.5rem;
+}
+
+h3 {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
 .subtitle {
   font-size: 0.8rem;
   color: var(--muted);
   margin-top: 0.25rem;
+}
+
+/* ── Back button ── */
+#back-btn {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-family: var(--font);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+  transition: opacity 120ms ease;
+}
+#back-btn:hover { opacity: 1; }
+
+/* ── Meta chips ── */
+#detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+}
+
+.chip {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
+  text-transform: capitalize;
 }
 
 /* ── Search ── */
@@ -67,9 +116,7 @@ h1 {
   outline: none;
   transition: border-color 120ms ease;
 }
-
 #search::placeholder { color: var(--muted); }
-
 #search:focus { border-color: var(--accent); }
 
 /* ── List ── */
@@ -81,7 +128,7 @@ h1 {
   padding: 0.65rem 0.75rem;
   border-radius: var(--radius);
   font-size: 0.9rem;
-  cursor: default;
+  cursor: pointer;
   transition: background 120ms ease, color 120ms ease;
 }
 
@@ -89,9 +136,75 @@ h1 {
   border-bottom: 1px solid var(--border);
 }
 
-#cocktail-list li:hover {
-  background: var(--surface);
+#cocktail-list li:hover  { background: var(--surface); color: var(--accent); }
+#cocktail-list li:active { background: var(--border); }
+
+/* ── Detail sections ── */
+#view-detail main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#detail-ingredients,
+#detail-garnish,
+#detail-instructions,
+#detail-tags { }
+
+/* Ingredient rows */
+#ingredient-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+#ingredient-list li {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.45rem 0;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--border);
+  align-items: baseline;
+}
+
+.ing-amount {
   color: var(--accent);
+  min-width: 4.5rem;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.ing-name { color: var(--text); }
+
+.ing-full {
+  min-width: unset;
+  text-align: left;
+}
+
+/* Garnish / Instructions */
+#garnish-text,
+#instructions-text {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* Tags */
+#tags-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.55rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
 }
 
 /* ── Error ── */
@@ -111,4 +224,6 @@ h1 {
 @media (min-width: 768px) {
   body { padding: 3rem 2rem; }
   #cocktail-list li { font-size: 0.95rem; }
+  #ingredient-list li { font-size: 0.95rem; }
+  .ing-amount { min-width: 5.5rem; }
 }

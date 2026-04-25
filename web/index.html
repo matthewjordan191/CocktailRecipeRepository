@@ -7,23 +7,52 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Cocktails</h1>
-    <p class="subtitle" id="count"></p>
-  </header>
 
-  <main>
-    <input
-      id="search"
-      type="search"
-      placeholder="Search cocktails…"
-      autocomplete="off"
-      autocorrect="off"
-      spellcheck="false"
-    />
-    <ul id="cocktail-list"></ul>
-    <p id="error" hidden></p>
-  </main>
+  <!-- List view -->
+  <div id="view-list">
+    <header>
+      <h1>Cocktails</h1>
+      <p class="subtitle" id="count"></p>
+    </header>
+    <main>
+      <input
+        id="search"
+        type="search"
+        placeholder="Search cocktails…"
+        autocomplete="off"
+        autocorrect="off"
+        spellcheck="false"
+      />
+      <ul id="cocktail-list"></ul>
+      <p id="error" hidden></p>
+    </main>
+  </div>
+
+  <!-- Detail view -->
+  <div id="view-detail" hidden>
+    <header>
+      <button id="back-btn" aria-label="Back to list">&#8592; Back</button>
+      <h2 id="detail-name"></h2>
+      <div id="detail-meta"></div>
+    </header>
+    <main>
+      <section id="detail-ingredients">
+        <h3>Ingredients</h3>
+        <ul id="ingredient-list"></ul>
+      </section>
+      <section id="detail-garnish" hidden>
+        <h3>Garnish</h3>
+        <p id="garnish-text"></p>
+      </section>
+      <section id="detail-instructions" hidden>
+        <h3>Instructions</h3>
+        <p id="instructions-text"></p>
+      </section>
+      <section id="detail-tags" hidden>
+        <ul id="tags-list"></ul>
+      </section>
+    </main>
+  </div>
 
   <script src="app.js"></script>
 </body>

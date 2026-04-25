@@ -1,5 +1,95 @@
+// ── Views ──────────────────────────────────────────────────────────────────
+const viewList   = document.getElementById("view-list");
+const viewDetail = document.getElementById("view-detail");
+
+function showList() {
+  viewDetail.hidden = true;
+  viewList.hidden = false;
+  document.title = "Cocktail Recipes";
+}
+
+function showDetail(cocktail) {
+  viewList.hidden = true;
+  viewDetail.hidden = false;
+  renderDetail(cocktail);
+  document.title = cocktail.name;
+  window.scrollTo(0, 0);
+}
+
+// ── Detail renderer ────────────────────────────────────────────────────────
+function formatAmount(ing) {
+  if (ing.amount == null) return ing.raw || "";
+  const amt = Number.isInteger(ing.amount) ? ing.amount : ing.amount;
+  return `${amt} ${ing.unit ?? ""}`.trim();
+}
+
+function renderDetail(c) {
+  document.getElementById("detail-name").textContent = c.name;
+
+  // Meta chips: method, glass
+  const meta = document.getElementById("detail-meta");
+  meta.innerHTML = "";
+  for (const val of [c.method, c.glass].filter(Boolean)) {
+    const chip = document.createElement("span");
+    chip.className = "chip";
+    chip.textContent = val;
+    meta.appendChild(chip);
+  }
+
+  // Ingredients
+  const ingList = document.getElementById("ingredient-list");
+  ingList.innerHTML = "";
+  for (const ing of c.ingredients) {
+    const li = document.createElement("li");
+    const amount = formatAmount(ing);
+    const notes = ing.notes ? ` (${ing.notes})` : "";
+    li.innerHTML = amount
+      ? `<span class="ing-amount">${amount}</span><span class="ing-name">${ing.name}${notes}</span>`
+      : `<span class="ing-name ing-full">${ing.name}${notes}</span>`;
+    ingList.appendChild(li);
+  }
+
+  // Garnish
+  const garnishSec = document.getElementById("detail-garnish");
+  if (c.garnish) {
+    document.getElementById("garnish-text").textContent = c.garnish;
+    garnishSec.hidden = false;
+  } else {
+    garnishSec.hidden = true;
+  }
+
+  // Instructions
+  const instrSec = document.getElementById("detail-instructions");
+  if (c.instructions) {
+    document.getElementById("instructions-text").textContent = c.instructions;
+    instrSec.hidden = false;
+  } else {
+    instrSec.hidden = true;
+  }
+
+  // Tags
+  const tagsSec = document.getElementById("detail-tags");
+  const tagsList = document.getElementById("tags-list");
+  tagsList.innerHTML = "";
+  if (c.tags?.length) {
+    for (const tag of c.tags) {
+      const li = document.createElement("li");
+      li.className = "tag";
+      li.textContent = tag;
+      tagsList.appendChild(li);
+    }
+    tagsSec.hidden = false;
+  } else {
+    tagsSec.hidden = true;
+  }
+}
+
+// ── Back button ────────────────────────────────────────────────────────────
+document.getElementById("back-btn").addEventListener("click", showList);
+
+// ── List + search ──────────────────────────────────────────────────────────
 async function init() {
-  const list = document.getElementById("cocktail-list");
+  const list  = document.getElementById("cocktail-list");
   const count = document.getElementById("count");
   const error = document.getElementById("error");
 
@@ -21,13 +111,13 @@ async function init() {
   for (const cocktail of cocktails) {
     const li = document.createElement("li");
     li.textContent = cocktail.name;
-    li.dataset.id = cocktail.id;
     li.dataset.name = cocktail.name.toLowerCase();
+    li.addEventListener("click", () => showDetail(cocktail));
     fragment.appendChild(li);
   }
   list.appendChild(fragment);
 
-  const items = list.querySelectorAll("li");
+  const items  = list.querySelectorAll("li");
   const search = document.getElementById("search");
 
   search.addEventListener("input", () => {
