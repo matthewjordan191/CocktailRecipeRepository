@@ -187,6 +187,7 @@ h3 {
   padding-bottom: 0.75rem;
   margin-bottom: 0.25rem;
 }
+#all-tags-panel[hidden] { display: none; }
 
 /* ── Browse list ── */
 #cocktail-list { list-style: none; }
