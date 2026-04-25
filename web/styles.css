@@ -326,6 +326,11 @@ h3 {
   border-radius: 999px;
   color: var(--muted);
 }
+.tag-link {
+  cursor: pointer;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+.tag-link:hover { border-color: var(--accent); color: var(--accent); }
 
 /* ── Error ── */
 #error {

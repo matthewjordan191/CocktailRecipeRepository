@@ -96,6 +96,9 @@ const inventory = new Set(
   JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]").map(normalizeIngName)
 );
 
+// Set by initBrowse once the browse view is ready; used by renderDetail.
+let filterByTag = null;
+
 // ── Navigation ─────────────────────────────────────────────────────────────
 const views = {
   list:   document.getElementById("view-list"),
@@ -201,8 +204,14 @@ function renderDetail(c) {
   if (c.tags?.length) {
     for (const tag of c.tags) {
       const li = document.createElement("li");
-      li.className = "tag";
+      li.className = "tag tag-link";
       li.textContent = tag;
+      li.addEventListener("click", () => {
+        if (filterByTag) filterByTag(tag);
+        previousView = "list";
+        showView("list");
+        window.scrollTo(0, 0);
+      });
       tagsList.appendChild(li);
     }
     tagsSec.hidden = false;
@@ -367,6 +376,7 @@ function initBrowse(cocktails) {
     const btn = document.createElement("button");
     btn.className = "filter-pill";
     btn.textContent = `${tag} (${tagCounts[tag]})`;
+    btn._tag = tag;
     btn.addEventListener("click", () => {
       const isActive = activeFilter?.tags?.[0] === tag && activeFilter.tags.length === 1;
       pills.forEach(p => p.classList.remove("active"));
@@ -382,6 +392,15 @@ function initBrowse(cocktails) {
     allTagsPanel.appendChild(btn);
     return btn;
   });
+
+  function filterByTag(tag) {
+    pills.forEach(p => p.classList.remove("active"));
+    tagPills.forEach(p => p.classList.remove("active"));
+    activeFilter = { tags: [tag] };
+    const match = tagPills.find(p => p._tag === tag);
+    if (match) match.classList.add("active");
+    applyFilters();
+  }
 
   moreBtn.addEventListener("click", () => {
     panelOpen = !panelOpen;
@@ -405,6 +424,8 @@ function initBrowse(cocktails) {
   }
 
   search.addEventListener("input", applyFilters);
+
+  return filterByTag;
 }
 
 // ── Boot ───────────────────────────────────────────────────────────────────
@@ -433,7 +454,7 @@ async function init() {
   }
   const allIngredients = [...ingSet].sort();
 
-  initBrowse(cocktails);
+  filterByTag = initBrowse(cocktails);
   initBar(allIngredients);
 
   showView("list");
