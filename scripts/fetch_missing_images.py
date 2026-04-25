@@ -63,6 +63,24 @@ WIKI_HEADERS = {
     "User-Agent": "CocktailRecipeBot/1.0 (https://github.com/matthewjordan191/CocktailRecipeRepository) python-requests"
 }
 
+# Explicit Wikipedia article titles where guessing "<name> cocktail" won't work.
+WIKI_TITLES: dict[str, str] = {
+    "Bee's knees":       "Bee's knees",
+    "Brandy crusta":     "Brandy crusta",
+    "Canchanchara":      "Canchanchara",
+    "Fernandito":        "Fernet con coca",
+    "Hanky panky":       "Hanky panky (cocktail)",
+    "Illegal":           "Illegal (cocktail)",
+    "Naked and famous":  "Naked and famous (cocktail)",
+    "Paper plane":       "Paper plane (cocktail)",
+    "Southside":         "South Side (cocktail)",
+    "Suffering bastard": "Suffering bastard",
+    "Tommy's margarita": "Tommy's margarita",
+    "Trinidad sour":     "Trinidad sour",
+    "Ve.n.to":           "Ve.n.to",
+    "Vieux Carré":       "Vieux Carré (cocktail)",
+}
+
 
 def search_wikipedia(name: str) -> str | None:
     """Return the main article thumbnail from Wikipedia, or None."""
@@ -74,8 +92,12 @@ def search_wikipedia(name: str) -> str | None:
         "pithumbsize": 500,
         "redirects": 1,
     }
-    # Try "<name> cocktail" first, then bare name.
-    for title in (f"{name} cocktail", name):
+    titles_to_try = []
+    if name in WIKI_TITLES:
+        titles_to_try.append(WIKI_TITLES[name])
+    titles_to_try.append(f"{name} cocktail")
+
+    for title in titles_to_try:
         try:
             resp = requests.get(api, params={**params, "titles": title},
                                 headers=WIKI_HEADERS, timeout=10)

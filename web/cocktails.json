@@ -15,7 +15,7 @@
       },
       {
         "name": "grapefruit juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -117,14 +117,14 @@
       },
       {
         "name": "peach nectar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "orange juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
@@ -158,28 +158,28 @@
       },
       {
         "name": "lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "mint",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -199,7 +199,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "2 shots"
@@ -247,14 +247,14 @@
     "ingredients": [
       {
         "name": "151 proof rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz Bacardi"
       },
       {
         "name": "wild turkey",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -274,21 +274,21 @@
     "ingredients": [
       {
         "name": "dark rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -310,7 +310,7 @@
     "ingredients": [
       {
         "name": "sweet vermouth",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "2 shots"
@@ -371,21 +371,21 @@
     "ingredients": [
       {
         "name": "strawberry schnapps",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "orange juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "cranberry juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -419,21 +419,21 @@
       },
       {
         "name": "sweet vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "dry vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "orange bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
@@ -453,21 +453,21 @@
     "ingredients": [
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "orange juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "part",
         "notes": null,
         "raw": "4 parts"
       },
       {
         "name": "pineapple juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "part",
         "notes": null,
         "raw": "4 parts"
@@ -502,7 +502,7 @@
       },
       {
         "name": "light cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -541,14 +541,14 @@
       },
       {
         "name": "dry vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "pineapple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -568,14 +568,14 @@
     "ingredients": [
       {
         "name": "dry vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "bourbon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -596,7 +596,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -616,21 +616,21 @@
     "ingredients": [
       {
         "name": "dark rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "kahlua",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -650,14 +650,14 @@
     "ingredients": [
       {
         "name": "campari",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sweet vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz red"
@@ -695,21 +695,21 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl gin"
       },
       {
         "name": "apricot brandy",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl Apricot brandy"
       },
       {
         "name": "calvados",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl Calvados"
@@ -738,7 +738,7 @@
       },
       {
         "name": "grapefruit juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
@@ -752,7 +752,7 @@
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -773,21 +773,21 @@
     "ingredients": [
       {
         "name": "applejack",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "triple sec",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -821,7 +821,7 @@
       },
       {
         "name": "bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
@@ -841,21 +841,21 @@
     "ingredients": [
       {
         "name": "absolut vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "tonic water",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
@@ -909,21 +909,21 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "part",
         "notes": null,
         "raw": "3 parts"
       },
       {
         "name": "pisang ambon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "apple juice",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "part",
         "notes": null,
         "raw": "6 parts"
@@ -978,7 +978,7 @@
       },
       {
         "name": "crème de violette",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "barspoon",
         "notes": null,
         "raw": "1 barspoon crème de violette"
@@ -1071,21 +1071,21 @@
     "ingredients": [
       {
         "name": "kahlua",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "milk",
-        "amount": 8.0,
+        "amount": 8,
         "unit": "oz",
         "notes": null,
         "raw": "8 oz"
       },
       {
         "name": "vanilla ice-cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 scoops"
@@ -1105,49 +1105,49 @@
     "ingredients": [
       {
         "name": "rum",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "part",
         "notes": null,
         "raw": "3 parts"
       },
       {
         "name": "dark rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "banana liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "pineapple juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "part",
         "notes": null,
         "raw": "2 parts"
       },
       {
         "name": "orange juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "part",
         "notes": null,
         "raw": "2 parts"
       },
       {
         "name": "sweet and sour",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -1188,7 +1188,7 @@
       },
       {
         "name": "bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
@@ -1222,14 +1222,14 @@
       },
       {
         "name": "pineapple juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl"
       },
       {
         "name": "lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -1260,21 +1260,21 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2oz gin"
       },
       {
         "name": "honey syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1oz honey syrup"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1oz lemon juice"
@@ -1303,14 +1303,14 @@
     "ingredients": [
       {
         "name": "champagne",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "oz",
         "notes": null,
         "raw": "6 oz"
       },
       {
         "name": "peach schnapps",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -1334,21 +1334,21 @@
     "ingredients": [
       {
         "name": "white rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl white rum"
       },
       {
         "name": "cognac",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl cognac"
       },
       {
         "name": "triple sec",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl triple sec"
@@ -1377,7 +1377,7 @@
     "ingredients": [
       {
         "name": "southern comfort",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -1391,14 +1391,14 @@
       },
       {
         "name": "lime",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 wedges"
       },
       {
         "name": "sour mix",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -1445,28 +1445,28 @@
     "ingredients": [
       {
         "name": "orange bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
       },
       {
         "name": "green chartreuse",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sweet vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -1515,7 +1515,7 @@
     "ingredients": [
       {
         "name": "sweet vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -1529,7 +1529,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -1556,7 +1556,7 @@
       },
       {
         "name": "tomato juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "9 cl (6 parts) Tomato juice"
@@ -1570,7 +1570,7 @@
       },
       {
         "name": "worcestershire sauce",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 to 3 dashes of Worcestershire Sauce"
@@ -1634,21 +1634,21 @@
       },
       {
         "name": "bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -1702,7 +1702,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -1716,7 +1716,7 @@
       },
       {
         "name": "bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
@@ -1730,7 +1730,7 @@
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -1757,7 +1757,7 @@
       },
       {
         "name": "passion fruit juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl"
@@ -1792,7 +1792,7 @@
     "ingredients": [
       {
         "name": "blended whiskey",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -1806,28 +1806,28 @@
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "lemon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 slice"
       },
       {
         "name": "cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -1854,14 +1854,14 @@
       },
       {
         "name": "bitter campari",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml bitter Campari"
       },
       {
         "name": "sweet red vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml sweet red vermouth"
@@ -1890,14 +1890,14 @@
       },
       {
         "name": "triple sec",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -1911,7 +1911,7 @@
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -1931,42 +1931,42 @@
     "ingredients": [
       {
         "name": "everclear",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 fifth"
       },
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 fifth Smirnoff red label"
       },
       {
         "name": "mountain dew",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 L"
       },
       {
         "name": "surge",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 L"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 small bottle"
       },
       {
         "name": "rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 pint"
@@ -2045,7 +2045,7 @@
       },
       {
         "name": "curaçao",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "barspoon",
         "notes": null,
         "raw": "1 Bar spoon Curaçao"
@@ -2059,14 +2059,14 @@
       },
       {
         "name": "simple syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "barspoon",
         "notes": null,
         "raw": "1 Bar spoon simple syrup"
       },
       {
         "name": "aromatic bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes aromatic bitters"
@@ -2088,21 +2088,21 @@
     "ingredients": [
       {
         "name": "hot chocolate",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "green chartreuse",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "cherry heering",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -2136,14 +2136,14 @@
       },
       {
         "name": "bitters",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "drops",
         "notes": null,
         "raw": "3 drops"
       },
       {
         "name": "wormwood",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 Fresh"
@@ -2163,14 +2163,14 @@
     "ingredients": [
       {
         "name": "rye whiskey",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "dry vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -2184,14 +2184,14 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "dash",
         "notes": null,
         "raw": "3 dashes"
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -2256,7 +2256,7 @@
     "ingredients": [
       {
         "name": "corona",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -2358,21 +2358,21 @@
     "ingredients": [
       {
         "name": "cachaça",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "60 ml cachaça"
       },
       {
         "name": "lime cut into small wedges",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 lime cut into small wedges"
       },
       {
         "name": "white cane sugar",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "tsp",
         "notes": null,
         "raw": "4 teaspoons white cane sugar"
@@ -2396,21 +2396,21 @@
     "ingredients": [
       {
         "name": "lime",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2"
       },
       {
         "name": "sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tbsp",
         "notes": null,
         "raw": "2 tblsp"
       },
       {
         "name": "white rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2-3 oz"
@@ -2430,7 +2430,7 @@
     "ingredients": [
       {
         "name": "lager",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 bottle"
@@ -2457,7 +2457,7 @@
     "ingredients": [
       {
         "name": "rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl rum (Cuban aguardiente)"
@@ -2500,7 +2500,7 @@
     "ingredients": [
       {
         "name": "light rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -2541,7 +2541,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -2562,14 +2562,14 @@
       },
       {
         "name": "orange bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
       },
       {
         "name": "cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -2592,7 +2592,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -2606,21 +2606,21 @@
       },
       {
         "name": "maraschino liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "orange bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
       },
       {
         "name": "egg yolk",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -2640,7 +2640,7 @@
     "ingredients": [
       {
         "name": "champagne",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "9cl Champagne"
@@ -2654,14 +2654,14 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes Angostura bitters"
       },
       {
         "name": "sugar cube",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 Sugar cube"
@@ -2697,7 +2697,7 @@
       },
       {
         "name": "light cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -2717,14 +2717,14 @@
     "ingredients": [
       {
         "name": "light rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "port",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -2738,14 +2738,14 @@
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -2772,7 +2772,7 @@
     "ingredients": [
       {
         "name": "chocolate",
-        "amount": 125.0,
+        "amount": 125,
         "unit": "piece",
         "notes": null,
         "raw": "125 gr"
@@ -2821,7 +2821,7 @@
       },
       {
         "name": "amaretto",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -2841,14 +2841,14 @@
     "ingredients": [
       {
         "name": "bacardi limon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "coca-cola",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "part",
         "notes": null,
         "raw": "2 parts"
@@ -2868,7 +2868,7 @@
     "ingredients": [
       {
         "name": "brandy",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -2882,7 +2882,7 @@
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -2902,7 +2902,7 @@
     "ingredients": [
       {
         "name": "sweet vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -2957,7 +2957,7 @@
       },
       {
         "name": "egg white or",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 egg white or 20 ml aquafaba or 4 drops cocktail foamer"
@@ -2981,14 +2981,14 @@
     "ingredients": [
       {
         "name": "coffee",
-        "amount": 10.0,
+        "amount": 10,
         "unit": "tbsp",
         "notes": null,
         "raw": "10 tblsp instant"
       },
       {
         "name": "vanilla extract",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "tbsp",
         "notes": null,
         "raw": "4 tblsp"
@@ -3002,7 +3002,7 @@
       },
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 qt"
@@ -3029,14 +3029,14 @@
     "ingredients": [
       {
         "name": "water",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
       },
       {
         "name": "sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups white"
@@ -3084,14 +3084,14 @@
     "ingredients": [
       {
         "name": "coca-cola",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 dl"
       },
       {
         "name": "lemon juice",
-        "amount": 7.0,
+        "amount": 7,
         "unit": "drops",
         "notes": null,
         "raw": "7 drops"
@@ -3126,21 +3126,21 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
       },
       {
         "name": "añejo rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "blackstrap rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -3188,7 +3188,7 @@
       },
       {
         "name": "absinthe",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -3208,35 +3208,35 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl gin"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl lemon juice"
       },
       {
         "name": "cointreau",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl Cointreau"
       },
       {
         "name": "lillet blanc",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl Lillet Blanc"
       },
       {
         "name": "absinthe",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash absinthe"
@@ -3302,7 +3302,7 @@
     "ingredients": [
       {
         "name": "cranberry juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "piece",
         "notes": null,
         "raw": "4 cups"
@@ -3316,21 +3316,21 @@
       },
       {
         "name": "pineapple juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "piece",
         "notes": null,
         "raw": "4 cups"
       },
       {
         "name": "almond flavoring",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
       },
       {
         "name": "ginger ale",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 qt"
@@ -3351,7 +3351,7 @@
     "ingredients": [
       {
         "name": "spiced rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -3378,7 +3378,7 @@
     "ingredients": [
       {
         "name": "dark rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1-2 shot"
@@ -3412,7 +3412,7 @@
     "ingredients": [
       {
         "name": "cola",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "120 ml cola"
@@ -3450,7 +3450,7 @@
     "ingredients": [
       {
         "name": "white cuban rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "60 ml white Cuban rum"
@@ -3464,7 +3464,7 @@
       },
       {
         "name": "superfine sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "barspoon",
         "notes": null,
         "raw": "2 bar spoons superfine sugar"
@@ -3516,14 +3516,14 @@
     "ingredients": [
       {
         "name": "coffee",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "part",
         "notes": null,
         "raw": "3 parts"
       },
       {
         "name": "everclear",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -3543,7 +3543,7 @@
     "ingredients": [
       {
         "name": "goslings rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "60 ml Goslings Rum100 ml Ginger Beer"
@@ -3594,14 +3594,14 @@
     "ingredients": [
       {
         "name": "demerara sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
       },
       {
         "name": "lime",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -3628,21 +3628,21 @@
     "ingredients": [
       {
         "name": "cherry heering",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "soda water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -3662,7 +3662,7 @@
     "ingredients": [
       {
         "name": "absinthe",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "2 shots"
@@ -3690,21 +3690,21 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl"
       },
       {
         "name": "peach bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
       },
       {
         "name": "mint",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 Fresh leaves"
@@ -3740,7 +3740,7 @@
       },
       {
         "name": "blackcurrant cordial",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -3767,28 +3767,28 @@
       },
       {
         "name": "dry vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tbsp"
       },
       {
         "name": "olive brine",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tbsp",
         "notes": null,
         "raw": "2 tbsp"
       },
       {
         "name": "lemon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 wedge"
       },
       {
         "name": "olive",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -3844,21 +3844,21 @@
     "ingredients": [
       {
         "name": "fruit punch",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "part",
         "notes": null,
         "raw": "2 part"
       },
       {
         "name": "sprite",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "tequila",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "2 shots"
@@ -3892,14 +3892,14 @@
       },
       {
         "name": "ginger ale",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "lime",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -3919,35 +3919,35 @@
     "ingredients": [
       {
         "name": "heavy cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "milk",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "piece",
         "notes": null,
         "raw": "6-8 oz"
       },
       {
         "name": "cinnamon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 stick"
       },
       {
         "name": "vanilla",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "chocolate",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz finely chopped dark"
@@ -3989,7 +3989,7 @@
       },
       {
         "name": "olive",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -4028,7 +4028,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -4062,14 +4062,14 @@
       },
       {
         "name": "bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -4117,7 +4117,7 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 Dashes"
@@ -4131,7 +4131,7 @@
       },
       {
         "name": "lavender",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 sprigs"
@@ -4151,21 +4151,21 @@
     "ingredients": [
       {
         "name": "chocolate syrup",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tbsp",
         "notes": null,
         "raw": "2 tblsp"
       },
       {
         "name": "milk",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "oz",
         "notes": null,
         "raw": "6 oz whole"
       },
       {
         "name": "soda water",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "oz",
         "notes": null,
         "raw": "6 oz"
@@ -4186,7 +4186,7 @@
     "ingredients": [
       {
         "name": "egg yolk",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "piece",
         "notes": null,
         "raw": "6"
@@ -4200,7 +4200,7 @@
       },
       {
         "name": "milk",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
@@ -4221,7 +4221,7 @@
       },
       {
         "name": "vanilla extract",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -4235,14 +4235,14 @@
       },
       {
         "name": "whipping cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "egg white",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "piece",
         "notes": null,
         "raw": "6"
@@ -4283,14 +4283,14 @@
       },
       {
         "name": "sugar",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "tbsp",
         "notes": null,
         "raw": "3 tblsp"
       },
       {
         "name": "condensed milk",
-        "amount": 13.0,
+        "amount": 13,
         "unit": "oz",
         "notes": null,
         "raw": "13 oz skimmed"
@@ -4304,14 +4304,14 @@
       },
       {
         "name": "vanilla extract",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -4338,7 +4338,7 @@
     "ingredients": [
       {
         "name": "egg",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "piece",
         "notes": null,
         "raw": "6"
@@ -4359,14 +4359,14 @@
       },
       {
         "name": "milk",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 qt"
       },
       {
         "name": "vanilla extract",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -4386,21 +4386,21 @@
     "ingredients": [
       {
         "name": "cachaca",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "60 ml"
       },
       {
         "name": "lime",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "elderflower cordial",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
@@ -4421,7 +4421,7 @@
     "ingredients": [
       {
         "name": "mezcal",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -4524,7 +4524,7 @@
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -4538,7 +4538,7 @@
       },
       {
         "name": "cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -4565,7 +4565,7 @@
       },
       {
         "name": "kahlúa",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml Kahlúa"
@@ -4579,7 +4579,7 @@
       },
       {
         "name": "strong espresso",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 strong espresso"
@@ -4659,7 +4659,7 @@
       },
       {
         "name": "tabasco sauce",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -4708,35 +4708,35 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "honey",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "figs",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3"
       },
       {
         "name": "thyme",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 Sprig"
       },
       {
         "name": "angostura bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
@@ -4765,35 +4765,35 @@
     "ingredients": [
       {
         "name": "amaretto",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "151 proof rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz Bacardi"
       },
       {
         "name": "dr. pepper",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "beer",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -4813,28 +4813,28 @@
     "ingredients": [
       {
         "name": "kahlua",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sambuca",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "blue curacao",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "baileys irish cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -4881,7 +4881,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -4908,21 +4908,21 @@
     "ingredients": [
       {
         "name": "scotch",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sweet vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -4963,7 +4963,7 @@
       },
       {
         "name": "light cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -4997,7 +4997,7 @@
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1-2 tsp"
@@ -5059,7 +5059,7 @@
       },
       {
         "name": "sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp superfine"
@@ -5073,21 +5073,21 @@
       },
       {
         "name": "champagne",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz Chilled"
       },
       {
         "name": "orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -5179,28 +5179,28 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "lillet",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sweet vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "orange peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -5220,7 +5220,7 @@
     "ingredients": [
       {
         "name": "blended whiskey",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -5248,14 +5248,14 @@
       },
       {
         "name": "lemon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 slice"
       },
       {
         "name": "lime",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 slice"
@@ -5289,14 +5289,14 @@
       },
       {
         "name": "strawberries",
-        "amount": 8.0,
+        "amount": 8,
         "unit": "oz",
         "notes": null,
         "raw": "8 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2-3 oz"
@@ -5326,7 +5326,7 @@
       },
       {
         "name": "triple sec",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -5340,14 +5340,14 @@
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -5367,28 +5367,28 @@
     "ingredients": [
       {
         "name": "light rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
       },
       {
         "name": "mint",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "piece",
         "notes": null,
         "raw": "6"
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -5415,14 +5415,14 @@
       },
       {
         "name": "pineapple",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "piece",
         "notes": null,
         "raw": "4 chunks"
       },
       {
         "name": "lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -5449,42 +5449,42 @@
     "ingredients": [
       {
         "name": "apple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 can frozen"
       },
       {
         "name": "strawberries",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tbsp",
         "notes": null,
         "raw": "2 tblsp"
       },
       {
         "name": "lemon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "apple",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "soda water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 L"
@@ -5505,14 +5505,14 @@
     "ingredients": [
       {
         "name": "yoghurt",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "fruit juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -5533,21 +5533,21 @@
     "ingredients": [
       {
         "name": "yoghurt",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup fruit"
       },
       {
         "name": "banana",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "orange juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz frozen"
@@ -5575,7 +5575,7 @@
     "ingredients": [
       {
         "name": "rum",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "2 shots"
@@ -5650,28 +5650,28 @@
     "ingredients": [
       {
         "name": "peach vodka",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "part",
         "notes": null,
         "raw": "5 parts"
       },
       {
         "name": "lemon juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "part",
         "notes": null,
         "raw": "3 parts"
       },
       {
         "name": "galliano",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "sirup of roses",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -5739,7 +5739,7 @@
       },
       {
         "name": "lime",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -5759,14 +5759,14 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "soda water",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "oz",
         "notes": null,
         "raw": "5 oz"
@@ -5795,7 +5795,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -5843,14 +5843,14 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -5871,14 +5871,14 @@
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -5905,7 +5905,7 @@
       },
       {
         "name": "fresh lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl fresh lemon juice"
@@ -5943,7 +5943,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl"
@@ -5957,7 +5957,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 Slice"
@@ -5980,14 +5980,14 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -6028,7 +6028,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -6042,14 +6042,14 @@
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -6076,42 +6076,42 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "carbonated water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cube"
       },
       {
         "name": "mint",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "piece",
         "notes": null,
         "raw": "4"
       },
       {
         "name": "orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 slice"
       },
       {
         "name": "cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -6133,14 +6133,14 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -6154,14 +6154,14 @@
       },
       {
         "name": "orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -6189,28 +6189,28 @@
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
       },
       {
         "name": "pineapple",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3 chunks"
       },
       {
         "name": "strawberries",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2"
@@ -6244,28 +6244,28 @@
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp superfine"
       },
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
       },
       {
         "name": "club soda",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
@@ -6285,14 +6285,14 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "water",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
@@ -6306,7 +6306,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -6340,7 +6340,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 Slice"
@@ -6360,7 +6360,7 @@
     "ingredients": [
       {
         "name": "red wine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 L"
@@ -6374,28 +6374,28 @@
       },
       {
         "name": "sugar",
-        "amount": 60.0,
+        "amount": 60,
         "unit": "piece",
         "notes": null,
         "raw": "60 gr"
       },
       {
         "name": "cinnamon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "cloves",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3"
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -6415,21 +6415,21 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "amaretto",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "heavy cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -6571,7 +6571,7 @@
       },
       {
         "name": "sweet and sour",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
@@ -6598,14 +6598,14 @@
       },
       {
         "name": "triple sec",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "pineapple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -6619,7 +6619,7 @@
       },
       {
         "name": "pineapple",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -6685,7 +6685,7 @@
       },
       {
         "name": "grapefruit juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
@@ -6705,21 +6705,21 @@
     "ingredients": [
       {
         "name": "kahlua",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "151 proof rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz Bacardi"
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -6773,35 +6773,35 @@
     "ingredients": [
       {
         "name": "cherry juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 bottle"
       },
       {
         "name": "orange peel",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3"
       },
       {
         "name": "red chili flakes",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "cloves",
-        "amount": 10.0,
+        "amount": 10,
         "unit": "piece",
         "notes": null,
         "raw": "10"
       },
       {
         "name": "ginger",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "piece",
         "notes": null,
         "raw": "6"
@@ -6854,7 +6854,7 @@
       "mixed drink",
       "iba"
     ],
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hanky_Panky_cocktail.jpg/500px-Hanky_Panky_cocktail.jpg"
   },
   {
     "name": "Happy Skipper",
@@ -6899,7 +6899,7 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -6913,7 +6913,7 @@
       },
       {
         "name": "orange juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
@@ -6935,21 +6935,21 @@
     "ingredients": [
       {
         "name": "light rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "pineapple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -6969,7 +6969,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -6983,7 +6983,7 @@
       },
       {
         "name": "pineapple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -7003,28 +7003,28 @@
     "ingredients": [
       {
         "name": "rum",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "part",
         "notes": null,
         "raw": "12 parts"
       },
       {
         "name": "grapefruit juice",
-        "amount": 8.0,
+        "amount": 8,
         "unit": "part",
         "notes": null,
         "raw": "8 parts"
       },
       {
         "name": "maraschino liqueur",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "part",
         "notes": null,
         "raw": "3 parts"
       },
       {
         "name": "lime juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "part",
         "notes": null,
         "raw": "3 parts"
@@ -7089,14 +7089,14 @@
       },
       {
         "name": "orange bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
       },
       {
         "name": "olive",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -7165,7 +7165,7 @@
       },
       {
         "name": "corn syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -7179,21 +7179,21 @@
       },
       {
         "name": "vanilla extract",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "water",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3 cups boiling"
       },
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 fifth"
@@ -7213,7 +7213,7 @@
     "ingredients": [
       {
         "name": "white rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl"
@@ -7248,28 +7248,28 @@
     "ingredients": [
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 long strip"
       },
       {
         "name": "brandy",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "ginger ale",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "oz",
         "notes": null,
         "raw": "5 oz"
       },
       {
         "name": "bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
@@ -7293,14 +7293,14 @@
     "ingredients": [
       {
         "name": "chocolate",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "12 oz fine"
       },
       {
         "name": "butter",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -7314,7 +7314,7 @@
       },
       {
         "name": "half-and-half",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -7349,14 +7349,14 @@
       },
       {
         "name": "baileys irish cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3/4 shot"
       },
       {
         "name": "coffee",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "oz",
         "notes": null,
         "raw": "6 oz hot"
@@ -7390,21 +7390,21 @@
       },
       {
         "name": "cinnamon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "lemon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "cloves",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2"
@@ -7453,7 +7453,7 @@
       },
       {
         "name": "blackberries",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2"
@@ -7480,7 +7480,7 @@
       },
       {
         "name": "iced tea",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "oz",
         "notes": null,
         "raw": "6 oz"
@@ -7528,7 +7528,7 @@
       },
       {
         "name": "milk",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "piece",
         "notes": null,
         "raw": "4 cups cold"
@@ -7549,7 +7549,7 @@
     "ingredients": [
       {
         "name": "kahlua",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
@@ -7576,7 +7576,7 @@
     "ingredients": [
       {
         "name": "mezcal",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl Mezcal (espadín)"
@@ -7597,7 +7597,7 @@
       },
       {
         "name": "maraschino luxardo",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "barspoon",
         "notes": null,
         "raw": "1 barspoon maraschino Luxardo"
@@ -7629,7 +7629,7 @@
       "cocktail",
       "iba"
     ],
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Illegal_cocktail.jpg/500px-Illegal_cocktail.jpg"
   },
   {
     "name": "Imperial Cocktail",
@@ -7695,7 +7695,7 @@
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -7729,7 +7729,7 @@
       },
       {
         "name": "brown sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
@@ -7771,7 +7771,7 @@
       },
       {
         "name": "hot coffee",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "120 ml hot coffee"
@@ -7785,7 +7785,7 @@
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp sugar"
@@ -7809,7 +7809,7 @@
     "ingredients": [
       {
         "name": "scotch",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -7823,21 +7823,21 @@
       },
       {
         "name": "condensed milk",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 can sweetened"
       },
       {
         "name": "coconut syrup",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "drops",
         "notes": null,
         "raw": "3 drops"
       },
       {
         "name": "chocolate syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -7878,7 +7878,7 @@
       },
       {
         "name": "orange juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2-3 oz"
@@ -7912,7 +7912,7 @@
       },
       {
         "name": "coca-cola",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -7939,7 +7939,7 @@
     "ingredients": [
       {
         "name": "irish whiskey",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -7953,28 +7953,28 @@
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sweet and sour",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 slice"
       },
       {
         "name": "cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -8001,7 +8001,7 @@
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -8029,21 +8029,21 @@
     "ingredients": [
       {
         "name": "tennessee whiskey",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "vanilla extract",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "coca-cola",
-        "amount": 10.0,
+        "amount": 10,
         "unit": "piece",
         "notes": null,
         "raw": "10-12 oz"
@@ -8063,14 +8063,14 @@
     "ingredients": [
       {
         "name": "jack daniels",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "amaretto",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -8104,14 +8104,14 @@
       },
       {
         "name": "sugar syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 pinches"
@@ -8220,21 +8220,21 @@
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "port",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -8261,21 +8261,21 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
       },
       {
         "name": "jello",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3 packages"
       },
       {
         "name": "water",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3 cups"
@@ -8295,14 +8295,14 @@
     "ingredients": [
       {
         "name": "blackberry brandy",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "anis",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -8356,21 +8356,21 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 jiggers"
       },
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 jigger"
       },
       {
         "name": "grenadine",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "dash",
         "notes": null,
         "raw": "3 dashes"
@@ -8391,7 +8391,7 @@
       },
       {
         "name": "sugar syrup",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "dash",
         "notes": null,
         "raw": "3 dashes"
@@ -8418,42 +8418,42 @@
     "ingredients": [
       {
         "name": "bourbon",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp superfine"
       },
       {
         "name": "club soda",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -8476,7 +8476,7 @@
     "ingredients": [
       {
         "name": "milk",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
@@ -8511,21 +8511,21 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "triple sec",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -8547,14 +8547,14 @@
     "ingredients": [
       {
         "name": "coffee",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "grain alcohol",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "part",
         "notes": null,
         "raw": "2 parts"
@@ -8574,7 +8574,7 @@
     "ingredients": [
       {
         "name": "bourbon",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -8601,7 +8601,7 @@
     "ingredients": [
       {
         "name": "bourbon",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
@@ -8615,7 +8615,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -8635,7 +8635,7 @@
     "ingredients": [
       {
         "name": "ginger",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 inch"
@@ -8649,7 +8649,7 @@
       },
       {
         "name": "water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup hot"
@@ -8670,7 +8670,7 @@
     "ingredients": [
       {
         "name": "kahlua",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -8704,14 +8704,14 @@
     "ingredients": [
       {
         "name": "creme de cassis",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "champagne",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "part",
         "notes": null,
         "raw": "5 parts"
@@ -8735,14 +8735,14 @@
     "ingredients": [
       {
         "name": "creme de cassis",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "champagne",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "part",
         "notes": null,
         "raw": "5 parts"
@@ -8803,14 +8803,14 @@
     "ingredients": [
       {
         "name": "kiwi liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "bitter lemon",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "part",
         "notes": null,
         "raw": "2 parts"
@@ -8837,7 +8837,7 @@
       },
       {
         "name": "sugar syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -8873,7 +8873,7 @@
     "ingredients": [
       {
         "name": "kiwi",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3"
@@ -8901,7 +8901,7 @@
     "ingredients": [
       {
         "name": "151 proof rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz light"
@@ -9037,21 +9037,21 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "light cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -9065,7 +9065,7 @@
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -9141,14 +9141,14 @@
     "ingredients": [
       {
         "name": "mango",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2"
       },
       {
         "name": "yoghurt",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
@@ -9162,7 +9162,7 @@
       },
       {
         "name": "water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup iced"
@@ -9183,21 +9183,21 @@
     "ingredients": [
       {
         "name": "yoghurt",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "water",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups cold"
       },
       {
         "name": "sugar",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "tbsp",
         "notes": null,
         "raw": "4 tblsp"
@@ -9211,7 +9211,7 @@
       },
       {
         "name": "lemon juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tbsp",
         "notes": null,
         "raw": "2 tblsp"
@@ -9232,28 +9232,28 @@
     "ingredients": [
       {
         "name": "yoghurt",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "water",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups cold"
       },
       {
         "name": "salt",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "asafoetida",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 pinch"
@@ -9274,7 +9274,7 @@
     "ingredients": [
       {
         "name": "yoghurt",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
@@ -9316,7 +9316,7 @@
     "ingredients": [
       {
         "name": "coconut liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml"
@@ -9388,7 +9388,7 @@
     "ingredients": [
       {
         "name": "vodka citron",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml vodka citron"
@@ -9424,7 +9424,7 @@
     "ingredients": [
       {
         "name": "elderflower cordial",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
@@ -9516,28 +9516,28 @@
     "ingredients": [
       {
         "name": "ginger",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 pieces"
       },
       {
         "name": "water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 gal"
       },
       {
         "name": "lemon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 lb"
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -9572,7 +9572,7 @@
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -9607,14 +9607,14 @@
     "ingredients": [
       {
         "name": "corona",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 bottle"
       },
       {
         "name": "bacardi limon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -9634,7 +9634,7 @@
     "ingredients": [
       {
         "name": "scotch",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -9655,7 +9655,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -9689,7 +9689,7 @@
       },
       {
         "name": "orange bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
@@ -9826,7 +9826,7 @@
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml Lemon juice"
@@ -9899,7 +9899,7 @@
       },
       {
         "name": "coca-cola",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 splash"
@@ -9939,14 +9939,14 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "dash",
         "notes": null,
         "raw": "4 dashes"
       },
       {
         "name": "tonic water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 dl Schweppes"
@@ -10007,7 +10007,7 @@
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -10027,14 +10027,14 @@
     "ingredients": [
       {
         "name": "amber jamaican rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml amber Jamaican rum"
       },
       {
         "name": "martinique molasses rhum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml Martinique molasses rhum"
@@ -10055,7 +10055,7 @@
       },
       {
         "name": "fresh lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml fresh lime juice"
@@ -10086,14 +10086,14 @@
     "ingredients": [
       {
         "name": "lime",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3"
       },
       {
         "name": "mango",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 Fresh"
@@ -10163,14 +10163,14 @@
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "orange peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -10208,7 +10208,7 @@
       },
       {
         "name": "lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -10253,14 +10253,14 @@
       },
       {
         "name": "maraschino liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "barspoon",
         "notes": null,
         "raw": "1 Bar Spoon Maraschino Liqueur"
       },
       {
         "name": "orange bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 Dashes Orange Bitters"
@@ -10296,14 +10296,14 @@
       },
       {
         "name": "maraschino liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "angostura bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
@@ -10337,7 +10337,7 @@
       },
       {
         "name": "olive",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -10365,7 +10365,7 @@
       },
       {
         "name": "pineapple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -10386,7 +10386,7 @@
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -10409,49 +10409,49 @@
     "ingredients": [
       {
         "name": "water",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
       },
       {
         "name": "tea",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3-4 tsp"
       },
       {
         "name": "ginger",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 chunk dried"
       },
       {
         "name": "cardamom",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3-4 crushed"
       },
       {
         "name": "cloves",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3"
       },
       {
         "name": "cinnamon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 piece"
       },
       {
         "name": "black pepper",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1-2 whole"
@@ -10486,7 +10486,7 @@
     "ingredients": [
       {
         "name": "ricard",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
@@ -10555,7 +10555,7 @@
     "ingredients": [
       {
         "name": "151 proof rum",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "oz",
         "notes": null,
         "raw": "5 oz Bacardi"
@@ -10590,21 +10590,21 @@
     "ingredients": [
       {
         "name": "beer",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "tomato juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -10648,7 +10648,7 @@
     "ingredients": [
       {
         "name": "baileys irish cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -10713,7 +10713,7 @@
     "ingredients": [
       {
         "name": "mint",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "piece",
         "notes": null,
         "raw": "4 fresh"
@@ -10727,14 +10727,14 @@
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "water",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
@@ -10758,21 +10758,21 @@
     "ingredients": [
       {
         "name": "coffee",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "oz",
         "notes": null,
         "raw": "6 oz"
       },
       {
         "name": "chambord raspberry liqueur",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "cocoa powder",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tbsp",
         "notes": null,
         "raw": "2 tblsp"
@@ -10799,7 +10799,7 @@
     "ingredients": [
       {
         "name": "light rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2-3 oz"
@@ -10813,14 +10813,14 @@
       },
       {
         "name": "sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
       },
       {
         "name": "mint",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2-4"
@@ -10865,7 +10865,7 @@
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
@@ -10886,7 +10886,7 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 8.0,
+        "amount": 8,
         "unit": "drops",
         "notes": null,
         "raw": "8 drops"
@@ -10906,14 +10906,14 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "benedictine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -10927,7 +10927,7 @@
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -10958,14 +10958,14 @@
       },
       {
         "name": "grapefruit juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
       },
       {
         "name": "bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -11019,21 +11019,21 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lime juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "ginger ale",
-        "amount": 8.0,
+        "amount": 8,
         "unit": "oz",
         "notes": null,
         "raw": "8 oz"
@@ -11064,7 +11064,7 @@
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 L"
@@ -11091,35 +11091,35 @@
     "ingredients": [
       {
         "name": "water",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3 cups"
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "cloves",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "piece",
         "notes": null,
         "raw": "12"
       },
       {
         "name": "cinnamon",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2"
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -11235,7 +11235,7 @@
       "cocktail",
       "iba"
     ],
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Naked_and_Famous_cocktail.jpg/500px-Naked_and_Famous_cocktail.jpg"
   },
   {
     "name": "National Aquarium",
@@ -11274,14 +11274,14 @@
       },
       {
         "name": "sour mix",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lemon-lime soda",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 splash"
@@ -11301,21 +11301,21 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "campari",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sweet vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -11339,28 +11339,28 @@
     "ingredients": [
       {
         "name": "absolut citron",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "grand marnier",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz sweetened"
       },
       {
         "name": "club soda",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -11380,7 +11380,7 @@
     "ingredients": [
       {
         "name": "whiskey",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl whiskey (rye or bourbon)"
@@ -11394,7 +11394,7 @@
       },
       {
         "name": "fresh lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl fresh lemon juice"
@@ -11431,14 +11431,14 @@
     "ingredients": [
       {
         "name": "cocoa powder",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -11452,7 +11452,7 @@
       },
       {
         "name": "milk",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "12 oz"
@@ -11473,21 +11473,21 @@
     "ingredients": [
       {
         "name": "baileys irish cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "frangelico",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "milk",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -11507,28 +11507,28 @@
     "ingredients": [
       {
         "name": "kahlua",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "part",
         "notes": null,
         "raw": "2 parts"
       },
       {
         "name": "baileys irish cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "part",
         "notes": null,
         "raw": "2 parts"
       },
       {
         "name": "butterscotch schnapps",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "part",
         "notes": null,
         "raw": "4 parts"
       },
       {
         "name": "jagermeister",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -11569,28 +11569,28 @@
       },
       {
         "name": "simple syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl simple syrup"
       },
       {
         "name": "angostura bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes Angostura bitters"
       },
       {
         "name": "mint leaves",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "piece",
         "notes": null,
         "raw": "6 to 8 mint leaves"
       },
       {
         "name": "champagne brut or prosecco",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl champagne brut or Prosecco"
@@ -11619,14 +11619,14 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cube"
@@ -11659,21 +11659,21 @@
     "ingredients": [
       {
         "name": "rye whiskey",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "campari",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "dry vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -11693,21 +11693,21 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "triple sec",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -11741,7 +11741,7 @@
       },
       {
         "name": "orange juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
@@ -11782,14 +11782,14 @@
       },
       {
         "name": "orange juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "sour mix",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 splash"
@@ -11872,21 +11872,21 @@
     "ingredients": [
       {
         "name": "milk",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
       },
       {
         "name": "chocolate",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz chopped bittersweet or semi-sweet"
       },
       {
         "name": "orange peel",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3 2-inch strips"
@@ -11921,28 +11921,28 @@
     "ingredients": [
       {
         "name": "orange juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 package"
@@ -11969,14 +11969,14 @@
       },
       {
         "name": "orange juice",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "oz",
         "notes": null,
         "raw": "15 cl"
       },
       {
         "name": "sugar syrup",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2-3 cl"
@@ -12004,35 +12004,35 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "kahlua",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "baileys irish cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "vanilla ice-cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 scoops"
       },
       {
         "name": "oreo cookie",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -12080,7 +12080,7 @@
       },
       {
         "name": "light cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -12100,21 +12100,21 @@
     "ingredients": [
       {
         "name": "whiskey",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "12 oz"
       },
       {
         "name": "beer",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "12 oz"
       },
       {
         "name": "lemonade",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "12 oz frozen"
@@ -12177,28 +12177,28 @@
     "ingredients": [
       {
         "name": "bourbon whiskey",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml Bourbon whiskey"
       },
       {
         "name": "amaro nonino",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml Amaro Nonino"
       },
       {
         "name": "aperol",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml Aperol"
       },
       {
         "name": "fresh lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml fresh lemon juice"
@@ -12209,7 +12209,7 @@
       "cocktail",
       "iba"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Papierflieger_--_2021_--_7215.jpg/500px-Papierflieger_--_2021_--_7215.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Taub_Family_Outpost_-_June_11_2021_-_Sarah_Stierch_02.jpg/500px-Taub_Family_Outpost_-_June_11_2021_-_Sarah_Stierch_02.jpg"
   },
   {
     "name": "Paradise",
@@ -12220,21 +12220,21 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 7.0,
+        "amount": 7,
         "unit": "part",
         "notes": null,
         "raw": "7 parts"
       },
       {
         "name": "apricot brandy",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "part",
         "notes": null,
         "raw": "4 parts"
       },
       {
         "name": "orange juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "part",
         "notes": null,
         "raw": "3 parts"
@@ -12312,14 +12312,14 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
       },
       {
         "name": "orange bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -12339,7 +12339,7 @@
     "ingredients": [
       {
         "name": "blended scotch",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -12353,14 +12353,14 @@
       },
       {
         "name": "honey syrup",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
       },
       {
         "name": "ginger syrup",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
@@ -12389,21 +12389,21 @@
     "ingredients": [
       {
         "name": "light rum",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
       },
       {
         "name": "coconut milk",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "tbsp",
         "notes": null,
         "raw": "3 tblsp"
       },
       {
         "name": "pineapple",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "tbsp",
         "notes": null,
         "raw": "3 tblsp"
@@ -12453,28 +12453,28 @@
     "ingredients": [
       {
         "name": "tequila",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "grapefruit juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "fresh lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "pineapple juice",
-        "amount": 8.0,
+        "amount": 8,
         "unit": "oz",
         "notes": null,
         "raw": "8 oz"
@@ -12508,14 +12508,14 @@
     "ingredients": [
       {
         "name": "bitters",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "dash",
         "notes": null,
         "raw": "3 dashes"
       },
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -12542,21 +12542,21 @@
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "light cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -12597,7 +12597,7 @@
       },
       {
         "name": "lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml"
@@ -12628,21 +12628,21 @@
     "ingredients": [
       {
         "name": "sprite",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 L"
       },
       {
         "name": "pink lemonade",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
       },
       {
         "name": "vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
@@ -12683,14 +12683,14 @@
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 gal"
       },
       {
         "name": "cranberry juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 gal"
@@ -12710,14 +12710,14 @@
     "ingredients": [
       {
         "name": "pisco",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "60 ml Pisco"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml lemon juice"
@@ -12731,7 +12731,7 @@
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 egg white"
@@ -12761,21 +12761,21 @@
     "ingredients": [
       {
         "name": "white rum",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "part",
         "notes": null,
         "raw": "5 parts white rum"
       },
       {
         "name": "coconut cream",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "part",
         "notes": null,
         "raw": "3 parts coconut cream"
       },
       {
         "name": "fresh pineapple juice",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "part",
         "notes": null,
         "raw": "5 parts fresh pineapple juice"
@@ -12797,7 +12797,7 @@
     "ingredients": [
       {
         "name": "dark rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -12811,14 +12811,14 @@
       },
       {
         "name": "orange juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "part",
         "notes": null,
         "raw": "2 parts"
       },
       {
         "name": "pineapple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -12849,7 +12849,7 @@
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
@@ -12877,7 +12877,7 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "drops",
         "notes": null,
         "raw": "4 drops"
@@ -12897,28 +12897,28 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "cherry liqueur",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "cranberry juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "orange juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
@@ -12965,14 +12965,14 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
       },
       {
         "name": "passoa",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
@@ -13016,7 +13016,7 @@
     "ingredients": [
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -13077,21 +13077,21 @@
       },
       {
         "name": "light cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "egg",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 whole"
@@ -13118,21 +13118,21 @@
     "ingredients": [
       {
         "name": "brandy",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "part",
         "notes": null,
         "raw": "3 parts"
       },
       {
         "name": "port",
-        "amount": 9.0,
+        "amount": 9,
         "unit": "part",
         "notes": null,
         "raw": "9 parts"
       },
       {
         "name": "egg yolk",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "part",
         "notes": null,
         "raw": "2 parts"
@@ -13170,7 +13170,7 @@
       },
       {
         "name": "lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml"
@@ -13212,21 +13212,21 @@
     "ingredients": [
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "apple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "pineapple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -13268,7 +13268,7 @@
       },
       {
         "name": "raspberry syrup",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
@@ -13322,7 +13322,7 @@
     "ingredients": [
       {
         "name": "coffee brandy",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -13356,14 +13356,14 @@
     "ingredients": [
       {
         "name": "red wine",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -13438,7 +13438,7 @@
       },
       {
         "name": "light cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -13465,21 +13465,21 @@
     "ingredients": [
       {
         "name": "kahlua",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "midori melon liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "baileys irish cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -13526,56 +13526,56 @@
     "ingredients": [
       {
         "name": "rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "tequila",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "triple sec",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "chambord raspberry liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "midori melon liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "malibu rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -13595,14 +13595,14 @@
     "ingredients": [
       {
         "name": "beer",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "12 oz"
       },
       {
         "name": "7-up",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "12 oz"
@@ -13622,7 +13622,7 @@
     "ingredients": [
       {
         "name": "sugar syrup",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
@@ -13678,35 +13678,35 @@
       },
       {
         "name": "simple syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl simple syrup"
       },
       {
         "name": "cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl cream"
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 egg white"
       },
       {
         "name": "orange flower water",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "dash",
         "notes": null,
         "raw": "3 dashes orange flower water"
       },
       {
         "name": "vanilla extract",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "drops",
         "notes": null,
         "raw": "2 drops vanilla extract"
@@ -13742,35 +13742,35 @@
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
       },
       {
         "name": "sugar syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
       },
       {
         "name": "cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl"
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "vanilla extract",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "drops",
         "notes": null,
         "raw": "2 drop"
@@ -13797,14 +13797,14 @@
     "ingredients": [
       {
         "name": "raspberry vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lemon-lime soda",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
@@ -13824,7 +13824,7 @@
     "ingredients": [
       {
         "name": "bourbon",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -13838,7 +13838,7 @@
       },
       {
         "name": "mint",
-        "amount": 8.0,
+        "amount": 8,
         "unit": "piece",
         "notes": null,
         "raw": "8"
@@ -13899,7 +13899,7 @@
       },
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -13920,7 +13920,7 @@
       },
       {
         "name": "grenadine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -13990,14 +13990,14 @@
     "ingredients": [
       {
         "name": "frangelico",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "crown royal",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -14017,21 +14017,21 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sweet and sour",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "egg",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 whole"
@@ -14065,7 +14065,7 @@
       },
       {
         "name": "peach schnapps",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -14079,7 +14079,7 @@
       },
       {
         "name": "cranberry juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -14099,7 +14099,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -14113,14 +14113,14 @@
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "egg",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 whole"
@@ -14147,21 +14147,21 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "cranberry juice",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "oz",
         "notes": null,
         "raw": "5 oz"
       },
       {
         "name": "grenadine",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 splashes"
@@ -14181,42 +14181,42 @@
     "ingredients": [
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp superfine"
       },
       {
         "name": "club soda",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
       },
       {
         "name": "lemon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "dark rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -14236,21 +14236,21 @@
     "ingredients": [
       {
         "name": "rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz light or dark"
       },
       {
         "name": "lemon-lime soda",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "lemon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -14270,21 +14270,21 @@
     "ingredients": [
       {
         "name": "light rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "milk",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -14318,7 +14318,7 @@
       },
       {
         "name": "151 proof rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -14332,14 +14332,14 @@
       },
       {
         "name": "bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
       },
       {
         "name": "water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -14380,14 +14380,14 @@
       },
       {
         "name": "fruit punch",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "355 ml frozen"
       },
       {
         "name": "orange juice",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "355 ml frozen"
@@ -14414,28 +14414,28 @@
       },
       {
         "name": "blackberry brandy",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "orange juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3-4 oz"
       },
       {
         "name": "pineapple juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3-4 oz"
       },
       {
         "name": "cranberry juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3-4 oz"
@@ -14462,7 +14462,7 @@
       },
       {
         "name": "orange juice",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "oz",
         "notes": null,
         "raw": "5 oz"
@@ -14482,14 +14482,14 @@
     "ingredients": [
       {
         "name": "light rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -14503,14 +14503,14 @@
       },
       {
         "name": "orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -14530,28 +14530,28 @@
     "ingredients": [
       {
         "name": "rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz light or dark"
       },
       {
         "name": "powdered sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
       },
       {
         "name": "water",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
@@ -14630,7 +14630,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -14654,7 +14654,7 @@
     "ingredients": [
       {
         "name": "grapefruit juice",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "oz",
         "notes": null,
         "raw": "5 oz"
@@ -14729,7 +14729,7 @@
     "ingredients": [
       {
         "name": "red wine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 bottle"
@@ -14743,14 +14743,14 @@
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -14784,7 +14784,7 @@
     "ingredients": [
       {
         "name": "ricard",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -14798,28 +14798,28 @@
       },
       {
         "name": "peychaud bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
       },
       {
         "name": "water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "bourbon",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "twist",
         "notes": null,
         "raw": "1 twist of"
@@ -14843,21 +14843,21 @@
     "ingredients": [
       {
         "name": "brandy",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "amaretto",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "light cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -14905,7 +14905,7 @@
       },
       {
         "name": "cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -14925,7 +14925,7 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -14960,14 +14960,14 @@
       },
       {
         "name": "cranberry juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "grapefruit juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -15034,14 +15034,14 @@
     "ingredients": [
       {
         "name": "lemonade",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 can"
       },
       {
         "name": "water",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3 cans"
@@ -15068,21 +15068,21 @@
     "ingredients": [
       {
         "name": "sherry",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz cream"
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "egg",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 whole"
@@ -15123,21 +15123,21 @@
       },
       {
         "name": "light cream",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp"
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "egg",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 whole"
@@ -15164,21 +15164,21 @@
     "ingredients": [
       {
         "name": "jim beam",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "jack daniels",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "wild turkey",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -15198,7 +15198,7 @@
     "ingredients": [
       {
         "name": "cognac",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -15212,7 +15212,7 @@
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -15236,7 +15236,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml gin"
@@ -15264,7 +15264,7 @@
       },
       {
         "name": "fresh pineapple juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "120 ml fresh pineapple juice"
@@ -15285,7 +15285,7 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash Angostura bitters"
@@ -15355,14 +15355,14 @@
       },
       {
         "name": "lemonade",
-        "amount": 8.0,
+        "amount": 8,
         "unit": "piece",
         "notes": null,
         "raw": "8-10 oz cold"
       },
       {
         "name": "lemon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 slice"
@@ -15383,28 +15383,28 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "amaro montenegro",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "ruby port",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "blood orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -15466,14 +15466,14 @@
     "ingredients": [
       {
         "name": "london dry gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "60 ml London Dry gin"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml lemon juice"
@@ -15487,7 +15487,7 @@
       },
       {
         "name": "mint leaves",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "piece",
         "notes": null,
         "raw": "5-6 mint leaves"
@@ -15505,7 +15505,7 @@
       "cocktail",
       "iba"
     ],
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Southside_-_kind_of_a_gin_mojito.jpg/500px-The_Southside_-_kind_of_a_gin_mojito.jpg"
   },
   {
     "name": "Space Odyssey",
@@ -15571,14 +15571,14 @@
     "ingredients": [
       {
         "name": "sugar",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "60 ml"
       },
       {
         "name": "allspice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -15592,14 +15592,14 @@
       },
       {
         "name": "lime juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "90 ml"
       },
       {
         "name": "champagne",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl"
@@ -15627,7 +15627,7 @@
     "ingredients": [
       {
         "name": "prosecco",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl"
@@ -15695,21 +15695,21 @@
     "ingredients": [
       {
         "name": "apricot brandy",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sweet and sour",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -15729,14 +15729,14 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml gin"
       },
       {
         "name": "brandy",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml brandy"
@@ -15750,7 +15750,7 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes Angostura bitters"
@@ -15779,21 +15779,21 @@
     "ingredients": [
       {
         "name": "milk",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
       },
       {
         "name": "banana",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "honey",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -15814,28 +15814,28 @@
     "ingredients": [
       {
         "name": "red wine",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 bottles"
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "water",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups hot"
       },
       {
         "name": "apple",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -15883,7 +15883,7 @@
     "ingredients": [
       {
         "name": "godiva liqueur",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "2 shots"
@@ -15910,14 +15910,14 @@
     "ingredients": [
       {
         "name": "grand marnier",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "part",
         "notes": null,
         "raw": "3 parts"
       },
       {
         "name": "coffee",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -15937,21 +15937,21 @@
     "ingredients": [
       {
         "name": "coffee",
-        "amount": 8.0,
+        "amount": 8,
         "unit": "oz",
         "notes": null,
         "raw": "8 oz"
       },
       {
         "name": "jack daniels",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
       },
       {
         "name": "amaretto",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
@@ -15978,14 +15978,14 @@
     "ingredients": [
       {
         "name": "tequila",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -15999,7 +15999,7 @@
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -16033,7 +16033,7 @@
       },
       {
         "name": "7-up",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -16054,7 +16054,7 @@
     "ingredients": [
       {
         "name": "tequila",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -16068,7 +16068,7 @@
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -16082,7 +16082,7 @@
       },
       {
         "name": "cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -16109,7 +16109,7 @@
       },
       {
         "name": "orange juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "9 cl (6 parts) orange juice"
@@ -16167,7 +16167,7 @@
     "ingredients": [
       {
         "name": "yukon jack",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
@@ -16181,14 +16181,14 @@
       },
       {
         "name": "southern comfort",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "part",
         "notes": null,
         "raw": "1 part"
       },
       {
         "name": "sweet and sour",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 splash"
@@ -16236,7 +16236,7 @@
       },
       {
         "name": "cream",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -16256,7 +16256,7 @@
     "ingredients": [
       {
         "name": "coffee",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "tbsp",
         "notes": null,
         "raw": "6 tblsp ground"
@@ -16270,7 +16270,7 @@
       },
       {
         "name": "cardamom",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "piece",
         "notes": null,
         "raw": "4-5 whole green"
@@ -16361,7 +16361,7 @@
       },
       {
         "name": "condensed milk",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp sweetened"
@@ -16452,7 +16452,7 @@
       },
       {
         "name": "cranberry juice",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
@@ -16472,28 +16472,28 @@
     "ingredients": [
       {
         "name": "green chartreuse",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "maraschino liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -16543,21 +16543,21 @@
       },
       {
         "name": "lime",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 Wedges"
       },
       {
         "name": "ginger",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 Slice"
       },
       {
         "name": "mint",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 Large Sprig"
@@ -16591,14 +16591,14 @@
       },
       {
         "name": "orange bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -16632,14 +16632,14 @@
       },
       {
         "name": "wine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz Green Ginger"
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -16659,7 +16659,7 @@
     "ingredients": [
       {
         "name": "water",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -16673,21 +16673,21 @@
       },
       {
         "name": "coffee",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "tsp",
         "notes": null,
         "raw": "4 tsp"
       },
       {
         "name": "rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "vanilla extract",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "tsp",
         "notes": null,
         "raw": "4 tsp"
@@ -16728,7 +16728,7 @@
       },
       {
         "name": "angostura bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes Angostura bitters"
@@ -16750,42 +16750,42 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp superfine"
       },
       {
         "name": "club soda",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
       },
       {
         "name": "maraschino cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -16805,21 +16805,21 @@
     "ingredients": [
       {
         "name": "tomato juice",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1-2 tblsp"
       },
       {
         "name": "celery salt",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
@@ -16840,21 +16840,21 @@
     "ingredients": [
       {
         "name": "tequila agave 100% reposado",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "60 ml Tequila agave 100% reposado"
       },
       {
         "name": "fresh lime juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml Fresh lime juice (Persiano)"
       },
       {
         "name": "agave syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml Agave syrup (1/2 water + 1/2 agave nectar)"
@@ -16883,7 +16883,7 @@
       },
       {
         "name": "orgeat syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl orgeat syrup"
@@ -16919,14 +16919,14 @@
     "ingredients": [
       {
         "name": "dry vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -16940,7 +16940,7 @@
       },
       {
         "name": "bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
@@ -16967,7 +16967,7 @@
     "ingredients": [
       {
         "name": "wild turkey",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -16981,7 +16981,7 @@
       },
       {
         "name": "pineapple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 splash"
@@ -17001,14 +17001,14 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl gin (Old Tom)"
       },
       {
         "name": "dry vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl dry Vermouth"
@@ -17029,7 +17029,7 @@
       },
       {
         "name": "orange bitters",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "dash",
         "notes": null,
         "raw": "3 dashes orange bitters"
@@ -17079,14 +17079,14 @@
       },
       {
         "name": "orange bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
       },
       {
         "name": "cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -17115,14 +17115,14 @@
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
       },
       {
         "name": "orange bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes"
@@ -17142,21 +17142,21 @@
     "ingredients": [
       {
         "name": "tequila",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl"
       },
       {
         "name": "tomato juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
@@ -17170,14 +17170,14 @@
       },
       {
         "name": "sugar syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash"
       },
       {
         "name": "salt",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 pinch"
@@ -17199,21 +17199,21 @@
     "ingredients": [
       {
         "name": "light rum",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
       },
       {
         "name": "maple syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
       },
       {
         "name": "lemon juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -17317,7 +17317,7 @@
     "ingredients": [
       {
         "name": "gin",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "6 cl"
@@ -17354,7 +17354,7 @@
     "ingredients": [
       {
         "name": "light rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -17375,14 +17375,14 @@
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "egg white",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -17402,7 +17402,7 @@
     "ingredients": [
       {
         "name": "dark rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -17470,28 +17470,28 @@
       },
       {
         "name": "lemon juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
       },
       {
         "name": "grape juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz unsweetened"
       },
       {
         "name": "powdered sugar",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
       },
       {
         "name": "orange",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 slice"
@@ -17511,35 +17511,35 @@
     "ingredients": [
       {
         "name": "rye whiskey",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml rye whiskey"
       },
       {
         "name": "cognac",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml cognac"
       },
       {
         "name": "sweet vermouth",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml sweet vermouth"
       },
       {
         "name": "bénédictine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "barspoon",
         "notes": null,
         "raw": "1 bar spoon Bénédictine"
       },
       {
         "name": "peychaud's bitters",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "dash",
         "notes": null,
         "raw": "2 dashes Peychaud's bitters"
@@ -17550,7 +17550,7 @@
       "cocktail",
       "iba"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/French_Quarter%2C_looking_north_with_Mississippi_River_to_the_right_2011.jpg/500px-French_Quarter%2C_looking_north_with_Mississippi_River_to_the_right_2011.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Vieux_Carr%C3%A9_in_Tumbler.jpg/500px-Vieux_Carr%C3%A9_in_Tumbler.jpg"
   },
   {
     "name": "Vodka And Tonic",
@@ -17561,7 +17561,7 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -17588,21 +17588,21 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "half-and-half",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "limeade",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -17643,7 +17643,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 Slice"
@@ -17677,7 +17677,7 @@
       },
       {
         "name": "olive",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -17697,7 +17697,7 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -17724,7 +17724,7 @@
     "ingredients": [
       {
         "name": "sprite",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -17772,7 +17772,7 @@
       },
       {
         "name": "lemon peel",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 Slice"
@@ -17806,7 +17806,7 @@
       },
       {
         "name": "pineapple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tbsp",
         "notes": null,
         "raw": "1 tblsp"
@@ -17826,7 +17826,7 @@
     "ingredients": [
       {
         "name": "blended whiskey",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -17847,7 +17847,7 @@
       },
       {
         "name": "cherry",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -17887,7 +17887,7 @@
       },
       {
         "name": "wine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz Green Ginger"
@@ -17914,7 +17914,7 @@
       },
       {
         "name": "triple sec",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3cl"
@@ -17945,14 +17945,14 @@
     "ingredients": [
       {
         "name": "vodka",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "coffee liqueur",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "1 oz"
@@ -17979,14 +17979,14 @@
     "ingredients": [
       {
         "name": "lime",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
       },
       {
         "name": "lemon",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1"
@@ -18000,14 +18000,14 @@
       },
       {
         "name": "strawberries",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "apple",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -18042,7 +18042,7 @@
     "ingredients": [
       {
         "name": "tequila",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
@@ -18056,7 +18056,7 @@
       },
       {
         "name": "lime juice",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "tbsp",
         "notes": null,
         "raw": "3 tblsp fresh"
@@ -18076,14 +18076,14 @@
     "ingredients": [
       {
         "name": "red wine",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz white or"
       },
       {
         "name": "lemon-lime soda",
-        "amount": 5.0,
+        "amount": 5,
         "unit": "oz",
         "notes": null,
         "raw": "5 oz"
@@ -18103,35 +18103,35 @@
     "ingredients": [
       {
         "name": "red wine",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 bottle"
       },
       {
         "name": "lemon",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "piece",
         "notes": null,
         "raw": "2"
       },
       {
         "name": "orange juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "orange",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "piece",
         "notes": null,
         "raw": "3"
       },
       {
         "name": "pineapple juice",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -18151,7 +18151,7 @@
     "ingredients": [
       {
         "name": "tequila",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "2 shots"
@@ -18172,7 +18172,7 @@
       },
       {
         "name": "agave syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp"
@@ -18256,7 +18256,7 @@
     "ingredients": [
       {
         "name": "white rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "3 cl"
@@ -18300,14 +18300,14 @@
     "ingredients": [
       {
         "name": "yoghurt",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
       },
       {
         "name": "fruit",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
@@ -18409,14 +18409,14 @@
     "ingredients": [
       {
         "name": "zima",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "12 oz"
       },
       {
         "name": "chambord raspberry liqueur",
-        "amount": 3.0,
+        "amount": 3,
         "unit": "oz",
         "notes": null,
         "raw": "3 oz"
@@ -18443,7 +18443,7 @@
       },
       {
         "name": "zima",
-        "amount": 12.0,
+        "amount": 12,
         "unit": "oz",
         "notes": null,
         "raw": "12 oz"
@@ -18463,14 +18463,14 @@
     "ingredients": [
       {
         "name": "peachtree schnapps",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "oz",
         "notes": null,
         "raw": "4 shots"
       },
       {
         "name": "surge",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "oz",
         "notes": null,
         "raw": "4 shots"
@@ -18524,21 +18524,21 @@
     "ingredients": [
       {
         "name": "amaretto",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "rum",
-        "amount": 2.0,
+        "amount": 2,
         "unit": "oz",
         "notes": null,
         "raw": "2 oz"
       },
       {
         "name": "kool-aid",
-        "amount": 4.0,
+        "amount": 4,
         "unit": "oz",
         "notes": null,
         "raw": "4 oz Grape"
@@ -18668,7 +18668,7 @@
       },
       {
         "name": "151 demerara rum",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "oz",
         "notes": null,
         "raw": "30 ml 151 Demerara rum"
@@ -18696,21 +18696,21 @@
       },
       {
         "name": "grenadine syrup",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "tsp",
         "notes": null,
         "raw": "1 tsp Grenadine syrup"
       },
       {
         "name": "angostura bitters",
-        "amount": 1.0,
+        "amount": 1,
         "unit": "dash",
         "notes": null,
         "raw": "1 dash Angostura bitters"
       },
       {
         "name": "pernod",
-        "amount": 6.0,
+        "amount": 6,
         "unit": "drops",
         "notes": null,
         "raw": "6 drops Pernod"
