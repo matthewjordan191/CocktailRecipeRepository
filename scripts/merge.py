@@ -146,7 +146,7 @@ def main():
 
     duplicates = total_loaded - len(output)
     log.info(
-        "Done. %d input records → %d unique cocktails (%d duplicate(s) merged) → %s",
+        "Done. %d input records -> %d unique cocktails (%d duplicate(s) merged) -> %s",
         total_loaded, len(output), duplicates, OUTPUT_PATH,
     )
 

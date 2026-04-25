@@ -218,7 +218,7 @@ def main():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(normalized, f, indent=2, ensure_ascii=False)
 
-    print(f"Normalized {len(normalized)} drinks ({skipped} skipped) → {OUTPUT_PATH}")
+    print(f"Normalized {len(normalized)} drinks ({skipped} skipped) -> {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":
