@@ -12,9 +12,20 @@ function trigrams(str) {
   return out;
 }
 
+function isSubsequence(query, str) {
+  let qi = 0;
+  for (let i = 0; i < str.length && qi < query.length; i++) {
+    if (str[i] === query[qi]) qi++;
+  }
+  return qi === query.length;
+}
+
 function fuzzyMatch(query, name) {
   if (name.includes(query)) return true;
   if (query.length < 3) return false;
+  // Subsequence check per word: catches abbreviations like "daq" → "daiquiri".
+  if (name.split(" ").some(word => isSubsequence(query, word))) return true;
+  // Trigram similarity: catches misspellings like "margerita" → "margarita".
   const qt = trigrams(query);
   const nt = trigrams(name);
   let shared = 0;
