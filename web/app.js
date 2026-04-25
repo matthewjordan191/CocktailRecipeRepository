@@ -96,6 +96,10 @@ const inventory = new Set(
   JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]").map(normalizeIngName)
 );
 
+// ── Favourites ─────────────────────────────────────────────────────────────
+const FAVORITES_KEY = "cocktail-bar-favorites";
+const favorites = new Set(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]"));
+
 // Set by initBrowse once the browse view is ready; used by renderDetail.
 let filterByTag = null;
 
@@ -141,6 +145,19 @@ function formatAmount(ing) {
 
 function renderDetail(c) {
   document.getElementById("detail-name").textContent = c.name;
+
+  const favBtn = document.getElementById("fav-btn");
+  const updateFavBtn = () => {
+    const isFav = favorites.has(c.name);
+    favBtn.textContent = isFav ? "★" : "☆";
+    favBtn.classList.toggle("active", isFav);
+  };
+  updateFavBtn();
+  favBtn.onclick = () => {
+    if (favorites.has(c.name)) favorites.delete(c.name); else favorites.add(c.name);
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
+    updateFavBtn();
+  };
 
   const img = document.getElementById("detail-img");
   if (c.image_url) {
@@ -320,6 +337,7 @@ function initBrowse(cocktails) {
     li.textContent = cocktail.name;
     li.dataset.name = cocktail.name.toLowerCase();
     li._tagSet = new Set(cocktail.tags || []);
+    li._cocktailName = cocktail.name;
     li.addEventListener("click", () => { previousView = "list"; showDetail(cocktail); });
     frag.appendChild(li);
     items.push(li);
@@ -327,11 +345,13 @@ function initBrowse(cocktails) {
   list.appendChild(frag);
 
   let activeFilter = null;
+  let favFilterActive = false;
   const pills = FILTERS.map(f => {
     const btn = document.createElement("button");
     btn.className = "filter-pill";
     btn.textContent = f.label;
     btn.addEventListener("click", () => {
+      favFilterActive = false;
       if (activeFilter === f) {
         activeFilter = null;
         btn.classList.remove("active");
@@ -388,6 +408,7 @@ function initBrowse(cocktails) {
       const isActive = activeFilter?.tags?.[0] === tag && activeFilter.tags.length === 1;
       pills.forEach(p => p.classList.remove("active"));
       tagPills.forEach(p => p.classList.remove("active"));
+      favFilterActive = false;
       if (isActive) {
         activeFilter = null;
       } else {
@@ -403,11 +424,29 @@ function initBrowse(cocktails) {
   function filterByTag(tag) {
     pills.forEach(p => p.classList.remove("active"));
     tagPills.forEach(p => p.classList.remove("active"));
+    favFilterActive = false;
+    favPill.classList.remove("active");
     activeFilter = { tags: [tag] };
     const match = tagPills.find(p => p._tag === tag);
     if (match) match.classList.add("active");
     applyFilters();
   }
+
+  // Favourites pill — inserted first in the filter bar.
+  const favPill = document.createElement("button");
+  favPill.className = "filter-pill";
+  favPill.textContent = "★ Favorites";
+  favPill.addEventListener("click", () => {
+    favFilterActive = !favFilterActive;
+    favPill.classList.toggle("active", favFilterActive);
+    if (favFilterActive) {
+      pills.forEach(p => p.classList.remove("active"));
+      tagPills.forEach(p => p.classList.remove("active"));
+      activeFilter = null;
+    }
+    applyFilters();
+  });
+  filterBar.insertBefore(favPill, filterBar.firstChild);
 
   moreBtn.addEventListener("click", () => {
     panelOpen = !panelOpen;
@@ -422,10 +461,11 @@ function initBrowse(cocktails) {
     for (const li of items) {
       const matchesSearch = !query || fuzzyMatch(query, li.dataset.name);
       const matchesFilter = !filterTags || [...filterTags].some(t => li._tagSet.has(t));
-      li.hidden = !(matchesSearch && matchesFilter);
+      const matchesFav = !favFilterActive || favorites.has(li._cocktailName);
+      li.hidden = !(matchesSearch && matchesFilter && matchesFav);
       if (!li.hidden) visible++;
     }
-    count.textContent = (query || filterTags)
+    count.textContent = (query || filterTags || favFilterActive)
       ? `${visible} of ${total} cocktails`
       : `${total} cocktails`;
   }

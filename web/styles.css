@@ -101,7 +101,14 @@ h3 {
   margin-top: 0.25rem;
 }
 
-/* ── Back button ── */
+/* ── Back / fav button row ── */
+.detail-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
 #back-btn {
   background: none;
   border: none;
@@ -110,11 +117,23 @@ h3 {
   font-size: 0.85rem;
   cursor: pointer;
   padding: 0;
-  margin-bottom: 0.5rem;
   opacity: 0.8;
   transition: opacity 120ms ease;
 }
 #back-btn:hover { opacity: 1; }
+
+#fav-btn {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--muted);
+  padding: 0;
+  transition: color 120ms ease;
+}
+#fav-btn:hover  { color: var(--amber); }
+#fav-btn.active { color: var(--amber); }
 
 /* ── Detail meta chips ── */
 #detail-meta {
