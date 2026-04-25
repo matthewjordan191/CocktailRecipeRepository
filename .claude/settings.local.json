@@ -21,7 +21,8 @@
       "PowerShell(& \"c:\\\\Users\\\\matth\\\\.local\\\\bin\\\\python3.14.exe\" -m pip install requests)",
       "PowerShell(uv --version)",
       "PowerShell(Get-Command uv)",
-      "Bash(node -e \"const d=require\\('./data/raw/iba.json'\\); console.log\\(JSON.stringify\\(d[0], null, 2\\)\\); console.log\\('---'\\); console.log\\(JSON.stringify\\(d[1], null, 2\\)\\);\")"
+      "Bash(node -e \"const d=require\\('./data/raw/iba.json'\\); console.log\\(JSON.stringify\\(d[0], null, 2\\)\\); console.log\\('---'\\); console.log\\(JSON.stringify\\(d[1], null, 2\\)\\);\")",
+      "Bash(node -e \"const d=require\\('./web/cocktails.json'\\); console.log\\(JSON.stringify\\(Object.keys\\(d[0]\\)\\)\\)\")"
     ]
   }
 }

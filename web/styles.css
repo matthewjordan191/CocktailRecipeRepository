@@ -1,0 +1,94 @@
+/* ── Tokens ── */
+:root {
+  --bg:       #111111;
+  --surface:  #1c1c1c;
+  --border:   #2a2a2a;
+  --text:     #e2e2e2;
+  --muted:    #777777;
+  --accent:   #7dd3fc;
+  --font:     ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+  --radius:   6px;
+  --max-w:    680px;
+}
+
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── Base ── */
+html { font-size: 16px; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.6;
+  min-height: 100dvh;
+  padding: 1.5rem 1rem;
+}
+
+/* ── Layout ── */
+header, main {
+  max-width: var(--max-w);
+  margin-inline: auto;
+}
+
+header {
+  padding-block: 2rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+
+/* ── Typography ── */
+h1 {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+/* ── List ── */
+#cocktail-list {
+  list-style: none;
+}
+
+#cocktail-list li {
+  padding: 0.65rem 0.75rem;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  cursor: default;
+  transition: background 120ms ease, color 120ms ease;
+}
+
+#cocktail-list li:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+#cocktail-list li:hover {
+  background: var(--surface);
+  color: var(--accent);
+}
+
+/* ── Error ── */
+#error {
+  color: #f87171;
+  font-size: 0.875rem;
+  padding: 0.75rem;
+  border: 1px solid #f87171;
+  border-radius: var(--radius);
+}
+
+/* ── Responsive ── */
+@media (min-width: 480px) {
+  body { padding: 2rem 1.5rem; }
+}
+
+@media (min-width: 768px) {
+  body { padding: 3rem 2rem; }
+  #cocktail-list li { font-size: 0.95rem; }
+}
