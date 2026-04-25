@@ -154,6 +154,7 @@ h3 {
 /* ── Filter bar ── */
 #filter-bar {
   display: flex;
+  flex-wrap: nowrap;
   gap: 0.4rem;
   overflow-x: auto;
   scrollbar-width: none;
@@ -162,6 +163,13 @@ h3 {
   -webkit-overflow-scrolling: touch;
 }
 #filter-bar::-webkit-scrollbar { display: none; }
+
+@media (min-width: 600px) {
+  #filter-bar {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+}
 
 .filter-pill {
   flex-shrink: 0;
