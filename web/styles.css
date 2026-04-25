@@ -52,6 +52,26 @@ h1 {
   margin-top: 0.25rem;
 }
 
+/* ── Search ── */
+#search {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 120ms ease;
+}
+
+#search::placeholder { color: var(--muted); }
+
+#search:focus { border-color: var(--accent); }
+
 /* ── List ── */
 #cocktail-list {
   list-style: none;
