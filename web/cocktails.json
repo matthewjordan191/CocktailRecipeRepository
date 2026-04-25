@@ -1,6 +1,5 @@
 [
   {
-    "id": "a-j",
     "name": "A. J.",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -24,15 +23,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/l74qo91582480316.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "a1",
     "name": "A1",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -70,15 +63,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "abc",
     "name": "ABC",
     "method": null,
     "glass": "Shot glass",
@@ -109,15 +96,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/tqpvqp1472668328.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "abilene",
     "name": "Abilene",
     "method": "stirred",
     "glass": "Highball glass",
@@ -148,15 +129,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/smb2oe1582479072.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "acapulco",
     "name": "Acapulco",
     "method": "shaken",
     "glass": "Old-fashioned glass",
@@ -208,15 +183,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/il9e0r1582478841.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "ace",
     "name": "Ace",
     "method": "shaken",
     "glass": "Martini Glass",
@@ -261,15 +230,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/l3cd7f1504818306.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "acid",
     "name": "ACID",
     "method": null,
     "glass": "Shot glass",
@@ -293,15 +256,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xuxpxt1479209317.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "adam",
     "name": "Adam",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -334,15 +291,9 @@
       "alcoholic",
       "holiday",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "addington",
     "name": "Addington",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -373,15 +324,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ib0b7g1504818925.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "addison",
     "name": "Addison",
     "method": "shaken",
     "glass": "Martini Glass",
@@ -405,15 +350,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yzva7x1504820300.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "affair",
     "name": "Affair",
     "method": null,
     "glass": "Highball glass",
@@ -451,15 +390,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/h5za6y1582477994.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "affinity",
     "name": "Affinity",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -497,15 +430,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wzdtnn1582477684.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "afterglow",
     "name": "Afterglow",
     "method": null,
     "glass": "Highball Glass",
@@ -537,15 +464,9 @@
     "tags": [
       "cocktail",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vuquyv1468876052.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "alexander",
     "name": "Alexander",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -588,16 +509,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/0clus51606772388.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "algonquin",
     "name": "Algonquin",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -628,15 +542,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uwryxx1483387873.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "allegheny",
     "name": "Allegheny",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -681,15 +589,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uwvyts1483387934.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "almeria",
     "name": "Almeria",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -720,15 +622,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rwsyyu1483388181.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "americano",
     "name": "Americano",
     "method": null,
     "glass": "Collins glass",
@@ -770,16 +666,9 @@
       "ordinary drink",
       "the unforgettables",
       "mixed drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/709s6m1613655124.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "angel-face",
     "name": "Angel face",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -812,15 +701,9 @@
       "the unforgettables",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "apello",
     "name": "Apello",
     "method": "stirred",
     "glass": "Collins Glass",
@@ -859,15 +742,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uptxtv1468876415.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "applecar",
     "name": "Applecar",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -898,15 +775,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sbffau1504389764.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "artillery",
     "name": "Artillery",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -937,15 +808,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/g1vnbe1493067747.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "att",
     "name": "AT&T",
     "method": "stirred",
     "glass": "Highball Glass",
@@ -976,15 +841,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rhhwmp1493067619.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "avalanche",
     "name": "Avalanche",
     "method": "shaken",
     "glass": "Highball glass",
@@ -1015,15 +874,9 @@
     ],
     "tags": [
       "shake"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uppqty1472720165.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "avalon",
     "name": "Avalon",
     "method": "stirred",
     "glass": "Highball glass",
@@ -1068,15 +921,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/3k9qic1493068931.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "aviation",
     "name": "Aviation",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -1117,16 +964,9 @@
       "cocktail",
       "iba",
       "classic"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/trbplb1606855233.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "b-52",
     "name": "B-52",
     "method": "stirred",
     "glass": "Shot glass",
@@ -1159,15 +999,9 @@
       "iba",
       "newera",
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/5a3vg61504372070.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "b-53",
     "name": "B-53",
     "method": null,
     "glass": "Collins Glass",
@@ -1198,15 +1032,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rwqxrv1461866023.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "baby-eskimo",
     "name": "Baby Eskimo",
     "method": "stirred",
     "glass": "Collins Glass",
@@ -1237,15 +1065,9 @@
     ],
     "tags": [
       "shake"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wywrtw1472720227.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "bahama-mama",
     "name": "Bahama Mama",
     "method": null,
     "glass": "Highball glass",
@@ -1304,15 +1126,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/tyb4a41515793339.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "balmoral",
     "name": "Balmoral",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -1350,15 +1166,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vysuyq1441206297.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "barracuda",
     "name": "Barracuda",
     "method": "shaken",
     "glass": "Margarita glass",
@@ -1407,16 +1217,9 @@
       "ordinary drink",
       "new era drinks",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/jwmr1x1504372337.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "bees-knees",
     "name": "Bee's knees",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -1456,15 +1259,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "bellini",
     "name": "Bellini",
     "method": "stirred",
     "glass": "Champagne Flute",
@@ -1492,16 +1289,9 @@
       "ordinary drink",
       "contemporary classics",
       "wine cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/eaag491504367543.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "between-the-sheets",
     "name": "Between the sheets",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -1541,15 +1331,9 @@
       "the unforgettables",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "bible-belt",
     "name": "Bible Belt",
     "method": null,
     "glass": "Highball glass",
@@ -1587,15 +1371,9 @@
     ],
     "tags": [
       "other / unknown"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/6bec6v1503563675.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "big-red",
     "name": "Big Red",
     "method": null,
     "glass": "Shot glass",
@@ -1619,15 +1397,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yqwuwu1441248116.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "bijou",
     "name": "Bijou",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -1665,15 +1437,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rysb3r1513706985.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "black-russian",
     "name": "Black Russian",
     "method": "stirred",
     "glass": "Old fashioned glass",
@@ -1699,15 +1465,9 @@
       "contemporary classics",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "blackthorn",
     "name": "Blackthorn",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -1738,15 +1498,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/dgj92f1616098672.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "bloody-mary",
     "name": "Bloody Mary",
     "method": "stirred",
     "glass": "Highball glass",
@@ -1807,15 +1561,9 @@
       "contemporary classics",
       "mixed drink",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "bluebird",
     "name": "Bluebird",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -1867,15 +1615,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/5jhyd01582579843.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "bob-marley",
     "name": "Bob Marley",
     "method": null,
     "glass": "Shot glass",
@@ -1906,15 +1648,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rrqrst1477140664.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "boomerang",
     "name": "Boomerang",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -1959,15 +1695,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/3m6yz81504389551.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "bora-bora",
     "name": "Bora Bora",
     "method": "shaken",
     "glass": "Highball glass",
@@ -2006,15 +1736,9 @@
     "tags": [
       "cocktail",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xwuqvw1473201811.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "boston-sour",
     "name": "Boston Sour",
     "method": "shaken",
     "glass": "Whiskey sour glass",
@@ -2066,15 +1790,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/kxlgbi1504366100.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "boulevardier",
     "name": "Boulevardier",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -2107,15 +1825,9 @@
       "the unforgettables",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "boxcar",
     "name": "Boxcar",
     "method": "shaken",
     "glass": "Whiskey sour glass",
@@ -2160,15 +1872,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/pwgtpa1504366376.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "brain-fart",
     "name": "Brain Fart",
     "method": null,
     "glass": "Punch bowl",
@@ -2220,15 +1926,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rz5aun1504389701.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "bramble",
     "name": "Bramble",
     "method": "stirred",
     "glass": "Old-Fashioned glass",
@@ -2270,16 +1970,9 @@
       "ordinary drink",
       "new era drinks",
       "mixed drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/twtbh51630406392.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "brandy-crusta",
     "name": "Brandy crusta",
     "method": null,
     "glass": "Cocktail glass",
@@ -2333,15 +2026,9 @@
       "the unforgettables",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "brigadier",
     "name": "Brigadier",
     "method": "stirred",
     "glass": "Coupe Glass",
@@ -2372,15 +2059,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/nl89tf1518947401.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "broadside",
     "name": "Broadside",
     "method": null,
     "glass": "Highball glass",
@@ -2418,15 +2099,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/l2o6xu1582476870.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "brooklyn",
     "name": "Brooklyn",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -2475,15 +2150,9 @@
       "datenight",
       "usa",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ojsezf1582477277.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "bubble-gum",
     "name": "Bubble Gum",
     "method": null,
     "glass": "Shot glass",
@@ -2521,15 +2190,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/spuurv1468878783.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "buccaneer",
     "name": "Buccaneer",
     "method": "stirred",
     "glass": "Beer pilsner",
@@ -2553,15 +2216,9 @@
     ],
     "tags": [
       "beer"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/upvtyt1441249023.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "bumble-bee",
     "name": "Bumble Bee",
     "method": null,
     "glass": "Shot glass",
@@ -2592,15 +2249,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uwqpvv1461866378.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "cafe-savoy",
     "name": "Cafe Savoy",
     "method": "stirred",
     "glass": "Coffee mug",
@@ -2638,15 +2289,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vqwptt1441247711.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "caipirinha",
     "name": "Caipirinha",
     "method": "stirred",
     "glass": "Old fashioned glass",
@@ -2681,16 +2326,9 @@
       "iba",
       "contemporaryclassic",
       "ordinary drink"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/jgvn7p1582484435.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "caipirissima",
     "name": "Caipirissima",
     "method": null,
     "glass": "Collins Glass",
@@ -2721,15 +2359,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yd47111503565515.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "campari-beer",
     "name": "Campari Beer",
     "method": null,
     "glass": "Beer mug",
@@ -2753,15 +2385,9 @@
     ],
     "tags": [
       "beer"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xsqrup1441249130.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "canchanchara",
     "name": "Canchanchara",
     "method": "stirred",
     "glass": "Old fashioned glass",
@@ -2801,15 +2427,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "casa-blanca",
     "name": "Casa Blanca",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -2847,15 +2467,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/usspxq1441553762.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "casino",
     "name": "Casino",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -2903,16 +2517,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/1mvjxg1504348579.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "casino-royale",
     "name": "Casino Royale",
     "method": "shaken",
     "glass": "Whiskey sour glass",
@@ -2957,15 +2564,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/3qpv121504366699.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "champagne-cocktail",
     "name": "Champagne cocktail",
     "method": null,
     "glass": "Champagne flute",
@@ -3005,15 +2606,9 @@
       "contemporary classics",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "cherry-rum",
     "name": "Cherry Rum",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -3044,15 +2639,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/twsuvr1441554424.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "chicago-fizz",
     "name": "Chicago Fizz",
     "method": "shaken",
     "glass": "Highball glass",
@@ -3104,15 +2693,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qwvwqr1441207763.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "chocolate-drink",
     "name": "Chocolate Drink",
     "method": null,
     "glass": "Coffee mug",
@@ -3144,15 +2727,9 @@
     "tags": [
       "cocoa",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/q7w4xu1487603180.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "chocolate-milk",
     "name": "Chocolate Milk",
     "method": null,
     "glass": "Shot Glass",
@@ -3183,15 +2760,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/j6q35t1504889399.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "citrus-coke",
     "name": "Citrus Coke",
     "method": "stirred",
     "glass": "Highball Glass",
@@ -3215,15 +2786,9 @@
     ],
     "tags": [
       "soft drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uyrvut1479473214.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "city-slicker",
     "name": "City Slicker",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -3254,15 +2819,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/dazdlg1504366949.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "clove-cocktail",
     "name": "Clove Cocktail",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -3293,15 +2852,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qxvtst1461867579.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "clover-club",
     "name": "Clover Club",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -3343,16 +2896,9 @@
       "iba",
       "classic",
       "ordinary drink"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "coffee-liqueur",
     "name": "Coffee Liqueur",
     "method": null,
     "glass": "Collins Glass",
@@ -3397,15 +2943,9 @@
     ],
     "tags": [
       "homemade liqueur"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ryvtsu1441253851.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "coffee-vodka",
     "name": "Coffee-Vodka",
     "method": "shaken",
     "glass": "Collins Glass",
@@ -3457,15 +2997,9 @@
     ],
     "tags": [
       "homemade liqueur"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "coke-and-drops",
     "name": "Coke and Drops",
     "method": null,
     "glass": "Cocktail glass",
@@ -3490,15 +3024,9 @@
     "tags": [
       "soft drink",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yrtxxp1472719367.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "corn-n-oil",
     "name": "Corn n Oil",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -3543,15 +3071,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/pk6dwi1592767243.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "corpse-reviver",
     "name": "Corpse Reviver",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -3596,15 +3118,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/gifgao1513704334.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "corpse-reviver-2",
     "name": "Corpse reviver #2",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -3651,15 +3167,9 @@
       "contemporary classics",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "cosmopolitan",
     "name": "Cosmopolitan",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -3700,16 +3210,9 @@
       "contemporaryclassic",
       "cocktail",
       "contemporary classics"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "cranberry-punch",
     "name": "Cranberry Punch",
     "method": "stirred",
     "glass": "Punch Bowl",
@@ -3755,15 +3258,9 @@
     "tags": [
       "punch / party drink",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/mzgaqu1504389248.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "cream-soda",
     "name": "Cream Soda",
     "method": null,
     "glass": "Highball glass",
@@ -3787,15 +3284,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yqstxr1479209367.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "cuba-libra",
     "name": "Cuba Libra",
     "method": null,
     "glass": "Highball glass",
@@ -3826,15 +3317,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ck6d0p1504388696.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "cuba-libre",
     "name": "Cuba libre",
     "method": "built",
     "glass": "Highball glass",
@@ -3869,16 +3354,9 @@
       "iba",
       "contemporaryclassic",
       "ordinary drink"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wmkbfj1606853905.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "daiquiri",
     "name": "Daiquiri",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -3914,16 +3392,9 @@
       "classic",
       "beach",
       "ordinary drink"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "damned-if-you-do",
     "name": "Damned if you do",
     "method": null,
     "glass": "Shot glass",
@@ -3947,15 +3418,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ql7bmx1503565106.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "danbooka",
     "name": "Danbooka",
     "method": null,
     "glass": "Coffee Mug",
@@ -3979,15 +3444,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vurrxr1441246074.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "dark-n-stormy",
     "name": "Dark 'n' stormy",
     "method": null,
     "glass": "Highball glass",
@@ -4006,15 +3465,9 @@
       "new era drinks",
       "mixed drink",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "dark-and-stormy",
     "name": "Dark and Stormy",
     "method": null,
     "glass": "Highball glass",
@@ -4040,15 +3493,9 @@
       "iba",
       "newera",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "dark-caipirinha",
     "name": "Dark Caipirinha",
     "method": "stirred",
     "glass": "Highball glass",
@@ -4079,15 +3526,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uwstrx1472406058.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "darkwood-sling",
     "name": "Darkwood Sling",
     "method": null,
     "glass": "Cocktail glass",
@@ -4118,15 +3559,9 @@
     ],
     "tags": [
       "soft drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sxxsyq1472719303.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "death-in-the-afternoon",
     "name": "Death in the Afternoon",
     "method": null,
     "glass": "Margarita glass",
@@ -4151,15 +3586,9 @@
     "tags": [
       "drunk",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/y7s3rh1598719574.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "derby",
     "name": "Derby",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -4192,15 +3621,9 @@
       "classic",
       "iba",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/52weey1606772672.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "diesel",
     "name": "Diesel",
     "method": null,
     "glass": "Pint glass",
@@ -4231,15 +3654,9 @@
     ],
     "tags": [
       "beer"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sxrrqq1454512852.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "dirty-martini",
     "name": "Dirty Martini",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -4286,15 +3703,9 @@
       "iba",
       "newera",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vcyvpq1485083300.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "dirty-nipple",
     "name": "Dirty Nipple",
     "method": null,
     "glass": "Shot glass",
@@ -4325,15 +3736,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vtyqrt1461866508.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "downshift",
     "name": "Downshift",
     "method": null,
     "glass": "Hurricane glass",
@@ -4371,15 +3776,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/y36z8c1503563911.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "dragonfly",
     "name": "Dragonfly",
     "method": "stirred",
     "glass": "Highball glass",
@@ -4410,15 +3809,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uc63bh1582483589.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "drinking-chocolate",
     "name": "Drinking Chocolate",
     "method": null,
     "glass": "Coffee mug",
@@ -4471,15 +3864,9 @@
     "tags": [
       "cocoa",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/u6jrdf1487603173.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "dry-martini",
     "name": "Dry Martini",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -4515,16 +3902,9 @@
       "alcoholic",
       "cocktail",
       "the unforgettables"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "dry-rob-roy",
     "name": "Dry Rob Roy",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -4555,15 +3935,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/typuyq1439456976.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "dubonnet-cocktail",
     "name": "Dubonnet Cocktail",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -4601,15 +3975,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/pfz3hz1582483111.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "duchamps-punch",
     "name": "Duchamp's Punch",
     "method": "shaken",
     "glass": "Old-fashioned glass",
@@ -4668,15 +4036,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/g51naw1485084685.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "egg-cream",
     "name": "Egg Cream",
     "method": null,
     "glass": "Coffee mug",
@@ -4708,15 +4070,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/mvis731484430445.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "egg-nog-4",
     "name": "Egg Nog #4",
     "method": "blended",
     "glass": "Punch bowl",
@@ -4803,15 +4159,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wpspsy1468875747.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "egg-nog---healthy",
     "name": "Egg Nog - Healthy",
     "method": null,
     "glass": "Collins Glass",
@@ -4870,15 +4220,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qxuppv1468875308.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "egg-nog---classic-cooked",
     "name": "Egg-Nog - Classic Cooked",
     "method": "stirred",
     "glass": "Pitcher",
@@ -4923,15 +4267,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/quxsvt1468875505.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "elderflower-caipirinha",
     "name": "Elderflower Caipirinha",
     "method": "stirred",
     "glass": "Collins glass",
@@ -4963,15 +4301,9 @@
     "tags": [
       "brazilian",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/dif7a31614006331.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "empellón-cocinas-fat-washed-mezcal",
     "name": "Empellón Cocina's Fat-Washed Mezcal",
     "method": "shaken",
     "glass": "Beer Glass",
@@ -5002,15 +4334,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/osgvxt1513595509.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "english-highball",
     "name": "English Highball",
     "method": "stirred",
     "glass": "Highball glass",
@@ -5055,15 +4381,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/dhvr7d1504519752.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "english-rose-cocktail",
     "name": "English Rose Cocktail",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -5115,15 +4435,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yxwrpp1441208697.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "espresso-martini",
     "name": "Espresso martini",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -5164,16 +4478,9 @@
       "cocktail",
       "iba",
       "newera"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "espresso-rumtini",
     "name": "Espresso Rumtini",
     "method": null,
     "glass": "Cocktail glass",
@@ -5213,15 +4520,9 @@
       "dinnerparty",
       "strongflavor",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/acvf171561574403.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "fahrenheit-5000",
     "name": "Fahrenheit 5000",
     "method": null,
     "glass": "Shot glass",
@@ -5252,15 +4553,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/tysssx1473344692.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "fernandito",
     "name": "Fernandito",
     "method": "stirred",
     "glass": "Old fashioned glass",
@@ -5286,15 +4581,9 @@
       "new era drinks",
       "mixed drink",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "figgy-thyme",
     "name": "Figgy Thyme",
     "method": "shaken",
     "glass": "Highball glass",
@@ -5348,15 +4637,9 @@
       "christmas",
       "sweet",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/pbw4e51606766578.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "flaming-dr-pepper",
     "name": "Flaming Dr. Pepper",
     "method": null,
     "glass": "Collins Glass",
@@ -5401,15 +4684,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/d30z931503565384.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "flaming-lamborghini",
     "name": "Flaming Lamborghini",
     "method": null,
     "glass": "Cocktail glass",
@@ -5447,15 +4724,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yywpss1461866587.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "flanders-flake-out",
     "name": "Flander's Flake-Out",
     "method": null,
     "glass": "Collins Glass",
@@ -5479,15 +4750,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sqvqrx1461866705.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "flying-dutchman",
     "name": "Flying Dutchman",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -5511,15 +4776,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/mwko4q1582482903.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "flying-scotchman",
     "name": "Flying Scotchman",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -5557,15 +4816,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/q53l911582482518.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "foxy-lady",
     "name": "Foxy Lady",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -5596,15 +4849,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/r9cz3q1504519844.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "frappé",
     "name": "Frappé",
     "method": "blended",
     "glass": "Highball Glass",
@@ -5636,15 +4883,9 @@
     "tags": [
       "coffee / tea",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vqwryq1441245927.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "freddy-kruger",
     "name": "Freddy Kruger",
     "method": null,
     "glass": "Shot glass",
@@ -5675,15 +4916,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/tuppuq1461866798.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "french-75",
     "name": "French 75",
     "method": "shaken",
     "glass": "Collins glass",
@@ -5739,16 +4974,9 @@
       "ordinary drink",
       "contemporary classics",
       "wine cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/hrxfbl1606773109.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "french-connection",
     "name": "French Connection",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -5776,16 +5004,9 @@
       "ordinary drink",
       "contemporary classics",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/zaqa381504368758.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "french-martini",
     "name": "French Martini",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -5819,16 +5040,9 @@
       "iba",
       "cocktail",
       "new era drinks"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "french-negroni",
     "name": "French Negroni",
     "method": "shaken",
     "glass": "Martini Glass",
@@ -5866,15 +5080,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/x8lhp41513703167.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "frisco-sour",
     "name": "Frisco Sour",
     "method": "shaken",
     "glass": "Whiskey sour glass",
@@ -5926,15 +5134,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/acuvjz1582482022.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "frosé",
     "name": "Frosé",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -5975,15 +5177,9 @@
       "frozen",
       "summer",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/b4cadp1619695347.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "frozen-daiquiri",
     "name": "Frozen Daiquiri",
     "method": "blended",
     "glass": "Champagne flute",
@@ -6028,15 +5224,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/7oyrj91504884412.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "frozen-mint-daiquiri",
     "name": "Frozen Mint Daiquiri",
     "method": "blended",
     "glass": "Old-fashioned glass",
@@ -6074,15 +5264,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/jrhn1q1504884469.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "frozen-pineapple-daiquiri",
     "name": "Frozen Pineapple Daiquiri",
     "method": "blended",
     "glass": "Cocktail Glass",
@@ -6120,15 +5304,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/k3aecd1582481679.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "fruit-cooler",
     "name": "Fruit Cooler",
     "method": null,
     "glass": "Highball Glass",
@@ -6181,15 +5359,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/i3tfn31484430499.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "fruit-flip-flop",
     "name": "Fruit Flip-Flop",
     "method": "blended",
     "glass": "Highball Glass",
@@ -6214,15 +5386,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/nfdx6p1484430633.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "fruit-shake",
     "name": "Fruit Shake",
     "method": "blended",
     "glass": "Highball Glass",
@@ -6261,15 +5427,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/q0fg2m1484430704.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "funk-and-soul",
     "name": "Funk and Soul",
     "method": null,
     "glass": "Collins glass",
@@ -6314,15 +5474,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qtv83q1596015790.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "fuzzy-asshole",
     "name": "Fuzzy Asshole",
     "method": "stirred",
     "glass": "Coffee mug",
@@ -6346,15 +5500,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wrvpuu1472667898.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gagliardo",
     "name": "Gagliardo",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -6392,15 +5540,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/lyloe91487602877.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gg",
     "name": "GG",
     "method": null,
     "glass": "Collins Glass",
@@ -6424,15 +5566,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vyxwut1468875960.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gimlet",
     "name": "Gimlet",
     "method": "shaken",
     "glass": "Martini Glass",
@@ -6470,15 +5606,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/3xgldt1513707271.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-and-soda",
     "name": "Gin and Soda",
     "method": "stirred",
     "glass": "Highball glass",
@@ -6511,15 +5641,9 @@
       "clear",
       "alcoholic",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/nzlyc81605905755.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-cooler",
     "name": "Gin Cooler",
     "method": "stirred",
     "glass": "Collins glass",
@@ -6564,15 +5688,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/678xt11582481163.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-daisy",
     "name": "Gin Daisy",
     "method": "shaken",
     "glass": "Old-fashioned glass",
@@ -6624,15 +5742,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/z6e22f1582581155.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-fizz",
     "name": "Gin fizz",
     "method": "shaken",
     "glass": "Old fashioned glass",
@@ -6674,16 +5786,9 @@
       "iba",
       "classic",
       "ordinary drink"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/drtihp1606768397.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-lemon",
     "name": "Gin Lemon",
     "method": "shaken",
     "glass": "Highball glass",
@@ -6717,15 +5822,9 @@
       "classic",
       "refreshing",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/6gdohq1681212476.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-rickey",
     "name": "Gin Rickey",
     "method": null,
     "glass": "Highball glass",
@@ -6770,15 +5869,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/s00d6f1504883945.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-sling",
     "name": "Gin Sling",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -6823,15 +5916,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/8cl9sm1582581761.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-smash",
     "name": "Gin Smash",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -6885,15 +5972,9 @@
       "citrus",
       "strongflavor",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/iprva61606768774.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-sour",
     "name": "Gin Sour",
     "method": "shaken",
     "glass": "Whiskey sour glass",
@@ -6939,15 +6020,9 @@
     "tags": [
       "sour",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/noxp7e1606769224.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-squirt",
     "name": "Gin Squirt",
     "method": "stirred",
     "glass": "Highball glass",
@@ -6999,15 +6074,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xrbhz61504883702.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-swizzle",
     "name": "Gin Swizzle",
     "method": "shaken",
     "glass": "Highball glass",
@@ -7052,15 +6121,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sybce31504884026.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-toddy",
     "name": "Gin Toddy",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -7098,15 +6161,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/jxstwf1582582101.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gin-tonic",
     "name": "Gin Tonic",
     "method": null,
     "glass": "Highball glass",
@@ -7137,15 +6194,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qcgz0t1643821443.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "gluehwein",
     "name": "Gluehwein",
     "method": null,
     "glass": "Irish coffee cup",
@@ -7197,15 +6248,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vuxwvt1468875418.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "godchild",
     "name": "Godchild",
     "method": "shaken",
     "glass": "Champagne flute",
@@ -7236,15 +6281,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/m5nhtr1504820829.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "godfather",
     "name": "Godfather",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -7270,15 +6309,9 @@
       "iba",
       "contemporaryclassic",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/e5zgao1582582378.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "godmother",
     "name": "Godmother",
     "method": null,
     "glass": "Old-fashioned glass",
@@ -7304,15 +6337,9 @@
       "iba",
       "contemporaryclassic",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/quksqg1582582597.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "golden-dream",
     "name": "Golden dream",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -7352,15 +6379,9 @@
       "contemporary classics",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "grand-blue",
     "name": "Grand Blue",
     "method": null,
     "glass": "Old-fashioned glass",
@@ -7398,15 +6419,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vsrsqu1472761749.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "grass-skirt",
     "name": "Grass Skirt",
     "method": "shaken",
     "glass": "Old-fashioned glass",
@@ -7451,15 +6466,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qyvprp1473891585.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "grasshopper",
     "name": "Grasshopper",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -7495,16 +6504,9 @@
       "ordinary drink",
       "contemporary classics",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/aqm9el1504369613.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "greyhound",
     "name": "Greyhound",
     "method": "stirred",
     "glass": "Collins glass",
@@ -7528,15 +6530,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/g5upn41513706732.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "grim-reaper",
     "name": "Grim Reaper",
     "method": null,
     "glass": "Old-fashioned glass",
@@ -7567,15 +6563,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/kztu161504883192.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "hd",
     "name": "H.D.",
     "method": null,
     "glass": "Beer mug",
@@ -7606,15 +6596,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "halloween-punch",
     "name": "Halloween Punch",
     "method": null,
     "glass": "Punch bowl",
@@ -7667,15 +6651,9 @@
     "tags": [
       "halloween",
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/7hcgyj1571687671.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "hanky-panky",
     "name": "Hanky panky",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -7708,15 +6686,9 @@
       "the unforgettables",
       "mixed drink",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "happy-skipper",
     "name": "Happy Skipper",
     "method": null,
     "glass": "Highball glass",
@@ -7747,15 +6719,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/42w2g41487602448.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "harvey-wallbanger",
     "name": "Harvey Wallbanger",
     "method": "stirred",
     "glass": "Collins glass",
@@ -7788,15 +6754,9 @@
       "iba",
       "contemporaryclassic",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/7os4gs1606854357.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "havana-cocktail",
     "name": "Havana Cocktail",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -7827,15 +6787,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/59splc1504882899.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "hawaiian-cocktail",
     "name": "Hawaiian Cocktail",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -7866,15 +6820,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ujoh9x1504882987.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "hemingway-special",
     "name": "Hemingway Special",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -7916,16 +6864,9 @@
       "ordinary drink",
       "contemporary classics",
       "mixed drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/jfcvps1504369888.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "herbal-flame",
     "name": "Herbal flame",
     "method": "stirred",
     "glass": "Mason jar",
@@ -7949,15 +6890,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rrstxv1441246184.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "highland-fling-cocktail",
     "name": "Highland Fling Cocktail",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -7995,15 +6930,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/0bkwca1492975553.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "holloween-punch",
     "name": "Holloween Punch",
     "method": null,
     "glass": "Punch bowl",
@@ -8042,15 +6971,9 @@
     "tags": [
       "punch / party drink",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/lfeoe41504888925.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "homemade-kahlua",
     "name": "Homemade Kahlua",
     "method": null,
     "glass": "Collins Glass",
@@ -8102,15 +7025,9 @@
     ],
     "tags": [
       "homemade liqueur"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uwtsst1441254025.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "honey-bee",
     "name": "Honey Bee",
     "method": "shaken",
     "glass": "Margarita glass",
@@ -8142,15 +7059,9 @@
     "tags": [
       "sweet",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vu8l7t1582475673.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "horses-neck",
     "name": "Horse's Neck",
     "method": "stirred",
     "glass": "Highball glass",
@@ -8192,16 +7103,9 @@
       "ordinary drink",
       "contemporary classics",
       "highball"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/006k4e1504370092.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "hot-chocolate-to-die-for",
     "name": "Hot Chocolate to Die for",
     "method": "stirred",
     "glass": "Coffee mug",
@@ -8247,15 +7151,9 @@
     "tags": [
       "cocoa",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/0lrmjp1487603166.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "hot-creamy-bush",
     "name": "Hot Creamy Bush",
     "method": null,
     "glass": "Irish coffee cup",
@@ -8286,15 +7184,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/spvrtp1472668037.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "hot-toddy",
     "name": "Hot Toddy",
     "method": null,
     "glass": "Irish coffee cup",
@@ -8340,15 +7232,9 @@
     "tags": [
       "winter",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ggx0lv1613942306.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "hunters-moon",
     "name": "Hunter's Moon",
     "method": "shaken",
     "glass": "Balloon Glass",
@@ -8393,15 +7279,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/t0iugg1509556712.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "ice-pick",
     "name": "Ice Pick",
     "method": "stirred",
     "glass": "Collins Glass",
@@ -8432,15 +7312,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ypsrqp1469091726.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "iced-coffee",
     "name": "Iced Coffee",
     "method": "shaken",
     "glass": "Coffee mug",
@@ -8479,15 +7353,9 @@
     "tags": [
       "coffee / tea",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ytprxy1454513855.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "iced-coffee-fillip",
     "name": "Iced Coffee Fillip",
     "method": null,
     "glass": "Coffee mug",
@@ -8511,15 +7379,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sxtxrp1454514223.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "illegal",
     "name": "Illegal",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -8580,15 +7442,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "imperial-cocktail",
     "name": "Imperial Cocktail",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -8619,15 +7475,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/bcsj2e1487603625.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "imperial-fizz",
     "name": "Imperial Fizz",
     "method": "shaken",
     "glass": "Highball glass",
@@ -8672,15 +7522,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/zj1usl1504884548.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "ipamena",
     "name": "Ipamena",
     "method": "shaken",
     "glass": "Wine Glass",
@@ -8719,15 +7563,9 @@
     "tags": [
       "ordinary drink",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yswuwp1469090992.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "irish-coffee",
     "name": "Irish coffee",
     "method": "stirred",
     "glass": "Irish coffee mug",
@@ -8769,16 +7607,9 @@
       "iba",
       "contemporaryclassic",
       "coffee / tea"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sywsqw1439906999.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "irish-cream",
     "name": "Irish Cream",
     "method": null,
     "glass": "Irish coffee cup",
@@ -8823,15 +7654,9 @@
     ],
     "tags": [
       "homemade liqueur"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/90etyl1504884699.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "irish-curdling-cow",
     "name": "Irish Curdling Cow",
     "method": null,
     "glass": "Highball glass",
@@ -8869,15 +7694,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yrhutv1503563730.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "irish-russian",
     "name": "Irish Russian",
     "method": null,
     "glass": "Highball glass",
@@ -8915,15 +7734,9 @@
     ],
     "tags": [
       "beer"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/swqurw1454512730.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "irish-spring",
     "name": "Irish Spring",
     "method": null,
     "glass": "Collins glass",
@@ -8975,15 +7788,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sot8v41504884783.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "jack-rose-cocktail",
     "name": "Jack Rose Cocktail",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -9015,15 +7822,9 @@
     "tags": [
       "beach",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uuqqrv1439907068.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "jacks-vanilla-coke",
     "name": "Jack's Vanilla Coke",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -9054,15 +7855,9 @@
     ],
     "tags": [
       "other / unknown"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/kjnt7z1504793319.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "jackhammer",
     "name": "Jackhammer",
     "method": null,
     "glass": "Collins Glass",
@@ -9086,15 +7881,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/9von5j1504388896.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "jam-donut",
     "name": "Jam Donut",
     "method": null,
     "glass": "Shot glass",
@@ -9132,15 +7921,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uuytrp1474039804.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "jamaica-kiss",
     "name": "Jamaica Kiss",
     "method": "blended",
     "glass": "Hurricane glass",
@@ -9171,15 +7954,9 @@
     ],
     "tags": [
       "shake"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/urpvvv1441249549.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "jamaican-coffee",
     "name": "Jamaican Coffee",
     "method": "stirred",
     "glass": "Champagne flute",
@@ -9217,15 +7994,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xqptps1441247257.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "japanese-fizz",
     "name": "Japanese Fizz",
     "method": "shaken",
     "glass": "Highball glass",
@@ -9277,15 +8048,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/37vzv11504884831.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "jello-shots",
     "name": "Jello shots",
     "method": null,
     "glass": "Shot glass",
@@ -9316,15 +8081,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/l0smzo1504884904.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "jelly-bean",
     "name": "Jelly Bean",
     "method": null,
     "glass": "Cordial glass",
@@ -9348,15 +8107,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/bglc6y1504388797.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "jewel-of-the-nile",
     "name": "Jewel Of The Nile",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -9387,15 +8140,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/hx4nrb1504884947.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "jitterbug",
     "name": "Jitterbug",
     "method": null,
     "glass": "Cocktail Glass",
@@ -9454,15 +8201,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wwqvrq1441245318.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "john-collins",
     "name": "John Collins",
     "method": "stirred",
     "glass": "Collins glass",
@@ -9517,16 +8258,9 @@
       "ordinary drink",
       "the unforgettables",
       "mixed drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/0t4bv71606854479.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "just-a-moonmint",
     "name": "Just a Moonmint",
     "method": "blended",
     "glass": "Highball Glass",
@@ -9558,15 +8292,9 @@
     "tags": [
       "shake",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/znald61487604035.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kamikaze",
     "name": "Kamikaze",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -9599,15 +8327,9 @@
       "iba",
       "newera",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/d7ff7u1606855412.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "karsk",
     "name": "Karsk",
     "method": null,
     "glass": "Highball glass",
@@ -9631,15 +8353,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/808mxk1487602471.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kentucky-b-and-b",
     "name": "Kentucky B And B",
     "method": null,
     "glass": "Brandy snifter",
@@ -9663,15 +8379,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sqxsxp1478820236.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kentucky-colonel",
     "name": "Kentucky Colonel",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -9702,15 +8412,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/utqwpu1478820348.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kill-the-cold-smoothie",
     "name": "Kill the cold Smoothie",
     "method": null,
     "glass": "Highball glass",
@@ -9742,15 +8446,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/7j1z2e1487603414.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kioki-coffee",
     "name": "Kioki Coffee",
     "method": "stirred",
     "glass": "Coffee mug",
@@ -9781,15 +8479,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uppqty1441247374.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kir",
     "name": "Kir",
     "method": null,
     "glass": "Wine Glass",
@@ -9817,16 +8509,9 @@
       "ordinary drink",
       "contemporary classics",
       "wine cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/apneom1504370294.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "kir-royale",
     "name": "Kir Royale",
     "method": null,
     "glass": "Champagne Flute",
@@ -9850,15 +8535,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yt9i7n1504370388.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kiss-me-quick",
     "name": "Kiss me Quick",
     "method": null,
     "glass": "Highball glass",
@@ -9896,15 +8575,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/m7iaxu1504885119.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kiwi-lemon",
     "name": "Kiwi Lemon",
     "method": "stirred",
     "glass": "Highball glass",
@@ -9928,15 +8601,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/tpupvr1478251697.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kiwi-martini",
     "name": "Kiwi Martini",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -9976,15 +8643,9 @@
       "green",
       "sharp",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/bmxmyq1630407098.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kiwi-papaya-smoothie",
     "name": "Kiwi Papaya Smoothie",
     "method": "blended",
     "glass": "Highball Glass",
@@ -10009,15 +8670,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/jogv4w1487603571.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kool-first-aid",
     "name": "Kool First Aid",
     "method": null,
     "glass": "Shot glass",
@@ -10041,15 +8696,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/hfp6sv1503564824.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kool-aid-shot",
     "name": "Kool-Aid Shot",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -10094,15 +8743,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/fegm621503564966.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kool-aid-slammer",
     "name": "Kool-Aid Slammer",
     "method": null,
     "glass": "Shot glass",
@@ -10126,15 +8769,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/kugu2m1504735473.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "kurant-tea",
     "name": "Kurant Tea",
     "method": null,
     "glass": "Champagne flute",
@@ -10165,15 +8802,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xrsrpr1441247464.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lady-love-fizz",
     "name": "Lady Love Fizz",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -10225,15 +8856,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/20d63k1504885263.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lassi---a-south-indian-drink",
     "name": "Lassi - A South Indian Drink",
     "method": "blended",
     "glass": "Highball Glass",
@@ -10279,15 +8904,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/iq6scx1487603980.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lassi---mango",
     "name": "Lassi - Mango",
     "method": "blended",
     "glass": "Highball glass",
@@ -10326,15 +8945,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/1bw6sd1487603816.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lassi---sweet",
     "name": "Lassi - Sweet",
     "method": "blended",
     "glass": "Highball glass",
@@ -10380,15 +8993,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/9jeifz1487603885.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lassi-khara",
     "name": "Lassi Khara",
     "method": "blended",
     "glass": "Highball Glass",
@@ -10427,15 +9034,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/m1suzm1487603970.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lassi-raita",
     "name": "Lassi Raita",
     "method": "blended",
     "glass": "Highball Glass",
@@ -10474,15 +9075,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/s4x0qj1487603933.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lazy-coconut-paloma",
     "name": "Lazy Coconut Paloma",
     "method": null,
     "glass": "Highball glass",
@@ -10515,15 +9110,9 @@
       "lazy",
       "sharp",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rytuex1598719770.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lemon-drop",
     "name": "Lemon Drop",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -10556,15 +9145,9 @@
       "iba",
       "newera",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/mtpxgk1504373297.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lemon-drop-martini",
     "name": "Lemon drop martini",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -10597,15 +9180,9 @@
       "new era drinks",
       "mixed drink",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "lemon-elderflower-spritzer",
     "name": "Lemon Elderflower Spritzer",
     "method": "stirred",
     "glass": "Highball glass",
@@ -10646,15 +9223,9 @@
       "fresh",
       "refreshing",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/125w0o1630407389.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lemon-shot",
     "name": "Lemon Shot",
     "method": null,
     "glass": "Shot glass",
@@ -10699,15 +9270,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/mx31hv1487602979.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lemouroudji",
     "name": "Lemouroudji",
     "method": null,
     "glass": "Highball Glass",
@@ -10753,15 +9318,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/eirmo71487603745.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "limeade",
     "name": "Limeade",
     "method": "stirred",
     "glass": "Highball glass",
@@ -10800,15 +9359,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/5jdp5r1487603680.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "limona-corona",
     "name": "Limona Corona",
     "method": null,
     "glass": "Beer Glass",
@@ -10832,15 +9385,9 @@
     ],
     "tags": [
       "beer"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wwqrsw1441248662.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "loch-lomond",
     "name": "Loch Lomond",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -10878,15 +9425,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rpvtpr1468923881.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "london-town",
     "name": "London Town",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -10917,15 +9458,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rpsrqv1468923507.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lone-tree-cocktail",
     "name": "Lone Tree Cocktail",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -10949,15 +9484,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/tsxpty1468923417.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lone-tree-cooler",
     "name": "Lone Tree Cooler",
     "method": "stirred",
     "glass": "Collins glass",
@@ -11009,15 +9538,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wsyqry1479298485.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "long-island-iced-tea",
     "name": "Long Island iced tea",
     "method": "stirred",
     "glass": "Highball glass",
@@ -11087,16 +9610,9 @@
       "iba",
       "contemporaryclassic",
       "ordinary drink"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wx7hsg1504370510.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "long-island-tea",
     "name": "Long Island Tea",
     "method": null,
     "glass": "Highball glass",
@@ -11154,15 +9670,9 @@
       "vegetarian",
       "sour",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/nkwr4c1606770558.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "long-vodka",
     "name": "Long vodka",
     "method": "shaken",
     "glass": "Highball glass",
@@ -11200,15 +9710,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lord-and-lady",
     "name": "Lord And Lady",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -11232,15 +9736,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/quwrys1468923219.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "lunch-box",
     "name": "Lunch Box",
     "method": null,
     "glass": "Pint glass",
@@ -11271,15 +9769,9 @@
     ],
     "tags": [
       "beer"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qywpvt1454512546.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "mai-tai",
     "name": "Mai Tai",
     "method": "shaken",
     "glass": "Old fashioned glass",
@@ -11335,16 +9827,9 @@
       "iba",
       "contemporaryclassic",
       "ordinary drink"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "mango-mojito",
     "name": "Mango Mojito",
     "method": "blended",
     "glass": "Jar",
@@ -11397,15 +9882,9 @@
     "tags": [
       "fruity",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wfqmgm1630406820.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "manhattan",
     "name": "Manhattan",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -11454,16 +9933,9 @@
       "alcoholic",
       "cocktail",
       "the unforgettables"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yk70e31606771240.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "margarita",
     "name": "Margarita",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -11505,16 +9977,9 @@
       "ordinary drink",
       "contemporary classics",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "martinez",
     "name": "Martinez",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -11554,15 +10019,9 @@
       "the unforgettables",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "martinez-2",
     "name": "Martinez 2",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -11600,15 +10059,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/fs6kiq1513708455.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "martini",
     "name": "Martini",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -11640,15 +10093,9 @@
     "tags": [
       "cocktail",
       "iba"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "mary-pickford",
     "name": "Mary Pickford",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -11696,16 +10143,9 @@
       "classic",
       "cocktail",
       "the unforgettables"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/f9erqb1504350557.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "masala-chai",
     "name": "Masala Chai",
     "method": null,
     "glass": "Coffee Mug",
@@ -11779,15 +10219,9 @@
     "tags": [
       "coffee / tea",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uyrpww1441246384.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "mauresque",
     "name": "Mauresque",
     "method": null,
     "glass": "Collins glass",
@@ -11818,15 +10252,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/duwfa11686236556.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "melya",
     "name": "Melya",
     "method": "stirred",
     "glass": "Coffee mug",
@@ -11858,15 +10286,9 @@
     "tags": [
       "coffee / tea",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xwtptq1441247579.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "miami-vice",
     "name": "Miami Vice",
     "method": null,
     "glass": "Cocktail glass",
@@ -11898,15 +10320,9 @@
     "tags": [
       "iba",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qvuyqw1441208955.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "michelada",
     "name": "Michelada",
     "method": null,
     "glass": "Pint glass",
@@ -11961,15 +10377,9 @@
       "strongflavor",
       "breakfast",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/u736bd1605907086.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "midnight-mint",
     "name": "Midnight Mint",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -12000,15 +10410,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/svuvrq1441208310.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "mimosa",
     "name": "Mimosa",
     "method": null,
     "glass": "Champagne flute",
@@ -12036,16 +10440,9 @@
       "iba",
       "contemporaryclassic",
       "ordinary drink"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/juhcuu1504370685.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "mint-julep",
     "name": "Mint Julep",
     "method": "stirred",
     "glass": "Collins glass",
@@ -12087,16 +10484,9 @@
       "ordinary drink",
       "contemporary classics",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "mocha-berry",
     "name": "Mocha-Berry",
     "method": null,
     "glass": "Irish coffee cup",
@@ -12134,15 +10524,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vtwyyx1441246448.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "mojito",
     "name": "Mojito",
     "method": null,
     "glass": "Highball glass",
@@ -12198,16 +10582,9 @@
       "mild",
       "cocktail",
       "contemporary classics"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "mojito-extra",
     "name": "Mojito Extra",
     "method": null,
     "glass": "Collins glass",
@@ -12252,15 +10629,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vwxrsw1478251483.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "monkey-gland",
     "name": "Monkey Gland",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -12302,16 +10673,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/94psp81504350690.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "monkey-wrench",
     "name": "Monkey Wrench",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -12342,15 +10706,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/bw2noj1582473243.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "moranguito",
     "name": "Moranguito",
     "method": null,
     "glass": "Shot glass",
@@ -12381,15 +10739,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/urpsyq1475667335.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "moscow-mule",
     "name": "Moscow Mule",
     "method": "stirred",
     "glass": "Copper Mug",
@@ -12424,16 +10776,9 @@
       "punch / party drink",
       "contemporary classics",
       "mixed drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "mudslinger",
     "name": "Mudslinger",
     "method": "stirred",
     "glass": "Punch bowl",
@@ -12464,15 +10809,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/hepk6h1504885554.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "mulled-wine",
     "name": "Mulled Wine",
     "method": null,
     "glass": "Collins Glass",
@@ -12532,15 +10871,9 @@
     "tags": [
       "christmas",
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/iuwi6h1504735724.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "munich-mule",
     "name": "Munich Mule",
     "method": null,
     "glass": "Highball glass",
@@ -12586,15 +10919,9 @@
     "tags": [
       "german",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rj55pl1582476101.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "naked-and-famous",
     "name": "Naked and famous",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -12634,15 +10961,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "national-aquarium",
     "name": "National Aquarium",
     "method": "shaken",
     "glass": "Collins Glass",
@@ -12694,15 +11015,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/dlw0om1503565021.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "negroni",
     "name": "Negroni",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -12737,16 +11052,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "new-york-lemonade",
     "name": "New York Lemonade",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -12784,15 +11092,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/b3n0ge1503565473.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "new-york-sour",
     "name": "New York sour",
     "method": "shaken",
     "glass": "Rocks glass",
@@ -12840,16 +11142,9 @@
       "cocktail",
       "iba",
       "ordinary drink"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/61wgch1504882795.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "nuked-hot-chocolate",
     "name": "Nuked Hot Chocolate",
     "method": "stirred",
     "glass": "Coffee mug",
@@ -12888,15 +11183,9 @@
     "tags": [
       "cocoa",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xcu6nb1487603142.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "nutty-irishman",
     "name": "Nutty Irishman",
     "method": null,
     "glass": "Highball Glass",
@@ -12927,15 +11216,9 @@
     ],
     "tags": [
       "shake"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xspupx1441248014.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "oatmeal-cookie",
     "name": "Oatmeal Cookie",
     "method": null,
     "glass": "Mason jar",
@@ -12980,15 +11263,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/bsvmlg1515792693.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "old-cuban",
     "name": "Old Cuban",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -13042,16 +11319,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/eo8gfx1699022995.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "old-fashioned",
     "name": "Old Fashioned",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -13095,16 +11365,9 @@
       "savory",
       "cocktail",
       "the unforgettables"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "old-pal",
     "name": "Old Pal",
     "method": "stirred",
     "glass": "Nick and Nora Glass",
@@ -13135,15 +11398,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/x03td31521761009.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "orange-crush",
     "name": "Orange Crush",
     "method": null,
     "glass": "Shot glass",
@@ -13174,15 +11431,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/zvoics1504885926.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "orange-oasis",
     "name": "Orange Oasis",
     "method": "shaken",
     "glass": "Highball glass",
@@ -13220,15 +11471,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/su1olx1582473812.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "orange-push-up",
     "name": "Orange Push-up",
     "method": "blended",
     "glass": "Hurricane glass",
@@ -13266,15 +11511,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/mgf0y91503565781.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "orange-rosemary-collins",
     "name": "Orange Rosemary Collins",
     "method": null,
     "glass": "Highball glass",
@@ -13334,15 +11573,9 @@
     "tags": [
       "citrus",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/mokcas1604179977.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "orange-scented-hot-chocolate",
     "name": "Orange Scented Hot Chocolate",
     "method": "stirred",
     "glass": "Coffee mug",
@@ -13388,15 +11621,9 @@
     "tags": [
       "cocoa",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/hdzwrh1487603131.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "orange-whip",
     "name": "Orange Whip",
     "method": "stirred",
     "glass": "Collins Glass",
@@ -13434,15 +11661,9 @@
     ],
     "tags": [
       "other / unknown"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ttyrxr1454514759.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "orangeade",
     "name": "Orangeade",
     "method": "stirred",
     "glass": "Highball glass",
@@ -13481,15 +11702,9 @@
     "tags": [
       "cocktail",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ytsxxw1441167732.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "oreo-mudslide",
     "name": "Oreo Mudslide",
     "method": "blended",
     "glass": "Collins Glass",
@@ -13534,15 +11749,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/tpwwut1468925017.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "orgasm",
     "name": "Orgasm",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -13587,15 +11796,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vr6kle1504886114.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "owens-grandmothers-revenge",
     "name": "Owen's Grandmother's Revenge",
     "method": "blended",
     "glass": "Highball glass",
@@ -13626,15 +11829,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/0wt4uo1503565321.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "paloma",
     "name": "Paloma",
     "method": "stirred",
     "glass": "Highball glass",
@@ -13674,16 +11871,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/samm5j1513706393.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "paper-plane",
     "name": "Paper plane",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -13723,15 +11913,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "paradise",
     "name": "Paradise",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -13765,16 +11949,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ejozd71504351060.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "passion-fruit-martini",
     "name": "Passion Fruit Martini",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -13805,15 +11982,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/6trfve1582473527.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pegu-club",
     "name": "Pegu Club",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -13858,15 +12029,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/jfkemm1513703902.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "penicillin",
     "name": "Penicillin",
     "method": "shaken",
     "glass": "Old-fashioned glass",
@@ -13913,16 +12078,9 @@
       "cocktail",
       "new era drinks",
       "iba"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/hc9b1a1521853096.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "pina-colada",
     "name": "Pina Colada",
     "method": "blended",
     "glass": "Collins glass",
@@ -13955,15 +12113,9 @@
       "iba",
       "contemporaryclassic",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/upgsue1668419912.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pineapple-gingerale-smoothie",
     "name": "Pineapple Gingerale Smoothie",
     "method": "blended",
     "glass": "Highball Glass",
@@ -13988,15 +12140,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/eg9i1d1487603469.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pineapple-paloma",
     "name": "Pineapple Paloma",
     "method": "stirred",
     "glass": "Collins glass",
@@ -14048,15 +12194,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/pg8iw31593351601.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pink-gin",
     "name": "Pink Gin",
     "method": "shaken",
     "glass": "White wine glass",
@@ -14080,15 +12220,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qyr51e1504888618.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pink-lady",
     "name": "Pink Lady",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -14126,15 +12260,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/5ia6j21504887829.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pink-moon",
     "name": "Pink Moon",
     "method": "shaken",
     "glass": "Whiskey Glass",
@@ -14183,15 +12311,9 @@
       "colourful",
       "nature",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/lnjoc81619696191.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pink-panty-pulldowns",
     "name": "Pink Panty Pulldowns",
     "method": "shaken",
     "glass": "Collins Glass",
@@ -14222,15 +12344,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/squsuy1468926657.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pink-penocha",
     "name": "Pink Penocha",
     "method": "stirred",
     "glass": "Punch bowl",
@@ -14275,15 +12391,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/6vigjx1503564007.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pisco-sour",
     "name": "Pisco sour",
     "method": "shaken",
     "glass": "Old fashioned glass",
@@ -14331,16 +12441,9 @@
       "cocktail",
       "iba",
       "newera"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/tsssur1439907622.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "piña-colada",
     "name": "Piña colada",
     "method": "blended",
     "glass": "Poco Grande glass",
@@ -14373,15 +12476,9 @@
       "contemporary classics",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "planters-punch",
     "name": "Planter's Punch",
     "method": "shaken",
     "glass": "Collins glass",
@@ -14423,16 +12520,9 @@
       "punch / party drink",
       "the unforgettables",
       "mixed drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/fdk8a31606854815.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "planters-punch",
     "name": "Planter’s Punch",
     "method": "shaken",
     "glass": "Highball glass",
@@ -14484,15 +12574,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/jn6o251643844541.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "popped-cherry",
     "name": "Popped cherry",
     "method": null,
     "glass": "Highball glass",
@@ -14530,15 +12614,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sxvrwv1473344825.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "poppy-cocktail",
     "name": "Poppy Cocktail",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -14562,15 +12640,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/cslw1w1504389915.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pornstar-martini",
     "name": "Pornstar Martini",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -14618,15 +12690,9 @@
       "shot",
       "bubbly",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xjhjdf1630406071.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "port-and-starboard",
     "name": "Port And Starboard",
     "method": null,
     "glass": "Pousse cafe glass",
@@ -14650,15 +12716,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wxvupx1441553911.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "port-wine-cocktail",
     "name": "Port Wine Cocktail",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -14682,15 +12742,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qruprq1441553976.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "port-wine-flip",
     "name": "Port Wine Flip",
     "method": "shaken",
     "glass": "Whiskey sour glass",
@@ -14735,15 +12789,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vrprxu1441553844.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "porto-flip",
     "name": "Porto flip",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -14778,16 +12826,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/64x5j41504351518.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "pure-passion",
     "name": "Pure Passion",
     "method": "stirred",
     "glass": "Whiskey sour glass",
@@ -14840,15 +12881,9 @@
     "tags": [
       "passion",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/4tymma1604179273.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "pysch-vitamin-light",
     "name": "Pysch Vitamin Light",
     "method": "shaken",
     "glass": "Collins Glass",
@@ -14880,15 +12915,9 @@
     "tags": [
       "ordinary drink",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xsqsxw1441553580.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "quakers-cocktail",
     "name": "Quaker's Cocktail",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -14926,15 +12955,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yrqppx1478962314.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "quarter-deck-cocktail",
     "name": "Quarter Deck Cocktail",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -14965,15 +12988,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qrwvps1478963017.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "queen-bee",
     "name": "Queen Bee",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -15004,15 +13021,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rvvpxu1478963194.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "queen-charlotte",
     "name": "Queen Charlotte",
     "method": "stirred",
     "glass": "Collins glass",
@@ -15043,15 +13054,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vqruyt1478963249.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "queen-elizabeth",
     "name": "Queen Elizabeth",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -15082,15 +13087,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vpqspv1478963339.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "quentin",
     "name": "Quentin",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -15128,15 +13127,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/spxtqp1478963398.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "quick-fk",
     "name": "Quick F**K",
     "method": null,
     "glass": "Shot glass",
@@ -15167,15 +13160,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wvtwpp1478963454.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "quick-sand",
     "name": "Quick-sand",
     "method": null,
     "glass": "Highball glass",
@@ -15199,15 +13186,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vprxqv1478963533.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "radioactive-long-island-iced-tea",
     "name": "Radioactive Long Island Iced Tea",
     "method": null,
     "glass": "Collins Glass",
@@ -15273,15 +13254,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "radler",
     "name": "Radler",
     "method": null,
     "glass": "Highball glass",
@@ -15305,15 +13280,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xz8igv1504888995.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rail-splitter",
     "name": "Rail Splitter",
     "method": null,
     "glass": "Highball glass",
@@ -15345,15 +13314,9 @@
     "tags": [
       "cocktail",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/stsuqq1441207660.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "ramos-fizz",
     "name": "Ramos fizz",
     "method": "shaken",
     "glass": "Collins glass",
@@ -15428,15 +13391,9 @@
       "the unforgettables",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "ramos-gin-fizz",
     "name": "Ramos Gin Fizz",
     "method": "shaken",
     "glass": "Highball glass",
@@ -15495,15 +13452,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/967t911643844053.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "raspberry-cooler",
     "name": "Raspberry Cooler",
     "method": "stirred",
     "glass": "Highball glass",
@@ -15527,15 +13478,9 @@
     ],
     "tags": [
       "other / unknown"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/suqyyx1441254346.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "raspberry-julep",
     "name": "Raspberry Julep",
     "method": "stirred",
     "glass": "Cordial glass",
@@ -15566,15 +13511,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/hyztmx1598719265.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "red-snapper",
     "name": "Red Snapper",
     "method": "shaken",
     "glass": "Old-fashioned glass",
@@ -15605,15 +13544,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/7p607y1504735343.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rose",
     "name": "Rose",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -15667,15 +13600,9 @@
       "iba",
       "contemporaryclassic",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/8kxbvq1504371462.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rosemary-blue",
     "name": "Rosemary Blue",
     "method": null,
     "glass": "Balloon Glass",
@@ -15713,15 +13640,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qwc5f91512406543.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "royal-bitch",
     "name": "Royal Bitch",
     "method": null,
     "glass": "Shot glass",
@@ -15745,15 +13666,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qupuyr1441210090.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "royal-fizz",
     "name": "Royal Fizz",
     "method": "shaken",
     "glass": "Collins glass",
@@ -15791,15 +13706,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wrh44j1504390609.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "royal-flush",
     "name": "Royal Flush",
     "method": null,
     "glass": "Old-fashioned glass",
@@ -15837,15 +13746,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/7rnm8u1504888527.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "royal-gin-fizz",
     "name": "Royal Gin Fizz",
     "method": "shaken",
     "glass": "Highball glass",
@@ -15890,15 +13793,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/pe1x1c1504735672.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "ruby-tuesday",
     "name": "Ruby Tuesday",
     "method": "stirred",
     "glass": "Highball glass",
@@ -15929,15 +13826,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qsyqqq1441553437.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rum-cobbler",
     "name": "Rum Cobbler",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -15989,15 +13880,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/5vh9ld1504390683.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rum-cooler",
     "name": "Rum Cooler",
     "method": "stirred",
     "glass": "Collins glass",
@@ -16028,15 +13913,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/2hgwsb1504888674.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rum-milk-punch",
     "name": "Rum Milk Punch",
     "method": "shaken",
     "glass": "Collins glass",
@@ -16074,15 +13953,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/w64lqm1504888810.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rum-old-fashioned",
     "name": "Rum Old-fashioned",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -16134,15 +14007,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/otn2011504820649.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rum-punch",
     "name": "Rum Punch",
     "method": null,
     "glass": "Punch bowl",
@@ -16180,15 +14047,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wyrsxu1441554538.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rum-runner",
     "name": "Rum Runner",
     "method": null,
     "glass": "Cocktail glass",
@@ -16233,15 +14094,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vqws6t1504888857.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rum-screwdriver",
     "name": "Rum Screwdriver",
     "method": "stirred",
     "glass": "Highball glass",
@@ -16265,15 +14120,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/4c85zq1511782093.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rum-sour",
     "name": "Rum Sour",
     "method": "shaken",
     "glass": "Whiskey sour glass",
@@ -16318,15 +14167,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/bylfi21504886323.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "rum-toddy",
     "name": "Rum Toddy",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -16364,15 +14207,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/athdk71504886286.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "russian-spring-punch",
     "name": "Russian spring punch",
     "method": "shaken",
     "glass": "Highball glass",
@@ -16414,16 +14251,9 @@
       "iba",
       "newera",
       "ordinary drink"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ctt20s1504373488.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "rusty-nail",
     "name": "Rusty Nail",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -16458,16 +14288,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "salty-dog",
     "name": "Salty Dog",
     "method": "stirred",
     "glass": "Highball glass",
@@ -16498,15 +14321,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/4vfge01504890216.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "san-francisco",
     "name": "San Francisco",
     "method": null,
     "glass": "Highball glass",
@@ -16544,15 +14361,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/szmj2d1504889961.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "sangria",
     "name": "Sangria",
     "method": null,
     "glass": "Pitcher",
@@ -16604,15 +14415,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xrvxpp1441249280.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "sazerac",
     "name": "Sazerac",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -16668,16 +14473,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "scooter",
     "name": "Scooter",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -16708,15 +14506,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/twuptu1483388307.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "scotch-sour",
     "name": "Scotch Sour",
     "method": "shaken",
     "glass": "Whiskey sour glass",
@@ -16761,15 +14553,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/0dnb6k1504890436.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "screwdriver",
     "name": "Screwdriver",
     "method": null,
     "glass": "Highball glass",
@@ -16794,15 +14580,9 @@
     "tags": [
       "iba",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/8xnyke1504352207.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "sea-breeze",
     "name": "Sea breeze",
     "method": "built",
     "glass": "Highball glass",
@@ -16837,16 +14617,9 @@
       "ordinary drink",
       "contemporary classics",
       "mixed drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/7rfuks1504371562.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "sex-on-the-beach",
     "name": "Sex on the beach",
     "method": "built",
     "glass": "Highball glass",
@@ -16886,15 +14659,9 @@
       "contemporary classics",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "shark-attack",
     "name": "Shark Attack",
     "method": null,
     "glass": "Pitcher",
@@ -16925,15 +14692,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uv96zr1504793256.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "sherry-eggnog",
     "name": "Sherry Eggnog",
     "method": "shaken",
     "glass": "Collins glass",
@@ -16978,15 +14739,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xwrpsv1478820541.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "sherry-flip",
     "name": "Sherry Flip",
     "method": "shaken",
     "glass": "Nick and Nora Glass",
@@ -17031,15 +14786,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qrryvq1478820428.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "shot-gun",
     "name": "Shot-gun",
     "method": null,
     "glass": "Shot glass",
@@ -17070,15 +14819,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/2j1m881503563583.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "sidecar",
     "name": "Sidecar",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -17113,16 +14856,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/x72sik1606854964.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "singapore-sling",
     "name": "Singapore sling",
     "method": "shaken",
     "glass": "Hurricane glass",
@@ -17190,15 +14926,9 @@
       "contemporary classics",
       "mixed drink",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "smut",
     "name": "Smut",
     "method": null,
     "glass": "Beer mug",
@@ -17236,15 +14966,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rx8k8e1504365812.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "snowball",
     "name": "Snowball",
     "method": null,
     "glass": "Highball glass",
@@ -17276,15 +15000,9 @@
     "tags": [
       "christmas",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/7ibfs61504735416.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "snowday",
     "name": "Snowday",
     "method": "stirred",
     "glass": "Collins glass",
@@ -17337,15 +15055,9 @@
     "tags": [
       "winter",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/4n1ipk1614009624.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "sol-y-sombra",
     "name": "Sol Y Sombra",
     "method": "shaken",
     "glass": "Brandy snifter",
@@ -17369,15 +15081,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/3gz2vw1503425983.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "southside",
     "name": "Southside",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -17424,15 +15130,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "space-odyssey",
     "name": "Space Odyssey",
     "method": null,
     "glass": "Highball glass",
@@ -17484,15 +15184,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vxtjbx1504817842.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "spice-75",
     "name": "Spice 75",
     "method": "shaken",
     "glass": "Wine Glass",
@@ -17545,15 +15239,9 @@
     "tags": [
       "christmas",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/0108c41576797064.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "spritz",
     "name": "Spritz",
     "method": "built",
     "glass": "Old-Fashioned glass",
@@ -17587,16 +15275,9 @@
       "iba",
       "new era drinks",
       "wine cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/j9evx11504373665.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "stinger",
     "name": "Stinger",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -17624,16 +15305,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/2ahv791504352433.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "stone-sour",
     "name": "Stone Sour",
     "method": "shaken",
     "glass": "Whiskey sour glass",
@@ -17664,15 +15338,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vruvtp1472719895.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "suffering-bastard",
     "name": "Suffering bastard",
     "method": "shaken",
     "glass": "Collins",
@@ -17719,15 +15387,9 @@
       "new era drinks",
       "mixed drink",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "sweet-bananas",
     "name": "Sweet Bananas",
     "method": "blended",
     "glass": "Highball Glass",
@@ -17759,15 +15421,9 @@
     "tags": [
       "shake",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sxpcj71487603345.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "sweet-sangria",
     "name": "Sweet Sangria",
     "method": null,
     "glass": "Pitcher",
@@ -17833,15 +15489,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/uqqvsp1468924228.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "sweet-tooth",
     "name": "Sweet Tooth",
     "method": null,
     "glass": "Highball Glass",
@@ -17865,15 +15515,9 @@
     ],
     "tags": [
       "shake"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/j6rq6h1503563821.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "talos-coffee",
     "name": "Talos Coffee",
     "method": null,
     "glass": "Brandy snifter",
@@ -17897,15 +15541,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rswqpy1441246518.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "tennesee-mud",
     "name": "Tennesee Mud",
     "method": null,
     "glass": "Coffee Mug",
@@ -17943,15 +15581,9 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/txruqv1441245770.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "tequila-fizz",
     "name": "Tequila Fizz",
     "method": "shaken",
     "glass": "Collins glass",
@@ -17996,15 +15628,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/2bcase1504889637.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "tequila-slammer",
     "name": "Tequila Slammer",
     "method": null,
     "glass": "Hurricane glass",
@@ -18029,15 +15655,9 @@
     "tags": [
       "drunk",
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/43uhr51551451311.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "tequila-sour",
     "name": "Tequila Sour",
     "method": "shaken",
     "glass": "Whiskey sour glass",
@@ -18082,15 +15702,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ek0mlq1504820601.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "tequila-sunrise",
     "name": "Tequila sunrise",
     "method": "stirred",
     "glass": "Collins glass",
@@ -18125,16 +15739,9 @@
       "iba",
       "contemporaryclassic",
       "cocktail"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/quqyqp1480879103.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "tequila-surprise",
     "name": "Tequila Surprise",
     "method": null,
     "glass": "Shot glass",
@@ -18158,15 +15765,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/8189p51504735581.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "texas-rattlesnake",
     "name": "Texas Rattlesnake",
     "method": "shaken",
     "glass": "Highball glass",
@@ -18204,15 +15805,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rtohqp1504889750.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "texas-sling",
     "name": "Texas Sling",
     "method": "blended",
     "glass": "Wine Glass",
@@ -18257,15 +15852,9 @@
     ],
     "tags": [
       "shake"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ypl13s1504890158.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "thai-coffee",
     "name": "Thai Coffee",
     "method": null,
     "glass": "Highball glass",
@@ -18311,15 +15900,9 @@
     "tags": [
       "coffee / tea",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wquwxs1441247025.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "thai-iced-coffee",
     "name": "Thai Iced Coffee",
     "method": null,
     "glass": "Highball glass",
@@ -18358,15 +15941,9 @@
     "tags": [
       "coffee / tea",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rqpypv1441245650.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "thai-iced-tea",
     "name": "Thai Iced Tea",
     "method": "blended",
     "glass": "Highball glass",
@@ -18405,15 +15982,9 @@
     "tags": [
       "coffee / tea",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/trvwpu1441245568.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "the-galah",
     "name": "The Galah",
     "method": null,
     "glass": "Collins glass",
@@ -18459,15 +16030,9 @@
     "tags": [
       "dark",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sy7y6r1614775067.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "the-jimmy-conway",
     "name": "The Jimmy Conway",
     "method": null,
     "glass": "Whiskey sour glass",
@@ -18498,15 +16063,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wbcvyo1535794478.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "the-last-word",
     "name": "The Last Word",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -18546,16 +16105,9 @@
       "cocktail",
       "the unforgettables",
       "iba"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/91oule1513702624.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "the-laverstoke",
     "name": "The Laverstoke",
     "method": "stirred",
     "glass": "Balloon Glass",
@@ -18614,15 +16166,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/6xfj5t1517748412.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "the-philosopher",
     "name": "The Philosopher",
     "method": "shaken",
     "glass": "Margarita glass",
@@ -18667,15 +16213,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sp8hkp1596017787.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "thriller",
     "name": "Thriller",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -18706,15 +16246,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rvuswq1461867714.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "tia-maria",
     "name": "Tia-Maria",
     "method": null,
     "glass": "Collins Glass",
@@ -18759,15 +16293,9 @@
     ],
     "tags": [
       "homemade liqueur"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/sih81u1504367097.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "tipperary",
     "name": "Tipperary",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -18807,16 +16335,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/b522ek1521761610.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "tom-collins",
     "name": "Tom Collins",
     "method": "shaken",
     "glass": "Collins glass",
@@ -18868,15 +16389,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "tomato-tang",
     "name": "Tomato Tang",
     "method": "blended",
     "glass": "Highball glass",
@@ -18908,15 +16423,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/869qr81487603278.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "tommys-margarita",
     "name": "Tommy's margarita",
     "method": "shaken",
     "glass": "Rocks glass",
@@ -18949,15 +16458,9 @@
       "new era drinks",
       "mixed drink",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "trinidad-sour",
     "name": "Trinidad sour",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -18997,15 +16500,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "turf-cocktail",
     "name": "Turf Cocktail",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -19050,15 +16547,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/utypqq1441554367.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "turkeyball",
     "name": "Turkeyball",
     "method": "shaken",
     "glass": "Shot glass",
@@ -19089,15 +16580,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rxurpr1441554292.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "tuxedo",
     "name": "Tuxedo",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -19144,15 +16629,9 @@
       "the unforgettables",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "tuxedo-cocktail",
     "name": "Tuxedo Cocktail",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -19206,15 +16685,9 @@
       "iba",
       "classic",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/4u0nbl1504352551.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "valencia-cocktail",
     "name": "Valencia Cocktail",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -19245,15 +16718,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/9myuc11492975640.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "vampiro",
     "name": "Vampiro",
     "method": "blended",
     "glass": "Old-Fashioned glass",
@@ -19307,15 +16774,9 @@
       "iba",
       "newera",
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yfhn371504374246.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "van-vleet",
     "name": "Van Vleet",
     "method": "shaken",
     "glass": "Old-fashioned glass",
@@ -19346,15 +16807,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/fgq2bl1492975771.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "vento",
     "name": "Ve.n.to",
     "method": "shaken",
     "glass": "tumbler",
@@ -19401,15 +16856,9 @@
       "new era drinks",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "vermouth-cassis",
     "name": "Vermouth Cassis",
     "method": "stirred",
     "glass": "Highball glass",
@@ -19440,15 +16889,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/tswpxx1441554674.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "vesper",
     "name": "Vesper",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -19482,16 +16925,9 @@
       "newera",
       "cocktail",
       "contemporary classics"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/mtdxpa1504374514.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "vesuvio",
     "name": "Vesuvio",
     "method": "shaken",
     "glass": "Old-fashioned glass",
@@ -19536,15 +16972,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/26cq601492976203.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "veteran",
     "name": "Veteran",
     "method": "stirred",
     "glass": "Old-fashioned glass",
@@ -19568,15 +16998,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/iwml9t1492976255.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "victor",
     "name": "Victor",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -19607,15 +17031,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/voapgc1492976416.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "victory-collins",
     "name": "Victory Collins",
     "method": "shaken",
     "glass": "Collins glass",
@@ -19660,15 +17078,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/lx0lvs1492976619.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "vieux-carré",
     "name": "Vieux Carré",
     "method": "stirred",
     "glass": "Cocktail glass",
@@ -19715,15 +17127,9 @@
       "the unforgettables",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": null,
-    "sources": [
-      "iba"
     ]
   },
   {
-    "id": "vodka-and-tonic",
     "name": "Vodka And Tonic",
     "method": "stirred",
     "glass": "Highball glass",
@@ -19747,15 +17153,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "vodka-fizz",
     "name": "Vodka Fizz",
     "method": "blended",
     "glass": "White wine glass",
@@ -19793,15 +17193,9 @@
     ],
     "tags": [
       "other / unknown"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "vodka-lemon",
     "name": "Vodka Lemon",
     "method": null,
     "glass": "Highball glass",
@@ -19832,15 +17226,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/mql55h1643820632.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "vodka-martini",
     "name": "Vodka Martini",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -19871,15 +17259,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "vodka-russian",
     "name": "Vodka Russian",
     "method": null,
     "glass": "Collins Glass",
@@ -19903,15 +17285,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "vodka-slime",
     "name": "Vodka Slime",
     "method": null,
     "glass": "Highball glass",
@@ -19942,15 +17318,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/apex461643588115.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "vodka-tonic",
     "name": "Vodka Tonic",
     "method": null,
     "glass": "Highball glass",
@@ -19981,15 +17351,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/9koz3f1643821062.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "waikiki-beachcomber",
     "name": "Waikiki Beachcomber",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -20020,15 +17384,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ysuqus1441208583.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "whiskey-sour",
     "name": "Whiskey Sour",
     "method": "shaken",
     "glass": "Old-fashioned glass",
@@ -20079,16 +17437,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "whisky-mac",
     "name": "Whisky Mac",
     "method": null,
     "glass": "Collins Glass",
@@ -20112,15 +17463,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yvvwys1461867858.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "white-lady",
     "name": "White Lady",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -20155,16 +17500,9 @@
       "ordinary drink",
       "the unforgettables",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/jofsaz1504352991.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "white-russian",
     "name": "White Russian",
     "method": null,
     "glass": "Old-fashioned glass",
@@ -20195,15 +17533,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "white-wine-sangria",
     "name": "White Wine Sangria",
     "method": null,
     "glass": "Pitcher",
@@ -20263,15 +17595,9 @@
     "tags": [
       "spanish",
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/hnuod91587851576.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "whitecap-margarita",
     "name": "Whitecap Margarita",
     "method": "blended",
     "glass": "Margarita/Coupette glass",
@@ -20302,15 +17628,9 @@
     ],
     "tags": [
       "other / unknown"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "wine-cooler",
     "name": "Wine Cooler",
     "method": null,
     "glass": "Collins Glass",
@@ -20334,15 +17654,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/yutxtv1473344210.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "wine-punch",
     "name": "Wine Punch",
     "method": null,
     "glass": "Collins Glass",
@@ -20387,15 +17701,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/txustu1473344310.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "winter-paloma",
     "name": "Winter Paloma",
     "method": "blended",
     "glass": "Highball glass",
@@ -20441,15 +17749,9 @@
     "tags": [
       "winter",
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/u5f0pz1614007748.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "winter-rita",
     "name": "Winter Rita",
     "method": "shaken",
     "glass": "Highball Glass",
@@ -20502,15 +17804,9 @@
     "tags": [
       "winter",
       "beer"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/fwpd0v1614006733.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "yellow-bird",
     "name": "Yellow Bird",
     "method": "shaken",
     "glass": "Cocktail glass",
@@ -20551,16 +17847,9 @@
       "newera",
       "cocktail",
       "new era drinks"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/2t9r6w1504374811.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "yoghurt-cooler",
     "name": "Yoghurt Cooler",
     "method": "blended",
     "glass": "Highball Glass",
@@ -20585,15 +17874,9 @@
     "tags": [
       "other / unknown",
       "non-alcoholic"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/trttrv1441254466.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zambeer",
     "name": "Zambeer",
     "method": "stirred",
     "glass": "Collins Glass",
@@ -20617,15 +17900,9 @@
     ],
     "tags": [
       "soft drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/bje5401485619578.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zenmeister",
     "name": "Zenmeister",
     "method": null,
     "glass": "Collins Glass",
@@ -20649,15 +17926,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/qyuvsu1479209462.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "ziemes-martini-apfelsaft",
     "name": "Ziemes Martini Apfelsaft",
     "method": null,
     "glass": "Collins Glass",
@@ -20681,15 +17952,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/xnzr2p1485619687.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zima-blaster",
     "name": "Zima Blaster",
     "method": null,
     "glass": "Hurricane glass",
@@ -20713,15 +17978,9 @@
     ],
     "tags": [
       "ordinary drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/1wifuv1485619797.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zimadori-zinger",
     "name": "Zimadori Zinger",
     "method": "stirred",
     "glass": "Collins glass",
@@ -20745,15 +18004,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/bw8gzx1485619920.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zinger",
     "name": "Zinger",
     "method": null,
     "glass": "Highball glass",
@@ -20777,15 +18030,9 @@
     ],
     "tags": [
       "soft drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/iixv4l1485620014.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zipperhead",
     "name": "Zipperhead",
     "method": null,
     "glass": "Whiskey sour glass",
@@ -20816,15 +18063,9 @@
     ],
     "tags": [
       "shot"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/r2qzhu1485620235.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zippys-revenge",
     "name": "Zippy's Revenge",
     "method": "shaken",
     "glass": "Old-fashioned glass",
@@ -20855,15 +18096,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/1sqm7n1485620312.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zizi-coin-coin",
     "name": "Zizi Coin-coin",
     "method": "stirred",
     "glass": "Margarita/Coupette glass",
@@ -20894,15 +18129,9 @@
     ],
     "tags": [
       "punch / party drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/0fbo2t1485620752.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zoksel",
     "name": "Zoksel",
     "method": null,
     "glass": "Beer pilsner",
@@ -20961,15 +18190,9 @@
     ],
     "tags": [
       "soft drink"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/ft8ed01485620930.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zombie",
     "name": "Zombie",
     "method": "shaken",
     "glass": "Zombie glass",
@@ -21044,16 +18267,9 @@
       "contemporary classics",
       "cocktail",
       "iba"
-    ],
-    "source": "iba",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/2en3jk1509557725.jpg",
-    "sources": [
-      "iba",
-      "cocktaildb"
     ]
   },
   {
-    "id": "zorbatini",
     "name": "Zorbatini",
     "method": null,
     "glass": "Cocktail glass",
@@ -21077,15 +18293,9 @@
     ],
     "tags": [
       "cocktail"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/wtkqgb1485621155.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   },
   {
-    "id": "zorro",
     "name": "Zorro",
     "method": null,
     "glass": "Coffee Mug",
@@ -21116,11 +18326,6 @@
     ],
     "tags": [
       "coffee / tea"
-    ],
-    "source": "cocktaildb",
-    "image_url": "https://www.thecocktaildb.com/images/media/drink/kvvd4z1485621283.jpg",
-    "sources": [
-      "cocktaildb"
     ]
   }
 ]

@@ -138,7 +138,12 @@ def main():
             else:
                 merged[key] = merge_records(merged[key], record)
 
-    output = sorted(merged.values(), key=lambda r: r["name"].lower())
+    # Strip fields the web app never reads to keep cocktails.json lean.
+    STRIP_FIELDS = {"id", "source", "sources", "image_url"}
+    output = [
+        {k: v for k, v in r.items() if k not in STRIP_FIELDS}
+        for r in sorted(merged.values(), key=lambda r: r["name"].lower())
+    ]
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
