@@ -57,8 +57,11 @@ UNIT_RE = re.compile(
 # Strips "(2 parts)", "(0.34 US fl oz)", etc.
 PAREN_RE = re.compile(r"\([^)]+\)")
 
-# Matches a leading number: decimal, fraction, or range (takes first value of range).
-NUMBER_RE = re.compile(r"^(\d+(?:\.\d+)?|\d+/\d+)(?:\s*(?:to|-)\s*\d+(?:\.\d+)?)?")
+# Matches a leading number: fraction before decimal so "1/2" beats "1".
+NUMBER_RE = re.compile(r"^(\d+/\d+|\d+(?:\.\d+)?)(?:\s*(?:to|-)\s*\d+(?:\.\d+)?)?")
+
+# Catches leftover measure fragments inside a name, e.g. "Goslings Rum100 ml Ginger Beer".
+TRAILING_MEASURE_RE = re.compile(r"\s*\d+\s*(?:ml|cl|oz)\s+.*$", re.IGNORECASE)
 
 
 def round_to_quarter(value: float) -> float:
@@ -128,6 +131,9 @@ def parse_ingredient(raw: str, cocktail_name: str) -> dict:
     # Strip leading "of " (e.g. "6 drops of egg white" -> "egg white").
     remainder = re.sub(r"^of\s+", "", remainder, flags=re.IGNORECASE)
     name = remainder.strip().lower()
+
+    # Remove trailing concatenated measure fragments (data quality issue in source).
+    name = TRAILING_MEASURE_RE.sub("", name).strip()
 
     if not name:
         logging.warning("[%s] Empty ingredient name after parsing '%s'", cocktail_name, original_raw)

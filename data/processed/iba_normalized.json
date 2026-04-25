@@ -1597,7 +1597,7 @@
     "instructions": "In a highball glass filled with ice pour the ginger beer and top floating with the Rum.\n\nNote: Garnish with a lime wedge or slice.",
     "ingredients": [
       {
-        "name": "goslings rum100 ml ginger beer",
+        "name": "goslings rum",
         "amount": 2.0,
         "unit": "oz",
         "notes": null,
@@ -2916,7 +2916,7 @@
         "raw": "1.5cl raspberry syrup"
       },
       {
-        "name": "egg white or 20 ml aquafaba or 4 drops cocktail foamer",
+        "name": "egg white or",
         "amount": 1.0,
         "unit": "piece",
         "notes": null,
@@ -3632,7 +3632,7 @@
     "instructions": "Pour all ingredients directly into an old fashioned glass filled with ice. Stir gently.",
     "ingredients": [
       {
-        "name": "scotch whisky25 ml drambuie",
+        "name": "scotch whisky",
         "amount": 1.5,
         "unit": "oz",
         "notes": null,
@@ -3784,16 +3784,16 @@
         "raw": "3 cl dry Vermouth"
       },
       {
-        "name": "/2 barspoon maraschino",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "maraschino",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1/2 barspoon Maraschino"
       },
       {
-        "name": "/4 barspoon absinthe",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "absinthe",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1/4 barspoon Absinthe"
       },
