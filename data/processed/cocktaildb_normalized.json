@@ -1637,13 +1637,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1 Fresh"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       }
     ],
     "tags": [
@@ -2278,13 +2271,6 @@
         "unit": null,
         "notes": null,
         "raw": "Fill with"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": null
       }
     ],
     "tags": [
@@ -2562,13 +2548,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "2-3 oz"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "crushed"
       }
     ],
     "tags": [
@@ -3554,13 +3533,6 @@
         "unit": "part",
         "notes": null,
         "raw": "1 part"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       }
     ],
     "tags": [
@@ -4695,13 +4667,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1/2 piece textural"
-      },
-      {
-        "name": "ice",
-        "amount": 6.0,
-        "unit": "piece",
-        "notes": null,
-        "raw": "6"
       }
     ],
     "tags": [
@@ -4760,13 +4725,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1 L"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": null
       }
     ],
     "tags": [
@@ -5079,13 +5037,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1"
-      },
-      {
-        "name": "ice",
-        "amount": 1.0,
-        "unit": "piece",
-        "notes": null,
-        "raw": "1 cup crushed"
       }
     ],
     "tags": [
@@ -5423,13 +5374,6 @@
       },
       {
         "name": "ginger ale",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": null
-      },
-      {
-        "name": "ice",
         "amount": null,
         "unit": null,
         "notes": null,
@@ -5807,13 +5751,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1 Slice"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       }
     ],
     "tags": [
@@ -6009,13 +5946,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1 Slice"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       }
     ],
     "tags": [
@@ -6745,13 +6675,6 @@
         "unit": null,
         "notes": null,
         "raw": null
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": null
       }
     ],
     "tags": [
@@ -7289,13 +7212,6 @@
         "unit": null,
         "notes": null,
         "raw": "top up with"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "fill"
       }
     ],
     "tags": [
@@ -7962,13 +7878,6 @@
         "raw": "1 shot Jamaican"
       },
       {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
-      },
-      {
         "name": "milk",
         "amount": null,
         "unit": null,
@@ -8259,13 +8168,6 @@
     "instructions": "After pouring in your ingredients, and adding 3-5 ice cubes, according to taste. Stir the drink with a stirrer to get the Vanilla off the bottom.",
     "ingredients": [
       {
-        "name": "ice",
-        "amount": 4.0,
-        "unit": "piece",
-        "notes": null,
-        "raw": "4-5"
-      },
-      {
         "name": "tennessee whiskey",
         "amount": 2.0,
         "unit": "oz",
@@ -8441,13 +8343,6 @@
         "unit": "part",
         "notes": null,
         "raw": "2 parts"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       }
     ],
     "tags": [
@@ -8608,13 +8503,6 @@
         "unit": "oz",
         "notes": null,
         "raw": "8 cl"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       }
     ],
     "tags": [
@@ -9066,13 +8954,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1 dl Schweppes"
-      },
-      {
-        "name": "ice",
-        "amount": 4.0,
-        "unit": "piece",
-        "notes": null,
-        "raw": "4"
       }
     ],
     "tags": [
@@ -9139,13 +9020,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "2 cups"
-      },
-      {
-        "name": "ice",
-        "amount": 4.0,
-        "unit": "piece",
-        "notes": null,
-        "raw": "4-6"
       },
       {
         "name": "sugar",
@@ -10166,13 +10040,6 @@
         "raw": "dash"
       },
       {
-        "name": "ice",
-        "amount": 2.0,
-        "unit": "piece",
-        "notes": null,
-        "raw": "2 or 3"
-      },
-      {
         "name": "maraschino cherry",
         "amount": 1.0,
         "unit": "piece",
@@ -10785,13 +10652,6 @@
         "unit": "oz",
         "notes": null,
         "raw": "200 ml"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       },
       {
         "name": "soda water",
@@ -11524,13 +11384,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1 package"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "Over"
       }
     ],
     "tags": [
@@ -11953,13 +11806,6 @@
         "unit": "oz",
         "notes": null,
         "raw": "12 oz frozen"
-      },
-      {
-        "name": "ice",
-        "amount": 1.0,
-        "unit": "piece",
-        "notes": null,
-        "raw": "1 cup crushed"
       }
     ],
     "tags": [
@@ -12288,13 +12134,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1-2 tblsp"
-      },
-      {
-        "name": "ice",
-        "amount": 1.0,
-        "unit": "piece",
-        "notes": null,
-        "raw": "1"
       },
       {
         "name": "egg white",
@@ -12916,13 +12755,6 @@
         "unit": "part",
         "notes": null,
         "raw": "1 part"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": null
       }
     ],
     "tags": [
@@ -13502,13 +13334,6 @@
         "unit": "oz",
         "notes": null,
         "raw": "355 ml frozen"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "crushed"
       }
     ],
     "tags": [
@@ -14251,13 +14076,6 @@
         "unit": "oz",
         "notes": null,
         "raw": "4 oz"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": null
       }
     ],
     "tags": [
@@ -14884,13 +14702,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1 slice"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       }
     ],
     "tags": [
@@ -15829,13 +15640,6 @@
         "unit": null,
         "notes": null,
         "raw": null
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": null
       }
     ],
     "tags": [
@@ -16139,13 +15943,6 @@
         "unit": "tsp",
         "notes": null,
         "raw": "2 tsp sweetened"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       },
       {
         "name": "mint",
@@ -16926,13 +16723,6 @@
         "raw": "2 oz"
       },
       {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": null
-      },
-      {
         "name": "nutmeg",
         "amount": null,
         "unit": null,
@@ -16974,13 +16764,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1 Slice"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       }
     ],
     "tags": [
@@ -17415,13 +17198,6 @@
         "unit": "oz",
         "notes": null,
         "raw": "5 oz"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       }
     ],
     "tags": [
@@ -17703,13 +17479,6 @@
     "instructions": "Place all ingredients in a blender and blend until smooth. This makes one drink.",
     "ingredients": [
       {
-        "name": "ice",
-        "amount": 1.0,
-        "unit": "piece",
-        "notes": null,
-        "raw": "1 cup"
-      },
-      {
         "name": "tequila",
         "amount": 2.0,
         "unit": "oz",
@@ -17839,13 +17608,6 @@
         "unit": "piece",
         "notes": null,
         "raw": "1 cup"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": null
       }
     ],
     "tags": [
@@ -18069,13 +17831,6 @@
         "unit": null,
         "notes": null,
         "raw": "Add 10 oz"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       }
     ],
     "tags": [
@@ -18228,13 +17983,6 @@
         "unit": "oz",
         "notes": null,
         "raw": "2 cl"
-      },
-      {
-        "name": "ice",
-        "amount": null,
-        "unit": null,
-        "notes": null,
-        "raw": "cubes"
       },
       {
         "name": "lemon",

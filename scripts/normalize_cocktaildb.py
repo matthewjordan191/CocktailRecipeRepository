@@ -152,6 +152,8 @@ def normalize_drink(drink: dict) -> dict:
             break
 
         ing_name = ing_name.strip()
+        if ing_name.lower() == "ice":
+            continue
         raw = (drink.get(f"strMeasure{i}") or "").strip() or None
 
         amount, unit = None, None

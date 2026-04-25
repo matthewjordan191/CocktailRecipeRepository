@@ -43,6 +43,9 @@ const FILTERS = [
   { label: "Festive",       tags: ["christmas", "holiday", "halloween", "winter"] },
 ];
 
+// ── Inventory (module-level so detail view can read it) ────────────────────
+const inventory = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"));
+
 // ── Navigation ─────────────────────────────────────────────────────────────
 const views = {
   list:   document.getElementById("view-list"),
@@ -101,9 +104,16 @@ function renderDetail(c) {
     const li = document.createElement("li");
     const amount = formatAmount(ing);
     const notes = ing.notes ? ` (${ing.notes})` : "";
+
+    // Colour-code alcoholic ingredients based on inventory.
+    let statusClass = "";
+    if (inventory.size > 0 && ing.name && isAlcoholicIngredient(ing.name)) {
+      statusClass = isCovered(ing.name, inventory) ? " ing-have" : "";
+    }
+
     li.innerHTML = amount
-      ? `<span class="ing-amount">${amount}</span><span class="ing-name">${ing.name}${notes}</span>`
-      : `<span class="ing-name ing-full">${ing.name}${notes}</span>`;
+      ? `<span class="ing-amount">${amount}</span><span class="ing-name${statusClass}">${ing.name}${notes}</span>`
+      : `<span class="ing-name ing-full${statusClass}">${ing.name}${notes}</span>`;
     ingList.appendChild(li);
   }
 
@@ -152,22 +162,10 @@ function scoreCocktail(cocktail, selectedSet) {
 }
 
 // ── Bar view ───────────────────────────────────────────────────────────────
-function initBar(cocktails, allIngredients) {
-  const inventory    = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"));
-  const ingSearch    = document.getElementById("ing-search");
-  const ingList      = document.getElementById("ing-list");
-  const barSubtitle  = document.getElementById("bar-subtitle");
-  const barEmpty     = document.getElementById("bar-empty");
-  const canSec       = document.getElementById("can-make-section");
-  const canList      = document.getElementById("can-make-list");
-  const canCount     = document.getElementById("can-make-count");
-  const almostSec    = document.getElementById("almost-section");
-  const almostList   = document.getElementById("almost-list");
-  const almostCount  = document.getElementById("almost-count");
-
-  function saveInventory() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify([...inventory]));
-  }
+function initBar(allIngredients) {
+  const ingSearch   = document.getElementById("ing-search");
+  const ingList     = document.getElementById("ing-list");
+  const barSubtitle = document.getElementById("bar-subtitle");
 
   function updateSubtitle() {
     const n = inventory.size;
@@ -176,57 +174,6 @@ function initBar(cocktails, allIngredients) {
       : `${n} ingredient${n === 1 ? "" : "s"} in your bar`;
   }
 
-  function renderResults() {
-    const canMake   = [];
-    const almostMake = [];
-
-    if (inventory.size > 0) {
-      for (const cocktail of cocktails) {
-        const { missingCount, missing } = scoreCocktail(cocktail, inventory);
-        if (missingCount === 0)      canMake.push({ cocktail });
-        else if (missingCount === 1) almostMake.push({ cocktail, missing: missing[0].name });
-      }
-    }
-
-    canSec.hidden    = canMake.length === 0;
-    almostSec.hidden = almostMake.length === 0;
-    barEmpty.hidden  = canMake.length > 0 || almostMake.length > 0;
-
-    canCount.textContent    = `(${canMake.length})`;
-    almostCount.textContent = `(${almostMake.length})`;
-
-    function makeResultItem(cocktail, missingText) {
-      const li = document.createElement("li");
-      li.className = "result-item";
-      const nameSpan = document.createElement("span");
-      nameSpan.className = "result-name";
-      nameSpan.textContent = cocktail.name;
-      li.appendChild(nameSpan);
-      if (missingText) {
-        const miss = document.createElement("span");
-        miss.className = "result-missing";
-        miss.textContent = `missing: ${missingText}`;
-        li.appendChild(miss);
-      }
-      li.addEventListener("click", () => {
-        previousView = "bar";
-        showDetail(cocktail);
-      });
-      return li;
-    }
-
-    canList.innerHTML = "";
-    for (const { cocktail } of canMake.sort((a, b) => a.cocktail.name.localeCompare(b.cocktail.name))) {
-      canList.appendChild(makeResultItem(cocktail, null));
-    }
-
-    almostList.innerHTML = "";
-    for (const { cocktail, missing } of almostMake.sort((a, b) => a.cocktail.name.localeCompare(b.cocktail.name))) {
-      almostList.appendChild(makeResultItem(cocktail, missing));
-    }
-  }
-
-  // Build ingredient checklist.
   function renderIngredients() {
     const query = ingSearch.value.toLowerCase().trim();
     const filtered = query
@@ -234,7 +181,6 @@ function initBar(cocktails, allIngredients) {
       : allIngredients;
 
     ingList.innerHTML = "";
-    // Show checked items first, then unchecked.
     const sorted = [
       ...filtered.filter(n => inventory.has(n)),
       ...filtered.filter(n => !inventory.has(n)),
@@ -242,20 +188,18 @@ function initBar(cocktails, allIngredients) {
 
     const frag = document.createDocumentFragment();
     for (const name of sorted) {
-      const li  = document.createElement("li");
+      const li = document.createElement("li");
       li.className = "ing-check-item";
 
-      const id  = `ing-${name.replace(/\s+/g, "-")}`;
-      const cb  = document.createElement("input");
-      cb.type   = "checkbox";
-      cb.id     = id;
+      const id = `ing-${name.replace(/\s+/g, "-")}`;
+      const cb = document.createElement("input");
+      cb.type    = "checkbox";
+      cb.id      = id;
       cb.checked = inventory.has(name);
       cb.addEventListener("change", () => {
         if (cb.checked) inventory.add(name); else inventory.delete(name);
-        saveInventory();
+        localStorage.setItem(STORAGE_KEY, JSON.stringify([...inventory]));
         updateSubtitle();
-        renderResults();
-        // Re-render so checked items float to top (only when not searching).
         if (!ingSearch.value.trim()) renderIngredients();
       });
 
@@ -274,7 +218,6 @@ function initBar(cocktails, allIngredients) {
 
   updateSubtitle();
   renderIngredients();
-  renderResults();
 }
 
 // ── Browse view ────────────────────────────────────────────────────────────
@@ -365,7 +308,7 @@ async function init() {
   const allIngredients = [...ingSet].sort();
 
   initBrowse(cocktails);
-  initBar(cocktails, allIngredients);
+  initBar(allIngredients);
 
   showView("list");
 }

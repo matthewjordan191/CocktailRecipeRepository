@@ -178,7 +178,10 @@ def normalize_cocktail(raw: dict) -> dict:
     ingredients = []
     for ing_str in raw.get("ingredients", []):
         try:
-            ingredients.append(parse_ingredient(ing_str, name))
+            parsed = parse_ingredient(ing_str, name)
+            if parsed["name"] == "ice":
+                continue
+            ingredients.append(parsed)
         except Exception as exc:
             logging.warning("[%s] Error parsing ingredient '%s': %s", name, ing_str, exc)
 
