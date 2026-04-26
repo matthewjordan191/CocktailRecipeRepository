@@ -37,17 +37,17 @@ function fuzzyMatch(query, name) {
 // Substrings that reliably indicate an alcoholic ingredient.
 const ALCOHOLIC_PATTERNS = [
   "vodka", "gin", "rum", "tequila", "whiskey", "whisky", "bourbon", "scotch",
-  "brandy", "cognac", "mezcal", "pisco", "cachaca", "cachaça", "calvados",
+  "brandy", "cognac", "mezcal", "pisco", "cachaca", "calvados",
   "grappa", "everclear", "applejack", "absinthe", "ouzo", "pernod", "ricard",
   "anisette", "champagne", "prosecco", "cider", "lager", "stout", "vermouth",
-  "sherry", "liqueur", "schnapps", "amaretto", "cointreau", "curacao", "curaçao",
+  "sherry", "liqueur", "schnapps", "amaretto", "cointreau", "curacao",
   "campari", "aperol", "drambuie", "galliano", "chartreuse", "benedictine",
-  "bénédictine", "sambuca", "frangelico", "malibu", "kahlua", "kahlúa",
+  "sambuca", "frangelico", "malibu", "kahlua",
   "midori", "passoa", "lillet", "dubonnet", "advocaat", "falernum", "fernet",
   "amaro", "bitters", "absolut", "bacardi", "jager", "goldschlager", "baileys",
   "grand marnier", "triple sec", "southern comfort", "crown royal", "wild turkey",
   "jim beam", "jack daniels", "tia maria", "godiva", "yukon", "sloe",
-  "heering", "pisang", "chambord", "creme de", "crème de", "st. germain",
+  "heering", "pisang", "chambord", "creme de", "st. germain",
   "beer", "wine", "port", "anis", "apfelkorn",
 ];
 
@@ -58,7 +58,7 @@ const NON_ALCOHOLIC_EXCEPTIONS = new Set([
 ]);
 
 function isAlcoholicIngredient(name) {
-  const n = name.toLowerCase().trim();
+  const n = normalizeIngName(name);
   if (NON_ALCOHOLIC_EXCEPTIONS.has(n)) return false;
   return ALCOHOLIC_PATTERNS.some(p => n.includes(p));
 }
