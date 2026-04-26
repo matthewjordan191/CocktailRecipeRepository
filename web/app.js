@@ -341,7 +341,7 @@ function initBrowse(cocktails) {
     li.textContent = cocktail.name;
     li.dataset.name = cocktail.name.toLowerCase();
     li._tagSet = new Set(cocktail.tags || []);
-    li._cocktailName = cocktail.name;
+    li._cocktail = cocktail;
     li.addEventListener("click", () => { previousView = "list"; showDetail(cocktail); });
     frag.appendChild(li);
     items.push(li);
@@ -367,6 +367,20 @@ function initBrowse(cocktails) {
     filterBar.appendChild(btn);
     return btn;
   });
+
+  // Makeable pill — shows only cocktails fully covered by the current bar.
+  let makeableActive = false;
+  const makeableBtn = document.createElement("button");
+  makeableBtn.className = "filter-pill";
+  makeableBtn.textContent = "Makeable";
+  makeableBtn.disabled = inventory.size === 0;
+  makeableBtn.title = inventory.size === 0 ? "Add ingredients to My Bar first" : "";
+  makeableBtn.addEventListener("click", () => {
+    makeableActive = !makeableActive;
+    makeableBtn.classList.toggle("active", makeableActive);
+    applyFilters();
+  });
+  filterBar.appendChild(makeableBtn);
 
   // Add More button at the end of the curated pills row.
   const moreBtn = document.createElement("button");
@@ -444,10 +458,11 @@ function initBrowse(cocktails) {
     for (const li of items) {
       const matchesSearch = !query || fuzzyMatch(query, li.dataset.name);
       const matchesFilter = !filterTags || [...filterTags].some(t => li._tagSet.has(t));
-      li.hidden = !(matchesSearch && matchesFilter);
+      const matchesMakeable = !makeableActive || scoreCocktail(li._cocktail, inventory).missingCount === 0;
+      li.hidden = !(matchesSearch && matchesFilter && matchesMakeable);
       if (!li.hidden) visible++;
     }
-    count.textContent = (query || filterTags)
+    count.textContent = (query || filterTags || makeableActive)
       ? `${visible} of ${total} cocktails`
       : `${total} cocktails`;
   }
