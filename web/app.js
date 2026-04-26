@@ -77,6 +77,14 @@ function normalizeIngName(name) {
     .trim();
 }
 
+function slugify(name) {
+  return name
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 // ── Filter definitions ─────────────────────────────────────────────────────
 const FILTERS = [
   { label: "IBA",           tags: ["iba"] },
@@ -131,12 +139,14 @@ nav.addEventListener("click", e => {
 function showDetail(cocktail) {
   renderDetail(cocktail);
   document.title = cocktail.name;
+  history.pushState(null, "", "#" + slugify(cocktail.name));
   showView("detail");
   window.scrollTo(0, 0);
 }
 
 document.getElementById("back-btn").addEventListener("click", () => {
   document.title = "Cocktail Recipes";
+  history.replaceState(null, "", location.pathname + location.search);
   showView(previousView);
 });
 
@@ -534,7 +544,35 @@ async function init() {
   refreshFavorites = initFavorites(cocktails);
   initBar(allIngredients);
 
-  showView(favorites.size > 0 ? "favorites" : "list");
+  const cocktailsBySlug = new Map(cocktails.map(c => [slugify(c.name), c]));
+
+  // Handle browser back/forward through cocktail detail views.
+  window.addEventListener("hashchange", () => {
+    const slug = location.hash.slice(1);
+    if (!slug) {
+      document.title = "Cocktail Recipes";
+      showView(previousView);
+    } else {
+      const cocktail = cocktailsBySlug.get(slug);
+      if (cocktail) {
+        renderDetail(cocktail);
+        document.title = cocktail.name;
+        showView("detail");
+        window.scrollTo(0, 0);
+      }
+    }
+  });
+
+  // Open directly to a cocktail if the URL already has a hash.
+  const initialSlug = location.hash.slice(1);
+  const initialCocktail = initialSlug && cocktailsBySlug.get(initialSlug);
+  if (initialCocktail) {
+    renderDetail(initialCocktail);
+    document.title = initialCocktail.name;
+    showView("detail");
+  } else {
+    showView(favorites.size > 0 ? "favorites" : "list");
+  }
 }
 
 init();
