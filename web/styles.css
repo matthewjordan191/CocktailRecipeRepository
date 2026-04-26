@@ -101,6 +101,28 @@ h3 {
   margin-top: 0.25rem;
 }
 
+/* ── Browse header row ── */
+.browse-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#random-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--muted);
+  font-family: var(--font);
+  font-size: 0.78rem;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  transition: border-color 120ms ease, color 120ms ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+#random-btn:hover { border-color: var(--accent); color: var(--accent); }
+
 /* ── Back / fav button row ── */
 .detail-header-row {
   display: flex;

@@ -480,6 +480,14 @@ function initBrowse(cocktails) {
 
   search.addEventListener("input", applyFilters);
 
+  document.getElementById("random-btn").addEventListener("click", () => {
+    const visible = items.filter(li => !li.hidden);
+    if (!visible.length) return;
+    const li = visible[Math.floor(Math.random() * visible.length)];
+    previousView = "list";
+    showDetail(li._cocktail);
+  });
+
   return filterByTag;
 }
 
