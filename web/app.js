@@ -207,7 +207,7 @@ function renderDetail(c) {
     // Colour-code alcoholic ingredients based on inventory.
     let statusClass = "";
     if (inventory.size > 0 && ing.name && isAlcoholicIngredient(ing.name)) {
-      statusClass = isCovered(ing.name, inventory) ? " ing-have" : "";
+      statusClass = isCovered(ing.name, inventory) ? " ing-have" : " ing-missing";
     }
 
     if (amount) {
