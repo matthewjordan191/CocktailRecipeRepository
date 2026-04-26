@@ -153,7 +153,7 @@ def main():
         time.sleep(0.25)
 
     with open(PATH, "w", encoding="utf-8") as f:
-        json.dump(cocktails, f, indent=2, ensure_ascii=False)
+        json.dump(cocktails, f, separators=(',', ':'), ensure_ascii=False)
 
     print(f"\nPatched {found}/{len(missing)} -> {PATH}")
 
