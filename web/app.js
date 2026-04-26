@@ -467,8 +467,11 @@ function initBrowse(cocktails) {
     for (const li of items) {
       const matchesSearch = !query || fuzzyMatch(query, li.dataset.name);
       const matchesFilter = !filterTags || [...filterTags].some(t => li._tagSet.has(t));
-      const _score = scoreCocktail(li._cocktail, inventory);
-      const matchesMakeable = !makeableActive || (_score.total > 0 && _score.missingCount === 0);
+      let matchesMakeable = true;
+      if (makeableActive) {
+        const s = scoreCocktail(li._cocktail, inventory);
+        matchesMakeable = s.total > 0 && s.missingCount === 0;
+      }
       li.hidden = !(matchesSearch && matchesFilter && matchesMakeable);
       if (!li.hidden) visible++;
     }
