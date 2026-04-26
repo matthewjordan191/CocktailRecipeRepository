@@ -391,6 +391,6 @@ h3 {
 
 @media (min-width: 768px) {
   header, main { padding-inline: 2rem; }
-  #cocktail-list li, .result-name, #ingredient-list li { font-size: 0.95rem; }
+  #cocktail-list li, #ingredient-list li { font-size: 0.95rem; }
   .ing-amount { min-width: 5.5rem; }
 }
