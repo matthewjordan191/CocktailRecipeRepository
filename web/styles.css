@@ -201,7 +201,6 @@ h3 {
   scrollbar-width: none;
   padding-bottom: 0.75rem;
   margin-bottom: 0.25rem;
-  -webkit-overflow-scrolling: touch;
 }
 #filter-bar::-webkit-scrollbar { display: none; }
 
