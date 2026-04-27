@@ -108,9 +108,76 @@ const inventory = new Set(
 const FAVORITES_KEY = "cocktail-bar-favorites";
 const favorites = new Set(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]"));
 
+// ── Firebase sync ─────────────────────────────────────────────────────────
+firebase.initializeApp({
+  apiKey:            "AIzaSyAP2CK6O8Q3r1_ENk5J--JgqfVD4oWPE3o",
+  authDomain:        "cocktailrepository.firebaseapp.com",
+  projectId:         "cocktailrepository",
+  storageBucket:     "cocktailrepository.firebasestorage.app",
+  messagingSenderId: "55261064714",
+  appId:             "1:55261064714:web:878091784d9db20c0cf9f3",
+});
+const auth     = firebase.auth();
+const db       = firebase.firestore();
+const provider = new firebase.auth.GoogleAuthProvider();
+let currentUser = null;
+
+function userDocRef(uid) {
+  return db.collection("users").doc(uid).collection("data").doc("sync");
+}
+
+async function saveToCloud() {
+  if (!currentUser) return;
+  try {
+    await userDocRef(currentUser.uid).set({
+      favorites: [...favorites],
+      inventory: [...inventory],
+    });
+  } catch (err) {
+    console.warn("Cloud sync failed:", err);
+  }
+}
+
+async function loadFromCloud(uid) {
+  try {
+    const snap = await userDocRef(uid).get();
+    if (!snap.exists) { saveToCloud(); return; }
+    const data = snap.data();
+    (data.favorites || []).forEach(n => favorites.add(n));
+    (data.inventory || []).map(normalizeIngName).forEach(n => inventory.add(n));
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
+    localStorage.setItem(STORAGE_KEY,   JSON.stringify([...inventory]));
+  } catch (err) {
+    console.warn("Cloud load failed:", err);
+  }
+}
+
+const authBtn = document.getElementById("auth-btn");
+
+function updateAuthBtn(user) {
+  if (user) {
+    authBtn.textContent = user.displayName?.split(" ")[0] || "Account";
+    authBtn.title = `${user.email} — click to sign out`;
+    authBtn.classList.add("signed-in");
+  } else {
+    authBtn.textContent = "Sign in";
+    authBtn.title = "Sign in to sync across devices";
+    authBtn.classList.remove("signed-in");
+  }
+}
+
+authBtn.addEventListener("click", () => {
+  if (currentUser) {
+    auth.signOut();
+  } else {
+    auth.signInWithPopup(provider).catch(err => console.error("Sign-in failed:", err));
+  }
+});
+
 // Set by initBrowse / initFavorites once views are ready; used by renderDetail.
 let filterByTag = null;
 let refreshFavorites = null;
+let refreshBar = null;
 
 // ── Navigation ─────────────────────────────────────────────────────────────
 const views = {
@@ -169,6 +236,7 @@ function renderDetail(c) {
   favBtn.onclick = () => {
     if (favorites.has(c.name)) favorites.delete(c.name); else favorites.add(c.name);
     localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
+    saveToCloud();
     updateFavBtn();
     if (refreshFavorites) refreshFavorites();
   };
@@ -312,6 +380,7 @@ function initBar(allIngredients) {
       cb.addEventListener("change", () => {
         if (cb.checked) inventory.add(name); else inventory.delete(name);
         localStorage.setItem(STORAGE_KEY, JSON.stringify([...inventory]));
+        saveToCloud();
         updateSubtitle();
         if (!ingSearch.value.trim()) renderIngredients();
       });
@@ -331,6 +400,7 @@ function initBar(allIngredients) {
 
   updateSubtitle();
   renderIngredients();
+  return renderIngredients;
 }
 
 // ── Browse view ────────────────────────────────────────────────────────────
@@ -550,9 +620,36 @@ async function init() {
   }
   const allIngredients = [...ingSet].sort();
 
-  filterByTag = initBrowse(cocktails);
+  // Resolve initial Firebase auth state before building views so cloud data
+  // is merged into favorites/inventory before the UI is first rendered.
+  await new Promise(resolve => {
+    const unsub = auth.onAuthStateChanged(async user => {
+      unsub();
+      currentUser = user;
+      updateAuthBtn(user);
+      if (user) await loadFromCloud(user.uid);
+      resolve();
+    });
+  });
+
+  filterByTag    = initBrowse(cocktails);
   refreshFavorites = initFavorites(cocktails);
-  initBar(allIngredients);
+  refreshBar     = initBar(allIngredients);
+
+  // Persistent listener for sign-in / sign-out after initial load.
+  let knownUid = currentUser?.uid ?? null;
+  auth.onAuthStateChanged(async user => {
+    const uid = user?.uid ?? null;
+    if (uid === knownUid) return;
+    knownUid = uid;
+    currentUser = user;
+    updateAuthBtn(user);
+    if (user) {
+      await loadFromCloud(user.uid);
+      refreshFavorites();
+      refreshBar();
+    }
+  });
 
   const cocktailsBySlug = new Map(cocktails.map(c => [slugify(c.name), c]));
 

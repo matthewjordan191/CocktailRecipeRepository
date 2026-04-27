@@ -54,6 +54,22 @@ body {
 .nav-btn:hover  { color: var(--text); }
 .nav-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
 
+#auth-btn {
+  background: none;
+  border: none;
+  border-left: 1px solid var(--border);
+  color: var(--muted);
+  font-family: var(--font);
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0 0.9rem;
+  transition: color 120ms ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+#auth-btn:hover     { color: var(--text); }
+#auth-btn.signed-in { color: var(--green); }
+
 /* ── Page padding ── */
 header, main {
   max-width: var(--max-w);
