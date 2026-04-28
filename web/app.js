@@ -174,6 +174,93 @@ authBtn.addEventListener("click", () => {
   }
 });
 
+// ── Ratings ───────────────────────────────────────────────────────────────
+function ratingsRef(slug) {
+  return db.collection("ratings").doc(slug).collection("votes");
+}
+
+async function loadRating(slug) {
+  try {
+    const snap = await ratingsRef(slug).get();
+    const votes = {};
+    snap.forEach(doc => { votes[doc.id] = doc.data().rating; });
+    const vals = Object.values(votes);
+    const avg = vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
+    return { avg, count: vals.length, userRating: currentUser ? (votes[currentUser.uid] ?? null) : null };
+  } catch (err) {
+    console.warn("Rating load failed:", err);
+    return { avg: null, count: 0, userRating: null };
+  }
+}
+
+async function submitRating(slug, rating) {
+  if (!currentUser) return;
+  try {
+    await ratingsRef(slug).doc(currentUser.uid).set({ rating });
+  } catch (err) {
+    console.warn("Rating submit failed:", err);
+  }
+}
+
+async function renderRatingUI(container, slug) {
+  container.dataset.slug = slug;
+  const { avg, count, userRating } = await loadRating(slug);
+  if (container.dataset.slug !== slug) return; // navigated away, discard
+
+  container.innerHTML = "";
+
+  const summary = document.createElement("p");
+  summary.className = "rating-summary";
+  if (count > 0) {
+    const filled = Math.round(avg);
+    summary.textContent = `${"★".repeat(filled)}${"☆".repeat(5 - filled)} ${avg.toFixed(1)} (${count} rating${count === 1 ? "" : "s"})`;
+  } else {
+    summary.textContent = "No ratings yet";
+    summary.classList.add("rating-none");
+  }
+  container.appendChild(summary);
+
+  if (currentUser) {
+    const starsDiv = document.createElement("div");
+    starsDiv.className = "rating-stars";
+    const stars = [];
+
+    function updateStarDisplay(upTo) {
+      const val = upTo ?? userRating ?? 0;
+      stars.forEach((s, i) => s.classList.toggle("filled", i < val));
+    }
+
+    starsDiv.addEventListener("mouseleave", () => updateStarDisplay(null));
+
+    for (let i = 1; i <= 5; i++) {
+      const star = document.createElement("button");
+      star.className = "star-btn";
+      star.textContent = "★";
+      star.setAttribute("aria-label", `Rate ${i} out of 5`);
+      star.addEventListener("mouseenter", () => updateStarDisplay(i));
+      star.addEventListener("click", async () => {
+        await submitRating(slug, i);
+        renderRatingUI(container, slug);
+      });
+      stars.push(star);
+      starsDiv.appendChild(star);
+    }
+    updateStarDisplay(null);
+
+    const label = document.createElement("p");
+    label.className = "rating-label";
+    label.textContent = userRating ? `Your rating: ${userRating}/5` : "Tap stars to rate";
+
+    container.appendChild(starsDiv);
+    container.appendChild(label);
+  } else {
+    const prompt = document.createElement("p");
+    prompt.className = "rating-label";
+    prompt.textContent = "Sign in to rate";
+    container.appendChild(prompt);
+  }
+}
+
 // Set by initBrowse / initFavorites once views are ready; used by renderDetail.
 let filterByTag = null;
 let refreshFavorites = null;
@@ -240,6 +327,8 @@ function renderDetail(c) {
     updateFavBtn();
     if (refreshFavorites) refreshFavorites();
   };
+
+  renderRatingUI(document.getElementById("rating-content"), slugify(c.name));
 
   const img = document.getElementById("detail-img");
   if (c.image_url) {
