@@ -264,14 +264,16 @@ async function renderRatingUI(container, slug) {
 // Set by initBrowse / initFavorites once views are ready; used by renderDetail.
 let filterByTag = null;
 let refreshFavorites = null;
+let refreshRecommended = null;
 let refreshBar = null;
 
 // ── Navigation ─────────────────────────────────────────────────────────────
 const views = {
-  list:      document.getElementById("view-list"),
-  favorites: document.getElementById("view-favorites"),
-  bar:       document.getElementById("view-bar"),
-  detail:    document.getElementById("view-detail"),
+  list:        document.getElementById("view-list"),
+  favorites:   document.getElementById("view-favorites"),
+  recommended: document.getElementById("view-recommended"),
+  bar:         document.getElementById("view-bar"),
+  detail:      document.getElementById("view-detail"),
 };
 const nav = document.getElementById("main-nav");
 let previousView = "list";
@@ -282,7 +284,8 @@ function showView(name) {
   nav.querySelectorAll(".nav-btn").forEach(btn => {
     btn.classList.toggle("active", btn.dataset.view === name);
   });
-  if (name === "favorites" && refreshFavorites) refreshFavorites();
+  if (name === "favorites"   && refreshFavorites)   refreshFavorites();
+  if (name === "recommended" && refreshRecommended) refreshRecommended();
 }
 
 nav.addEventListener("click", e => {
@@ -683,6 +686,76 @@ function initFavorites(cocktails) {
   return refresh;
 }
 
+// ── Recommendations ────────────────────────────────────────────────────────
+function getRecommendations(cocktails, limit = 20) {
+  if (favorites.size === 0) return [];
+
+  const favCocktails = cocktails.filter(c => favorites.has(c.name));
+  const tagFreq = {};
+  const ingFreq = {};
+
+  for (const c of favCocktails) {
+    for (const tag of c.tags || []) {
+      tagFreq[tag] = (tagFreq[tag] || 0) + 1;
+    }
+    for (const ing of c.ingredients || []) {
+      if (ing.name && isAlcoholicIngredient(ing.name)) {
+        const norm = normalizeIngName(ing.name);
+        ingFreq[norm] = (ingFreq[norm] || 0) + 1;
+      }
+    }
+  }
+
+  return cocktails
+    .filter(c => !favorites.has(c.name))
+    .map(c => {
+      let score = 0;
+      for (const tag of c.tags || []) {
+        if (tagFreq[tag]) score += tagFreq[tag];
+      }
+      for (const ing of c.ingredients || []) {
+        if (ing.name && isAlcoholicIngredient(ing.name)) {
+          const norm = normalizeIngName(ing.name);
+          if (ingFreq[norm]) score += ingFreq[norm] * 1.5;
+        }
+      }
+      return { cocktail: c, score };
+    })
+    .filter(s => s.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(s => s.cocktail);
+}
+
+function initRecommended(cocktails) {
+  const list     = document.getElementById("rec-list");
+  const empty    = document.getElementById("rec-empty");
+  const subtitle = document.getElementById("rec-subtitle");
+
+  function refresh() {
+    list.innerHTML = "";
+    const recs = getRecommendations(cocktails);
+    if (recs.length === 0) {
+      empty.hidden = false;
+      subtitle.textContent = "";
+      return;
+    }
+    empty.hidden = true;
+    subtitle.textContent = `${recs.length} suggestion${recs.length === 1 ? "" : "s"}`;
+    const frag = document.createDocumentFragment();
+    for (const cocktail of recs) {
+      const li = document.createElement("li");
+      li.textContent = cocktail.name;
+      li.addEventListener("click", () => { previousView = "recommended"; showDetail(cocktail); });
+      frag.appendChild(li);
+    }
+    list.appendChild(frag);
+  }
+
+  refresh();
+  return refresh;
+}
+
 // ── Boot ───────────────────────────────────────────────────────────────────
 async function init() {
   const error = document.getElementById("error");
@@ -721,9 +794,10 @@ async function init() {
     });
   });
 
-  filterByTag    = initBrowse(cocktails);
-  refreshFavorites = initFavorites(cocktails);
-  refreshBar     = initBar(allIngredients);
+  filterByTag       = initBrowse(cocktails);
+  refreshFavorites  = initFavorites(cocktails);
+  refreshRecommended = initRecommended(cocktails);
+  refreshBar        = initBar(allIngredients);
 
   // Persistent listener for sign-in / sign-out after initial load.
   let knownUid = currentUser?.uid ?? null;
@@ -736,6 +810,7 @@ async function init() {
     if (user) {
       await loadFromCloud(user.uid);
       refreshFavorites();
+      refreshRecommended();
       refreshBar();
     }
   });

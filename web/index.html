@@ -14,6 +14,7 @@
   <nav id="main-nav">
     <button class="nav-btn active" data-view="list">Browse</button>
     <button class="nav-btn" data-view="favorites">Favorites</button>
+    <button class="nav-btn" data-view="recommended">For You</button>
     <button class="nav-btn" data-view="bar">My Bar</button>
     <button id="auth-btn">Sign in</button>
   </nav>
@@ -48,6 +49,18 @@
     <main>
       <ul id="favorites-list"></ul>
       <p id="fav-empty" hidden>No favorites yet — tap ☆ on any recipe to save it.</p>
+    </main>
+  </div>
+
+  <!-- For You view -->
+  <div id="view-recommended" hidden>
+    <header>
+      <h1>For You</h1>
+      <p class="subtitle" id="rec-subtitle"></p>
+    </header>
+    <main>
+      <ul id="rec-list"></ul>
+      <p id="rec-empty" hidden>Save some favorites first and we'll suggest cocktails you might like.</p>
     </main>
   </div>
 

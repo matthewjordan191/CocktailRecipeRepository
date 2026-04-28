@@ -46,7 +46,7 @@ body {
   border: none;
   color: var(--muted);
   font-family: var(--font);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   cursor: pointer;
   transition: color 120ms ease;
   border-bottom: 2px solid transparent;
@@ -255,9 +255,9 @@ h3 {
 #all-tags-panel[hidden] { display: none; }
 
 /* ── Browse / Favorites list ── */
-#cocktail-list, #favorites-list { list-style: none; }
+#cocktail-list, #favorites-list, #rec-list { list-style: none; }
 
-#cocktail-list li, #favorites-list li {
+#cocktail-list li, #favorites-list li, #rec-list li {
   padding: 0.65rem 0.75rem;
   border-radius: var(--radius);
   font-size: 0.9rem;
@@ -265,9 +265,10 @@ h3 {
   transition: background 120ms ease, color 120ms ease;
 }
 #cocktail-list li:not(:last-child),
-#favorites-list li:not(:last-child) { border-bottom: 1px solid var(--border); }
-#cocktail-list li:hover,  #favorites-list li:hover  { background: var(--surface); color: var(--accent); }
-#cocktail-list li:active, #favorites-list li:active { background: var(--border); }
+#favorites-list li:not(:last-child),
+#rec-list li:not(:last-child) { border-bottom: 1px solid var(--border); }
+#cocktail-list li:hover,  #favorites-list li:hover,  #rec-list li:hover  { background: var(--surface); color: var(--accent); }
+#cocktail-list li:active, #favorites-list li:active, #rec-list li:active { background: var(--border); }
 
 /* ── Ingredient checklist ── */
 #ing-list {
