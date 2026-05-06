@@ -263,6 +263,7 @@ async function renderRatingUI(container, slug) {
 
 // Set by initBrowse / initFavorites once views are ready; used by renderDetail.
 let filterByTag = null;
+let filterByIngredient = null;
 let refreshFavorites = null;
 let refreshRecommended = null;
 let refreshBar = null;
@@ -379,6 +380,14 @@ function renderDetail(c) {
     const nameSpan = document.createElement("span");
     nameSpan.className = amount ? `ing-name${statusClass}` : `ing-name ing-full${statusClass}`;
     nameSpan.textContent = ing.name + (ing.notes ? ` (${ing.notes})` : "");
+    nameSpan.classList.add("ing-clickable");
+    nameSpan.title = `Browse cocktails with ${ing.name}`;
+    nameSpan.addEventListener("click", () => {
+      if (filterByIngredient) filterByIngredient(ing.name);
+      previousView = "list";
+      showView("list");
+      window.scrollTo(0, 0);
+    });
     li.appendChild(nameSpan);
     ingList.appendChild(li);
   }
@@ -481,8 +490,21 @@ function initBar(allIngredients) {
       label.htmlFor = id;
       label.textContent = name;
 
+      const browseBtn = document.createElement("button");
+      browseBtn.className = "ing-browse-btn";
+      browseBtn.setAttribute("aria-label", `Browse cocktails with ${name}`);
+      browseBtn.title = `Browse cocktails with ${name}`;
+      browseBtn.textContent = "→";
+      browseBtn.addEventListener("click", () => {
+        if (filterByIngredient) filterByIngredient(name);
+        previousView = "list";
+        showView("list");
+        window.scrollTo(0, 0);
+      });
+
       li.appendChild(cb);
       li.appendChild(label);
+      li.appendChild(browseBtn);
       frag.appendChild(li);
     }
     ingList.appendChild(frag);
@@ -520,6 +542,7 @@ function initBrowse(cocktails) {
   list.appendChild(frag);
 
   let activeFilter = null;
+  let activeIngredientFilter = null;
   const pills = FILTERS.map(f => {
     const btn = document.createElement("button");
     btn.className = "filter-pill";
@@ -558,6 +581,24 @@ function initBrowse(cocktails) {
   moreBtn.className = "filter-pill filter-more";
   moreBtn.textContent = "More ▾";
   filterBar.appendChild(moreBtn);
+
+  // Ingredient filter chip — shown when user navigates here via an ingredient click.
+  const ingChip = document.createElement("div");
+  ingChip.id = "ing-filter-chip";
+  ingChip.hidden = true;
+  const ingChipText = document.createElement("span");
+  const ingChipClear = document.createElement("button");
+  ingChipClear.className = "ing-filter-clear";
+  ingChipClear.setAttribute("aria-label", "Clear ingredient filter");
+  ingChipClear.textContent = "×";
+  ingChipClear.addEventListener("click", () => {
+    activeIngredientFilter = null;
+    ingChip.hidden = true;
+    applyFilters();
+  });
+  ingChip.appendChild(ingChipText);
+  ingChip.appendChild(ingChipClear);
+  filterBar.insertAdjacentElement("afterend", ingChip);
 
   // Build expanded all-tags panel from data, sorted by frequency.
   const EXCLUDED_TAGS = new Set([
@@ -616,6 +657,19 @@ function initBrowse(cocktails) {
     applyFilters();
   }
 
+  function filterByIngredientFn(name) {
+    activeIngredientFilter = normalizeIngName(name);
+    ingChipText.textContent = `Includes: ${name}`;
+    ingChip.hidden = false;
+    // Clear tag and makeable filters to avoid zero-result combinations.
+    activeFilter = null;
+    pills.forEach(p => p.classList.remove("active"));
+    tagPills.forEach(p => p.classList.remove("active"));
+    makeableActive = false;
+    makeableBtn.classList.remove("active");
+    applyFilters();
+  }
+
   moreBtn.addEventListener("click", () => {
     panelOpen = !panelOpen;
     allTagsPanel.hidden = !panelOpen;
@@ -625,6 +679,7 @@ function initBrowse(cocktails) {
   function applyFilters() {
     const query = search.value.toLowerCase().trim();
     const filterTags = activeFilter ? new Set(activeFilter.tags) : null;
+    const ingFilterSet = activeIngredientFilter ? new Set([activeIngredientFilter]) : null;
     let visible = 0;
     for (const li of items) {
       const matchesSearch = !query || fuzzyMatch(query, li.dataset.name);
@@ -634,10 +689,12 @@ function initBrowse(cocktails) {
         const s = scoreCocktail(li._cocktail, inventory);
         matchesMakeable = s.total > 0 && s.missingCount === 0;
       }
-      li.hidden = !(matchesSearch && matchesFilter && matchesMakeable);
+      const matchesIng = !ingFilterSet ||
+        li._cocktail.ingredients.some(i => i.name && isCovered(i.name, ingFilterSet));
+      li.hidden = !(matchesSearch && matchesFilter && matchesMakeable && matchesIng);
       if (!li.hidden) visible++;
     }
-    count.textContent = (query || filterTags || makeableActive)
+    count.textContent = (query || filterTags || makeableActive || activeIngredientFilter)
       ? `${visible} of ${total} cocktails`
       : `${total} cocktails`;
   }
@@ -652,7 +709,7 @@ function initBrowse(cocktails) {
     showDetail(li._cocktail);
   });
 
-  return filterByTag;
+  return { filterByTag, filterByIngredient: filterByIngredientFn };
 }
 
 // ── Favorites view ─────────────────────────────────────────────────────────
@@ -794,7 +851,9 @@ async function init() {
     });
   });
 
-  filterByTag       = initBrowse(cocktails);
+  const browse      = initBrowse(cocktails);
+  filterByTag       = browse.filterByTag;
+  filterByIngredient = browse.filterByIngredient;
   refreshFavorites  = initFavorites(cocktails);
   refreshRecommended = initRecommended(cocktails);
   refreshBar        = initBar(allIngredients);

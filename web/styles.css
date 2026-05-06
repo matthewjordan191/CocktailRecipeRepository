@@ -244,6 +244,35 @@ h3 {
 .filter-pill.active   { border-color: var(--accent); color: var(--bg); background: var(--accent); }
 .filter-pill:disabled { opacity: 0.35; cursor: not-allowed; }
 
+/* ── Ingredient filter chip ── */
+#ing-filter-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.5rem 0.25rem 0.75rem;
+  margin-bottom: 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: var(--accent);
+  width: fit-content;
+}
+#ing-filter-chip[hidden] { display: none; }
+
+.ing-filter-clear {
+  background: none;
+  border: none;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0;
+  opacity: 0.7;
+  transition: opacity 120ms ease;
+}
+.ing-filter-clear:hover { opacity: 1; }
+
 /* ── All tags panel ── */
 #all-tags-panel {
   display: flex;
@@ -320,6 +349,22 @@ h3 {
 }
 .ing-check-item:has(input:checked) label { color: var(--accent); }
 
+.ing-browse-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: var(--font);
+  font-size: 0.85rem;
+  padding: 0.1rem 0.35rem;
+  border-radius: var(--radius);
+  line-height: 1;
+  flex-shrink: 0;
+  transition: color 120ms ease;
+}
+.ing-browse-btn:hover { color: var(--accent); }
+
 
 /* ── Ratings ── */
 .rating-summary {
@@ -395,6 +440,14 @@ h3 {
 .ing-full    { min-width: unset; text-align: left; }
 .ing-have    { color: var(--green); }
 .ing-missing { color: var(--amber); }
+
+.ing-name.ing-clickable {
+  cursor: pointer;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+  transition: color 120ms ease;
+}
+.ing-name.ing-clickable:hover { color: var(--accent); }
 
 #garnish-text, #instructions-text {
   font-size: 0.9rem;

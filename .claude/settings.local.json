@@ -26,7 +26,9 @@
       "Bash(git remote *)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\matth\\\\OneDrive\\\\Documents\\\\GitHub\\\\CocktailRecipeRepository\" -Recurse -Directory)",
+      "Bash(Select-Object FullName)"
     ]
   }
 }
