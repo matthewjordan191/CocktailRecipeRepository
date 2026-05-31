@@ -20,8 +20,28 @@ function isSubsequence(query, str) {
   return qi === query.length;
 }
 
+// Match a single query word against a name (exact substring, per-word
+// subsequence, or per-word trigram similarity for typo tolerance).
+function wordMatch(token, name) {
+  if (name.includes(token)) return true;
+  if (token.length < 3) return false;
+  if (name.split(" ").some(word => isSubsequence(token, word))) return true;
+  const qt = trigrams(token);
+  return name.split(" ").some(word => {
+    const nt = trigrams(word);
+    if (nt.size === 0) return false;
+    let shared = 0;
+    for (const g of qt) if (nt.has(g)) shared++;
+    return (2 * shared) / (qt.size + nt.size) > 0.45;
+  });
+}
+
 function fuzzyMatch(query, name) {
   if (name.includes(query)) return true;
+  // Multi-word queries: require every word to match so the search narrows
+  // instead of matching every "… Cocktail" via the shared common word.
+  const tokens = query.split(/\s+/).filter(Boolean);
+  if (tokens.length > 1) return tokens.every(t => wordMatch(t, name));
   if (query.length < 3) return false;
   // Subsequence check per word: catches abbreviations like "daq" → "daiquiri".
   if (name.split(" ").some(word => isSubsequence(query, word))) return true;
