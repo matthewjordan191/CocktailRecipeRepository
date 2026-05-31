@@ -825,37 +825,58 @@ function initFavorites(cocktails) {
 }
 
 // ── Recommendations ────────────────────────────────────────────────────────
+// Pure curation/quality markers, not taste dimensions — excluded from scoring
+// so they don't drown out flavor/spirit/occasion signal.
+const REC_TAG_EXCLUDE = new Set(["iba", "must-try"]);
+
+// Distinct alcoholic base ingredients in a cocktail (spirits consolidated via
+// baseIngredient so all rums reinforce each other, etc.).
+function recIngredients(cocktail) {
+  const out = new Set();
+  for (const ing of cocktail.ingredients || []) {
+    if (ing.name && isAlcoholicIngredient(ing.name)) out.add(baseIngredient(ing.name));
+  }
+  return out;
+}
+
 function getRecommendations(cocktails, limit = 20) {
   if (favorites.size === 0) return [];
 
-  const favCocktails = cocktails.filter(c => favorites.has(c.name));
+  // Document frequencies across the whole library, for inverse-frequency
+  // weighting: a trait shared by few cocktails is more telling of taste than
+  // a ubiquitous one (e.g. "creamy" matters more than "classic").
+  const N = cocktails.length;
+  const tagDf = {};
+  const ingDf = {};
+  for (const c of cocktails) {
+    for (const tag of c.tags || []) {
+      if (!REC_TAG_EXCLUDE.has(tag)) tagDf[tag] = (tagDf[tag] || 0) + 1;
+    }
+    for (const ing of recIngredients(c)) ingDf[ing] = (ingDf[ing] || 0) + 1;
+  }
+  const idf = df => Math.log(N / (df || 1));
+
+  // Taste profile: how many favorites carry each tag / base ingredient.
   const tagFreq = {};
   const ingFreq = {};
-
-  for (const c of favCocktails) {
+  for (const c of cocktails) {
+    if (!favorites.has(c.name)) continue;
     for (const tag of c.tags || []) {
-      tagFreq[tag] = (tagFreq[tag] || 0) + 1;
+      if (!REC_TAG_EXCLUDE.has(tag)) tagFreq[tag] = (tagFreq[tag] || 0) + 1;
     }
-    for (const ing of c.ingredients || []) {
-      if (ing.name && isAlcoholicIngredient(ing.name)) {
-        const norm = normalizeIngName(ing.name);
-        ingFreq[norm] = (ingFreq[norm] || 0) + 1;
-      }
-    }
+    for (const ing of recIngredients(c)) ingFreq[ing] = (ingFreq[ing] || 0) + 1;
   }
 
+  const INGREDIENT_BOOST = 1.5;
   return cocktails
     .filter(c => !favorites.has(c.name))
     .map(c => {
       let score = 0;
       for (const tag of c.tags || []) {
-        if (tagFreq[tag]) score += tagFreq[tag];
+        if (tagFreq[tag]) score += tagFreq[tag] * idf(tagDf[tag]);
       }
-      for (const ing of c.ingredients || []) {
-        if (ing.name && isAlcoholicIngredient(ing.name)) {
-          const norm = normalizeIngName(ing.name);
-          if (ingFreq[norm]) score += ingFreq[norm] * 1.5;
-        }
+      for (const ing of recIngredients(c)) {
+        if (ingFreq[ing]) score += ingFreq[ing] * idf(ingDf[ing]) * INGREDIENT_BOOST;
       }
       return { cocktail: c, score };
     })
