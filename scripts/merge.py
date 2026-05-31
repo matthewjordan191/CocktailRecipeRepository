@@ -52,26 +52,51 @@ def completeness_score(record: dict) -> float:
     return score
 
 
+# Higher number = higher priority. Difford's beats all other sources.
+SOURCE_PRIORITY: dict[str, int] = {
+    "diffordsguide": 10,
+    "iba":           1,
+    "cocktaildb":    0,
+}
+
+
 def merge_records(existing: dict, incoming: dict) -> dict:
     """
-    Return the record with higher completeness score, filling any null fields
-    in the winner from the loser where the loser has data.
+    Return the higher-priority record, falling back to completeness score
+    when both records share the same source priority. Null fields in the
+    winner are patched from the loser where available.
     """
-    existing_score = completeness_score(existing)
-    incoming_score = completeness_score(incoming)
+    ep = SOURCE_PRIORITY.get(existing.get("source", ""), 0)
+    ip = SOURCE_PRIORITY.get(incoming.get("source", ""), 0)
 
-    if incoming_score > existing_score:
-        winner, loser = incoming, existing
-        decision = (
-            f"PREFER incoming ({incoming['source']}, score={incoming_score:.2f}) "
-            f"over existing ({existing['source']}, score={existing_score:.2f})"
-        )
+    if ip != ep:
+        if ip > ep:
+            winner, loser = incoming, existing
+            decision = (
+                f"PREFER incoming ({incoming['source']}, priority={ip}) "
+                f"over existing ({existing['source']}, priority={ep})"
+            )
+        else:
+            winner, loser = existing, incoming
+            decision = (
+                f"KEEP existing ({existing['source']}, priority={ep}) "
+                f"over incoming ({incoming['source']}, priority={ip})"
+            )
     else:
-        winner, loser = existing, incoming
-        decision = (
-            f"KEEP existing ({existing['source']}, score={existing_score:.2f}) "
-            f"over incoming ({incoming['source']}, score={incoming_score:.2f})"
-        )
+        existing_score = completeness_score(existing)
+        incoming_score = completeness_score(incoming)
+        if incoming_score > existing_score:
+            winner, loser = incoming, existing
+            decision = (
+                f"PREFER incoming ({incoming['source']}, score={incoming_score:.2f}) "
+                f"over existing ({existing['source']}, score={existing_score:.2f})"
+            )
+        else:
+            winner, loser = existing, incoming
+            decision = (
+                f"KEEP existing ({existing['source']}, score={existing_score:.2f}) "
+                f"over incoming ({incoming['source']}, score={incoming_score:.2f})"
+            )
 
     log.info("DUPLICATE '%s': %s", winner["name"], decision)
 
@@ -140,10 +165,14 @@ def main():
 
     # Strip fields the web app never reads to keep cocktails.json lean.
     STRIP_FIELDS = {"id", "source", "sources"}
-    output = [
-        {k: v for k, v in r.items() if k not in STRIP_FIELDS}
-        for r in sorted(merged.values(), key=lambda r: r["name"].lower())
-    ]
+    output = []
+    for r in sorted(merged.values(), key=lambda r: r["name"].lower()):
+        record = {k: v for k, v in r.items() if k not in STRIP_FIELDS}
+        record["ingredients"] = [
+            {k: v for k, v in ing.items() if k != "raw"}
+            for ing in record.get("ingredients", [])
+        ]
+        output.append(record)
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:

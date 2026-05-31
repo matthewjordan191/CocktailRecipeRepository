@@ -3,7 +3,7 @@ import logging
 import os
 import re
 
-from utils import CL_TO_OZ, ML_TO_OZ, infer_method, round_to_quarter, slugify
+from utils import CL_TO_OZ, ML_TO_OZ, infer_method, map_tags, round_to_quarter, slugify
 
 INPUT_PATH = "data/raw/iba.json"
 OUTPUT_PATH = "data/processed/iba_normalized.json"
@@ -158,14 +158,13 @@ def normalize_cocktail(raw: dict) -> dict:
         except Exception as exc:
             logging.warning("[%s] Error parsing ingredient '%s': %s", name, ing_str, exc)
 
-    tags = []
+    raw_tags = []
     if raw.get("category"):
-        tags.append(raw["category"].lower())
+        raw_tags.append(raw["category"])
     if raw.get("type"):
-        t = raw["type"].lower()
-        if t not in tags:
-            tags.append(t)
-    tags.append("iba")
+        raw_tags.append(raw["type"])
+    raw_tags.append("iba")
+    tags = map_tags(raw_tags)
 
     return {
         "id": slugify(name),

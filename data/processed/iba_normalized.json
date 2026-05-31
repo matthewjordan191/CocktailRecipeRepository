@@ -23,8 +23,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "wine cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -54,8 +53,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -120,8 +118,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -158,8 +155,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -168,7 +164,7 @@
   {
     "id": "champagne-cocktail",
     "name": "Champagne cocktail",
-    "method": null,
+    "method": "built",
     "glass": "Champagne flute",
     "garnish": null,
     "instructions": "Add dash of Angostura bitter onto sugar cube and drop it into champagne flute. Add cognac followed by gently pouring chilled champagne. Garnish with orange slice and maraschino cherry.",
@@ -203,8 +199,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -255,8 +250,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -300,8 +294,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -338,8 +331,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -383,8 +375,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "wine cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -414,8 +405,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -459,8 +449,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -497,8 +486,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -542,8 +530,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -580,8 +567,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "highball",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -625,8 +611,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -656,8 +641,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "wine cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -729,8 +713,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -788,8 +771,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -826,8 +808,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -857,8 +838,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "wine cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -902,8 +882,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -954,8 +933,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -992,8 +970,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -1044,8 +1021,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -1082,8 +1058,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -1120,8 +1095,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -1165,8 +1139,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -1238,8 +1211,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -1276,8 +1248,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -1314,8 +1285,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -1394,8 +1364,7 @@
       }
     ],
     "tags": [
-      "contemporary classics",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -1446,8 +1415,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1491,8 +1459,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1536,8 +1503,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "mixed drink",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1581,8 +1547,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1591,7 +1556,7 @@
   {
     "id": "dark-n-stormy",
     "name": "Dark 'n' stormy",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "In a highball glass filled with ice pour the ginger beer and top floating with the Rum.\n\nNote: Garnish with a lime wedge or slice.",
@@ -1605,8 +1570,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "mixed drink",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1650,8 +1614,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1681,8 +1644,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "mixed drink",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1719,8 +1681,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1785,8 +1746,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1823,8 +1783,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "mixed drink",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1868,8 +1827,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1920,8 +1878,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -1979,8 +1936,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2024,8 +1980,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2069,8 +2024,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2121,8 +2075,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2166,8 +2119,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2218,8 +2170,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2256,8 +2207,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "wine cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2308,8 +2258,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "mixed drink",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2353,8 +2302,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2391,8 +2339,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "mixed drink",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2436,8 +2383,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2488,8 +2434,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2533,8 +2478,7 @@
       }
     ],
     "tags": [
-      "new era drinks",
-      "cocktail",
+      "new era",
       "iba"
     ],
     "source": "iba",
@@ -2571,8 +2515,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -2581,7 +2524,7 @@
   {
     "id": "americano",
     "name": "Americano",
-    "method": null,
+    "method": "built",
     "glass": "Old fashioned glass",
     "garnish": null,
     "instructions": "Pour the Campari and vermouth over ice into an old fashioned glass, add a splash of soda water and garnish with half orange slice and a lemon twist.",
@@ -2609,8 +2552,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -2647,8 +2589,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -2692,8 +2633,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -2737,8 +2677,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -2775,8 +2714,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -2834,8 +2772,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -2879,8 +2816,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -2924,8 +2860,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -2962,8 +2897,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -2993,8 +2927,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3038,8 +2971,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3076,8 +3008,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3121,8 +3052,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3166,8 +3096,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3204,8 +3133,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3249,8 +3177,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3294,8 +3221,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3339,8 +3265,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3377,8 +3302,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3422,8 +3346,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3460,8 +3383,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3470,7 +3392,7 @@
   {
     "id": "planters-punch",
     "name": "Planter's punch",
-    "method": null,
+    "method": "built",
     "glass": "Beverage glass",
     "garnish": null,
     "instructions": "Pour all ingredients directly in a small tumbler or a typical terracotta glass.\n\nNote: Add dilution up to taste, it can be given by water, ice or fresh juices.",
@@ -3498,8 +3420,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "mixed drink",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3536,8 +3457,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3616,8 +3536,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3640,8 +3559,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3685,8 +3603,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3723,8 +3640,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3754,8 +3670,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3806,8 +3721,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3858,8 +3772,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3896,8 +3809,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",
@@ -3934,8 +3846,7 @@
       }
     ],
     "tags": [
-      "the unforgettables",
-      "cocktail",
+      "classic",
       "iba"
     ],
     "source": "iba",

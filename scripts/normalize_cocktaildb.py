@@ -3,7 +3,7 @@ import logging
 import os
 import re
 
-from utils import CL_TO_OZ, ML_TO_OZ, infer_method, round_to_quarter, slugify
+from utils import CL_TO_OZ, ML_TO_OZ, infer_method, map_tags, round_to_quarter, slugify
 
 INPUT_PATH = "data/raw/cocktaildb.json"
 OUTPUT_PATH = "data/processed/cocktaildb_normalized.json"
@@ -147,18 +147,16 @@ def normalize_drink(drink: dict) -> dict:
             }
         )
 
-    tags = []
+    raw_tags = []
     if drink.get("strTags"):
-        tags.extend(t.strip().lower() for t in drink["strTags"].split(",") if t.strip())
+        raw_tags.extend(t.strip() for t in drink["strTags"].split(",") if t.strip())
     if drink.get("strCategory"):
-        tags.append(drink["strCategory"].lower())
+        raw_tags.append(drink["strCategory"])
     if drink.get("strIBA"):
-        tags.append("iba")
+        raw_tags.append("iba")
     if drink.get("strAlcoholic") == "Non alcoholic":
-        tags.append("non-alcoholic")
-    # deduplicate while preserving order
-    seen = set()
-    tags = [t for t in tags if not (t in seen or seen.add(t))]
+        raw_tags.append("non-alcoholic")
+    tags = map_tags(raw_tags)
 
     return {
         "id": slugify(name),

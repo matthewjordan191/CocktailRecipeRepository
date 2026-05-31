@@ -88,14 +88,16 @@ function slugify(name) {
 // ── Filter definitions ─────────────────────────────────────────────────────
 const FILTERS = [
   { label: "IBA",           tags: ["iba"] },
-  { label: "Classics",      tags: ["classic", "contemporaryclassic", "contemporary classics", "the unforgettables"] },
-  { label: "New Era",       tags: ["new era drinks", "newera"] },
+  { label: "Classics",      tags: ["classic"] },
+  { label: "New Era",       tags: ["new era"] },
+  { label: "Aperitif",      tags: ["aperitif"] },
+  { label: "Tropical",      tags: ["tropical"] },
   { label: "Non-Alcoholic", tags: ["non-alcoholic"] },
   { label: "Shots",         tags: ["shot"] },
-  { label: "Coffee",        tags: ["coffee / tea"] },
-  { label: "Punch",         tags: ["punch / party drink"] },
+  { label: "Coffee",        tags: ["coffee"] },
+  { label: "Punch",         tags: ["punch"] },
   { label: "Sours",         tags: ["sour"] },
-  { label: "Festive",       tags: ["christmas", "holiday", "halloween", "winter"] },
+  { label: "Festive",       tags: ["christmas"] },
 ];
 
 // ── Inventory (module-level so detail view can read it) ────────────────────
@@ -310,7 +312,7 @@ document.getElementById("back-btn").addEventListener("click", () => {
 
 // ── Detail renderer ────────────────────────────────────────────────────────
 function formatAmount(ing) {
-  if (ing.amount == null) return ing.raw || "";
+  if (ing.amount == null) return "";
   return `${ing.amount} ${ing.unit ?? ""}`.trim();
 }
 
@@ -601,17 +603,10 @@ function initBrowse(cocktails) {
   filterBar.insertAdjacentElement("afterend", ingChip);
 
   // Build expanded all-tags panel from data, sorted by frequency.
-  const EXCLUDED_TAGS = new Set([
-    // Duplicates of curated filters
-    "contemporaryclassic", "newera", "alcoholic",
-    // Too vague
-    "ordinary drink", "cocktail", "mixed drink", "other / unknown", "shake",
-    // Single-cocktail noise
-    "drunk", "lazy", "nature", "passion", "adult", "colourful", "bubbly",
-    "dark", "spanish", "german", "expensive", "savory", "mild", "vegan",
-    "vegetarian", "fruity", "breakfast", "simple", "clear", "frozen", "cold",
-    "dinnerparty", "datenight", "dairy", "holiday", "brazilian",
-  ]);
+  // Exclude the canonical tags already shown as curated filter chips above.
+  const EXCLUDED_TAGS = new Set(
+    FILTERS.flatMap(f => f.tags)
+  );
 
   const tagCounts = {};
   for (const cocktail of cocktails) {

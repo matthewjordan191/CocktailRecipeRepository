@@ -36,16 +36,14 @@
         "raw": "1/8 Shot"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg"
   },
   {
     "id": "abc",
     "name": "ABC",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Layered in a shot glass.",
@@ -122,9 +120,7 @@
         "raw": "1/2 Fresh"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/l3cd7f1504818306.jpg"
   },
@@ -187,9 +183,7 @@
         "raw": "4 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rhhwmp1493067619.jpg"
   },
@@ -223,11 +217,7 @@
         "raw": "1 tsp"
       }
     ],
-    "tags": [
-      "alcoholic",
-      "holiday",
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg"
   },
@@ -254,16 +244,14 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/l74qo91582480316.jpg"
   },
   {
     "id": "affair",
     "name": "Affair",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Pour schnapps, orange juice, and cranberry juice over ice in a highball glass. Top with club soda and serve.",
@@ -297,9 +285,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/h5za6y1582477994.jpg"
   },
@@ -347,9 +333,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/3k9qic1493068931.jpg"
   },
@@ -391,7 +375,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -427,9 +410,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rwsyyu1483388181.jpg"
   },
@@ -463,9 +444,7 @@
         "raw": "3 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/smb2oe1582479072.jpg"
   },
@@ -492,9 +471,7 @@
         "raw": "1 1/2 shot"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yzva7x1504820300.jpg"
   },
@@ -530,8 +507,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "cocktail"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/trbplb1606855233.jpg"
@@ -566,9 +542,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sbffau1504389764.jpg"
   },
@@ -609,9 +583,7 @@
         "raw": "2 dashes"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wzdtnn1582477684.jpg"
   },
@@ -666,9 +638,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/il9e0r1582478841.jpg"
   },
@@ -711,9 +681,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "dairy",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/0clus51606772388.jpg"
@@ -748,9 +716,7 @@
         "raw": "Fill with"
       }
     ],
-    "tags": [
-      "shake"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uppqty1472720165.jpg"
   },
@@ -798,16 +764,14 @@
         "raw": "1 twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uwvyts1483387934.jpg"
   },
   {
     "id": "americano",
     "name": "Americano",
-    "method": null,
+    "method": "built",
     "glass": "Collins glass",
     "garnish": null,
     "instructions": "Pour the Campari and vermouth over ice into glass, add a splash of soda water and garnish with half orange slice.",
@@ -843,8 +807,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/709s6m1613655124.jpg"
@@ -879,9 +842,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uwryxx1483387873.jpg"
   },
@@ -915,9 +876,7 @@
         "raw": "2 dashes"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/g1vnbe1493067747.jpg"
   },
@@ -952,7 +911,6 @@
       }
     ],
     "tags": [
-      "cocktail",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -988,9 +946,7 @@
         "raw": "Top up with"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ib0b7g1504818925.jpg"
   },
@@ -1026,7 +982,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
+      "new era",
       "shot"
     ],
     "source": "cocktaildb",
@@ -1035,7 +991,7 @@
   {
     "id": "b-53",
     "name": "B-53",
-    "method": null,
+    "method": "built",
     "glass": "Collins Glass",
     "garnish": null,
     "instructions": "Layer the Kahlua, Sambucca and Grand Marnier into a shot glas in that order. Better than B-52",
@@ -1105,9 +1061,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rysb3r1513706985.jpg"
   },
@@ -1155,16 +1109,14 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/pwgtpa1504366376.jpg"
   },
   {
     "id": "big-red",
     "name": "Big Red",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Pour ingredients into 1 ounce shot glass",
@@ -1214,9 +1166,8 @@
       }
     ],
     "tags": [
-      "contemporaryclassic",
-      "iba",
-      "ordinary drink"
+      "classic",
+      "iba"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/eaag491504367543.jpg"
@@ -1260,8 +1211,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "ordinary drink"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/twtbh51630406392.jpg"
@@ -1303,9 +1253,7 @@
         "raw": "2 dashes"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vysuyq1441206297.jpg"
   },
@@ -1360,9 +1308,7 @@
         "raw": "1 twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/5jhyd01582579843.jpg"
   },
@@ -1410,13 +1356,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "alcoholic",
-      "sweet",
-      "datenight",
-      "usa",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ojsezf1582477277.jpg"
   },
@@ -1458,7 +1398,6 @@
       }
     ],
     "tags": [
-      "cocktail",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -1508,9 +1447,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/3m6yz81504389551.jpg"
   },
@@ -1560,8 +1497,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "ordinary drink"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/jwmr1x1504372337.jpg"
@@ -1596,16 +1532,14 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/nl89tf1518947401.jpg"
   },
   {
     "id": "broadside",
     "name": "Broadside",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Half fill the glass with ice cubes. Crush the wormwood and add to ice. Pour rum, scotch and butters, then serve!",
@@ -1639,9 +1573,7 @@
         "raw": "1 Fresh"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/l2o6xu1582476870.jpg"
   },
@@ -1668,9 +1600,7 @@
         "raw": "1 shot"
       }
     ],
-    "tags": [
-      "beer"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/upvtyt1441249023.jpg"
   },
@@ -1726,7 +1656,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rz5aun1504389701.jpg"
@@ -1761,16 +1691,14 @@
         "raw": "1 twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/dgj92f1616098672.jpg"
   },
   {
     "id": "bob-marley",
     "name": "Bob Marley",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Layer in a 2 oz shot glass or pony glass",
@@ -1806,7 +1734,7 @@
   {
     "id": "bible-belt",
     "name": "Bible Belt",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Mix all ingredients, and pour over ice.",
@@ -1840,16 +1768,14 @@
         "raw": "2 oz"
       }
     ],
-    "tags": [
-      "other / unknown"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/6bec6v1503563675.jpg"
   },
   {
     "id": "bubble-gum",
     "name": "Bubble Gum",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Layer in order into a shot glass.",
@@ -1892,7 +1818,7 @@
   {
     "id": "bumble-bee",
     "name": "Bumble Bee",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "This is a layered shot. First pour the Bailey's into the shot glass. Then take an upside down spoon and touch it to the inside wall of the glass. Carefully add the Kahlua. Repeat this process for the Sambuca. If done properly, the alcohol will stay separated and resemble a bumble bee. Enjoy!!!",
@@ -1955,9 +1881,7 @@
         "raw": "2 scoops"
       }
     ],
-    "tags": [
-      "shake"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wywrtw1472720227.jpg"
   },
@@ -2012,16 +1936,14 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/kxlgbi1504366100.jpg"
   },
   {
     "id": "bahama-mama",
     "name": "Bahama Mama",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Add 2 parts club soda or more or less to taste.\r\n\r\nMix it all together and pour over a bunch of ice. Drink with a straw.",
@@ -2076,9 +1998,7 @@
         "raw": "1 part"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/tyb4a41515793339.jpg"
   },
@@ -2127,8 +2047,7 @@
       }
     ],
     "tags": [
-      "iba",
-      "ordinary drink"
+      "iba"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/1mvjxg1504348579.jpg"
@@ -2171,7 +2090,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vqwptt1441247711.jpg"
@@ -2207,9 +2126,8 @@
       }
     ],
     "tags": [
-      "contemporaryclassic",
-      "iba",
-      "ordinary drink"
+      "classic",
+      "iba"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/jgvn7p1582484435.jpg"
@@ -2217,7 +2135,7 @@
   {
     "id": "cream-soda",
     "name": "Cream Soda",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Pour 1oz of Spiced Rum into a highball glass with ice. Fill with Ginger Ale.",
@@ -2237,9 +2155,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yqstxr1479209367.jpg"
   },
@@ -2273,9 +2189,7 @@
         "raw": "Fill with"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ck6d0p1504388696.jpg"
   },
@@ -2309,9 +2223,7 @@
         "raw": "1 tblsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/twsuvr1441554424.jpg"
   },
@@ -2347,8 +2259,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wmkbfj1606853905.jpg"
@@ -2397,9 +2308,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/pk6dwi1592767243.jpg"
   },
@@ -2426,9 +2335,7 @@
         "raw": "2 parts"
       }
     ],
-    "tags": [
-      "soft drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uyrvut1479473214.jpg"
   },
@@ -2469,9 +2376,7 @@
         "raw": "1 1/2 tsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/usspxq1441553762.jpg"
   },
@@ -2514,8 +2419,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg"
@@ -2550,9 +2454,7 @@
         "raw": "2-3 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yd47111503565515.jpg"
   },
@@ -2586,9 +2488,7 @@
         "raw": "1 tblsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/dazdlg1504366949.jpg"
   },
@@ -2615,9 +2515,7 @@
         "raw": "1 1/2 cl"
       }
     ],
-    "tags": [
-      "beer"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xsqrup1441249130.jpg"
   },
@@ -2672,9 +2570,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qwvwqr1441207763.jpg"
   },
@@ -2717,8 +2613,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "cocktail"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg"
@@ -2774,9 +2669,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "homemade liqueur"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg"
   },
@@ -2824,9 +2717,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/3qpv121504366699.jpg"
   },
@@ -2874,16 +2765,14 @@
         "raw": "1 dash"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/gifgao1513704334.jpg"
   },
   {
     "id": "chocolate-milk",
     "name": "Chocolate Milk",
-    "method": null,
+    "method": "built",
     "glass": "Shot Glass",
     "garnish": null,
     "instructions": "Put the milk in the bottom, pour the Liquer on top and add the dash of amaretto. Do not mix. SLAM IT!",
@@ -2946,9 +2835,7 @@
         "raw": "1/2 oz Muscatel"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qxvtst1461867579.jpg"
   },
@@ -2996,16 +2883,14 @@
         "raw": "2 1/2 cups"
       }
     ],
-    "tags": [
-      "homemade liqueur"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ryvtsu1441253851.jpg"
   },
   {
     "id": "coke-and-drops",
     "name": "Coke and Drops",
-    "method": null,
+    "method": "built",
     "glass": "Cocktail glass",
     "garnish": null,
     "instructions": "Take a glass, pour the Coke in the glass, then you take 7 drops of lemon juice. Granish with a lemon slice on the rim of the glass.",
@@ -3026,7 +2911,6 @@
       }
     ],
     "tags": [
-      "soft drink",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -3063,7 +2947,6 @@
       }
     ],
     "tags": [
-      "cocoa",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -3114,7 +2997,7 @@
       }
     ],
     "tags": [
-      "punch / party drink",
+      "punch",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -3152,8 +3035,7 @@
     ],
     "tags": [
       "classic",
-      "iba",
-      "ordinary drink"
+      "iba"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/52weey1606772672.jpg"
@@ -3161,7 +3043,7 @@
   {
     "id": "diesel",
     "name": "Diesel",
-    "method": null,
+    "method": "built",
     "glass": "Pint glass",
     "garnish": null,
     "instructions": "Pour the lager first then add the blackcurrant cordial. Top up with the cider. The colour sholud be very dark approaching the colour of Guiness.",
@@ -3188,9 +3070,7 @@
         "raw": "1 dash"
       }
     ],
-    "tags": [
-      "beer"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sxrrqq1454512852.jpg"
   },
@@ -3226,9 +3106,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "beach",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg"
@@ -3236,7 +3114,7 @@
   {
     "id": "danbooka",
     "name": "Danbooka",
-    "method": null,
+    "method": "built",
     "glass": "Coffee Mug",
     "garnish": null,
     "instructions": "pour it in and mix it.",
@@ -3257,7 +3135,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vurrxr1441246074.jpg"
@@ -3300,7 +3178,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/y36z8c1503563911.jpg"
@@ -3335,9 +3213,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uc63bh1582483589.jpg"
   },
@@ -3374,9 +3250,7 @@
     "tags": [
       "iba",
       "classic",
-      "christmas",
-      "alcoholic",
-      "cocktail"
+      "christmas"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg"
@@ -3411,16 +3285,14 @@
         "raw": "1 twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/typuyq1439456976.jpg"
   },
   {
     "id": "dirty-nipple",
     "name": "Dirty Nipple",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "This is a layered shot - the Bailey's must be on top",
@@ -3499,8 +3371,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "cocktail"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vcyvpq1485083300.jpg"
@@ -3535,9 +3406,7 @@
         "raw": "1 part"
       }
     ],
-    "tags": [
-      "soft drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sxxsyq1472719303.jpg"
   },
@@ -3566,8 +3435,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "ordinary drink"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg"
@@ -3602,9 +3470,7 @@
         "raw": "2 1/2 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uwstrx1472406058.jpg"
   },
@@ -3666,16 +3532,14 @@
         "raw": "2 sprigs"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/g51naw1485084685.jpg"
   },
   {
     "id": "damned-if-you-do",
     "name": "Damned if you do",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Pour into shot glass. Put in mouth. Repeat as deemed necessary.",
@@ -3738,9 +3602,7 @@
         "raw": "1 twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/pfz3hz1582483111.jpg"
   },
@@ -3796,7 +3658,6 @@
       }
     ],
     "tags": [
-      "cocoa",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -3805,7 +3666,7 @@
   {
     "id": "death-in-the-afternoon",
     "name": "Death in the Afternoon",
-    "method": null,
+    "method": "built",
     "glass": "Margarita glass",
     "garnish": null,
     "instructions": "Easy as you like, pour the absinthe into a chilled glass, top with champagne. Must be drunk mid afternoon for the optimum effect.",
@@ -3825,10 +3686,7 @@
         "raw": "Top"
       }
     ],
-    "tags": [
-      "drunk",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/y7s3rh1598719574.jpg"
   },
@@ -3863,7 +3721,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -3956,7 +3813,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wpspsy1468875747.jpg"
@@ -4005,9 +3862,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/dhvr7d1504519752.jpg"
   },
@@ -4043,8 +3898,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "cocktail"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg"
@@ -4086,11 +3940,7 @@
         "raw": "1 shot"
       }
     ],
-    "tags": [
-      "dinnerparty",
-      "strongflavor",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/acvf171561574403.jpg"
   },
@@ -4153,7 +4003,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qxuppv1468875308.jpg"
@@ -4209,9 +4059,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yxwrpp1441208697.jpg"
   },
@@ -4245,10 +4093,7 @@
         "raw": "3 cl"
       }
     ],
-    "tags": [
-      "brazilian",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/dif7a31614006331.jpg"
   },
@@ -4297,7 +4142,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/quxsvt1468875505.jpg"
@@ -4332,9 +4177,7 @@
         "raw": "1/2 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/osgvxt1513595509.jpg"
   },
@@ -4376,10 +4219,7 @@
       }
     ],
     "tags": [
-      "cold",
-      "frozen",
-      "summer",
-      "cocktail"
+      "frozen"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/b4cadp1619695347.jpg"
@@ -4415,7 +4255,7 @@
       }
     ],
     "tags": [
-      "coffee / tea",
+      "coffee",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -4451,9 +4291,7 @@
         "raw": "2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/r9cz3q1504519844.jpg"
   },
@@ -4510,8 +4348,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/hrxfbl1606773109.jpg"
@@ -4568,9 +4405,7 @@
       }
     ],
     "tags": [
-      "christmas",
-      "sweet",
-      "cocktail"
+      "christmas"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/pbw4e51606766578.jpg"
@@ -4626,9 +4461,7 @@
         "raw": "1 slice"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/acuvjz1582482022.jpg"
   },
@@ -4670,7 +4503,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -4679,7 +4511,7 @@
   {
     "id": "fruit-cooler",
     "name": "Fruit Cooler",
-    "method": null,
+    "method": "built",
     "glass": "Highball Glass",
     "garnish": null,
     "instructions": "Toss strawberries with sugar, and let sit overnight in refrigerator. Cut lemon, reserve two slices. Juice the rest. Mix together the lemon juice, strawberries, apple juice, and soda water. Add slices of lemon (decor, really). In glasses, put ice cubes, and a slice of apple. Pour drink in, and serve.",
@@ -4728,7 +4560,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -4814,9 +4645,7 @@
         "raw": "Top"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qtv83q1596015790.jpg"
   },
@@ -4844,7 +4673,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wrvpuu1472667898.jpg"
@@ -4880,9 +4709,8 @@
       }
     ],
     "tags": [
-      "newera",
-      "iba",
-      "cocktail"
+      "new era",
+      "iba"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg"
@@ -4924,9 +4752,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/x8lhp41513703167.jpg"
   },
@@ -4989,9 +4815,7 @@
         "raw": "1/2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/mwko4q1582482903.jpg"
   },
@@ -5039,9 +4863,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/7oyrj91504884412.jpg"
   },
@@ -5069,7 +4891,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -5112,9 +4933,7 @@
         "raw": "1/4 tsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/q53l911582482518.jpg"
   },
@@ -5143,8 +4962,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/zaqa381504368758.jpg"
@@ -5202,7 +5020,7 @@
   {
     "id": "flaming-lamborghini",
     "name": "Flaming Lamborghini",
-    "method": null,
+    "method": "built",
     "glass": "Cocktail glass",
     "garnish": null,
     "instructions": "Pour the Sambuca and Kahlua into the Cocktail Glass and give the drinker a straw. Pour the Baileys and Blue Curacao into two sepsrate shot glasses either side of the cocktail glass. Set light the concotion in the cocktail glass and start to drink through the straw (this drink should be drunk in one) , as the bottom of the glass is reached put out the fire by pouring the Baileys and Blue Curacao into the cocktail glass and keep drinking till it's all gone!!",
@@ -5236,9 +5054,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yywpss1461866587.jpg"
   },
@@ -5265,9 +5081,7 @@
         "raw": "3/4 glass"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sqvqrx1461866705.jpg"
   },
@@ -5308,9 +5122,7 @@
         "raw": "1 tsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/jrhn1q1504884469.jpg"
   },
@@ -5351,16 +5163,14 @@
         "raw": "1/2 tsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/k3aecd1582481679.jpg"
   },
   {
     "id": "gg",
     "name": "GG",
-    "method": null,
+    "method": "built",
     "glass": "Collins Glass",
     "garnish": null,
     "instructions": "Pour the Galliano liqueur over ice. Fill the remainder of the glass with ginger ale and thats all there is to it. You now have a your very own GG.",
@@ -5380,9 +5190,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vyxwut1468875960.jpg"
   },
@@ -5423,9 +5231,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/3xgldt1513707271.jpg"
   },
@@ -5459,9 +5265,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/m5nhtr1504820829.jpg"
   },
@@ -5504,8 +5308,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/drtihp1606768397.jpg"
@@ -5555,8 +5358,7 @@
       }
     ],
     "tags": [
-      "sour",
-      "ordinary drink"
+      "sour"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/noxp7e1606769224.jpg"
@@ -5598,16 +5400,14 @@
         "raw": "1 part"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/lyloe91487602877.jpg"
   },
   {
     "id": "godmother",
     "name": "Godmother",
-    "method": null,
+    "method": "built",
     "glass": "Old-fashioned glass",
     "garnish": null,
     "instructions": "Pour vodka and amaretto into an old-fashioned glass over ice and serve.",
@@ -5629,8 +5429,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/quksqg1582582597.jpg"
@@ -5660,8 +5459,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/e5zgao1582582378.jpg"
@@ -5718,7 +5516,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vuxwvt1468875418.jpg"
@@ -5726,7 +5524,7 @@
   {
     "id": "gin-tonic",
     "name": "Gin Tonic",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Fill a highball glass with ice, pour the gin, top with tonic water and squeeze a lemon wedge and garnish with a lemon wedge.",
@@ -5753,9 +5551,7 @@
         "raw": "1 Slice"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qcgz0t1643821443.jpg"
   },
@@ -5796,9 +5592,7 @@
         "raw": "1 twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/jxstwf1582582101.jpg"
   },
@@ -5853,11 +5647,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "citrus",
-      "strongflavor",
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/iprva61606768774.jpg"
   },
@@ -5912,9 +5702,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/z6e22f1582581155.jpg"
   },
@@ -5949,10 +5737,7 @@
       }
     ],
     "tags": [
-      "simple",
-      "classic",
-      "refreshing",
-      "cocktail"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/6gdohq1681212476.jpg"
@@ -6001,9 +5786,7 @@
         "raw": "Twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/8cl9sm1582581761.jpg"
   },
@@ -6030,16 +5813,14 @@
         "raw": "3 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/g5upn41513706732.jpg"
   },
   {
     "id": "gin-rickey",
     "name": "Gin Rickey",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Half-fill a tall glass with ice. Mix the gin and Grenadine together and pour over the ice. Add the lime or lemon juice and top off with soda water. Decorate the glass with lime and/or lemon slices.",
@@ -6080,9 +5861,7 @@
         "raw": "Garnish"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/s00d6f1504883945.jpg"
   },
@@ -6137,9 +5916,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xrbhz61504883702.jpg"
   },
@@ -6180,9 +5957,7 @@
         "raw": "3 cl"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vsrsqu1472761749.jpg"
   },
@@ -6230,9 +6005,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/678xt11582481163.jpg"
   },
@@ -6280,9 +6053,7 @@
         "raw": "3 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sybce31504884026.jpg"
   },
@@ -6330,9 +6101,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qyvprp1473891585.jpg"
   },
@@ -6368,9 +6137,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "halloween",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/aqm9el1504369613.jpg"
@@ -6378,7 +6145,7 @@
   {
     "id": "grim-reaper",
     "name": "Grim Reaper",
-    "method": null,
+    "method": "built",
     "glass": "Old-fashioned glass",
     "garnish": null,
     "instructions": "Mix Kahlua and 151 in glass. Quickly add ice and pour grenadine over ice to give ice red tint.",
@@ -6405,9 +6172,7 @@
         "raw": "1 dash"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/kztu161504883192.jpg"
   },
@@ -6441,11 +6206,7 @@
         "raw": "1/4"
       }
     ],
-    "tags": [
-      "clear",
-      "alcoholic",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/nzlyc81605905755.jpg"
   },
@@ -6480,7 +6241,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg"
@@ -6515,10 +6276,7 @@
         "raw": "2 cl"
       }
     ],
-    "tags": [
-      "sweet",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vu8l7t1582475673.jpg"
   },
@@ -6566,10 +6324,7 @@
         "raw": "2"
       }
     ],
-    "tags": [
-      "winter",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ggx0lv1613942306.jpg"
   },
@@ -6597,7 +6352,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rrstxv1441246184.jpg"
@@ -6641,8 +6396,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/006k4e1504370092.jpg"
@@ -6650,7 +6404,7 @@
   {
     "id": "happy-skipper",
     "name": "Happy Skipper",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Pour Captain Morgan's Spiced Rum over ice, fill glass to top with Ginger Ale. Garnish with lime. Tastes like a cream soda. Named for the Gilligan's Island reference (\"The Captain\" *in* \"Ginger\" is a Happy Skipper!)",
@@ -6677,9 +6431,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/42w2g41487602448.jpg"
   },
@@ -6727,16 +6479,14 @@
         "raw": "2"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/t0iugg1509556712.jpg"
   },
   {
     "id": "halloween-punch",
     "name": "Halloween Punch",
-    "method": null,
+    "method": "built",
     "glass": "Punch bowl",
     "garnish": null,
     "instructions": "Tip the cherry juice, orange peel, chilli, cinnamon sticks, cloves and ginger into a large saucepan. Simmer for 5 mins, then turn off the heat. Leave to cool, then chill for at least 4 hrs, or up to 2 days – the longer you leave it the more intense the flavours. If serving to young children, take the chilli out after a few hours.\r\n\r\nWhen you’re ready to serve, pour the juice into a jug. Serve in glass bottles or glasses and pop a straw in each. If you're adding vodka, do so at this stage. Dangle a fangs sweet from each glass.",
@@ -6785,8 +6535,7 @@
       }
     ],
     "tags": [
-      "halloween",
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/7hcgyj1571687671.jpg"
@@ -6821,9 +6570,7 @@
         "raw": "1 tsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/59splc1504882899.jpg"
   },
@@ -6865,7 +6612,7 @@
       }
     ],
     "tags": [
-      "punch / party drink",
+      "punch",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -6874,7 +6621,7 @@
   {
     "id": "homemade-kahlua",
     "name": "Homemade Kahlua",
-    "method": null,
+    "method": "built",
     "glass": "Collins Glass",
     "garnish": null,
     "instructions": "Dissolve sugar in 2 cups of boiling water and add corn syrup. Dissolve the instant coffee in the remaining water. Pour syrup and coffee in a gallon jug. Let it cool. Add vodka and vanilla when cold. For the best result, let the mixture \"mature\" for 4-5 weeks.",
@@ -6922,9 +6669,7 @@
         "raw": "1 fifth"
       }
     ],
-    "tags": [
-      "homemade liqueur"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uwtsst1441254025.jpg"
   },
@@ -6959,7 +6704,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/spvrtp1472668037.jpg"
@@ -6996,8 +6741,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/7os4gs1606854357.jpg"
@@ -7032,9 +6776,7 @@
         "raw": "1 tblsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ujoh9x1504882987.jpg"
   },
@@ -7077,8 +6819,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/jfcvps1504369888.jpg"
@@ -7120,9 +6861,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/0bkwca1492975553.jpg"
   },
@@ -7171,7 +6910,6 @@
       }
     ],
     "tags": [
-      "cocoa",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -7215,7 +6953,6 @@
       }
     ],
     "tags": [
-      "ordinary drink",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -7251,9 +6988,7 @@
         "raw": "to taste"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ypsrqp1469091726.jpg"
   },
@@ -7295,7 +7030,7 @@
       }
     ],
     "tags": [
-      "coffee / tea",
+      "coffee",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -7345,16 +7080,14 @@
         "raw": "1 tblsp"
       }
     ],
-    "tags": [
-      "homemade liqueur"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/90etyl1504884699.jpg"
   },
   {
     "id": "irish-coffee",
     "name": "Irish Coffee",
-    "method": null,
+    "method": "built",
     "glass": "Irish coffee cup",
     "garnish": null,
     "instructions": "Heat the coffee, whiskey and sugar; do not boil. Pour into glass and top with cream; serve hot.",
@@ -7390,8 +7123,8 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "coffee / tea"
+      "classic",
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sywsqw1439906999.jpg"
@@ -7399,7 +7132,7 @@
   {
     "id": "irish-spring",
     "name": "Irish Spring",
-    "method": null,
+    "method": "built",
     "glass": "Collins glass",
     "garnish": null,
     "instructions": "Pour all ingredients (except orange slice and cherry) into a collins glass over ice cubes. Garnish with the slice of orange, add the cherry on top, and serve.",
@@ -7447,9 +7180,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sot8v41504884783.jpg"
   },
@@ -7497,9 +7228,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/zj1usl1504884548.jpg"
   },
@@ -7540,9 +7269,7 @@
         "raw": "Fill with"
       }
     ],
-    "tags": [
-      "beer"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/swqurw1454512730.jpg"
   },
@@ -7576,9 +7303,7 @@
         "raw": "4 cl"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/bcsj2e1487603625.jpg"
   },
@@ -7606,7 +7331,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sxtxrp1454514223.jpg"
@@ -7614,7 +7339,7 @@
   {
     "id": "irish-curdling-cow",
     "name": "Irish Curdling Cow",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Pour Irish Cream, Vodka, and Bourbon in a glass. Add some ice and mix in the orange juice.",
@@ -7648,16 +7373,14 @@
         "raw": "2-3 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yrhutv1503563730.jpg"
   },
   {
     "id": "jam-donut",
     "name": "Jam Donut",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Coat the rim of a shot glass with sugar using sugar syrup to stick. Add the Chambord raspberry liqueur to the shot glass, and carefully layer the Baileys Irish Cream on top. Serve.",
@@ -7755,9 +7478,7 @@
         "raw": "Fill to top with"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wwqvrq1441245318.jpg"
   },
@@ -7784,9 +7505,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/9von5j1504388896.jpg"
   },
@@ -7822,7 +7541,7 @@
   {
     "id": "jello-shots",
     "name": "Jello shots",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Boil 3 cups of water then add jello. Mix jello and water until jello is completely disolved. Add the two cups of vodka and mix together. Pour mixture into plastic shot glasses and chill until firm. Then, eat away...",
@@ -7885,9 +7604,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "shake"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/urpvvv1441249549.jpg"
   },
@@ -7943,8 +7660,7 @@
       }
     ],
     "tags": [
-      "iba",
-      "ordinary drink"
+      "iba"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/0t4bv71606854479.jpg"
@@ -8000,9 +7716,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/37vzv11504884831.jpg"
   },
@@ -8044,7 +7758,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xqptps1441247257.jpg"
@@ -8080,7 +7794,6 @@
       }
     ],
     "tags": [
-      "shake",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -8116,9 +7829,7 @@
         "raw": "1/2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/hx4nrb1504884947.jpg"
   },
@@ -8152,10 +7863,7 @@
         "raw": "Juice of 1/2"
       }
     ],
-    "tags": [
-      "beach",
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uuqqrv1439907068.jpg"
   },
@@ -8189,9 +7897,7 @@
         "raw": "10-12 oz"
       }
     ],
-    "tags": [
-      "other / unknown"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/kjnt7z1504793319.jpg"
   },
@@ -8220,8 +7926,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/apneom1504370294.jpg"
@@ -8249,9 +7954,7 @@
         "raw": "2 parts"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/808mxk1487602471.jpg"
   },
@@ -8287,8 +7990,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "ordinary drink"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/d7ff7u1606855412.jpg"
@@ -8296,7 +7998,7 @@
   {
     "id": "kir-royale",
     "name": "Kir Royale",
-    "method": null,
+    "method": "built",
     "glass": "Champagne Flute",
     "garnish": null,
     "instructions": "Pour Creme de cassis in glass, gently pour champagne on top",
@@ -8316,9 +8018,7 @@
         "raw": "5 parts"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yt9i7n1504370388.jpg"
   },
@@ -8345,16 +8045,14 @@
         "raw": "2 parts"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/tpupvr1478251697.jpg"
   },
   {
     "id": "kurant-tea",
     "name": "Kurant Tea",
-    "method": null,
+    "method": "built",
     "glass": "Champagne flute",
     "garnish": null,
     "instructions": "Pour Absolut Kurant into a comfortably big tea-cup. Add the not too hot(!) apple tea and, if you like, some sugar. Enjoy!",
@@ -8382,7 +8080,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xrsrpr1441247464.jpg"
@@ -8418,7 +8116,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uppqty1441247374.jpg"
@@ -8460,11 +8158,7 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [
-      "green",
-      "sharp",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/bmxmyq1630407098.jpg"
   },
@@ -8505,9 +8199,7 @@
         "raw": "8 cl"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/m7iaxu1504885119.jpg"
   },
@@ -8593,7 +8285,7 @@
   {
     "id": "kentucky-b-and-b",
     "name": "Kentucky B And B",
-    "method": null,
+    "method": "built",
     "glass": "Brandy snifter",
     "garnish": null,
     "instructions": "Pour the bourbon and Benedictine into a brandy snifter.",
@@ -8613,9 +8305,7 @@
         "raw": "1/2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sqxsxp1478820236.jpg"
   },
@@ -8649,16 +8339,14 @@
         "raw": "1 twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/utqwpu1478820348.jpg"
   },
   {
     "id": "kool-aid-slammer",
     "name": "Kool-Aid Slammer",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Fill half the shot glass with the kool-aid first. Then put a paper towel over the top of the glass and slowly pour in the vodka. If you do it right, you should be able to see that the two liquids are separated, with the vodka on top. Now slam it! The last thing you'll taste is the kool-aid.",
@@ -8708,7 +8396,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -8745,7 +8432,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -8789,7 +8475,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -8825,9 +8510,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "beer"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qywpvt1454512546.jpg"
   },
@@ -8863,8 +8546,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "cocktail"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/mtpxgk1504373297.jpg"
@@ -8872,7 +8554,7 @@
   {
     "id": "lemon-shot",
     "name": "Lemon Shot",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Mix Galliano and Absolut Citron in a shot glass, lay lemon wedge sprinkled with sugar over glass and pour a rum over wedge and glass. light rum with a lighter and let burn for a second. Do shot quickly and suck on lemon. If it is done correctly, this will taste like a shot of sweet lemonade.",
@@ -8956,9 +8638,7 @@
         "raw": "1 dl Schweppes"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg"
   },
@@ -9000,7 +8680,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -9044,7 +8723,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -9095,7 +8773,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -9138,9 +8815,7 @@
         "raw": "1 twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rpvtpr1468923881.jpg"
   },
@@ -9174,9 +8849,7 @@
         "raw": "2 dashes"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rpsrqv1468923507.jpg"
   },
@@ -9218,7 +8891,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -9269,7 +8941,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -9298,9 +8969,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "beer"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wwqrsw1441248662.jpg"
   },
@@ -9327,9 +8996,7 @@
         "raw": "1/2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/quwrys1468923219.jpg"
   },
@@ -9384,16 +9051,14 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/20d63k1504885263.jpg"
   },
   {
     "id": "long-island-tea",
     "name": "Long Island Tea",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Combine all ingredients (except cola) and pour over ice in a highball glass. Add the splash of cola for color. Decorate with a slice of lemon and serve.",
@@ -9442,13 +9107,7 @@
       }
     ],
     "tags": [
-      "strong",
-      "asia",
-      "strongflavor",
-      "brunch",
-      "vegetarian",
-      "sour",
-      "ordinary drink"
+      "sour"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/nkwr4c1606770558.jpg"
@@ -9504,9 +9163,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wsyqry1479298485.jpg"
   },
@@ -9533,9 +9190,7 @@
         "raw": "1 1/2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/tsxpty1468923417.jpg"
   },
@@ -9569,11 +9224,7 @@
         "raw": "Top"
       }
     ],
-    "tags": [
-      "lazy",
-      "sharp",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rytuex1598719770.jpg"
   },
@@ -9630,8 +9281,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wx7hsg1504370510.jpg"
@@ -9673,12 +9323,7 @@
         "raw": "Top"
       }
     ],
-    "tags": [
-      "summer",
-      "fresh",
-      "refreshing",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/125w0o1630407389.jpg"
   },
@@ -9727,7 +9372,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -9764,7 +9408,7 @@
       }
     ],
     "tags": [
-      "coffee / tea",
+      "coffee",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -9773,7 +9417,7 @@
   {
     "id": "mojito",
     "name": "Mojito",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.",
@@ -9816,16 +9460,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "alcoholic",
-      "usa",
-      "asia",
-      "vegan",
-      "citrus",
-      "brunch",
-      "hangover",
-      "mild",
-      "cocktail"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg"
@@ -9855,8 +9490,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/juhcuu1504370685.jpg"
@@ -9907,8 +9541,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg"
@@ -9944,7 +9577,6 @@
       }
     ],
     "tags": [
-      "cocktail",
       "iba"
     ],
     "source": "cocktaildb",
@@ -10001,12 +9633,7 @@
         "raw": "Dash"
       }
     ],
-    "tags": [
-      "hangover",
-      "strongflavor",
-      "breakfast",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/u736bd1605907086.jpg"
   },
@@ -10056,9 +9683,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "alcoholic",
-      "cocktail"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yk70e31606771240.jpg"
@@ -10102,8 +9727,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg"
@@ -10111,7 +9735,7 @@
   {
     "id": "mauresque",
     "name": "Mauresque",
-    "method": null,
+    "method": "built",
     "glass": "Collins glass",
     "garnish": null,
     "instructions": "1 - Pour the Ricard (or pastis)\n2 - Pour the orgeat syrup\n3 - Finally pour the water and add ice cubes at your convenience.\n\nAdd the ice cubes at the end, otherwise the syrup and pastis do not mix well.",
@@ -10138,9 +9762,7 @@
         "raw": "Full Glass"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/duwfa11686236556.jpg"
   },
@@ -10183,8 +9805,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg"
@@ -10220,7 +9841,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/hepk6h1504885554.jpg"
@@ -10262,9 +9883,7 @@
         "raw": "2 dashes"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/fs6kiq1513708455.jpg"
   },
@@ -10335,8 +9954,7 @@
       }
     ],
     "tags": [
-      "iba",
-      "cocktail"
+      "iba"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qvuyqw1441208955.jpg"
@@ -10373,8 +9991,8 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "punch / party drink"
+      "classic",
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg"
@@ -10439,7 +10057,7 @@
     ],
     "tags": [
       "christmas",
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/iuwi6h1504735724.jpg"
@@ -10517,7 +10135,7 @@
       }
     ],
     "tags": [
-      "coffee / tea",
+      "coffee",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -10526,7 +10144,7 @@
   {
     "id": "munich-mule",
     "name": "Munich Mule",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Fill glass with ice\r\nPour Gin and Lime Juice\r\nFill glass with Ginger Beer\r\nGarnish with Cucumer and Lime slice",
@@ -10567,17 +10185,14 @@
         "raw": "Chopped"
       }
     ],
-    "tags": [
-      "german",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rj55pl1582476101.jpg"
   },
   {
     "id": "mocha-berry",
     "name": "Mocha-Berry",
-    "method": null,
+    "method": "built",
     "glass": "Irish coffee cup",
     "garnish": null,
     "instructions": "pour 6 oz. of coffee in a mug or Irish coffee cup. add coca mix and chambord, mix well and top off with whipped cream.",
@@ -10612,7 +10227,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vtwyyx1441246448.jpg"
@@ -10668,10 +10283,7 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [
-      "fruity",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wfqmgm1630406820.jpg"
   },
@@ -10719,9 +10331,7 @@
         "raw": "8 drops"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vwxrsw1478251483.jpg"
   },
@@ -10764,8 +10374,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/94psp81504350690.jpg"
@@ -10800,9 +10409,7 @@
         "raw": "3/4 oz double"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/svuvrq1441208310.jpg"
   },
@@ -10852,8 +10459,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "cocktail"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/f9erqb1504350557.jpg"
@@ -10888,9 +10494,7 @@
         "raw": "1 dash"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/bw2noj1582473243.jpg"
   },
@@ -10926,8 +10530,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg"
@@ -10983,9 +10586,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/61wgch1504882795.jpg"
   },
@@ -11019,9 +10620,7 @@
         "raw": "1 part"
       }
     ],
-    "tags": [
-      "shake"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xspupx1441248014.jpg"
   },
@@ -11076,9 +10675,7 @@
         "raw": "1 splash"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/dlw0om1503565021.jpg"
   },
@@ -11119,9 +10716,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/b3n0ge1503565473.jpg"
   },
@@ -11163,7 +10758,6 @@
       }
     ],
     "tags": [
-      "cocoa",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -11213,9 +10807,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vr6kle1504886114.jpg"
   },
@@ -11249,9 +10841,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/x03td31521761009.jpg"
   },
@@ -11299,9 +10889,7 @@
         "raw": "2 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/eo8gfx1699022995.jpg"
   },
@@ -11343,7 +10931,6 @@
       }
     ],
     "tags": [
-      "cocktail",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -11386,16 +10973,14 @@
         "raw": "1 package"
       }
     ],
-    "tags": [
-      "other / unknown"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ttyrxr1454514759.jpg"
   },
   {
     "id": "orange-crush",
     "name": "Orange Crush",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Add all ingredients to tumbler-Pour as shot",
@@ -11465,9 +11050,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/su1olx1582473812.jpg"
   },
@@ -11510,11 +11093,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "alcoholic",
-      "expensive",
-      "savory",
-      "cocktail"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg"
@@ -11563,9 +11142,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/tpwwut1468925017.jpg"
   },
@@ -11613,9 +11190,7 @@
         "raw": "1/2 part"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/bsvmlg1515792693.jpg"
   },
@@ -11656,9 +11231,7 @@
         "raw": "1 splash"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/mgf0y91503565781.jpg"
   },
@@ -11720,10 +11293,7 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [
-      "citrus",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/mokcas1604179977.jpg"
   },
@@ -11772,7 +11342,6 @@
       }
     ],
     "tags": [
-      "cocoa",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -11808,9 +11377,7 @@
         "raw": "12 oz frozen"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/0wt4uo1503565321.jpg"
   },
@@ -11837,9 +11404,7 @@
         "raw": "1 1/2 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/samm5j1513706393.jpg"
   },
@@ -11874,8 +11439,7 @@
       }
     ],
     "tags": [
-      "iba",
-      "ordinary drink"
+      "iba"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ejozd71504351060.jpg"
@@ -11903,9 +11467,7 @@
         "raw": "2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qyr51e1504888618.jpg"
   },
@@ -11953,9 +11515,7 @@
         "raw": "1 dash"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/jfkemm1513703902.jpg"
   },
@@ -11996,9 +11556,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/5ia6j21504887829.jpg"
   },
@@ -12046,13 +11604,7 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [
-      "fresh",
-      "summer",
-      "colourful",
-      "nature",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/lnjoc81619696191.jpg"
   },
@@ -12100,9 +11652,7 @@
         "raw": "1/4 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/hc9b1a1521853096.jpg"
   },
@@ -12145,8 +11695,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "cocktail"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/tsssur1439907622.jpg"
@@ -12183,8 +11732,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/64x5j41504351518.jpg"
@@ -12221,8 +11769,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/upgsue1668419912.jpg"
@@ -12272,7 +11819,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/6vigjx1503564007.jpg"
@@ -12328,10 +11875,7 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [
-      "passion",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/4tymma1604179273.jpg"
   },
@@ -12372,9 +11916,7 @@
         "raw": "4 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sxvrwv1473344825.jpg"
   },
@@ -12401,9 +11943,7 @@
         "raw": "3/4 oz white"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/cslw1w1504389915.jpg"
   },
@@ -12451,9 +11991,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vrprxu1441553844.jpg"
   },
@@ -12497,7 +12035,7 @@
     "tags": [
       "iba",
       "classic",
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/fdk8a31606854815.jpg"
@@ -12553,9 +12091,7 @@
         "raw": "Rimmed"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/pg8iw31593351601.jpg"
   },
@@ -12604,10 +12140,7 @@
       }
     ],
     "tags": [
-      "adult",
-      "shot",
-      "bubbly",
-      "cocktail"
+      "shot"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xjhjdf1630406071.jpg"
@@ -12663,16 +12196,14 @@
         "raw": "4 drops"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/jn6o251643844541.jpg"
   },
   {
     "id": "port-and-starboard",
     "name": "Port And Starboard",
-    "method": null,
+    "method": "built",
     "glass": "Pousse cafe glass",
     "garnish": null,
     "instructions": "Pour carefully into a pousse-cafe glass, so that creme de menthe floats on grenadine. Serve without mixing.",
@@ -12692,9 +12223,7 @@
         "raw": "1/2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wxvupx1441553911.jpg"
   },
@@ -12721,9 +12250,7 @@
         "raw": "1/2 tsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qruprq1441553976.jpg"
   },
@@ -12758,7 +12285,6 @@
       }
     ],
     "tags": [
-      "ordinary drink",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -12794,9 +12320,7 @@
         "raw": "2 cups"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/squsuy1468926657.jpg"
   },
@@ -12830,9 +12354,7 @@
         "raw": "Full Glass"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/6trfve1582473527.jpg"
   },
@@ -12860,7 +12382,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -12903,9 +12424,7 @@
         "raw": "1/8 tsp grated"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/spxtqp1478963398.jpg"
   },
@@ -12939,9 +12458,7 @@
         "raw": "1/2 oz cream"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rvvpxu1478963194.jpg"
   },
@@ -12984,7 +12501,7 @@
   {
     "id": "quick-sand",
     "name": "Quick-sand",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Simply add the orange juice, quite a quick pour in order to mix the sambucca with the orange juice. The juice MUST have fruit pulp!",
@@ -13004,9 +12521,7 @@
         "raw": "Add 250 ml"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vprxqv1478963533.jpg"
   },
@@ -13040,9 +12555,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vqruyt1478963249.jpg"
   },
@@ -13076,9 +12589,7 @@
         "raw": "1 1/2 tsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vpqspv1478963339.jpg"
   },
@@ -13119,9 +12630,7 @@
         "raw": "2 tsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yrqppx1478962314.jpg"
   },
@@ -13155,9 +12664,7 @@
         "raw": "Juice of 1/2"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qrwvps1478963017.jpg"
   },
@@ -13214,8 +12721,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/8kxbvq1504371462.jpg"
@@ -13223,7 +12729,7 @@
   {
     "id": "radler",
     "name": "Radler",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Pour beer into large mug, slowly add the 7-up (or Sprite).",
@@ -13243,9 +12749,7 @@
         "raw": "12 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xz8igv1504888995.jpg"
   },
@@ -13293,9 +12797,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/bylfi21504886323.jpg"
   },
@@ -13337,7 +12839,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wyrsxu1441554538.jpg"
@@ -13379,9 +12881,7 @@
         "raw": "2 tsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/athdk71504886286.jpg"
   },
@@ -13422,9 +12922,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wrh44j1504390609.jpg"
   },
@@ -13458,9 +12956,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/2hgwsb1504888674.jpg"
   },
@@ -13509,7 +13005,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vqws6t1504888857.jpg"
@@ -13546,8 +13042,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg"
@@ -13591,7 +13086,7 @@
   {
     "id": "royal-bitch",
     "name": "Royal Bitch",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Into a shot glass layer the Crown Royal on top of the Frangelico.",
@@ -13620,7 +13115,7 @@
   {
     "id": "royal-flush",
     "name": "Royal Flush",
-    "method": null,
+    "method": "built",
     "glass": "Old-fashioned glass",
     "garnish": null,
     "instructions": "Pour all the ingredients into tumbler over ice. Strain into glass.",
@@ -13711,9 +13206,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/5vh9ld1504390683.jpg"
   },
@@ -13747,9 +13240,7 @@
         "raw": "2 splashes"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qsyqqq1441553437.jpg"
   },
@@ -13784,7 +13275,6 @@
       }
     ],
     "tags": [
-      "cocktail",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -13827,9 +13317,7 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qwc5f91512406543.jpg"
   },
@@ -13891,9 +13379,7 @@
         "raw": "2 cl"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/967t911643844053.jpg"
   },
@@ -13941,9 +13427,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/pe1x1c1504735672.jpg"
   },
@@ -13984,9 +13468,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/w64lqm1504888810.jpg"
   },
@@ -14020,9 +13502,7 @@
         "raw": "8"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/hyztmx1598719265.jpg"
   },
@@ -14049,9 +13529,7 @@
         "raw": "5 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/4c85zq1511782093.jpg"
   },
@@ -14078,9 +13556,7 @@
         "raw": "4 oz"
       }
     ],
-    "tags": [
-      "other / unknown"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/suqyyx1441254346.jpg"
   },
@@ -14135,16 +13611,14 @@
         "raw": "Twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/otn2011504820649.jpg"
   },
   {
     "id": "russian-spring-punch",
     "name": "Russian Spring Punch",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Pour the ingredients into an highball glass, top with Sparkling wine.",
@@ -14180,8 +13654,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "ordinary drink"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ctt20s1504373488.jpg"
@@ -14189,7 +13662,7 @@
   {
     "id": "radioactive-long-island-iced-tea",
     "name": "Radioactive Long Island Iced Tea",
-    "method": null,
+    "method": "built",
     "glass": "Collins Glass",
     "garnish": null,
     "instructions": "Pour all ingredients over ice in a very tall glass. Sip cautiously.",
@@ -14251,16 +13724,14 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg"
   },
   {
     "id": "smut",
     "name": "Smut",
-    "method": null,
+    "method": "built",
     "glass": "Beer mug",
     "garnish": null,
     "instructions": "Throw it all together and serve real cold.",
@@ -14295,7 +13766,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rx8k8e1504365812.jpg"
@@ -14331,7 +13802,6 @@
       }
     ],
     "tags": [
-      "ordinary drink",
       "iba"
     ],
     "source": "cocktaildb",
@@ -14367,9 +13837,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/twuptu1483388307.jpg"
   },
@@ -14425,7 +13893,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xrvxpp1441249280.jpg"
@@ -14455,8 +13923,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/2ahv791504352433.jpg"
@@ -14514,8 +13981,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg"
@@ -14552,8 +14018,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/x72sik1606854964.jpg"
@@ -14609,10 +14074,7 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [
-      "winter",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/4n1ipk1614009624.jpg"
   },
@@ -14668,8 +14130,7 @@
       }
     ],
     "tags": [
-      "christmas",
-      "cocktail"
+      "christmas"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/0108c41576797064.jpg"
@@ -14705,8 +14166,7 @@
       }
     ],
     "tags": [
-      "christmas",
-      "ordinary drink"
+      "christmas"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/7ibfs61504735416.jpg"
@@ -14714,7 +14174,7 @@
   {
     "id": "shot-gun",
     "name": "Shot-gun",
-    "method": null,
+    "method": "built",
     "glass": "Shot glass",
     "garnish": null,
     "instructions": "Pour one part Jack Daneils and one part Jim Beam into shot glass then float Wild Turkey on top.",
@@ -14777,9 +14237,7 @@
         "raw": "1/4 tsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/4vfge01504890216.jpg"
   },
@@ -14813,9 +14271,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vruvtp1472719895.jpg"
   },
@@ -14851,8 +14307,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/7rfuks1504371562.jpg"
@@ -14901,9 +14356,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/0dnb6k1504890436.jpg"
   },
@@ -14930,9 +14383,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "shake"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/j6rq6h1503563821.jpg"
   },
@@ -14960,8 +14411,7 @@
       }
     ],
     "tags": [
-      "iba",
-      "ordinary drink"
+      "iba"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/8xnyke1504352207.jpg"
@@ -15010,9 +14460,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qrryvq1478820428.jpg"
   },
@@ -15039,16 +14487,14 @@
         "raw": "1 1/2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/3gz2vw1503425983.jpg"
   },
   {
     "id": "shark-attack",
     "name": "Shark Attack",
-    "method": null,
+    "method": "built",
     "glass": "Pitcher",
     "garnish": null,
     "instructions": "Mix lemonade and water according to instructions on back of can. If the instructions say to add 4 1/3 cans of water do so. Mix into pitcher. Add 1 1/2 cup of Vodka (Absolut). Mix well. Pour into glass of crushed ice. Excellent!",
@@ -15075,9 +14521,7 @@
         "raw": "1 1/2 cup"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uv96zr1504793256.jpg"
   },
@@ -15118,9 +14562,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/szmj2d1504889961.jpg"
   },
@@ -15175,9 +14617,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vxtjbx1504817842.jpg"
   },
@@ -15225,9 +14665,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xwrpsv1478820541.jpg"
   },
@@ -15262,7 +14700,6 @@
       }
     ],
     "tags": [
-      "shake",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -15334,7 +14771,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/uqqvsp1468924228.jpg"
@@ -15369,9 +14806,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rvuswq1461867714.jpg"
   },
@@ -15419,10 +14854,7 @@
         "raw": "Top"
       }
     ],
-    "tags": [
-      "dark",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sy7y6r1614775067.jpg"
   },
@@ -15470,9 +14902,7 @@
         "raw": "4 tsp"
       }
     ],
-    "tags": [
-      "homemade liqueur"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sih81u1504367097.jpg"
   },
@@ -15506,9 +14936,7 @@
         "raw": "1/2 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/b522ek1521761610.jpg"
   },
@@ -15592,16 +15020,14 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "shake"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ypl13s1504890158.jpg"
   },
   {
     "id": "thai-coffee",
     "name": "Thai Coffee",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Place the coffee and spices in the filter cone of your coffee maker. Brew coffee as usual, let it cool. In a tall glass, dissolve 1 or 2 teaspoons of sugar in an ounce of the coffee (it's easier to dissolve than if you put it right over ice). Add 5-6 ice cubes and pour coffee to within about 1 inch of the top of the glass. Rest a spoon on top of the coffee and slowly pour whipping cream into the spoon. This will make the cream float on top of the coffee rather than dispersing into it right away.",
@@ -15643,7 +15069,7 @@
       }
     ],
     "tags": [
-      "coffee / tea",
+      "coffee",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -15700,9 +15126,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg"
   },
@@ -15737,7 +15161,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -15767,7 +15190,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rswqpy1441246518.jpg"
@@ -15810,7 +15233,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/txruqv1441245770.jpg"
@@ -15859,9 +15282,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/2bcase1504889637.jpg"
   },
@@ -15909,9 +15330,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ek0mlq1504820601.jpg"
   },
@@ -15953,7 +15372,7 @@
       }
     ],
     "tags": [
-      "coffee / tea",
+      "coffee",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -15996,9 +15415,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/91oule1513702624.jpg"
   },
@@ -16046,9 +15463,7 @@
         "raw": "Twist of"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/utypqq1441554367.jpg"
   },
@@ -16110,9 +15525,7 @@
         "raw": "1 Large Sprig"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/6xfj5t1517748412.jpg"
   },
@@ -16140,7 +15553,6 @@
       }
     ],
     "tags": [
-      "drunk",
       "shot"
     ],
     "source": "cocktaildb",
@@ -16178,8 +15590,7 @@
     ],
     "tags": [
       "iba",
-      "contemporaryclassic",
-      "cocktail"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/quqyqp1480879103.jpg"
@@ -16228,9 +15639,7 @@
         "raw": "Top"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/sp8hkp1596017787.jpg"
   },
@@ -16287,8 +15696,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/4u0nbl1504352551.jpg"
@@ -16325,7 +15733,7 @@
   {
     "id": "thai-iced-coffee",
     "name": "Thai Iced Coffee",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Prepare a pot of coffee at a good European strength. In the ground coffee, add 2 or 3 freshly ground cardamom pods. Sweeten while hot, then cool quickly. Serve in highball glass over ice, with cream. To get the layered effect, place a spoon atop the coffee and pour the milk carefully into the spoon so that it floats on the top of the coffee.",
@@ -16360,7 +15768,7 @@
       }
     ],
     "tags": [
-      "coffee / tea",
+      "coffee",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -16369,7 +15777,7 @@
   {
     "id": "the-jimmy-conway",
     "name": "The Jimmy Conway",
-    "method": null,
+    "method": "built",
     "glass": "Whiskey sour glass",
     "garnish": null,
     "instructions": "Fill glass with ice\nPour in The Irishman and Disaronno\nFill to the top with Cranberry Juice\nGarnish with a slice of lemon…Enjoy!",
@@ -16396,9 +15804,7 @@
         "raw": "4 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wbcvyo1535794478.jpg"
   },
@@ -16477,8 +15883,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "cocktail"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/mtdxpa1504374514.jpg"
@@ -16513,9 +15918,7 @@
         "raw": "1/2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/voapgc1492976416.jpg"
   },
@@ -16572,8 +15975,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "ordinary drink"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yfhn371504374246.jpg"
@@ -16622,9 +16024,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/26cq601492976203.jpg"
   },
@@ -16651,9 +16051,7 @@
         "raw": "1/2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/iwml9t1492976255.jpg"
   },
@@ -16687,9 +16085,7 @@
         "raw": "1 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/fgq2bl1492975771.jpg"
   },
@@ -16730,16 +16126,14 @@
         "raw": null
       }
     ],
-    "tags": [
-      "other / unknown"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg"
   },
   {
     "id": "vodka-lemon",
     "name": "Vodka Lemon",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "The vodka lemon is prepared directly in a highball glass or in a large tumbler: put 6-7 ice cubes in the glass, pour the vodka, lemonade and mix with a bar spoon. Finally decorate with a slice of lemon and, if you prefer, add a few mint leaves. Your vodka lemon is ready to be served.",
@@ -16766,9 +16160,7 @@
         "raw": "1 Slice"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/mql55h1643820632.jpg"
   },
@@ -16802,16 +16194,14 @@
         "raw": "1 1/2 shot"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/apex461643588115.jpg"
   },
   {
     "id": "vodka-tonic",
     "name": "Vodka Tonic",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Wash and cut 1 wedge and 1 slice of lime or lemon.\r\nFill a tumbler with fresh ice.\r\nPour the desired dose of vodka and top up with the tonic.\r\nSqueeze the lime wedge into the glass and decorate with the slice.\r\nThat's all, very simple: it's just the recipe for happiness!",
@@ -16838,9 +16228,7 @@
         "raw": "1 Slice"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/9koz3f1643821062.jpg"
   },
@@ -16874,9 +16262,7 @@
         "raw": "1"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg"
   },
@@ -16903,9 +16289,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg"
   },
@@ -16939,9 +16323,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/tswpxx1441554674.jpg"
   },
@@ -16989,9 +16371,7 @@
         "raw": "1 slice"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/lx0lvs1492976619.jpg"
   },
@@ -17018,9 +16398,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg"
   },
@@ -17054,16 +16432,14 @@
         "raw": "2 dashes"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/9myuc11492975640.jpg"
   },
   {
     "id": "whisky-mac",
     "name": "Whisky Mac",
-    "method": null,
+    "method": "built",
     "glass": "Collins Glass",
     "garnish": null,
     "instructions": "Pour both of the ingredients into a wine goblet with no ice.",
@@ -17083,9 +16459,7 @@
         "raw": "1 oz Green Ginger"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yvvwys1461867858.jpg"
   },
@@ -17121,8 +16495,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/jofsaz1504352991.jpg"
@@ -17130,7 +16503,7 @@
   {
     "id": "wine-punch",
     "name": "Wine Punch",
-    "method": null,
+    "method": "built",
     "glass": "Collins Glass",
     "garnish": null,
     "instructions": "Combine all of the ingredients and pour over a block of ice.",
@@ -17172,7 +16545,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/txustu1473344310.jpg"
@@ -17180,7 +16553,7 @@
   {
     "id": "wine-cooler",
     "name": "Wine Cooler",
-    "method": null,
+    "method": "built",
     "glass": "Collins Glass",
     "garnish": null,
     "instructions": "Mix wine and soft drink. Pour into glass. Add ice.",
@@ -17201,7 +16574,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/yutxtv1473344210.jpg"
@@ -17257,10 +16630,7 @@
         "raw": "Dash"
       }
     ],
-    "tags": [
-      "winter",
-      "beer"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/fwpd0v1614006733.jpg"
   },
@@ -17310,10 +16680,7 @@
     ],
     "tags": [
       "iba",
-      "classic",
-      "alcoholic",
-      "contemporaryclassic",
-      "ordinary drink"
+      "classic"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg"
@@ -17321,7 +16688,7 @@
   {
     "id": "white-russian",
     "name": "White Russian",
-    "method": null,
+    "method": "built",
     "glass": "Old-fashioned glass",
     "garnish": null,
     "instructions": "Pour vodka and coffee liqueur over ice cubes in an old-fashioned glass. Fill with light cream and serve.",
@@ -17348,9 +16715,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg"
   },
@@ -17398,10 +16763,7 @@
         "raw": "Dash"
       }
     ],
-    "tags": [
-      "winter",
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/u5f0pz1614007748.jpg"
   },
@@ -17464,8 +16826,7 @@
       }
     ],
     "tags": [
-      "spanish",
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/hnuod91587851576.jpg"
@@ -17500,9 +16861,7 @@
         "raw": "3 tblsp fresh"
       }
     ],
-    "tags": [
-      "other / unknown"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg"
   },
@@ -17536,9 +16895,7 @@
         "raw": "1 tblsp"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ysuqus1441208583.jpg"
   },
@@ -17581,8 +16938,7 @@
     ],
     "tags": [
       "iba",
-      "newera",
-      "cocktail"
+      "new era"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/2t9r6w1504374811.jpg"
@@ -17611,7 +16967,6 @@
       }
     ],
     "tags": [
-      "other / unknown",
       "non-alcoholic"
     ],
     "source": "cocktaildb",
@@ -17620,7 +16975,7 @@
   {
     "id": "zorro",
     "name": "Zorro",
-    "method": null,
+    "method": "built",
     "glass": "Coffee Mug",
     "garnish": null,
     "instructions": "add all and pour black coffee and add whipped cream on top.",
@@ -17648,7 +17003,7 @@
       }
     ],
     "tags": [
-      "coffee / tea"
+      "coffee"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/kvvd4z1485621283.jpg"
@@ -17656,7 +17011,7 @@
   {
     "id": "zinger",
     "name": "Zinger",
-    "method": null,
+    "method": "built",
     "glass": "Highball glass",
     "garnish": null,
     "instructions": "Get a shot glass and pour in three shots of the schnapps. Do the same with the Surge Cola. Then down it like Scheetz would.",
@@ -17676,9 +17031,7 @@
         "raw": "4 shots"
       }
     ],
-    "tags": [
-      "soft drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/iixv4l1485620014.jpg"
   },
@@ -17740,9 +17093,7 @@
         "raw": null
       }
     ],
-    "tags": [
-      "soft drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ft8ed01485620930.jpg"
   },
@@ -17804,9 +17155,7 @@
         "raw": "1 drop"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/2en3jk1509557725.jpg"
   },
@@ -17833,9 +17182,7 @@
         "raw": "Add 10 oz"
       }
     ],
-    "tags": [
-      "soft drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/bje5401485619578.jpg"
   },
@@ -17862,9 +17209,7 @@
         "raw": "1/4 oz"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wtkqgb1485621155.jpg"
   },
@@ -17891,16 +17236,14 @@
         "raw": "1/2 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/qyuvsu1479209462.jpg"
   },
   {
     "id": "zipperhead",
     "name": "Zipperhead",
-    "method": null,
+    "method": "built",
     "glass": "Whiskey sour glass",
     "garnish": null,
     "instructions": "Fill glass with rocks, add straw before putting in liquor. Then add the ingredients in order, trying to keep layered as much as possible (i.e. Chambord on bottom, then Vodka, Then soda on top).",
@@ -17936,7 +17279,7 @@
   {
     "id": "zima-blaster",
     "name": "Zima Blaster",
-    "method": null,
+    "method": "built",
     "glass": "Hurricane glass",
     "garnish": null,
     "instructions": "Fill glass with ice. Pour in Chambord, then fill with Zima. Mix and enjoy.",
@@ -17956,9 +17299,7 @@
         "raw": "3 oz"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/1wifuv1485619797.jpg"
   },
@@ -17993,7 +17334,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/0fbo2t1485620752.jpg"
@@ -18022,7 +17363,7 @@
       }
     ],
     "tags": [
-      "punch / party drink"
+      "punch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/bw8gzx1485619920.jpg"
@@ -18057,9 +17398,7 @@
         "raw": "4 oz Grape"
       }
     ],
-    "tags": [
-      "cocktail"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/1sqm7n1485620312.jpg"
   },
@@ -18086,9 +17425,7 @@
         "raw": "16 cl"
       }
     ],
-    "tags": [
-      "ordinary drink"
-    ],
+    "tags": [],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/xnzr2p1485619687.jpg"
   }
