@@ -814,7 +814,7 @@ function initRecommended(cocktails) {
 }
 
 // ── Boot ───────────────────────────────────────────────────────────────────
-async function init() {
+async function init(user) {
   const error = document.getElementById("error");
 
   let cocktails;
@@ -839,17 +839,9 @@ async function init() {
   }
   const allIngredients = [...ingSet].sort();
 
-  // Resolve initial Firebase auth state before building views so cloud data
-  // is merged into favorites/inventory before the UI is first rendered.
-  await new Promise(resolve => {
-    const unsub = auth.onAuthStateChanged(async user => {
-      unsub();
-      currentUser = user;
-      updateAuthBtn(user);
-      if (user) await loadFromCloud(user.uid);
-      resolve();
-    });
-  });
+  currentUser = user;
+  updateAuthBtn(user);
+  await loadFromCloud(user.uid);
 
   const browse      = initBrowse(cocktails);
   filterByTag       = browse.filterByTag;
@@ -858,8 +850,8 @@ async function init() {
   refreshRecommended = initRecommended(cocktails);
   refreshBar        = initBar(allIngredients);
 
-  // Persistent listener for sign-in / sign-out after initial load.
-  let knownUid = currentUser?.uid ?? null;
+  // Persistent listener for auth changes after initial load.
+  let knownUid = user.uid;
   auth.onAuthStateChanged(async user => {
     const uid = user?.uid ?? null;
     if (uid === knownUid) return;
@@ -901,8 +893,23 @@ async function init() {
     document.title = initialCocktail.name;
     showView("detail");
   } else {
-    showView(favorites.size > 0 ? "favorites" : "list");
+    showView("list");
   }
 }
 
-init();
+// Boot: show sign-in screen until Firebase confirms a signed-in user.
+let appBooted = false;
+
+document.getElementById("signin-btn").addEventListener("click", () => {
+  auth.signInWithPopup(provider).catch(err => console.error("Sign-in failed:", err));
+});
+
+auth.onAuthStateChanged(async user => {
+  if (user && !appBooted) {
+    appBooted = true;
+    document.getElementById("view-signin").hidden = true;
+    await init(user);
+  } else if (!user && appBooted) {
+    location.reload();
+  }
+});
