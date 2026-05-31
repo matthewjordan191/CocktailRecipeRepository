@@ -11,6 +11,35 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
 
 
+# Base-spirit detection for browse tags. Ordered: first keyword found in an
+# ingredient name wins for that ingredient. A cocktail is tagged with every
+# base spirit present among its ingredients.
+SPIRIT_KEYWORDS: list[tuple[str, str]] = [
+    ("bourbon", "whiskey"), ("rye whiskey", "whiskey"), ("scotch", "whiskey"),
+    ("irish whiskey", "whiskey"), ("whiskey", "whiskey"), ("whisky", "whiskey"),
+    ("gin", "gin"),
+    ("cachaca", "rum"), ("cachaça", "rum"), ("rum", "rum"),
+    ("mezcal", "tequila"), ("tequila", "tequila"),
+    ("vodka", "vodka"),
+    ("cognac", "brandy"), ("armagnac", "brandy"), ("calvados", "brandy"),
+    ("pisco", "brandy"), ("brandy", "brandy"),
+    ("champagne", "sparkling"), ("prosecco", "sparkling"), ("cava", "sparkling"),
+]
+
+
+def derive_spirit_tags(record: dict) -> list[str]:
+    """Return base-spirit tags (gin, rum, whiskey, …) found in ingredients."""
+    spirits: list[str] = []
+    for ing in record.get("ingredients", []):
+        name = (ing.get("name") or "").lower()
+        for kw, spirit in SPIRIT_KEYWORDS:
+            if kw in name:
+                if spirit not in spirits:
+                    spirits.append(spirit)
+                break
+    return spirits
+
+
 def canonical_name(name: str) -> str:
     """Lowercase, strip leading 'the ', collapse whitespace."""
     name = name.lower().strip()
@@ -172,6 +201,10 @@ def main():
             {k: v for k, v in ing.items() if k != "raw"}
             for ing in record.get("ingredients", [])
         ]
+        # Prepend derived base-spirit tags (kept distinct from keyword tags).
+        spirit_tags = derive_spirit_tags(record)
+        existing_tags = record.get("tags", [])
+        record["tags"] = spirit_tags + [t for t in existing_tags if t not in spirit_tags]
         output.append(record)
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)

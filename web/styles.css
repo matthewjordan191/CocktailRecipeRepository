@@ -273,15 +273,30 @@ h3 {
 }
 .ing-filter-clear:hover { opacity: 1; }
 
-/* ── All tags panel ── */
+/* ── All tags panel (grouped) ── */
 #all-tags-panel {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
+  flex-direction: column;
+  gap: 0.85rem;
   padding-bottom: 0.75rem;
   margin-bottom: 0.25rem;
 }
 #all-tags-panel[hidden] { display: none; }
+
+.filter-group-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 0.4rem;
+}
+
+.filter-group-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
 
 /* ── Browse / Favorites list ── */
 #cocktail-list, #favorites-list, #rec-list { list-style: none; }

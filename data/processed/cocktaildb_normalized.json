@@ -3250,7 +3250,7 @@
     "tags": [
       "iba",
       "classic",
-      "christmas"
+      "festive"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg"
@@ -4219,7 +4219,8 @@
       }
     ],
     "tags": [
-      "frozen"
+      "frozen",
+      "summer"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/b4cadp1619695347.jpg"
@@ -4405,7 +4406,7 @@
       }
     ],
     "tags": [
-      "christmas"
+      "festive"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/pbw4e51606766578.jpg"
@@ -5647,7 +5648,9 @@
         "raw": "1"
       }
     ],
-    "tags": [],
+    "tags": [
+      "sour"
+    ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/iprva61606768774.jpg"
   },
@@ -6324,7 +6327,9 @@
         "raw": "2"
       }
     ],
-    "tags": [],
+    "tags": [
+      "winter"
+    ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/ggx0lv1613942306.jpg"
   },
@@ -9107,6 +9112,7 @@
       }
     ],
     "tags": [
+      "brunch",
       "sour"
     ],
     "source": "cocktaildb",
@@ -9323,7 +9329,9 @@
         "raw": "Top"
       }
     ],
-    "tags": [],
+    "tags": [
+      "summer"
+    ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/125w0o1630407389.jpg"
   },
@@ -9460,7 +9468,9 @@
     ],
     "tags": [
       "iba",
-      "classic"
+      "classic",
+      "sour",
+      "brunch"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg"
@@ -9633,7 +9643,9 @@
         "raw": "Dash"
       }
     ],
-    "tags": [],
+    "tags": [
+      "brunch"
+    ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/u736bd1605907086.jpg"
   },
@@ -10056,7 +10068,7 @@
       }
     ],
     "tags": [
-      "christmas",
+      "festive",
       "punch"
     ],
     "source": "cocktaildb",
@@ -10283,7 +10295,9 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [],
+    "tags": [
+      "fruity"
+    ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/wfqmgm1630406820.jpg"
   },
@@ -11093,7 +11107,8 @@
     ],
     "tags": [
       "iba",
-      "classic"
+      "classic",
+      "savory"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg"
@@ -11293,7 +11308,9 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [],
+    "tags": [
+      "sour"
+    ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/mokcas1604179977.jpg"
   },
@@ -11604,7 +11621,9 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [],
+    "tags": [
+      "summer"
+    ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/lnjoc81619696191.jpg"
   },
@@ -14074,7 +14093,9 @@
         "raw": "Garnish with"
       }
     ],
-    "tags": [],
+    "tags": [
+      "winter"
+    ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/4n1ipk1614009624.jpg"
   },
@@ -14130,7 +14151,7 @@
       }
     ],
     "tags": [
-      "christmas"
+      "festive"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/0108c41576797064.jpg"
@@ -14166,7 +14187,7 @@
       }
     ],
     "tags": [
-      "christmas"
+      "festive"
     ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/7ibfs61504735416.jpg"
@@ -16630,7 +16651,9 @@
         "raw": "Dash"
       }
     ],
-    "tags": [],
+    "tags": [
+      "winter"
+    ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/fwpd0v1614006733.jpg"
   },
@@ -16763,7 +16786,9 @@
         "raw": "Dash"
       }
     ],
-    "tags": [],
+    "tags": [
+      "winter"
+    ],
     "source": "cocktaildb",
     "image_url": "https://www.thecocktaildb.com/images/media/drink/u5f0pz1614007748.jpg"
   },

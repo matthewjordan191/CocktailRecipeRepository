@@ -145,18 +145,43 @@ function slugify(name) {
 }
 
 // ── Filter definitions ─────────────────────────────────────────────────────
-const FILTERS = [
-  { label: "IBA",           tags: ["iba"] },
-  { label: "Classics",      tags: ["classic"] },
-  { label: "New Era",       tags: ["new era"] },
-  { label: "Aperitif",      tags: ["aperitif"] },
-  { label: "Tropical",      tags: ["tropical"] },
-  { label: "Non-Alcoholic", tags: ["non-alcoholic"] },
-  { label: "Shots",         tags: ["shot"] },
-  { label: "Coffee",        tags: ["coffee"] },
-  { label: "Punch",         tags: ["punch"] },
-  { label: "Sours",         tags: ["sour"] },
-  { label: "Festive",       tags: ["christmas"] },
+// Base spirits are the headline browse axis, shown in the always-visible row.
+const SPIRIT_FILTERS = [
+  { label: "Gin", tag: "gin" }, { label: "Whiskey", tag: "whiskey" },
+  { label: "Rum", tag: "rum" }, { label: "Vodka", tag: "vodka" },
+  { label: "Tequila", tag: "tequila" }, { label: "Brandy", tag: "brandy" },
+  { label: "Sparkling", tag: "sparkling" },
+];
+
+// Remaining tags, grouped into labeled sections in the expandable panel.
+const TAG_GROUPS = [
+  { label: "Flavor", tags: [
+    { label: "Spirit-forward", tag: "spirit-forward" }, { label: "Fruity", tag: "fruity" },
+    { label: "Sour", tag: "sour" }, { label: "Bittersweet", tag: "bittersweet" },
+    { label: "Herbal", tag: "herbal" }, { label: "Creamy", tag: "creamy" },
+    { label: "Spicy", tag: "spicy" }, { label: "Floral", tag: "floral" },
+    { label: "Savory", tag: "savory" }, { label: "Nutty", tag: "nutty" },
+    { label: "Dessert", tag: "dessert" },
+  ]},
+  { label: "Occasion", tags: [
+    { label: "Aperitif", tag: "aperitif" }, { label: "After-dinner", tag: "after-dinner" },
+    { label: "Nightcap", tag: "nightcap" }, { label: "Brunch", tag: "brunch" },
+    { label: "Summer", tag: "summer" }, { label: "Winter", tag: "winter" },
+    { label: "Festive", tag: "festive" }, { label: "Party", tag: "party" },
+    { label: "Romantic", tag: "romantic" },
+  ]},
+  { label: "Style", tags: [
+    { label: "Highball", tag: "highball" }, { label: "Martini", tag: "martini" },
+    { label: "Tropical", tag: "tropical" }, { label: "Frozen", tag: "frozen" },
+    { label: "Hot", tag: "hot" }, { label: "Shot", tag: "shot" },
+    { label: "Layered", tag: "layered" },
+  ]},
+  { label: "Collection", tags: [
+    { label: "Classic", tag: "classic" }, { label: "New Era", tag: "new era" },
+    { label: "IBA", tag: "iba" }, { label: "Must-try", tag: "must-try" },
+    { label: "Punch", tag: "punch" }, { label: "Coffee", tag: "coffee" },
+    { label: "Non-Alcoholic", tag: "non-alcoholic" },
+  ]},
 ];
 
 // ── Inventory (module-level so detail view can read it) ────────────────────
@@ -608,24 +633,36 @@ function initBrowse(cocktails) {
 
   let activeFilter = null;
   let activeIngredientFilter = null;
-  const pills = FILTERS.map(f => {
+
+  // Tag frequencies — used to label chips and hide empty ones.
+  const tagCounts = {};
+  for (const cocktail of cocktails) {
+    for (const tag of cocktail.tags || []) {
+      tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+    }
+  }
+
+  const allPills = [];
+  function makePill(label, tag, container) {
+    if (!tagCounts[tag]) return null;   // skip tags with no cocktails
     const btn = document.createElement("button");
     btn.className = "filter-pill";
-    btn.textContent = f.label;
+    btn.textContent = label;
+    btn._tag = tag;
     btn.addEventListener("click", () => {
-      if (activeFilter === f) {
-        activeFilter = null;
-        btn.classList.remove("active");
-      } else {
-        pills.forEach(p => p.classList.remove("active"));
-        btn.classList.add("active");
-        activeFilter = f;
-      }
+      const isActive = activeFilter && activeFilter.tags[0] === tag;
+      allPills.forEach(p => p.classList.remove("active"));
+      activeFilter = isActive ? null : { tags: [tag] };
+      if (!isActive) btn.classList.add("active");
       applyFilters();
     });
-    filterBar.appendChild(btn);
+    container.appendChild(btn);
+    allPills.push(btn);
     return btn;
-  });
+  }
+
+  // Always-visible spirit row.
+  SPIRIT_FILTERS.forEach(f => makePill(f.label, f.tag, filterBar));
 
   // Makeable pill — shows only cocktails fully covered by the current bar.
   let makeableActive = false;
@@ -641,7 +678,7 @@ function initBrowse(cocktails) {
   });
   filterBar.appendChild(makeableBtn);
 
-  // Add More button at the end of the curated pills row.
+  // More button toggles the grouped panel.
   const moreBtn = document.createElement("button");
   moreBtn.className = "filter-pill filter-more";
   moreBtn.textContent = "More ▾";
@@ -665,53 +702,40 @@ function initBrowse(cocktails) {
   ingChip.appendChild(ingChipClear);
   filterBar.insertAdjacentElement("afterend", ingChip);
 
-  // Build expanded all-tags panel from data, sorted by frequency.
-  // Exclude the canonical tags already shown as curated filter chips above.
-  const EXCLUDED_TAGS = new Set(
-    FILTERS.flatMap(f => f.tags)
-  );
-
-  const tagCounts = {};
-  for (const cocktail of cocktails) {
-    for (const tag of cocktail.tags || []) {
-      tagCounts[tag] = (tagCounts[tag] || 0) + 1;
-    }
-  }
-  const allTags = Object.entries(tagCounts)
-    .sort((a, b) => b[1] - a[1])
-    .map(([tag]) => tag)
-    .filter(tag => !EXCLUDED_TAGS.has(tag));
-
+  // Build grouped sections in the expandable panel.
   const allTagsPanel = document.getElementById("all-tags-panel");
   let panelOpen = false;
+  for (const group of TAG_GROUPS) {
+    const section = document.createElement("div");
+    section.className = "filter-group";
+    const heading = document.createElement("h3");
+    heading.className = "filter-group-label";
+    heading.textContent = group.label;
+    const chips = document.createElement("div");
+    chips.className = "filter-group-chips";
+    let any = false;
+    for (const t of group.tags) {
+      if (makePill(t.label, t.tag, chips)) any = true;
+    }
+    if (any) {
+      section.appendChild(heading);
+      section.appendChild(chips);
+      allTagsPanel.appendChild(section);
+    }
+  }
 
-  const tagPills = allTags.map(tag => {
-    const btn = document.createElement("button");
-    btn.className = "filter-pill";
-    btn.textContent = `${tag} (${tagCounts[tag]})`;
-    btn._tag = tag;
-    btn.addEventListener("click", () => {
-      const isActive = activeFilter?.tags?.[0] === tag && activeFilter.tags.length === 1;
-      pills.forEach(p => p.classList.remove("active"));
-      tagPills.forEach(p => p.classList.remove("active"));
-      if (isActive) {
-        activeFilter = null;
-      } else {
-        btn.classList.add("active");
-        activeFilter = { tags: [tag] };
-      }
-      applyFilters();
-    });
-    allTagsPanel.appendChild(btn);
-    return btn;
-  });
-
+  const spiritTagSet = new Set(SPIRIT_FILTERS.map(f => f.tag));
   function filterByTag(tag) {
-    pills.forEach(p => p.classList.remove("active"));
-    tagPills.forEach(p => p.classList.remove("active"));
+    allPills.forEach(p => p.classList.remove("active"));
     activeFilter = { tags: [tag] };
-    const match = tagPills.find(p => p._tag === tag);
+    const match = allPills.find(p => p._tag === tag);
     if (match) match.classList.add("active");
+    // Reveal the grouped panel so a non-spirit filter chip is visible as active.
+    if (match && !spiritTagSet.has(tag) && !panelOpen) {
+      panelOpen = true;
+      allTagsPanel.hidden = false;
+      moreBtn.textContent = "Less ▴";
+    }
     applyFilters();
   }
 
@@ -721,8 +745,7 @@ function initBrowse(cocktails) {
     ingChip.hidden = false;
     // Clear tag and makeable filters to avoid zero-result combinations.
     activeFilter = null;
-    pills.forEach(p => p.classList.remove("active"));
-    tagPills.forEach(p => p.classList.remove("active"));
+    allPills.forEach(p => p.classList.remove("active"));
     makeableActive = false;
     makeableBtn.classList.remove("active");
     applyFilters();
