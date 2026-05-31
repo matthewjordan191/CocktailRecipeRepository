@@ -97,6 +97,45 @@ function normalizeIngName(name) {
     .trim();
 }
 
+// Base-spirit canonicalisation for the My Bar checklist. Difford's names spirits
+// very specifically ("aged jamaican rum", "op high ester pot still rum"); these
+// collapse to a base ("rum") so the bar stays a manageable shelf-level checklist.
+// First matching keyword wins. Non-spirits (flavoured liqueurs, bitters, amari,
+// wines) are kept distinct so "makeable" matching stays correct — only their
+// names are cleaned of parentheticals and "alc. free" qualifiers.
+const SPIRIT_FAMILIES = [
+  ["sloe gin", "sloe gin"],
+  ["bourbon", "bourbon"], ["rye whiskey", "rye whiskey"], ["scotch", "scotch"],
+  ["irish whiskey", "irish whiskey"], ["whiskey", "whiskey"], ["whisky", "whiskey"],
+  ["gin", "gin"],
+  ["pot still rum", "rum"], ["overproof rum", "rum"], ["white rum", "rum"],
+  ["light rum", "rum"], ["gold rum", "rum"], ["dark rum", "rum"],
+  ["spiced rum", "rum"], ["aged rum", "rum"], ["jamaican rum", "rum"], ["rum", "rum"],
+  ["mezcal", "mezcal"], ["tequila", "tequila"],
+  ["cognac", "brandy"], ["armagnac", "brandy"], ["apple brandy", "calvados"],
+  ["calvados", "calvados"], ["pisco", "pisco"],
+  ["apricot brandy", "apricot brandy"], ["cherry brandy", "cherry brandy"],
+  ["brandy", "brandy"],
+  ["absolut", "vodka"], ["vodka", "vodka"], ["cachaca", "cachaca"],
+  ["sweet vermouth", "sweet vermouth"], ["rosso vermouth", "sweet vermouth"],
+  ["vermouth (rosso)", "sweet vermouth"], ["dry vermouth", "dry vermouth"],
+  ["vermouth", "vermouth"],
+  ["amaro", "amaro"], ["fernet", "fernet"],
+];
+
+function baseIngredient(name) {
+  const n = normalizeIngName(name);
+  for (const [kw, base] of SPIRIT_FAMILIES) {
+    if (n.includes(kw)) return base;
+  }
+  // Keep distinct, but strip parenthetical notes and alcohol-free qualifiers.
+  return n
+    .replace(/\s*\([^)]*\)/g, "")
+    .replace(/\b(?:alc\.?\s*free|alcohol-free)\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function slugify(name) {
   return name
     .normalize("NFD").replace(/[̀-ͯ]/g, "")
@@ -451,6 +490,10 @@ function renderDetail(c) {
 // its name or its name is a substring of the selected item.
 // e.g. selecting "rum" covers "white rum", "dark rum", "spiced rum".
 function isCovered(ingName, selectedSet) {
+  // Bar inventory stores base spirits, so match on base first.
+  if (selectedSet.has(baseIngredient(ingName))) return true;
+  // Fallback: substring match for specific-name filters (e.g. browsing by a
+  // specific ingredient tapped on a recipe) and legacy inventory entries.
   const n = normalizeIngName(ingName);
   for (const sel of selectedSet) {
     if (n.includes(sel) || sel.includes(n)) return true;
@@ -843,12 +886,13 @@ async function init(user) {
     return;
   }
 
-  // Extract alcoholic ingredient names only for the bar checklist.
+  // Build the bar checklist from alcoholic ingredients, collapsed to base
+  // spirits so the list stays shelf-level rather than listing every variant.
   const ingSet = new Set();
   for (const c of cocktails) {
     for (const i of c.ingredients) {
       if (i.name && isAlcoholicIngredient(i.name)) {
-        ingSet.add(normalizeIngName(i.name));
+        ingSet.add(baseIngredient(i.name));
       }
     }
   }
@@ -857,6 +901,15 @@ async function init(user) {
   currentUser = user;
   updateAuthBtn(user);
   await loadFromCloud(user.uid);
+
+  // Migrate any legacy/specific inventory entries to base names so saved bars
+  // map onto the new checklist.
+  const migrated = new Set([...inventory].map(baseIngredient));
+  if (migrated.size !== inventory.size || [...migrated].some(x => !inventory.has(x))) {
+    inventory.clear();
+    migrated.forEach(x => inventory.add(x));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify([...inventory]));
+  }
 
   const browse      = initBrowse(cocktails);
   filterByTag       = browse.filterByTag;

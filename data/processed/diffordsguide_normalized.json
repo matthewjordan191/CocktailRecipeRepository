@@ -5082,8 +5082,8 @@
         "raw": "30 ml Milk  (whole/full 3-4% fat)"
       },
       {
-        "name": "&frasl;2 fresh banana",
-        "amount": 1.0,
+        "name": "banana",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Banana"
@@ -6646,16 +6646,16 @@
         "raw": "5 ml Sugar syrup (2:1)"
       },
       {
-        "name": "&frasl;4 fresh banana",
-        "amount": 1.0,
+        "name": "banana",
+        "amount": 0.25,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;4 fresh Banana"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -6771,8 +6771,8 @@
     "instructions": "Prepare garnish of cacao power. MUDDLE banana in base of shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. Dust with cocoa powder.",
     "ingredients": [
       {
-        "name": "&frasl;4 fresh banana",
-        "amount": 1.0,
+        "name": "banana",
+        "amount": 0.25,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;4 fresh Banana"
@@ -7548,9 +7548,9 @@
         "raw": "4 dash Worcestershire sauce"
       },
       {
-        "name": "&frasl;2 barspoon horseradish sauce",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "horseradish sauce",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Horseradish sauce"
       },
@@ -7886,8 +7886,8 @@
     "instructions": "Prepare garnish of banana chunk (cut garnish from centre of banana and place the rest in the blender to make the cocktail). BLEND ingredients with 6oz scoop of crushed ice. Pour into glass. Serve with a straw.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh banana",
-        "amount": 1.0,
+        "name": "banana",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Banana"
@@ -8633,8 +8633,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). CUT lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass. Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE. Add berries and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz highball glass). POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to ensure all ingredients are well mixed. FILL glass with small cubes or cracked ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) STIR before topping with more ice. Serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -9366,15 +9366,15 @@
     "instructions": "POUR pale ale or lager into chilled glass then carefully FLOAT Guinness on top Layering can be aided by pouring down the stout/porter down the shaft of a bar spoon so that the flat end dissipates the falling porter/stout Or, an upturned tablespoon or a purpose-made black-and-tan may be used This is bent in the middle of the handle so that it can be secured on the edge of a pint glass.",
     "ingredients": [
       {
-        "name": "&frasl;2 pint pale ale",
-        "amount": 1.0,
+        "name": "pint pale ale",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 pint Pale ale"
       },
       {
-        "name": "&frasl;2 pint stout beer",
-        "amount": 1.0,
+        "name": "pint stout beer",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 pint Stout beer"
@@ -9455,8 +9455,8 @@
         "raw": "60 ml Light white rum"
       },
       {
-        "name": "&frasl;2 pint stout beer",
-        "amount": 1.0,
+        "name": "pint stout beer",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 pint Stout beer"
@@ -10446,9 +10446,9 @@
         "raw": "4 dash Worcestershire sauce"
       },
       {
-        "name": "&frasl;2 barspoon horseradish sauce",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "horseradish sauce",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Horseradish sauce"
       },
@@ -10515,9 +10515,9 @@
         "raw": "4 dash Worcestershire sauce"
       },
       {
-        "name": "&frasl;2 barspoon horseradish sauce",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "horseradish sauce",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Horseradish sauce"
       },
@@ -10703,9 +10703,9 @@
         "raw": "4 dash Worcestershire sauce"
       },
       {
-        "name": "&frasl;2 barspoon horseradish sauce",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "horseradish sauce",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Horseradish sauce"
       },
@@ -15174,8 +15174,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). Cut a ripe lime in half (from pole to pole) and remove the core from each half by cutting a V-shaped groove. (You'll need one-half of the lime per cocktail.) CHOP into wedges and each wedge chopped in half before dropping the resulting 6 or 8 lime chunks into the base of shaker. Add 3 bar spoons powdered sugar [or 15ml (½oz) sugar syrup 2:1] and MUDDLE. If using cubed ice straight from the freezer, add chilled water (or optionally add fruit of choice) and MUDDLE some more. If using watery ice then omit some or all of the water/juice. When sure the lime's juice is fully extracted and the sugar dissolved, POUR the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz highball glass). POUR cachaça (stored in the freezer) into the shaker tin used to muddle and swirl to rinse tin before pouring cachaça into serving glass. STIR to combine with other ingredients. FILL glass with small cubes or cracked ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) STIR before topping with more ice. Serve with a stirrer (spoon, wooden lolly stick or stick cut from sugar cane) but no straws.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -15217,8 +15217,8 @@
     "instructions": "MUDDLE lime wedges in the base of shaker to release juice and oils in its skin Add rum and sugar SHAKE with 6oz scoop crushed ice and pour all without straining into glass.",
     "ingredients": [
       {
-        "name": "&frasl;4 fresh lime (fresh)",
-        "amount": 3.0,
+        "name": "lime (fresh)",
+        "amount": 0.75,
         "unit": "piece",
         "notes": null,
         "raw": "3&frasl;4 fresh Lime (fresh)"
@@ -15251,8 +15251,8 @@
     "instructions": "MUDDLE lime wedges in the base of shaker to release juice and oils from zest. SHAKE with 7oz scoop crushed ice and pour all without straining into glass. Serve with straws.",
     "ingredients": [
       {
-        "name": "&frasl;4 fresh lime (fresh)",
-        "amount": 3.0,
+        "name": "lime (fresh)",
+        "amount": 0.75,
         "unit": "piece",
         "notes": null,
         "raw": "3&frasl;4 fresh Lime (fresh)"
@@ -15285,8 +15285,8 @@
     "instructions": "MUDDLE lime wedges and grapes in base of shaker to release juices Add cachaça and sugar SHAKE with 6oz scoop crushed ice and pour all without straining into glass.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -18535,8 +18535,8 @@
     "instructions": "MUDDLE lemon in base of glass Add other ingredients and fill glass with crushed ice CHURN drink with bar spoon and serve with short straws.",
     "ingredients": [
       {
-        "name": "&frasl;4 fresh lemon (fresh)",
-        "amount": 3.0,
+        "name": "lemon (fresh)",
+        "amount": 0.75,
         "unit": "piece",
         "notes": null,
         "raw": "3&frasl;4 fresh Lemon (fresh)"
@@ -20697,8 +20697,8 @@
         "raw": "20 ml Whipping cream"
       },
       {
-        "name": "&frasl;2 fresh egg yolk",
-        "amount": 1.0,
+        "name": "egg yolk",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Egg yolk"
@@ -21187,9 +21187,9 @@
         "raw": "4 dash Worcestershire sauce"
       },
       {
-        "name": "&frasl;2 barspoon horseradish sauce",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "horseradish sauce",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Horseradish sauce"
       },
@@ -21326,8 +21326,8 @@
     "instructions": "Prepare garnish of cucumber slices. (Ideally, cut skin from the cucumber log before chopping). MUDDLE cucumber in base of shaker. Add other ingredients. SHAKE with ice. FINE STRAIN into chilled glass.",
     "ingredients": [
       {
-        "name": "1&frasl;2 inch cucumber (fresh)",
-        "amount": 1.0,
+        "name": "inch cucumber (fresh)",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 inch Cucumber (fresh)"
@@ -22829,9 +22829,9 @@
         "raw": "90 ml Pineapple juice"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -23537,15 +23537,15 @@
     "instructions": "POUR cider into chilled glass then FLOAT Guinness on top.",
     "ingredients": [
       {
-        "name": "&frasl;2 pint medium dry cider",
-        "amount": 1.0,
+        "name": "pint medium dry cider",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 pint Medium dry cider"
       },
       {
-        "name": "&frasl;2 pint stout beer",
-        "amount": 1.0,
+        "name": "pint stout beer",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 pint Stout beer"
@@ -24349,8 +24349,8 @@
     "instructions": "MUDDLE lime wedges in the base of shaker to release juice and oils in its skin Add cachaça and sugar SHAKE with 6oz scoop crushed ice and pour all without straining into glass.",
     "ingredients": [
       {
-        "name": "&frasl;4 fresh lime (fresh)",
-        "amount": 3.0,
+        "name": "lime (fresh)",
+        "amount": 0.75,
         "unit": "piece",
         "notes": null,
         "raw": "3&frasl;4 fresh Lime (fresh)"
@@ -27579,9 +27579,9 @@
         "raw": "15 ml Sugar syrup (2:1)"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -29088,8 +29088,8 @@
     "instructions": "Prepare garnish of honey-coated dipper stick stirrer (honey stick). Cut a ripe lime in half (from pole to pole) and remove the core from each half by cutting a V-shape grove. (You'll need one-half of the lime per cocktail). Chop a cored half into 3 wedges, then slice each wedge in half to produce 6 chunks of lime and drop these into the serving glass. MUDDLE lime chunks in the base of the glass. Add vodka and honey-loaded honey dipper stick (or bar spoon of honey) and use the dipper stick (or spoon) to STIR until the honey is dissolved. Add sugar syrup and fill the glass with crushed ice leaving the dipper stick as a garnish for the drinker to continue stirring.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -31207,8 +31207,8 @@
     "instructions": "Prepare garnish of rosemary sprig. Strip rosemary leaves from stem and MUDDLE in base of shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. Rosemary sprig.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh rosemary sprig",
-        "amount": 1.0,
+        "name": "rosemary sprig",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Rosemary sprig"
@@ -34538,9 +34538,9 @@
         "raw": "15 ml Lemon juice"
       },
       {
-        "name": "1&frasl;2 barspoon powdered sugar",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "powdered sugar",
+        "amount": 1.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1 1&frasl;2 barspoon Powdered sugar"
       },
@@ -37154,8 +37154,8 @@
         "raw": "1 slice Fresh ginger"
       },
       {
-        "name": "&frasl;2 fresh lemongrass stem",
-        "amount": 1.0,
+        "name": "lemongrass stem",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lemongrass stem"
@@ -40025,8 +40025,8 @@
         "raw": "1 inch Cucumber (fresh)"
       },
       {
-        "name": "&frasl;2 fresh kiwi fruit (fresh)",
-        "amount": 1.0,
+        "name": "kiwi fruit (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Kiwi fruit (fresh)"
@@ -41573,9 +41573,9 @@
         "raw": "15 ml Sugar syrup (2:1)"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -42898,9 +42898,9 @@
         "raw": "7.5 ml Grenadine syrup"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -43599,9 +43599,9 @@
         "raw": "3 dried Clove"
       },
       {
-        "name": "&frasl;4 barspoon freshly grated nutmeg",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "freshly grated nutmeg",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Freshly grated nutmeg"
       },
@@ -49685,8 +49685,8 @@
     "instructions": "Prepare garnish of lime wedge. MUDDLE lime in base of glass to release juices. POUR other ingredients into glass. Two-thirds fill glass with crushed ice and CHURN with barspoon. ADD more crushed ice to fill glass. Garnish with lime wedge. Serve with a straw.",
     "ingredients": [
       {
-        "name": "&frasl;4 fresh lime (fresh)",
-        "amount": 3.0,
+        "name": "lime (fresh)",
+        "amount": 0.75,
         "unit": "piece",
         "notes": null,
         "raw": "3&frasl;4 fresh Lime (fresh)"
@@ -50854,8 +50854,8 @@
         "raw": "1 cupful Superfine/caster sugar"
       },
       {
-        "name": "&frasl;2 cupful lemon juice",
-        "amount": 1.0,
+        "name": "cupful lemon juice",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 cupful Lemon juice"
@@ -50868,8 +50868,8 @@
         "raw": "5 fresh Lemon peel"
       },
       {
-        "name": "&frasl;4 cupful limoncello liqueur",
-        "amount": 1.0,
+        "name": "cupful limoncello liqueur",
+        "amount": 0.25,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;4 cupful Limoncello liqueur"
@@ -55560,9 +55560,9 @@
         "raw": "15 ml Watermelon syrup"
       },
       {
-        "name": "&frasl;2 pinch salt",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "pinch",
         "notes": null,
         "raw": "1&frasl;2 pinch Salt"
       }
@@ -56205,9 +56205,9 @@
         "raw": "15 ml Sugar syrup (2:1)"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -57374,8 +57374,8 @@
     "instructions": "Prepare garnish of melon wedge or skewered melon balls. CUT melon into 8 segments and deseed. Cut cubes of flesh from skin of one segment and MUDDLE in base of shaker. Add other ingredients, SHAKE with ice. FINE STRAIN into chilled glass. Garnish with melon wedge on rim or skewered melon balls.",
     "ingredients": [
       {
-        "name": "&frasl;8 fresh melon (cantaloupe)",
-        "amount": 1.0,
+        "name": "melon (cantaloupe)",
+        "amount": 0.12,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;8 fresh Melon (Cantaloupe)"
@@ -57463,8 +57463,8 @@
     "instructions": "Prepare garnish of melon wedge or skewered melon balls. CUT melon into 8 segments and deseed. Cut cubes of flesh from skin of one segment and MUDDLE in base of shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. Garnish with melon wedge or skewered balls.",
     "ingredients": [
       {
-        "name": "&frasl;6 fresh melon (cantaloupe)",
-        "amount": 1.0,
+        "name": "melon (cantaloupe)",
+        "amount": 0.17,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;6 fresh Melon (Cantaloupe)"
@@ -57504,8 +57504,8 @@
     "instructions": "Cut melon into 8 segments and deseed Cut cubes of flesh from skin of one segment and place in blender Add other ingredients and BLEND with 6oz scoop crushed ice Serve with straws.",
     "ingredients": [
       {
-        "name": "&frasl;6 fresh melon (cantaloupe)",
-        "amount": 1.0,
+        "name": "melon (cantaloupe)",
+        "amount": 0.17,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;6 fresh Melon (Cantaloupe)"
@@ -57588,8 +57588,8 @@
     "instructions": "Cut melon into eight segments and deseed Cut cubes of flesh from skin of one segment and MUDDLE in base of shaker Add other ingredients, SHAKE with ice and fine strain into chilled glass.",
     "ingredients": [
       {
-        "name": "&frasl;6 fresh melon (cantaloupe)",
-        "amount": 1.0,
+        "name": "melon (cantaloupe)",
+        "amount": 0.17,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;6 fresh Melon (Cantaloupe)"
@@ -58246,8 +58246,8 @@
     "instructions": "Cut melon into eight segments and deseed Cut cubes of flesh from skin of one segment and MUDDLE in base of shaker Add other ingredients, SHAKE with ice and fine strain into ice-filled glass.",
     "ingredients": [
       {
-        "name": "&frasl;6 fresh melon (cantaloupe)",
-        "amount": 1.0,
+        "name": "melon (cantaloupe)",
+        "amount": 0.17,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;6 fresh Melon (Cantaloupe)"
@@ -64096,15 +64096,15 @@
         "raw": "2 whole Maraschino cherry"
       },
       {
-        "name": "&frasl;2 slice orange (fresh)",
-        "amount": 1.0,
+        "name": "orange (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 slice Orange (fresh)"
       },
       {
-        "name": "&frasl;2 slice lemon (fresh)",
-        "amount": 1.0,
+        "name": "lemon (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 slice Lemon (fresh)"
@@ -66342,8 +66342,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). CUT lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass. Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE. Chop passion fruit in half and scoop flesh into the rocks glass and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, TRANSFER the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass). POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to ensure all ingredients are well mixed. FILL glass with small cubes or cracked ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) Briefly STIR before topping with more ice. Serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -66431,8 +66431,8 @@
     "instructions": "Prepare garnish by washing 2 passion fruits and cutting each in half. SCOOP out the seeds and flesh from 3 of the passion fruit halves into your shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. Float the remaining passion fruit half for garnish.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -66472,8 +66472,8 @@
     "instructions": "Prepare garnish by washing a passion fruit and cutting in half. SCOOP out the seeds and flesh from one of the passion fruit halves into your shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. Float the remaining passion fruit half for garnish.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Passion fruit"
@@ -66522,8 +66522,8 @@
     "instructions": "Prepare garnish of passion fruit half. Cut passion fruit in half and scoop out flesh into shaker. Add other ingredients. SHAKE with ice. FINE STRAIN into chilled glass. Float the remaining passion fruit half for garnish.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -66584,8 +66584,8 @@
     "instructions": "Wash and cut 2 fresh passion fruits in half. SCOOP out the seeds and flesh from 3 of the passion fruit halves into your shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. Float the remaining passion fruit half for garnish.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -66618,8 +66618,8 @@
     "instructions": "Prepare garnish of half a fresh passion fruit. Cut passion fruit in half and scoop out flesh into shaker. Add other ingredients, SHAKE with ice. FINE STRAIN into chilled glass. Garnish with passion fruit half floated on surface.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -66755,8 +66755,8 @@
     "instructions": "Cut passion fruit in half and scoop out flesh into shaker Add next four ingredients, SHAKE with ice and strain into glass filled with crushed ice CHURN (stir) and then top with sparkling wine.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -68493,9 +68493,9 @@
         "raw": "20 ml Cream of coconut"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -69812,9 +69812,9 @@
         "raw": "15 ml Sugar syrup (2:1)"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -71680,8 +71680,8 @@
     "instructions": "CUT melon into eight segments and de-seed Cut cubes of flesh from skin of one segment and MUDDLE in base of shaker Add other ingredients, SHAKE with ice and fine strain into a chilled glass.",
     "ingredients": [
       {
-        "name": "&frasl;6 fresh melon (cantaloupe)",
-        "amount": 1.0,
+        "name": "melon (cantaloupe)",
+        "amount": 0.17,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;6 fresh Melon (Cantaloupe)"
@@ -73599,8 +73599,8 @@
     "instructions": "&lt;strong&gt;1.&lt;/strong&gt; Cut lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass &lt;strong&gt;2.&lt;/strong&gt; Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE &lt;strong&gt;3.&lt;/strong&gt; Add raspberries and MUDDLE some more &lt;strong&gt;4.&lt;/strong&gt; When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass) &lt;strong&gt;5.&lt;/strong&gt; POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass STIR to ensure all ingredients are well mixed &lt;strong&gt;6.&lt;/strong&gt; Crack (rather than crush) four to five large ice cubes and drop into serving glass STIR before topping with more ice and serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -78504,9 +78504,9 @@
     "instructions": "POUR ale into glass, top with ginger ale and lightly stir.",
     "ingredients": [
       {
-        "name": "&frasl;3 fill glass with stout beer",
-        "amount": 2.0,
-        "unit": "piece",
+        "name": "stout beer",
+        "amount": null,
+        "unit": null,
         "notes": null,
         "raw": "2&frasl;3 fill glass with Stout beer"
       },
@@ -79453,9 +79453,9 @@
         "raw": "15 ml Orgeat syrup"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -81016,8 +81016,8 @@
         "raw": "70 gram Hibiscus flowers"
       },
       {
-        "name": "1&frasl;4 litre chilled water",
-        "amount": 1.0,
+        "name": "litre chilled water",
+        "amount": 1.25,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;4 litre Chilled water"
@@ -81585,8 +81585,8 @@
         "raw": "45 ml Milk  (whole/full 3-4% fat)"
       },
       {
-        "name": "&frasl;2 fresh banana",
-        "amount": 1.0,
+        "name": "banana",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Banana"
@@ -81957,8 +81957,8 @@
         "raw": "60 ml Prosecco"
       },
       {
-        "name": "1&frasl;2 scoop lemon sorbet",
-        "amount": 2.0,
+        "name": "lemon sorbet",
+        "amount": 2.5,
         "unit": "piece",
         "notes": null,
         "raw": "2 1&frasl;2 scoop Lemon sorbet"
@@ -82878,9 +82878,9 @@
     "instructions": "POUR lager into glass and TOP with cider.",
     "ingredients": [
       {
-        "name": "&frasl;2 fill glass with pilsner lager",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "pilsner lager",
+        "amount": null,
+        "unit": null,
         "notes": null,
         "raw": "1&frasl;2 fill glass with Pilsner lager"
       },
@@ -82996,8 +82996,8 @@
     "instructions": "Take 1/4 a vanilla pod and cut along its length MUDDLE this in the base of a shaker Add other ingredients, SHAKE with ice and fine strain into chilled glass.",
     "ingredients": [
       {
-        "name": "&frasl;4 whole vanilla pod",
-        "amount": 1.0,
+        "name": "vanilla pod",
+        "amount": 0.25,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;4 whole Vanilla pod"
@@ -83479,8 +83479,8 @@
     "instructions": "Prepare garnish of orange slice/wedge skewered with Luxardo Maraschino Cherry. PLACE scoop of ice cream in base of chilled glass. ADD next 3 ingredients and STIR to dissolve and incorporate most of the ice cream. TOP with sparkling wine (which should foam). Garnish with orange slice/wedge on rim skewered with maraschino cherry.",
     "ingredients": [
       {
-        "name": "&frasl;3 scoop vanilla ice cream",
-        "amount": 2.0,
+        "name": "vanilla ice cream",
+        "amount": 0.67,
         "unit": "piece",
         "notes": null,
         "raw": "2&frasl;3 scoop Vanilla ice cream"
@@ -84864,9 +84864,9 @@
         "raw": "5 fresh Strawberries (fresh)"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -84975,8 +84975,8 @@
     "instructions": "MUDDLE strawberries in base of glass Add next 5 ingredients to glass and two-thirds will with crushed ice CHURN (stir) with bar spoon and then FILL glass with more crushed ice TOP with splash of soda, briefly stir and serve.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh strawberries (fresh)",
-        "amount": 4.0,
+        "name": "strawberries (fresh)",
+        "amount": 4.5,
         "unit": "piece",
         "notes": null,
         "raw": "4 1&frasl;2 fresh Strawberries (fresh)"
@@ -90128,8 +90128,8 @@
     "instructions": "&lt;strong&gt;1.&lt;/strong&gt; Cut lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass &lt;strong&gt;2.&lt;/strong&gt; Add 3 bar spoons caster sugar (or ½oz/15ml sugar syrup 2:1) and MUDDLE &lt;strong&gt;3.&lt;/strong&gt; When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass) &lt;strong&gt;4&lt;/strong&gt; POUR cachaça (stored in the freezer), coconut liqueur and pineapple juice (also chilled) into the shaker base or glass used to muddle and swirl to rinse before pouring into serving glass STIR to ensure all ingredients are well mixed &lt;strong&gt;5.&lt;/strong&gt; Use an &lt;a href=&quot;/bar-equipment-and-barware/250/ice-tapper&quot;&gt;Ice Tapper&lt;/a&gt; to crack (rather than crush) four to five large ice cubes and drop into serving glass STIR before topping with more ice and serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -91092,8 +91092,8 @@
         "raw": "15 ml Black raspberry liqueur"
       },
       {
-        "name": "&frasl;2 fresh lemon peel",
-        "amount": 1.0,
+        "name": "lemon peel",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lemon peel"
@@ -96204,9 +96204,9 @@
         "raw": "3 drop Saline solution 4:1"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -100504,8 +100504,8 @@
     "instructions": "MUDDLE watermelon and lemon grass in base of shaker Add other ingredients, SHAKE with ice and fine strain into chilled glass.",
     "ingredients": [
       {
-        "name": "&frasl;6 fresh watermelon (fresh)",
-        "amount": 1.0,
+        "name": "watermelon (fresh)",
+        "amount": 0.17,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;6 fresh Watermelon (fresh)"
@@ -101149,8 +101149,8 @@
     "instructions": "In a shallow small pan, heat the banana with orange juice, sugar and cinnamon until the banana softens and the orange juice reduces Add cognac and flambé further MUDDLE banana in the base of shaker, add other ingredients, SHAKE with ice and fine strain into chilled glass.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh banana",
-        "amount": 1.0,
+        "name": "banana",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Banana"
@@ -102125,9 +102125,9 @@
         "raw": "15 ml Lemon juice"
       },
       {
-        "name": "&frasl;4 barspoon honey sugar syrup",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "honey sugar syrup",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Honey sugar syrup"
       }
@@ -102881,8 +102881,8 @@
     "instructions": "RIM glass with salt (moisten outside edge with lime juice and dip into salt). Prepare garnish of skewered celery stalk, cherry tomato and yellow bell pepper slice. MUDDLE bell pepper in base of shaker. Add other ingredients and ice then ROLL (rotate rather than shake shaker). FINE STRAIN into ice-filled glass. Use ice fresh from freezer (rather than ice-machine/ice-well) to fill glass to avoid unwanted dilution. Garnish with skewered celery stalk, cherry tomato and yellow bell pepper slice.",
     "ingredients": [
       {
-        "name": "&frasl;2 ring yellow bell pepper",
-        "amount": 1.0,
+        "name": "ring yellow bell pepper",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 ring Yellow bell pepper"
@@ -103817,8 +103817,8 @@
     "instructions": "MUDDLE lime in base of shaker. Add other ingredients. SHAKE with 7oz scoop of crushed ice. POUR (without straining) into glass.",
     "ingredients": [
       {
-        "name": "&frasl;4 fresh lime (fresh)",
-        "amount": 3.0,
+        "name": "lime (fresh)",
+        "amount": 0.75,
         "unit": "piece",
         "notes": null,
         "raw": "3&frasl;4 fresh Lime (fresh)"
@@ -103851,8 +103851,8 @@
     "instructions": "MUDDLE lime and grapes in base of shaker to release juices Add other ingredients, SHAKE with 6oz scoop crushed ice and pour all without straining into glass.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -103906,15 +103906,15 @@
     "instructions": "MUDDLE lime and grapefruit in base of shaker to release juices Add other ingredients, SHAKE with 6oz scoop crushed ice and pour all without straining into glass.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
       },
       {
-        "name": "&frasl;4 fresh ruby red grapefruit",
-        "amount": 1.0,
+        "name": "ruby red grapefruit",
+        "amount": 0.25,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;4 fresh Ruby red grapefruit"
@@ -104397,9 +104397,9 @@
         "raw": "7.5 ml Agave syrup"
       },
       {
-        "name": "&frasl;2 barspoon cinnamon powder",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "cinnamon powder",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Cinnamon powder"
       }
@@ -105619,9 +105619,9 @@
         "raw": "2.5 ml Maraschino liqueur"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -108648,8 +108648,8 @@
     "instructions": "Prepare garnish of rosemary sprig. MUDDLE rosemary in base of shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. FINE STRAIN into chilled glass. Rosemary sprig.",
     "ingredients": [
       {
-        "name": "1&frasl;2 inch rosemary sprig",
-        "amount": 1.0,
+        "name": "inch rosemary sprig",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 inch Rosemary sprig"
@@ -110349,8 +110349,8 @@
     "instructions": "No garnish to prepare. MUDDLE lemon in base of shaker. Add other ingredients and SHAKE with 7oz scoop crushed ice. POUR into glass without straining. Serve with straws.",
     "ingredients": [
       {
-        "name": "&frasl;4 fresh lemon (fresh)",
-        "amount": 3.0,
+        "name": "lemon (fresh)",
+        "amount": 0.75,
         "unit": "piece",
         "notes": null,
         "raw": "3&frasl;4 fresh Lemon (fresh)"
@@ -115210,9 +115210,9 @@
     "instructions": "No garnish to prepare. POUR beer into chilled glass. TOP with ginger ale. Serve naked, without garnish.",
     "ingredients": [
       {
-        "name": "&frasl;3 fill glass with pilsner lager",
-        "amount": 2.0,
-        "unit": "piece",
+        "name": "pilsner lager",
+        "amount": null,
+        "unit": null,
         "notes": null,
         "raw": "2&frasl;3 fill glass with Pilsner lager"
       },
@@ -116002,8 +116002,8 @@
     "instructions": "Prepare garnish of red pepper slice. MUDDLE pepper in base of shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. Garnish with red pepper slice.",
     "ingredients": [
       {
-        "name": "&frasl;2 slice red bell pepper",
-        "amount": 1.0,
+        "name": "red bell pepper",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 slice Red bell pepper"
@@ -119356,9 +119356,9 @@
         "raw": "15 ml Passion fruit syrup"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -120475,9 +120475,9 @@
         "raw": "22.5 ml Passion fruit syrup"
       },
       {
-        "name": "1&frasl;2 dash aromatic bitters",
-        "amount": 2.0,
-        "unit": "piece",
+        "name": "aromatic bitters",
+        "amount": 2.5,
+        "unit": "dash",
         "notes": null,
         "raw": "2 1&frasl;2 dash Aromatic bitters"
       }
@@ -121324,8 +121324,8 @@
     "instructions": "Prepare garnish of rosemary sprig. Strip leaves from rosemary and MUDDLE with grapes in base of shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. Garnish with rosemary sprig.",
     "ingredients": [
       {
-        "name": "&frasl;2 sprig rosemary sprig",
-        "amount": 1.0,
+        "name": "rosemary sprig",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 sprig Rosemary sprig"
@@ -124086,9 +124086,9 @@
         "raw": "7.5 ml Orgeat syrup"
       },
       {
-        "name": "&frasl;2 barspoon blackstrap molasses",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "blackstrap molasses",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Blackstrap molasses"
       },
@@ -125275,9 +125275,9 @@
         "raw": "45 ml Gin"
       },
       {
-        "name": "1&frasl;2 barspoon raspberry jam",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "raspberry jam",
+        "amount": 1.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1 1&frasl;2 barspoon Raspberry jam"
       },
@@ -128336,8 +128336,8 @@
     "instructions": "Prepare garnish by washing 2 passion fruits and cutting each in half. SCOOP out the seeds and flesh from 3 of the passion fruit halves into your shaker. Add the next 4 ingredients (all but the sparkling wine). SHAKE with ice. FINE STRAIN into chilled glass. Float the remaining passion fruit half for garnish. Optionally, separately POUR the sparkling wine into a chilled shot glass to serve alongside the cocktail.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -130820,8 +130820,8 @@
     "instructions": "Prepare garnish of pineapple wedge. MUDDLE pineapple in base of shaker. Add other ingredients, SHAKE with ice and strain back into shaker. DRY SHAKE (without ice) to emulsify. FINE STRAIN into chilled glass. Garnish with pineapple wedge on rim.",
     "ingredients": [
       {
-        "name": "&frasl;2 ring pineapple (fresh)",
-        "amount": 1.0,
+        "name": "ring pineapple (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 ring Pineapple (fresh)"
@@ -132076,8 +132076,8 @@
     "instructions": "MUDDLE pineapple in base of shaker Add next five ingredients, SHAKE with ice and fine strain into ice-filled glass Float the port on drink.",
     "ingredients": [
       {
-        "name": "&frasl;4 ring pineapple (fresh)",
-        "amount": 1.0,
+        "name": "ring pineapple (fresh)",
+        "amount": 0.25,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;4 ring Pineapple (fresh)"
@@ -132439,9 +132439,9 @@
         "raw": "15 ml Lime juice"
       },
       {
-        "name": "&frasl;2 barspoon powdered sugar",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "powdered sugar",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Powdered sugar"
       },
@@ -135190,15 +135190,15 @@
         "raw": "2 dried Green cardamom pods"
       },
       {
-        "name": "&frasl;2 barspoon cumin seeds",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "cumin seeds",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Cumin seeds"
       },
       {
-        "name": "1&frasl;2 inch cucumber (fresh)",
-        "amount": 1.0,
+        "name": "inch cucumber (fresh)",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 inch Cucumber (fresh)"
@@ -135341,8 +135341,8 @@
         "raw": "3 barspoon Honey"
       },
       {
-        "name": "&frasl;2 fresh banana",
-        "amount": 1.0,
+        "name": "banana",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Banana"
@@ -139452,8 +139452,8 @@
         "raw": "45 ml Oude genever"
       },
       {
-        "name": "&frasl;2 pint belgium dubbel abbey ale",
-        "amount": 1.0,
+        "name": "pint belgium dubbel abbey ale",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 pint Belgium dubbel abbey ale"
@@ -139838,8 +139838,8 @@
     "instructions": "Prepare garnish of lemon zest twist. MUDDLE peach in base of shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. EXPRESS lemon zest twist over the cocktail and use as garnish.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh fresh peach",
-        "amount": 1.0,
+        "name": "fresh peach",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Fresh peach"
@@ -145751,9 +145751,9 @@
         "raw": "7.5 ml Whipping cream"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -149925,9 +149925,9 @@
         "raw": "5 ml Sugar syrup (2:1)"
       },
       {
-        "name": "&frasl;2 barspoon fernet liqueur",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "fernet liqueur",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Fernet liqueur"
       },
@@ -150910,8 +150910,8 @@
         "raw": "30 ml Whipping cream"
       },
       {
-        "name": "&frasl;2 fresh banana",
-        "amount": 1.0,
+        "name": "banana",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Banana"
@@ -155732,9 +155732,9 @@
         "raw": "15 ml Lemon juice"
       },
       {
-        "name": "1&frasl;2 barspoon powdered sugar",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "powdered sugar",
+        "amount": 1.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1 1&frasl;2 barspoon Powdered sugar"
       },
@@ -157166,9 +157166,9 @@
         "raw": "10 ml Espresso coffee (hot)"
       },
       {
-        "name": "&frasl;2 barspoon honey",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "honey",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Honey"
       },
@@ -157675,9 +157675,9 @@
         "raw": "15 ml Apricot liqueur"
       },
       {
-        "name": "&frasl;2 barspoon balsamic vinegar",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "balsamic vinegar",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Balsamic vinegar"
       },
@@ -158186,8 +158186,8 @@
     "instructions": "MUDDLE ginger in base of shaker Add other ingredients, shake with ice and strain back into shaker DRY SHAKE (without ice) and fine strain into chilled glass.",
     "ingredients": [
       {
-        "name": "&frasl;2 candied fresh ginger",
-        "amount": 1.0,
+        "name": "candied fresh ginger",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 candied Fresh ginger"
@@ -158948,9 +158948,9 @@
         "raw": "15 ml Rosso/sweet vermouth"
       },
       {
-        "name": "&frasl;2 barspoon sugar syrup (2:1)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "sugar syrup (2:1)",
+        "amount": 0.5,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;2 barspoon Sugar syrup (2:1)"
       }
@@ -160771,9 +160771,9 @@
         "raw": "10 ml Grand Marnier"
       },
       {
-        "name": "&frasl;6 dash chocolate bitters",
-        "amount": 5.0,
-        "unit": "piece",
+        "name": "chocolate bitters",
+        "amount": 0.83,
+        "unit": "dash",
         "notes": null,
         "raw": "5&frasl;6 dash Chocolate bitters"
       },
@@ -162891,8 +162891,8 @@
     "instructions": "Scoop half passion fruit into shaker Add other ingredients, SHAKE with ice and fine strain into chilled glass.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Passion fruit"
@@ -167537,8 +167537,8 @@
     "instructions": "&lt;strong&gt;1.&lt;/strong&gt; To make a Estrella Porno Martini you&apos;ll first need to flavour your tequila with a vanilla pod Simply cut the vanilla pod lengthways to expose the flavoursome seeds inside and drop the whole vanilla pod into your bottle of tequila Reseal and shake bottle several times a day for at least two days, preferably a week &lt;strong&gt;2.&lt;/strong&gt; To make your cocktail, wash and cut passion fruits in half, SCOOP out the seeds and flesh of 3 halves into shaker (Keep last passion fruit half for garnish) Add next four ingredients (all but champagne), SHAKE with ice and fine strain into chilled glass POUR champagne into chilled shot glass to serve on the side Instruct drinker to sip alternately from each glass.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -169047,8 +169047,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). CUT lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass. Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE. Add blueberries and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz highball glass). POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to combine all ingredients. Fill glass with ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) STIR before topping with more ice and serve with a stirrer (but no straws). STIR before topping with more ice. Garnish with stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -169859,8 +169859,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). CUT lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass. Add 3 bar spoons powdered sugar [or 15ml (½oz) sugar syrup 2:1] and MUDDLE. Add strawberries and basil, and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz highball glass). POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to combine all ingredients. Fill glass with ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) STIR before topping with more ice. Garnish with stirrer and serve without a straw.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -169907,8 +169907,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). CUT lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass. Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE. Add pineapple and mint and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, TRANSFER the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass). POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to ensure all ingredients are well mixed. FILL glass with small cubes or cracked ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) Briefly STIR before topping with more ice. Serve with stirrer.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -169955,8 +169955,8 @@
     "instructions": "&lt;strong&gt;1.&lt;/strong&gt; Cut lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass &lt;strong&gt;2.&lt;/strong&gt; Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE &lt;strong&gt;3.&lt;/strong&gt; Add fig and MUDDLE some more &lt;strong&gt;4.&lt;/strong&gt; When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz highball glass) &lt;strong&gt;5.&lt;/strong&gt; POUR cachaça (stored in the freezer) and ginger liqueur into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass STIR to ensure all ingredients are well mixed &lt;strong&gt;6.&lt;/strong&gt; Crack (rather than crush) four to five large ice cubes and drop into serving glass STIR before topping with more ice and serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -170003,8 +170003,8 @@
     "instructions": "&lt;strong&gt;1.&lt;/strong&gt; Cut lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass &lt;strong&gt;2.&lt;/strong&gt; Add 3 bar spoons caster sugar (or ½oz/15ml sugar syrup 2:1) and MUDDLE &lt;strong&gt;3.&lt;/strong&gt; Add cucumber and jalapeño and MUDDLE some more &lt;strong&gt;4.&lt;/strong&gt; When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz highball glass) &lt;strong&gt;5.&lt;/strong&gt; POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass STIR to ensure all ingredients are well mixed &lt;strong&gt;6.&lt;/strong&gt; Crack (rather than crush) four to five large ice cubes and drop into serving glass STIR before topping with more ice and serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -170024,8 +170024,8 @@
         "raw": "3 slice Cucumber (fresh)"
       },
       {
-        "name": "&frasl;6 inch jalapeno slice",
-        "amount": 1.0,
+        "name": "inch jalapeno slice",
+        "amount": 0.17,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;6 inch Jalapeno slice"
@@ -170051,8 +170051,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). CUT lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass. Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE. Add grapes and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, TRANSFER the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass). POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to ensure all ingredients are well mixed. Fill glass with ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) Briefly STIR before topping with more ice. Serve with a stirrer.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -170092,8 +170092,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). CUT lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass. Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE. Add red grapes and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, TRANSFER the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass). POUR cachaça (stored in the freezer) and Sauternes into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to ensure all ingredients are well mixed. FILL glass with small cubes or cracked ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) Briefly STIR before topping with more ice. Garnish with stirrer and serve without a straw.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -170225,8 +170225,8 @@
     "instructions": "&lt;strong&gt;1.&lt;/strong&gt; Cut lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass &lt;strong&gt;2.&lt;/strong&gt; Add 3 bar spoons caster sugar (or ½oz/15ml sugar syrup 2:1) and MUDDLE &lt;strong&gt;3.&lt;/strong&gt; Add slices of banana and MUDDLE some more &lt;strong&gt;4.&lt;/strong&gt; When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz highball glass) &lt;strong&gt;5.&lt;/strong&gt; POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass STIR to ensure all ingredients are well mixed &lt;strong&gt;6.&lt;/strong&gt; Use an &lt;a href=&quot;/bar-equipment-and-barware/250/ice-tapper&quot;&gt;Ice Tapper&lt;/a&gt; to crack (rather than crush) four to five large ice cubes and drop into serving glass STIR before topping with more ice and serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -170239,8 +170239,8 @@
         "raw": "1 barspoon Superfine/caster sugar"
       },
       {
-        "name": "&frasl;3 fresh banana",
-        "amount": 1.0,
+        "name": "banana",
+        "amount": 0.33,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;3 fresh Banana"
@@ -170273,8 +170273,8 @@
     "instructions": "Prepare stirrer (spoon, wooden lolly stick or stick cut from sugar cane). CUT lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass. Add 3 bar spoons of caster sugar (or ½oz/15ml sugar syrup 2:1) and MUDDLE. Add kiwi slices and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz highball glass). POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to ensure all ingredients are well mixed. Fill glass with ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) STIR before topping with more ice. Garnish with stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -170287,8 +170287,8 @@
         "raw": "3 barspoon Superfine/caster sugar"
       },
       {
-        "name": "&frasl;2 fresh kiwi fruit (fresh)",
-        "amount": 1.0,
+        "name": "kiwi fruit (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Kiwi fruit (fresh)"
@@ -171010,8 +171010,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). Cut a ripe lime in half (from pole to pole) and remove the core from each half by cutting a V-shaped groove. (You'll need one-half of the lime per cocktail.) CHOP into wedges and each wedge chopped in half before dropping the resulting 6 or 8 lime chunks into the base of shaker. Add agave syrup and MUDDLE. Add blackberries and MUDDLE some more. When sure the lime and blackberry juice is fully extracted, POUR the muddled fruit into serving glass (preferably a 30cl / 10oz highball glass). POUR cachaça (stored in the freezer) into the shaker tin used to muddle and swirl to rinse tin before pouring cachaça into serving glass. STIR to combine with other ingredients. FILL glass with small cubes or cracked ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) Briefly STIR before topping with more ice. Serve with a stirrer (spoon, wooden lolly stick or stick cut from sugar cane) but no straws.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -171426,8 +171426,8 @@
     "instructions": "&lt;strong&gt;1.&lt;/strong&gt; Cut lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass &lt;strong&gt;2.&lt;/strong&gt; Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE &lt;strong&gt;3.&lt;/strong&gt; Add Kiwi fruit and MUDDLE some more &lt;strong&gt;4.&lt;/strong&gt; When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass) &lt;strong&gt;5.&lt;/strong&gt; POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass Add apple juice and anis liqueur, then STIR to ensure all ingredients are well mixed &lt;strong&gt;6.&lt;/strong&gt; Crack (rather than crush) four to five large ice cubes and drop into serving glass STIR before topping with more ice and serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -171440,8 +171440,8 @@
         "raw": "3 barspoon Superfine/caster sugar"
       },
       {
-        "name": "&frasl;2 fresh kiwi fruit (fresh)",
-        "amount": 1.0,
+        "name": "kiwi fruit (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Kiwi fruit (fresh)"
@@ -171481,8 +171481,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). Cut a ripe lime in half (from pole to pole) and remove the core from each half by cutting a V-shaped groove. (You'll need one-half of the lime per cocktail.) CHOP into wedges and each wedge chopped in half before dropping the resulting 6 or 8 lime chunks into the base of shaker. Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE. Add watermelon and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, TRANSFER the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass). POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to ensure all ingredients are well mixed. Fill glass with ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) Briefly STIR before topping with more ice. Garnish with stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -171495,8 +171495,8 @@
         "raw": "3 barspoon Powdered sugar"
       },
       {
-        "name": "&frasl;2 cupful watermelon (fresh)",
-        "amount": 1.0,
+        "name": "cupful watermelon (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 cupful Watermelon (fresh)"
@@ -171522,8 +171522,8 @@
     "instructions": "&lt;strong&gt;1.&lt;/strong&gt; Cut lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass &lt;strong&gt;2.&lt;/strong&gt; Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE &lt;strong&gt;3.&lt;/strong&gt; Add melon and MUDDLE some more &lt;strong&gt;4.&lt;/strong&gt; When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass) &lt;strong&gt;5.&lt;/strong&gt; POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass STIR to ensure all ingredients are well mixed &lt;strong&gt;6.&lt;/strong&gt; Crack (rather than crush) four to five large ice cubes using an &lt;a href=&quot;/bar-equipment-and-barware/250/ice-tapper&quot;&gt;Ice Tapper&lt;/a&gt; and drop into serving glass STIR before topping with more ice and serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -171563,8 +171563,8 @@
     "instructions": "&lt;strong&gt;1.&lt;/strong&gt; Cut lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass &lt;strong&gt;2.&lt;/strong&gt; Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE &lt;strong&gt;3.&lt;/strong&gt; Add melon and MUDDLE some more &lt;strong&gt;4.&lt;/strong&gt; When sure fruit juice is fully extracted and the sugar dissolved, transfer the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass) &lt;strong&gt;5.&lt;/strong&gt; POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass Add apple juice and STIR to ensure all ingredients are well mixed &lt;strong&gt;6.&lt;/strong&gt; Crack (rather than crush) four to five large ice cubes using an &lt;a href=&quot;/bar-equipment-and-barware/250/ice-tapper&quot;&gt;Ice Tapper&lt;/a&gt; and drop into serving glass STIR before topping with more ice and serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -171611,8 +171611,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). CUT lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass. Add 3 bar spoons caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE. Add pineapple and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, TRANSFER the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass). POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to ensure all ingredients are well mixed. FILL glass with small cubes or cracked ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) Briefly STIR before topping with more ice. Garnish with stirrer and serve without a straw.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -171625,8 +171625,8 @@
         "raw": "3 barspoon Superfine/caster sugar"
       },
       {
-        "name": "&frasl;2 slice pineapple (fresh)",
-        "amount": 1.0,
+        "name": "pineapple (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 slice Pineapple (fresh)"
@@ -173454,8 +173454,8 @@
     "instructions": "Prepare garnish of lemon slice. MUDDLE lemon in base of shaker and then pour into serving glass. FILL glass with ice. Add limoncello and bitters. TOP with tonic water and briefly stir. Garnish with lemon slice.",
     "ingredients": [
       {
-        "name": "&frasl;4 fresh lemon (fresh)",
-        "amount": 1.0,
+        "name": "lemon (fresh)",
+        "amount": 0.25,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;4 fresh Lemon (fresh)"
@@ -174499,8 +174499,8 @@
         "raw": "1 barspoon Powdered sugar"
       },
       {
-        "name": "&frasl;2 fresh egg white",
-        "amount": 1.0,
+        "name": "egg white",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Egg white"
@@ -175982,8 +175982,8 @@
         "raw": "22.5 ml Lemon juice"
       },
       {
-        "name": "&frasl;2 fresh egg white (pasteurised)",
-        "amount": 1.0,
+        "name": "egg white (pasteurised)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Egg white (pasteurised)"
@@ -178838,9 +178838,9 @@
         "raw": "10 ml Red bitter liqueur"
       },
       {
-        "name": "&frasl;2 pinch salt",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "pinch",
         "notes": null,
         "raw": "1&frasl;2 pinch Salt"
       }
@@ -183477,8 +183477,8 @@
     "instructions": "&lt;strong&gt;1.&lt;/strong&gt; Cut lime in half (from pole to pole) and slice on half into 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass &lt;strong&gt;2.&lt;/strong&gt; Add sweetener and MUDDLE &lt;strong&gt;3.&lt;/strong&gt; If using cubed ice straight from the freezer, add chilled water (or optionally add fruit of your choice) and MUDDLE some more If using watery ice then omit water &lt;strong&gt;4.&lt;/strong&gt; When sure muddling has fully extracted fruit juice, POUR the muddled fruit and sweetener into serving glass (preferably a 30cl / 10oz hi-ball glass) &lt;strong&gt;5.&lt;/strong&gt; POUR cachaça (stored in the freezer) into the rocks glass (the glass used to muddle) and swirl to rinse glass before pouring cachaça into serving glass STIR to mix with other ingredients &lt;strong&gt;6.&lt;/strong&gt; If using cubed ice, crack (rather than crush) four to five large ice cubes and drop into serving glass STIR before topping with more ice and serve with a stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -183677,9 +183677,9 @@
         "raw": "12.5 ml Sugar-free sweetener syrup"
       },
       {
-        "name": "&frasl;2 pinch salt",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "pinch",
         "notes": null,
         "raw": "1&frasl;2 pinch Salt"
       }
@@ -183923,9 +183923,9 @@
         "raw": "10 ml Sugar-free sweetener syrup"
       },
       {
-        "name": "&frasl;2 pinch salt",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "pinch",
         "notes": null,
         "raw": "1&frasl;2 pinch Salt"
       }
@@ -184118,8 +184118,8 @@
     "instructions": "Cut passion fruits in half and scoop out flesh into shaker (keep one half for garnish) Add other ingredients, SHAKE with ice and fine strain into chilled glass.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -187224,8 +187224,8 @@
     "instructions": "SCOOP the seeds and flesh of passion fruit into base of shaker Add other ingredients, SHAKE with ice and fine strain into chilled glass.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -187847,8 +187847,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). CUT lime in half (from pole to pole) and then slice one of the halves into eight 3-4mm thick half-moon shaped segments and drop into the base of a robust rocks glass. Add 3 bar spoons powdered caster sugar (or ½oz / 15ml sugar syrup 2:1) and MUDDLE. Add strawberries and MUDDLE some more. When sure fruit juice is fully extracted and the sugar dissolved, TRANSFER the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz hi-ball glass). POUR cachaça (stored in the freezer) into the rocks glass (used to muddle) and swirl to rinse glass before pouring cachaça into serving glass. STIR to ensure all ingredients are well mixed. FILL glass with small cubes or cracked ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) Briefly STIR before topping with more ice. Garnish with stirrer (but no straws).",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -191100,9 +191100,9 @@
         "raw": "22.5 ml Lime juice"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -191966,9 +191966,9 @@
         "raw": "30 ml Lemon juice"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -193362,8 +193362,8 @@
         "raw": "10 ml Vanilla sugar syrup"
       },
       {
-        "name": "&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Passion fruit"
@@ -195514,9 +195514,9 @@
         "raw": "1 dash Aromatic bitters"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -197317,9 +197317,9 @@
         "raw": "4 fresh Strawberries (fresh)"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -199236,9 +199236,9 @@
         "raw": "10 ml Agave syrup"
       },
       {
-        "name": "&frasl;2 pinch salt",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "pinch",
         "notes": null,
         "raw": "1&frasl;2 pinch Salt"
       }
@@ -202857,16 +202857,16 @@
         "raw": "20 ml Lime juice"
       },
       {
-        "name": "&frasl;2 fresh banana",
-        "amount": 1.0,
+        "name": "banana",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Banana"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -205633,8 +205633,8 @@
     "instructions": "MUDDLE chili in base of shaker Add other ingredients, SHAKE with ice and fine strain into chilled glass.",
     "ingredients": [
       {
-        "name": "&frasl;4 inch red chili pepper",
-        "amount": 1.0,
+        "name": "inch red chili pepper",
+        "amount": 0.25,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;4 inch red chili pepper"
@@ -209292,8 +209292,8 @@
     "instructions": "Prepare garnish of rosemary sprig. MUDDLE rosemary in base of shaker. Add other ingredients and SHAKE with ice. FINE STRAIN into chilled glass. Rosemary sprig.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh rosemary sprig",
-        "amount": 1.0,
+        "name": "rosemary sprig",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Rosemary sprig"
@@ -228769,9 +228769,9 @@
         "raw": "20 ml Agave syrup"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -232567,9 +232567,9 @@
         "raw": "5 ml Egg white (pasteurised)"
       },
       {
-        "name": "&frasl;4 barspoon matcha powder",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "matcha powder",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Matcha powder"
       }
@@ -240358,8 +240358,8 @@
     "instructions": "MUDDLE lime and sugar in base of shaker Add other ingredients, SHAKE with ice and fine strain into glass filled with cracked (with an &lt;a href=&quot;/bar-equipment-and-barware/250/ice-tapper&quot;&gt;ice tapper&lt;/a&gt; – not crushed.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -245990,8 +245990,8 @@
     "instructions": "Cut a passion fruit in half and scoop flesh from one half into shaker Add other ingredients, SHAKE with ice and fine strain into chilled glass.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Passion fruit"
@@ -254596,9 +254596,9 @@
         "raw": "2 scoop Vanilla ice cream"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -269086,9 +269086,9 @@
         "raw": "30 ml Soda (club soda) water"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -271094,9 +271094,9 @@
         "raw": "2 drop Saline solution 4:1"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -272344,8 +272344,8 @@
         "raw": "3 dash Aromatic bitters"
       },
       {
-        "name": "&frasl;2 slice orange (fresh)",
-        "amount": 1.0,
+        "name": "orange (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 slice Orange (fresh)"
@@ -273437,9 +273437,9 @@
         "raw": "20 ml Chilled water"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -276762,8 +276762,8 @@
     "instructions": "Prepare garnish of float half passion fruit.. Wash and cut 2 fresh passion fruits in half. SCOOP out the seeds and flesh from 3 of the passion fruit halves into your shaker. Add next 4 ingredients and SHAKE with ice. Add next 4 ingredients (all but sparkling wine) and SHAKE with ice. FINE STRAIN into chilled glass. Float the remaining passion fruit half for garnish. Optionally, separately POUR the sparkling wine into a chilled shot glass to serve alongside the cocktail.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -278190,8 +278190,8 @@
     "instructions": "Prepare garnish of float half passion fruit.. Wash and cut 2 fresh passion fruits in half. SCOOP out the seeds and flesh from 3 of the passion fruit halves into your shaker. Add the next 4 ingredients (all but the sparkling wine). SHAKE with ice. FINE STRAIN into chilled glass. Float the remaining passion fruit half for garnish. Optionally, separately POUR the sparkling wine into a chilled shot glass to serve alongside the cocktail.",
     "ingredients": [
       {
-        "name": "1&frasl;2 fresh passion fruit",
-        "amount": 1.0,
+        "name": "passion fruit",
+        "amount": 1.5,
         "unit": "piece",
         "notes": null,
         "raw": "1 1&frasl;2 fresh Passion fruit"
@@ -280472,8 +280472,8 @@
     "instructions": "Prepare garnish of stirrer (spoon, wooden lolly stick or stick cut from sugar cane). Cut a ripe lime in half (from pole to pole) and remove the core from each half by cutting a V-shaped groove. (You'll need one-half of the lime per cocktail.) CHOP into wedges and each wedge chopped in half before dropping the resulting 6 or 8 lime chunks into the base of shaker. Add 2 bar spoons powdered sugar [or 15ml (½oz) sugar syrup 2:1] and MUDDLE. Add mango liqueur and MUDDLE some more. When sure the lime's juice is fully extracted and the sugar dissolved, POUR the muddled fruit and sugar into serving glass (preferably a 30cl / 10oz highball glass). POUR mango vodka (stored in the freezer) into the shaker tin used to muddle and swirl to rinse tin before pouring vodka into serving glass. STIR to mix with other ingredients. FILL glass with small cubes or cracked ice. (If using large ice cubes, crack (rather than crush) four to five large ice cubes using an ICE TAPPER and drop into serving glass.) STIR before topping with more ice. Serve with a stirrer.",
     "ingredients": [
       {
-        "name": "&frasl;2 fresh lime (fresh)",
-        "amount": 1.0,
+        "name": "lime (fresh)",
+        "amount": 0.5,
         "unit": "piece",
         "notes": null,
         "raw": "1&frasl;2 fresh Lime (fresh)"
@@ -282235,9 +282235,9 @@
         "raw": "30 ml Whipping cream"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -282540,9 +282540,9 @@
         "raw": "5 ml Triple sec"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -283847,9 +283847,9 @@
         "raw": "3 drop Saline solution 4:1"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -295287,9 +295287,9 @@
         "raw": "5 ml Whipping cream"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       },
@@ -295322,9 +295322,9 @@
         "raw": "5 fresh Strawberries (fresh)"
       },
       {
-        "name": "&frasl;4 barspoon xanthan gum (e415)",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "xanthan gum (e415)",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Xanthan gum (E415)"
       }
@@ -297354,9 +297354,9 @@
         "raw": "5 ml Egg white (pasteurised)"
       },
       {
-        "name": "&frasl;4 barspoon matcha powder",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "matcha powder",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Matcha powder"
       }
@@ -297397,9 +297397,9 @@
         "raw": "30 ml Espresso coffee (hot)"
       },
       {
-        "name": "&frasl;4 barspoon matcha powder",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "matcha powder",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Matcha powder"
       }
@@ -297447,9 +297447,9 @@
         "raw": "5 ml Egg white (pasteurised)"
       },
       {
-        "name": "&frasl;4 barspoon matcha powder",
-        "amount": 1.0,
-        "unit": "piece",
+        "name": "matcha powder",
+        "amount": 0.25,
+        "unit": "barspoon",
         "notes": null,
         "raw": "1&frasl;4 barspoon Matcha powder"
       }

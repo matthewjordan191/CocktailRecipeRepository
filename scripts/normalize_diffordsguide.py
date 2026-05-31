@@ -56,11 +56,31 @@ UNIT_RE = re.compile(
 
 # ── Ingredient parsing ─────────────────────────────────────────────────────
 
-NUMBER_RE = re.compile(r"^(\d+(?:\.\d+)?)\s*")
+# Unicode vulgar fractions → decimal value.
+VULGAR_FRACTIONS = {
+    "¼": 0.25, "½": 0.5, "¾": 0.75, "⅓": 1/3, "⅔": 2/3,
+    "⅕": 0.2, "⅖": 0.4, "⅗": 0.6, "⅘": 0.8, "⅙": 1/6, "⅚": 5/6,
+    "⅛": 0.125, "⅜": 0.375, "⅝": 0.625, "⅞": 0.875, "⅐": 1/7, "⅑": 1/9, "⅒": 0.1,
+}
+_VULGAR_CLASS = "".join(VULGAR_FRACTIONS)
+
+# Leading-amount matchers. Order matters: fractions before plain decimals so
+# "1⁄2" parses as 0.5 rather than 1. The fraction slash may be "/" or "⁄"
+# (U+2044, what "&frasl;" unescapes to).
+VULGAR_RE   = re.compile(r"^\s*(\d+)?\s*([" + _VULGAR_CLASS + r"])")
+FRACTION_RE = re.compile(r"^\s*(?:(\d+)\s+)?(\d+)\s*[/⁄]\s*(\d+)")
+DECIMAL_RE  = re.compile(r"^\s*(\d+(?:\.\d+)?)")
 
 # Prefixes that indicate a free-form/topper ingredient with no amount.
 TOPPER_RE = re.compile(
     r"^(top(?:\s+up)?\s+with|a\s+pinch\s+of|pinch\s+of|some|to\s+taste)\s+",
+    re.IGNORECASE,
+)
+
+# "Fill (the glass) (to top) with X" — a top-up with no usable amount. May be
+# preceded by a leading fraction (e.g. "½ fill glass with Pilsner lager").
+FILL_RE = re.compile(
+    r"^fill(?:\s+(?:the\s+)?glass)?(?:\s+to\s+top)?\s+with\s+",
     re.IGNORECASE,
 )
 
@@ -72,14 +92,33 @@ def to_oz(amount: float, unit: str) -> float:
     return amount
 
 
+def parse_leading_amount(s: str) -> tuple[float | None, str]:
+    """Extract a leading numeric amount (decimal, fraction, or vulgar
+    fraction) and return (amount, remainder). Returns (None, s) if none."""
+    m = VULGAR_RE.match(s)
+    if m:
+        amt = (int(m.group(1)) if m.group(1) else 0) + VULGAR_FRACTIONS[m.group(2)]
+        return amt, s[m.end():].lstrip()
+    m = FRACTION_RE.match(s)
+    if m:
+        whole = int(m.group(1)) if m.group(1) else 0
+        return whole + int(m.group(2)) / int(m.group(3)), s[m.end():].lstrip()
+    m = DECIMAL_RE.match(s)
+    if m:
+        return float(m.group(1)), s[m.end():].lstrip()
+    return None, s
+
+
 def parse_ingredient(raw: str, recipe_name: str) -> dict:
     """
     Parse a Difford's JSON-LD ingredient string, e.g.:
       "45 ml Gin"            → {amount: 1.5, unit: "oz", name: "gin"}
       "1 dash Bitters"       → {amount: 1,   unit: "dash", name: "bitters"}
+      "1&frasl;2 fresh Lime" → {amount: 0.5, unit: "piece", name: "lime"}
       "Top up with Soda"     → {amount: None, unit: None,  name: "soda"}
     """
-    s = raw.strip()
+    # Unescape HTML entities first: "&frasl;" → "⁄", "&amp;" → "&".
+    s = html.unescape(raw).strip()
 
     # Free-form toppers: "Top up with X", "A pinch of X"
     m = TOPPER_RE.match(s)
@@ -87,14 +126,17 @@ def parse_ingredient(raw: str, recipe_name: str) -> dict:
         name = s[m.end():].strip().lower()
         return {"name": name, "amount": None, "unit": None, "notes": None, "raw": raw}
 
-    # Try to extract a leading number.
-    num_m = NUMBER_RE.match(s)
-    if not num_m:
+    # Extract a leading amount (decimal / fraction / vulgar fraction).
+    amount, remainder = parse_leading_amount(s)
+    if amount is None:
         # No number — whole string is the ingredient name.
         return {"name": s.lower(), "amount": None, "unit": None, "notes": None, "raw": raw}
 
-    amount = float(num_m.group(1))
-    remainder = s[num_m.end():].lstrip()
+    # "<amount> fill glass with X" — treat as an unmeasured top-up.
+    fill_m = FILL_RE.match(remainder)
+    if fill_m:
+        name = remainder[fill_m.end():].strip().lower()
+        return {"name": name, "amount": None, "unit": None, "notes": None, "raw": raw}
 
     # Try to match a unit.
     unit_m = UNIT_RE.match(remainder)
@@ -110,10 +152,12 @@ def parse_ingredient(raw: str, recipe_name: str) -> dict:
         log.warning("[%s] Empty ingredient name after parsing '%s'", recipe_name, raw)
         return {"name": raw.lower(), "amount": None, "unit": None, "notes": None, "raw": raw}
 
-    # Convert liquid units to oz, rounded to nearest ¼.
+    # Convert liquid units to oz, rounded to nearest ¼; round others to 2dp.
     if unit in LIQUID_UNITS and amount is not None:
         amount = round_to_quarter(to_oz(amount, unit))
         unit = "oz"
+    elif amount is not None:
+        amount = round(amount, 2)
 
     return {"name": name, "amount": amount, "unit": unit, "notes": None, "raw": raw}
 
