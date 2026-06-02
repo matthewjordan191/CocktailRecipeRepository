@@ -364,11 +364,16 @@ const views = {
 };
 const nav = document.getElementById("main-nav");
 let previousView = "list";
+let currentView = "list";
+// All cocktails, set once on load — used by similarity scoring from the
+// detail view (which doesn't otherwise have the full list in scope).
+let allCocktails = [];
 // Remember scroll position per list view so returning from a recipe lands
 // where you were instead of at the top.
 const savedScroll = { list: 0, favorites: 0, recommended: 0 };
 
 function showView(name) {
+  currentView = name;
   for (const [key, el] of Object.entries(views)) el.hidden = key !== name;
   nav.hidden = name === "detail";
   nav.querySelectorAll(".nav-btn").forEach(btn => {
@@ -384,7 +389,9 @@ nav.addEventListener("click", e => {
 });
 
 function showDetail(cocktail) {
-  if (previousView in savedScroll) savedScroll[previousView] = window.scrollY;
+  // Save scroll only when leaving a list view, so detail→detail navigation
+  // (e.g. tapping a "similar" cocktail) doesn't overwrite the list position.
+  if (currentView in savedScroll) savedScroll[currentView] = window.scrollY;
   renderDetail(cocktail);
   document.title = cocktail.name;
   history.pushState(null, "", "#" + slugify(cocktail.name));
@@ -513,6 +520,20 @@ function renderDetail(c) {
     }
     tagsSec.hidden = false;
   } else { tagsSec.hidden = true; }
+
+  const similarSec  = document.getElementById("detail-similar");
+  const similarList = document.getElementById("similar-list");
+  similarList.innerHTML = "";
+  const similar = getSimilar(c);
+  if (similar.length) {
+    for (const s of similar) {
+      const li = document.createElement("li");
+      li.textContent = s.name;
+      li.addEventListener("click", () => showDetail(s));
+      similarList.appendChild(li);
+    }
+    similarSec.hidden = false;
+  } else { similarSec.hidden = true; }
 }
 
 // ── Ingredient matching ────────────────────────────────────────────────────
@@ -876,32 +897,54 @@ function initFavorites(cocktails) {
 // so they don't drown out flavor/spirit/occasion signal.
 const REC_TAG_EXCLUDE = new Set(["iba", "must-try"]);
 
+const INGREDIENT_BOOST = 1.5;
+
 // Distinct alcoholic base ingredients in a cocktail (spirits consolidated via
-// baseIngredient so all rums reinforce each other, etc.).
+// baseIngredient so all rums reinforce each other, etc.). Cached per cocktail.
 function recIngredients(cocktail) {
+  if (cocktail._recIngs) return cocktail._recIngs;
   const out = new Set();
   for (const ing of cocktail.ingredients || []) {
     if (ing.name && isAlcoholicIngredient(ing.name)) out.add(baseIngredient(ing.name));
   }
+  cocktail._recIngs = out;
   return out;
 }
 
-function getRecommendations(cocktails, limit = 20) {
-  if (favorites.size === 0) return [];
-
-  // Document frequencies across the whole library, for inverse-frequency
-  // weighting: a trait shared by few cocktails is more telling of taste than
-  // a ubiquitous one (e.g. "creamy" matters more than "classic").
-  const N = cocktails.length;
+// Library-wide document frequencies for inverse-frequency weighting: a trait
+// shared by few cocktails is more telling of taste than a ubiquitous one
+// (e.g. "creamy" matters more than "classic"). Computed once and memoized.
+let _libStats = null;
+function libraryStats() {
+  if (_libStats) return _libStats;
+  const N = allCocktails.length;
   const tagDf = {};
   const ingDf = {};
-  for (const c of cocktails) {
+  for (const c of allCocktails) {
     for (const tag of c.tags || []) {
       if (!REC_TAG_EXCLUDE.has(tag)) tagDf[tag] = (tagDf[tag] || 0) + 1;
     }
     for (const ing of recIngredients(c)) ingDf[ing] = (ingDf[ing] || 0) + 1;
   }
-  const idf = df => Math.log(N / (df || 1));
+  _libStats = { tagDf, ingDf, idf: df => Math.log(N / (df || 1)) };
+  return _libStats;
+}
+
+// Score how well a candidate matches a taste profile (tag → weight maps).
+function similarityScore(candidate, tagWeight, ingWeight, idf, tagDf, ingDf) {
+  let score = 0;
+  for (const tag of candidate.tags || []) {
+    if (tagWeight[tag]) score += tagWeight[tag] * idf(tagDf[tag]);
+  }
+  for (const ing of recIngredients(candidate)) {
+    if (ingWeight[ing]) score += ingWeight[ing] * idf(ingDf[ing]) * INGREDIENT_BOOST;
+  }
+  return score;
+}
+
+function getRecommendations(cocktails, limit = 20) {
+  if (favorites.size === 0) return [];
+  const { tagDf, ingDf, idf } = libraryStats();
 
   // Taste profile: how many favorites carry each tag / base ingredient.
   const tagFreq = {};
@@ -914,19 +957,27 @@ function getRecommendations(cocktails, limit = 20) {
     for (const ing of recIngredients(c)) ingFreq[ing] = (ingFreq[ing] || 0) + 1;
   }
 
-  const INGREDIENT_BOOST = 1.5;
   return cocktails
     .filter(c => !favorites.has(c.name))
-    .map(c => {
-      let score = 0;
-      for (const tag of c.tags || []) {
-        if (tagFreq[tag]) score += tagFreq[tag] * idf(tagDf[tag]);
-      }
-      for (const ing of recIngredients(c)) {
-        if (ingFreq[ing]) score += ingFreq[ing] * idf(ingDf[ing]) * INGREDIENT_BOOST;
-      }
-      return { cocktail: c, score };
-    })
+    .map(c => ({ cocktail: c, score: similarityScore(c, tagFreq, ingFreq, idf, tagDf, ingDf) }))
+    .filter(s => s.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(s => s.cocktail);
+}
+
+// Cocktails most similar to a single one — same scoring with a one-item profile.
+function getSimilar(target, limit = 6) {
+  const { tagDf, ingDf, idf } = libraryStats();
+  const tagWeight = {};
+  for (const tag of target.tags || []) if (!REC_TAG_EXCLUDE.has(tag)) tagWeight[tag] = 1;
+  const ingWeight = {};
+  for (const ing of recIngredients(target)) ingWeight[ing] = 1;
+  if (!Object.keys(tagWeight).length && !Object.keys(ingWeight).length) return [];
+
+  return allCocktails
+    .filter(c => c.name !== target.name)
+    .map(c => ({ cocktail: c, score: similarityScore(c, tagWeight, ingWeight, idf, tagDf, ingDf) }))
     .filter(s => s.score > 0)
     .sort((a, b) => b.score - a.score)
     .slice(0, limit)
@@ -976,6 +1027,7 @@ async function init(user) {
     error.hidden = false;
     return;
   }
+  allCocktails = cocktails;
 
   // Build the bar checklist from alcoholic ingredients, collapsed to base
   // spirits so the list stays shelf-level rather than listing every variant.
