@@ -29,7 +29,9 @@
       "Bash(git push *)",
       "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\matth\\\\OneDrive\\\\Documents\\\\GitHub\\\\CocktailRecipeRepository\" -Recurse -Directory)",
       "Bash(Select-Object FullName)",
-      "Bash(python -c \"import json; d=json.load\\(open\\('web/cocktails.json',encoding='utf-8'\\)\\); print\\('count',len\\(d\\)\\); print\\(json.dumps\\(d[0],indent=2,ensure_ascii=False\\)\\)\")"
+      "Bash(python -c \"import json; d=json.load\\(open\\('web/cocktails.json',encoding='utf-8'\\)\\); print\\('count',len\\(d\\)\\); print\\(json.dumps\\(d[0],indent=2,ensure_ascii=False\\)\\)\")",
+      "Bash(node --check web/app.js)",
+      "Bash(sed -n '616,815p' web/app.js)"
     ]
   }
 }

@@ -623,19 +623,49 @@ function initBrowse(cocktails) {
 
   count.textContent = `${total} cocktails`;
 
-  const frag = document.createDocumentFragment();
-  const items = [];
+  // Precompute searchable fields once; rows are created lazily (see below).
   for (const cocktail of cocktails) {
+    cocktail._lname = cocktail.name.toLowerCase();
+    cocktail._tagSet = new Set(cocktail.tags || []);
+  }
+
+  // Windowed rendering: only a page of matching rows is in the DOM at a time,
+  // with more appended as the user scrolls. Keeps the DOM light for ~6.9k
+  // cocktails instead of mounting every row up front.
+  const PAGE = 60;
+  let filtered = cocktails;   // current match set
+  let rendered = 0;           // how many of `filtered` are in the DOM
+
+  const sentinel = document.createElement("li");
+  sentinel.id = "list-sentinel";
+  sentinel.setAttribute("aria-hidden", "true");
+
+  function makeRow(cocktail) {
     const li = document.createElement("li");
     li.textContent = cocktail.name;
-    li.dataset.name = cocktail.name.toLowerCase();
-    li._tagSet = new Set(cocktail.tags || []);
-    li._cocktail = cocktail;
     li.addEventListener("click", () => { previousView = "list"; showDetail(cocktail); });
-    frag.appendChild(li);
-    items.push(li);
+    return li;
   }
-  list.appendChild(frag);
+
+  function renderNextPage() {
+    const end = Math.min(rendered + PAGE, filtered.length);
+    const frag = document.createDocumentFragment();
+    for (let i = rendered; i < end; i++) frag.appendChild(makeRow(filtered[i]));
+    list.insertBefore(frag, sentinel);
+    rendered = end;
+    if (rendered >= filtered.length) observer.unobserve(sentinel);
+  }
+
+  const observer = new IntersectionObserver(entries => {
+    if (entries.some(e => e.isIntersecting) && rendered < filtered.length) renderNextPage();
+  }, { rootMargin: "600px" });
+
+  function renderList() {
+    list.replaceChildren(sentinel);
+    rendered = 0;
+    renderNextPage();
+    if (rendered < filtered.length) observer.observe(sentinel);
+  }
 
   let activeFilter = null;
   let activeIngredientFilter = null;
@@ -765,25 +795,27 @@ function initBrowse(cocktails) {
 
   function applyFilters() {
     const query = search.value.toLowerCase().trim();
-    const filterTags = activeFilter ? new Set(activeFilter.tags) : null;
+    const filterTag = activeFilter ? activeFilter.tags[0] : null;
     const ingFilterSet = activeIngredientFilter ? new Set([activeIngredientFilter]) : null;
-    let visible = 0;
-    for (const li of items) {
-      const matchesSearch = !query || fuzzyMatch(query, li.dataset.name);
-      const matchesFilter = !filterTags || [...filterTags].some(t => li._tagSet.has(t));
-      let matchesMakeable = true;
+
+    filtered = cocktails.filter(c => {
+      if (query && !fuzzyMatch(query, c._lname)) return false;
+      if (filterTag && !c._tagSet.has(filterTag)) return false;
       if (makeableActive) {
-        const s = scoreCocktail(li._cocktail, inventory);
-        matchesMakeable = s.total > 0 && s.missingCount === 0;
+        const s = scoreCocktail(c, inventory);
+        if (!(s.total > 0 && s.missingCount === 0)) return false;
       }
-      const matchesIng = !ingFilterSet ||
-        li._cocktail.ingredients.some(i => i.name && isCovered(i.name, ingFilterSet));
-      li.hidden = !(matchesSearch && matchesFilter && matchesMakeable && matchesIng);
-      if (!li.hidden) visible++;
-    }
-    count.textContent = (query || filterTags || makeableActive || activeIngredientFilter)
-      ? `${visible} of ${total} cocktails`
+      if (ingFilterSet && !c.ingredients.some(i => i.name && isCovered(i.name, ingFilterSet))) return false;
+      return true;
+    });
+
+    const isFiltering = query || filterTag || makeableActive || activeIngredientFilter;
+    count.textContent = isFiltering
+      ? `${filtered.length} of ${total} cocktails`
       : `${total} cocktails`;
+
+    renderList();
+    window.scrollTo(0, 0);   // a new result set starts from the top
   }
 
   search.addEventListener("input", () => {
@@ -798,13 +830,13 @@ function initBrowse(cocktails) {
   });
 
   document.getElementById("random-btn").addEventListener("click", () => {
-    const visible = items.filter(li => !li.hidden);
-    if (!visible.length) return;
-    const li = visible[Math.floor(Math.random() * visible.length)];
+    if (!filtered.length) return;
+    const pick = filtered[Math.floor(Math.random() * filtered.length)];
     previousView = "list";
-    showDetail(li._cocktail);
+    showDetail(pick);
   });
 
+  applyFilters();   // initial render
   return { filterByTag, filterByIngredient: filterByIngredientFn };
 }
 
