@@ -406,6 +406,38 @@ document.getElementById("back-btn").addEventListener("click", () => {
   window.scrollTo(0, savedScroll[previousView] || 0);
 });
 
+// Shared list row: thumbnail + name. `fromView` sets the view to return to on
+// back; omit it (e.g. detail→detail "similar" navigation) to leave it unchanged.
+function makeCocktailRow(cocktail, fromView) {
+  const li = document.createElement("li");
+  li.className = "cocktail-row";
+
+  const thumb = document.createElement("span");
+  thumb.className = "cocktail-thumb";
+  if (cocktail.image_url) {
+    const img = document.createElement("img");
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.alt = "";
+    img.src = cocktail.image_url;
+    img.addEventListener("error", () => { thumb.classList.add("is-empty"); img.remove(); });
+    thumb.appendChild(img);
+  } else {
+    thumb.classList.add("is-empty");
+  }
+
+  const name = document.createElement("span");
+  name.className = "cocktail-row-name";
+  name.textContent = cocktail.name;
+
+  li.append(thumb, name);
+  li.addEventListener("click", () => {
+    if (fromView) previousView = fromView;
+    showDetail(cocktail);
+  });
+  return li;
+}
+
 // ── Detail renderer ────────────────────────────────────────────────────────
 function formatAmount(ing) {
   if (ing.amount == null) return "";
@@ -526,12 +558,7 @@ function renderDetail(c) {
   similarList.innerHTML = "";
   const similar = getSimilar(c);
   if (similar.length) {
-    for (const s of similar) {
-      const li = document.createElement("li");
-      li.textContent = s.name;
-      li.addEventListener("click", () => showDetail(s));
-      similarList.appendChild(li);
-    }
+    for (const s of similar) similarList.appendChild(makeCocktailRow(s));
     similarSec.hidden = false;
   } else { similarSec.hidden = true; }
 }
@@ -661,12 +688,7 @@ function initBrowse(cocktails) {
   sentinel.id = "list-sentinel";
   sentinel.setAttribute("aria-hidden", "true");
 
-  function makeRow(cocktail) {
-    const li = document.createElement("li");
-    li.textContent = cocktail.name;
-    li.addEventListener("click", () => { previousView = "list"; showDetail(cocktail); });
-    return li;
-  }
+  const makeRow = cocktail => makeCocktailRow(cocktail, "list");
 
   function renderNextPage() {
     const end = Math.min(rendered + PAGE, filtered.length);
@@ -879,10 +901,7 @@ function initFavorites(cocktails) {
       count.textContent = `${n} recipe${n === 1 ? "" : "s"}`;
       const frag = document.createDocumentFragment();
       for (const cocktail of favCocktails) {
-        const li = document.createElement("li");
-        li.textContent = cocktail.name;
-        li.addEventListener("click", () => { previousView = "favorites"; showDetail(cocktail); });
-        frag.appendChild(li);
+        frag.appendChild(makeCocktailRow(cocktail, "favorites"));
       }
       list.appendChild(frag);
     }
@@ -1001,10 +1020,7 @@ function initRecommended(cocktails) {
     subtitle.textContent = `${recs.length} suggestion${recs.length === 1 ? "" : "s"}`;
     const frag = document.createDocumentFragment();
     for (const cocktail of recs) {
-      const li = document.createElement("li");
-      li.textContent = cocktail.name;
-      li.addEventListener("click", () => { previousView = "recommended"; showDetail(cocktail); });
-      frag.appendChild(li);
+      frag.appendChild(makeCocktailRow(cocktail, "recommended"));
     }
     list.appendChild(frag);
   }
