@@ -331,6 +331,28 @@ h3 {
   gap: 0.4rem;
 }
 
+/* ── Empty state ── */
+#browse-empty {
+  color: var(--muted);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+#browse-empty[hidden] { display: none; }
+#browse-clear {
+  display: block;
+  margin: 0.8rem auto 0;
+  font-family: var(--font);
+  font-size: 0.85rem;
+  padding: 0.4rem 1rem;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+#browse-clear:hover { border-color: var(--accent); color: var(--accent); }
+
 /* ── Browse / Favorites list ── */
 #cocktail-list, #favorites-list, #rec-list, #similar-list { list-style: none; }
 

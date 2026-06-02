@@ -667,6 +667,8 @@ function initBrowse(cocktails) {
   const filterBar  = document.getElementById("filter-bar");
   const search     = document.getElementById("search");
   const searchClear = document.getElementById("search-clear");
+  const browseEmpty = document.getElementById("browse-empty");
+  const browseClear = document.getElementById("browse-clear");
   const total      = cocktails.length;
 
   count.textContent = `${total} cocktails`;
@@ -857,9 +859,24 @@ function initBrowse(cocktails) {
       ? `${filtered.length} of ${total} cocktails`
       : `${total} cocktails`;
 
+    browseEmpty.hidden = filtered.length > 0;
     renderList();
     window.scrollTo(0, 0);   // a new result set starts from the top
   }
+
+  // Reset every filter back to the full list.
+  function clearAllFilters() {
+    search.value = "";
+    searchClear.hidden = true;
+    activeFilter = null;
+    activeIngredientFilter = null;
+    ingChip.hidden = true;
+    makeableActive = false;
+    makeableBtn.classList.remove("active");
+    allPills.forEach(p => p.classList.remove("active"));
+    applyFilters();
+  }
+  browseClear.addEventListener("click", clearAllFilters);
 
   search.addEventListener("input", () => {
     searchClear.hidden = search.value === "";
