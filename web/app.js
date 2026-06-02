@@ -364,6 +364,9 @@ const views = {
 };
 const nav = document.getElementById("main-nav");
 let previousView = "list";
+// Remember scroll position per list view so returning from a recipe lands
+// where you were instead of at the top.
+const savedScroll = { list: 0, favorites: 0, recommended: 0 };
 
 function showView(name) {
   for (const [key, el] of Object.entries(views)) el.hidden = key !== name;
@@ -381,6 +384,7 @@ nav.addEventListener("click", e => {
 });
 
 function showDetail(cocktail) {
+  if (previousView in savedScroll) savedScroll[previousView] = window.scrollY;
   renderDetail(cocktail);
   document.title = cocktail.name;
   history.pushState(null, "", "#" + slugify(cocktail.name));
@@ -392,6 +396,7 @@ document.getElementById("back-btn").addEventListener("click", () => {
   document.title = "Cocktail Recipes";
   history.replaceState(null, "", location.pathname + location.search);
   showView(previousView);
+  window.scrollTo(0, savedScroll[previousView] || 0);
 });
 
 // ── Detail renderer ────────────────────────────────────────────────────────
@@ -996,6 +1001,7 @@ async function init(user) {
     if (!slug) {
       document.title = "Cocktail Recipes";
       showView(previousView);
+      window.scrollTo(0, savedScroll[previousView] || 0);
     } else {
       const cocktail = cocktailsBySlug.get(slug);
       if (cocktail) {
