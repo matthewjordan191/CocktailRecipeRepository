@@ -39,8 +39,11 @@
       </div>
     </header>
     <main>
-      <input id="search" type="search" placeholder="Search cocktails…"
-             autocomplete="off" autocorrect="off" spellcheck="false" />
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Search cocktails…"
+               autocomplete="off" autocorrect="off" spellcheck="false" />
+        <button id="search-clear" type="button" aria-label="Clear search" hidden>×</button>
+      </div>
       <div id="filter-bar" role="group" aria-label="Filter by category"></div>
       <div id="all-tags-panel" hidden></div>
       <ul id="cocktail-list"></ul>

@@ -610,10 +610,11 @@ function initBar(allIngredients) {
 // ── Browse view ────────────────────────────────────────────────────────────
 function initBrowse(cocktails) {
   const list      = document.getElementById("cocktail-list");
-  const count     = document.getElementById("count");
-  const filterBar = document.getElementById("filter-bar");
-  const search    = document.getElementById("search");
-  const total     = cocktails.length;
+  const count      = document.getElementById("count");
+  const filterBar  = document.getElementById("filter-bar");
+  const search     = document.getElementById("search");
+  const searchClear = document.getElementById("search-clear");
+  const total      = cocktails.length;
 
   count.textContent = `${total} cocktails`;
 
@@ -780,7 +781,16 @@ function initBrowse(cocktails) {
       : `${total} cocktails`;
   }
 
-  search.addEventListener("input", applyFilters);
+  search.addEventListener("input", () => {
+    searchClear.hidden = search.value === "";
+    applyFilters();
+  });
+  searchClear.addEventListener("click", () => {
+    search.value = "";
+    searchClear.hidden = true;
+    search.focus();
+    applyFilters();
+  });
 
   document.getElementById("random-btn").addEventListener("click", () => {
     const visible = items.filter(li => !li.hidden);
