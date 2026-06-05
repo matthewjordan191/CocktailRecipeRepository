@@ -4,6 +4,18 @@ if ("serviceWorker" in navigator) {
 
 const STORAGE_KEY = "cocktail-bar-inventory";
 
+// Trailing-edge debounce: delays fn until `ms` after the last call. `.cancel()`
+// drops a pending call (used when an immediate apply supersedes typing).
+function debounce(fn, ms) {
+  let timer;
+  const wrapped = (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn(...args), ms);
+  };
+  wrapped.cancel = () => clearTimeout(timer);
+  return wrapped;
+}
+
 // ── Fuzzy search ───────────────────────────────────────────────────────────
 function trigrams(str) {
   const s = str.toLowerCase();
@@ -20,13 +32,28 @@ function isSubsequence(query, str) {
   return qi === query.length;
 }
 
-// Match a single query word against a name (exact substring, per-word
-// subsequence, or per-word trigram similarity for typo tolerance).
-function wordMatch(token, name) {
+// Precompile the query side of fuzzy matching once per keystroke. The browse
+// filter runs the matcher against every cocktail, so the token list and
+// trigram sets (which depend only on the query) are built here, not per item.
+function compileQuery(query) {
+  const tokens = query.split(/\s+/).filter(Boolean);
+  return {
+    query,
+    tokens,
+    // Trigram set per token (multi-word typo tolerance); null for short tokens.
+    tokenTrigrams: tokens.map(t => (t.length >= 3 ? trigrams(t) : null)),
+    // Trigram set of the whole query (single-word path); null when too short.
+    queryTrigrams: query.length >= 3 ? trigrams(query) : null,
+  };
+}
+
+// Match a single query word against a name, using the token's precomputed
+// trigram set (qt): exact substring, per-word subsequence, or per-word trigram
+// similarity for typo tolerance.
+function wordMatch(token, qt, name) {
   if (name.includes(token)) return true;
   if (token.length < 3) return false;
   if (name.split(" ").some(word => isSubsequence(token, word))) return true;
-  const qt = trigrams(token);
   return name.split(" ").some(word => {
     const nt = trigrams(word);
     if (nt.size === 0) return false;
@@ -36,17 +63,19 @@ function wordMatch(token, name) {
   });
 }
 
-function fuzzyMatch(query, name) {
-  if (name.includes(query)) return true;
+// Match a precompiled query against a name.
+function fuzzyMatch(q, name) {
+  if (name.includes(q.query)) return true;
   // Multi-word queries: require every word to match so the search narrows
   // instead of matching every "… Cocktail" via the shared common word.
-  const tokens = query.split(/\s+/).filter(Boolean);
-  if (tokens.length > 1) return tokens.every(t => wordMatch(t, name));
-  if (query.length < 3) return false;
+  if (q.tokens.length > 1) {
+    return q.tokens.every((t, i) => wordMatch(t, q.tokenTrigrams[i], name));
+  }
+  if (!q.queryTrigrams) return false;   // query shorter than a trigram
   // Subsequence check per word: catches abbreviations like "daq" → "daiquiri".
-  if (name.split(" ").some(word => isSubsequence(query, word))) return true;
+  if (name.split(" ").some(word => isSubsequence(q.query, word))) return true;
   // Trigram similarity: catches misspellings like "margerita" → "margarita".
-  const qt = trigrams(query);
+  const qt = q.queryTrigrams;
   const nt = trigrams(name);
   let shared = 0;
   for (const g of qt) if (nt.has(g)) shared++;
@@ -571,23 +600,46 @@ function renderDetail(c) {
 // A cocktail ingredient is "covered" if any selected item is a substring of
 // its name or its name is a substring of the selected item.
 // e.g. selecting "rum" covers "white rum", "dark rum", "spiced rum".
-function isCovered(ingName, selectedSet) {
-  // Bar inventory stores base spirits, so match on base first.
-  if (selectedSet.has(baseIngredient(ingName))) return true;
-  // Fallback: substring match for specific-name filters (e.g. browsing by a
-  // specific ingredient tapped on a recipe) and legacy inventory entries.
-  const n = normalizeIngName(ingName);
+// Coverage core: an ingredient (given its base spirit + normalized name) is
+// covered when the bar has its base spirit, or — fallback — a selected item
+// substring-matches its specific name. The fallback handles specific-name
+// ingredient filters (tapped on a recipe) and legacy inventory entries.
+function coveredBy(item, selectedSet) {
+  if (selectedSet.has(item.base)) return true;
   for (const sel of selectedSet) {
-    if (n.includes(sel) || sel.includes(n)) return true;
+    if (item.norm.includes(sel) || sel.includes(item.norm)) return true;
   }
   return false;
 }
 
-function scoreCocktail(cocktail, selectedSet) {
-  // Only gate on alcoholic ingredients — juices, mixers, garnishes assumed available.
-  const ings = cocktail.ingredients.filter(i => i.name && isAlcoholicIngredient(i.name));
-  const missing = ings.filter(i => !isCovered(i.name, selectedSet));
-  return { total: ings.length, missingCount: missing.length, missing };
+function isCovered(ingName, selectedSet) {
+  return coveredBy({ base: baseIngredient(ingName), norm: normalizeIngName(ingName) }, selectedSet);
+}
+
+// Per-cocktail alcoholic ingredients with their base spirit and normalized
+// name, computed once and cached. Reused by the Makeable filter and by
+// recIngredients so the classification work isn't redone on every keystroke.
+function alcoholicCoverage(cocktail) {
+  if (cocktail._alcCov) return cocktail._alcCov;
+  const out = [];
+  for (const ing of cocktail.ingredients || []) {
+    if (ing.name && isAlcoholicIngredient(ing.name)) {
+      out.push({ base: baseIngredient(ing.name), norm: normalizeIngName(ing.name) });
+    }
+  }
+  cocktail._alcCov = out;
+  return out;
+}
+
+// "Makeable" gating: only alcoholic ingredients matter (juices, mixers,
+// garnishes assumed on hand). Reuses the cached coverage list rather than
+// re-running isAlcoholicIngredient + baseIngredient + normalizeIngName for
+// every ingredient on every keystroke.
+function scoreCocktail(cocktail, inventorySet) {
+  const list = alcoholicCoverage(cocktail);
+  let missingCount = 0;
+  for (const item of list) if (!coveredBy(item, inventorySet)) missingCount++;
+  return { total: list.length, missingCount };
 }
 
 // ── Bar view ───────────────────────────────────────────────────────────────
@@ -844,11 +896,12 @@ function initBrowse(cocktails) {
 
   function applyFilters() {
     const query = search.value.toLowerCase().trim();
+    const compiledQuery = query ? compileQuery(query) : null;
     const filterTag = activeFilter ? activeFilter.tags[0] : null;
     const ingFilterSet = activeIngredientFilter ? new Set([activeIngredientFilter]) : null;
 
     filtered = cocktails.filter(c => {
-      if (query && !fuzzyMatch(query, c._lname)) return false;
+      if (compiledQuery && !fuzzyMatch(compiledQuery, c._lname)) return false;
       if (filterTag && !c._tagSet.has(filterTag)) return false;
       if (makeableActive) {
         const s = scoreCocktail(c, inventory);
@@ -882,14 +935,19 @@ function initBrowse(cocktails) {
   }
   browseClear.addEventListener("click", clearAllFilters);
 
+  // Debounce filtering while typing — each keystroke re-filters all cocktails
+  // and rebuilds the list, so coalesce rapid input. The clear (×) toggle stays
+  // immediate since it's just showing/hiding the button.
+  const debouncedApply = debounce(applyFilters, 120);
   search.addEventListener("input", () => {
     searchClear.hidden = search.value === "";
-    applyFilters();
+    debouncedApply();
   });
   searchClear.addEventListener("click", () => {
     search.value = "";
     searchClear.hidden = true;
     search.focus();
+    debouncedApply.cancel();   // supersede any pending keystroke filter
     applyFilters();
   });
 
@@ -940,13 +998,12 @@ const REC_TAG_EXCLUDE = new Set(["iba", "must-try"]);
 const INGREDIENT_BOOST = 1.5;
 
 // Distinct alcoholic base ingredients in a cocktail (spirits consolidated via
-// baseIngredient so all rums reinforce each other, etc.). Cached per cocktail.
+// baseIngredient so all rums reinforce each other, etc.). Cached per cocktail,
+// derived from the same cached coverage list as the Makeable filter.
 function recIngredients(cocktail) {
   if (cocktail._recIngs) return cocktail._recIngs;
   const out = new Set();
-  for (const ing of cocktail.ingredients || []) {
-    if (ing.name && isAlcoholicIngredient(ing.name)) out.add(baseIngredient(ing.name));
-  }
+  for (const item of alcoholicCoverage(cocktail)) out.add(item.base);
   cocktail._recIngs = out;
   return out;
 }
