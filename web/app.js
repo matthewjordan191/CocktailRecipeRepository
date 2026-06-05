@@ -400,11 +400,19 @@ function showDetail(cocktail) {
 }
 
 document.getElementById("back-btn").addEventListener("click", () => {
-  document.title = "Cocktail Recipes";
-  history.replaceState(null, "", location.pathname + location.search);
-  showView(previousView);
-  window.scrollTo(0, savedScroll[previousView] || 0);
+  // Step back one entry in history; the hashchange handler renders the
+  // previous screen — another recipe (if reached via "similar") or the list.
+  history.back();
 });
+
+// Jump from a recipe to the (filtered) browse list. Drops the recipe hash so
+// Back from any recipe opened next returns to this list, not the recipe.
+function showListFromDetail() {
+  history.replaceState(null, "", location.pathname + location.search);
+  previousView = "list";
+  showView("list");
+  window.scrollTo(0, 0);
+}
 
 // Shared list row: thumbnail + name. `fromView` sets the view to return to on
 // back; omit it (e.g. detail→detail "similar" navigation) to leave it unchanged.
@@ -514,9 +522,7 @@ function renderDetail(c) {
     nameSpan.title = `Browse cocktails with ${ing.name}`;
     nameSpan.addEventListener("click", () => {
       if (filterByIngredient) filterByIngredient(ing.name);
-      previousView = "list";
-      showView("list");
-      window.scrollTo(0, 0);
+      showListFromDetail();
     });
     li.appendChild(nameSpan);
     ingList.appendChild(li);
@@ -544,9 +550,7 @@ function renderDetail(c) {
       li.textContent = tag;
       li.addEventListener("click", () => {
         if (filterByTag) filterByTag(tag);
-        previousView = "list";
-        showView("list");
-        window.scrollTo(0, 0);
+        showListFromDetail();
       });
       tagsList.appendChild(li);
     }
@@ -1134,6 +1138,10 @@ async function init(user) {
   const initialSlug = location.hash.slice(1);
   const initialCocktail = initialSlug && cocktailsBySlug.get(initialSlug);
   if (initialCocktail) {
+    // Seed a list entry beneath the detail so Back returns to the list
+    // instead of leaving the app.
+    history.replaceState(null, "", location.pathname + location.search);
+    history.pushState(null, "", "#" + initialSlug);
     renderDetail(initialCocktail);
     document.title = initialCocktail.name;
     showView("detail");
