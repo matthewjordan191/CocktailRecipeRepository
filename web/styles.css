@@ -626,3 +626,35 @@ h3 {
   #cocktail-list li, #ingredient-list li { font-size: 0.95rem; }
   .ing-amount { min-width: 5.5rem; }
 }
+
+/* ── Update toast ── */
+#update-toast {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.9rem;
+  font-size: 0.82rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+}
+
+#update-toast button {
+  background: none;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  color: var(--accent);
+  font-family: var(--font);
+  font-size: 0.78rem;
+  padding: 0.25rem 0.7rem;
+  cursor: pointer;
+}
+
+#update-toast button:hover { background: var(--accent); color: var(--bg); }

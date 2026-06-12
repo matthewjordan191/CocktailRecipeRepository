@@ -1,5 +1,29 @@
 if ("serviceWorker" in navigator) {
+  // Whether this page load was already controlled by a service worker.
+  // controllerchange also fires when the very first worker claims the page;
+  // only a change *from* an existing worker means a new version deployed.
+  const hadController = !!navigator.serviceWorker.controller;
   navigator.serviceWorker.register("./sw.js");
+  // The worker uses skipWaiting + clients.claim, so a new version takes over
+  // mid-session — this page's JS is then stale against the refreshed caches.
+  // Offer a refresh instead of reloading underneath the user.
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (hadController) showUpdateToast();
+  });
+}
+
+function showUpdateToast() {
+  if (document.getElementById("update-toast")) return;
+  const toast = document.createElement("div");
+  toast.id = "update-toast";
+  toast.setAttribute("role", "status");
+  const msg = document.createElement("span");
+  msg.textContent = "A new version is available.";
+  const btn = document.createElement("button");
+  btn.textContent = "Refresh";
+  btn.addEventListener("click", () => location.reload());
+  toast.append(msg, btn);
+  document.body.appendChild(toast);
 }
 
 const STORAGE_KEY = "cocktail-bar-inventory";
