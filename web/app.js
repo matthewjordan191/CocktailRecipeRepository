@@ -755,13 +755,26 @@ function initBar(barCounts) {
   const ingSearch   = document.getElementById("ing-search");
   const ingList     = document.getElementById("ing-list");
   const barSubtitle = document.getElementById("bar-subtitle");
+  const barClear    = document.getElementById("bar-clear");
 
   function updateSubtitle() {
     const n = inventory.size;
     barSubtitle.textContent = n === 0
       ? "Check off what you have"
       : `${n} ingredient${n === 1 ? "" : "s"} in your bar`;
+    barClear.hidden = n === 0;
   }
+
+  barClear.addEventListener("click", () => {
+    const n = inventory.size;
+    if (!n) return;
+    if (!confirm(`Uncheck all ${n} ingredient${n === 1 ? "" : "s"} in your bar?`)) return;
+    inventory.clear();
+    localStorage.setItem(STORAGE_KEY, JSON.stringify([]));
+    saveToCloud();
+    updateSubtitle();
+    renderIngredients();
+  });
 
   function renderIngredients() {
     const query = ingSearch.value.toLowerCase().trim();
@@ -841,9 +854,12 @@ function initBar(barCounts) {
 
   ingSearch.addEventListener("input", renderIngredients);
 
-  updateSubtitle();
-  renderIngredients();
-  return renderIngredients;
+  function refresh() {
+    updateSubtitle();
+    renderIngredients();
+  }
+  refresh();
+  return refresh;
 }
 
 // ── Browse view ────────────────────────────────────────────────────────────

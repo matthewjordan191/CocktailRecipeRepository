@@ -124,7 +124,7 @@ h3 {
   align-items: center;
 }
 
-#random-btn {
+#random-btn, #bar-clear {
   background: none;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -138,6 +138,8 @@ h3 {
   flex-shrink: 0;
 }
 #random-btn:hover { border-color: var(--accent); color: var(--accent); }
+#bar-clear:hover  { border-color: var(--amber); color: var(--amber); }
+#bar-clear[hidden] { display: none; }
 
 /* ── Back / fav button row ── */
 .detail-header-row {

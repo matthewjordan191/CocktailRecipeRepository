@@ -82,8 +82,13 @@
   <!-- My Bar view -->
   <div id="view-bar" hidden>
     <header>
-      <h1>My Bar</h1>
-      <p class="subtitle" id="bar-subtitle">Check off what you have</p>
+      <div class="browse-header-row">
+        <div>
+          <h1>My Bar</h1>
+          <p class="subtitle" id="bar-subtitle">Check off what you have</p>
+        </div>
+        <button id="bar-clear" title="Uncheck every ingredient" hidden>Clear all</button>
+      </div>
     </header>
     <main>
       <input id="ing-search" type="search" placeholder="Search ingredients…"
