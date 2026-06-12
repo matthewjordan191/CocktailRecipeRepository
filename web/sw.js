@@ -1,5 +1,5 @@
 // Bump this date whenever you deploy changes — forces all users to get fresh files.
-const CACHE = "cocktails-20260612081642";
+const CACHE = "cocktails-20260612173835";
 
 const APP_SHELL = [
   "./",
@@ -22,12 +22,14 @@ const FIREBASE_SDK = [
   "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js",
 ];
 
-// Install: cache everything up front.
+// Install: cache everything up front. `cache: "reload"` bypasses the HTTP
+// cache (Pages serves max-age=600), otherwise a rapid redeploy can fill the
+// new versioned cache with files the browser cached up to 10 minutes ago.
 self.addEventListener("install", event => {
   event.waitUntil(
     caches.open(CACHE).then(cache => Promise.all([
-      cache.addAll(APP_SHELL),
-      cache.addAll(FIREBASE_SDK.map(url => new Request(url, { mode: "no-cors" }))),
+      cache.addAll(APP_SHELL.map(url => new Request(url, { cache: "reload" }))),
+      cache.addAll(FIREBASE_SDK.map(url => new Request(url, { mode: "no-cors", cache: "reload" }))),
     ]))
   );
   self.skipWaiting();

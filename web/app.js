@@ -3,7 +3,15 @@ if ("serviceWorker" in navigator) {
   // controllerchange also fires when the very first worker claims the page;
   // only a change *from* an existing worker means a new version deployed.
   const hadController = !!navigator.serviceWorker.controller;
-  navigator.serviceWorker.register("./sw.js");
+  const swRegistration = navigator.serviceWorker.register("./sw.js");
+  // Installed PWAs resumed from the background don't navigate, so the browser
+  // never re-checks sw.js on its own — check for updates whenever the app
+  // returns to the foreground.
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") {
+      swRegistration.then(reg => reg.update()).catch(() => {});
+    }
+  });
   // The worker uses skipWaiting + clients.claim, so a new version takes over
   // mid-session — this page's JS is then stale against the refreshed caches.
   // Offer a refresh instead of reloading underneath the user.
