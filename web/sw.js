@@ -1,5 +1,5 @@
 // Bump this date whenever you deploy changes — forces all users to get fresh files.
-const CACHE = "cocktails-20260612072231";
+const CACHE = "cocktails-20260612072652";
 
 const APP_SHELL = [
   "./",
@@ -12,10 +12,24 @@ const APP_SHELL = [
   "./cocktails.json",
 ];
 
+// Firebase SDK loads cross-origin from gstatic. Precache it explicitly in
+// no-cors mode (opaque responses): script tags can consume opaque responses,
+// but the runtime handler below never caches them (opaque ⇒ !response.ok),
+// so without this the app can't boot offline. Keep versions in sync with
+// index.html.
+const FIREBASE_SDK = [
+  "https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js",
+  "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js",
+  "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js",
+];
+
 // Install: cache everything up front.
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches.open(CACHE).then(cache => cache.addAll(APP_SHELL))
+    caches.open(CACHE).then(cache => Promise.all([
+      cache.addAll(APP_SHELL),
+      cache.addAll(FIREBASE_SDK.map(url => new Request(url, { mode: "no-cors" }))),
+    ]))
   );
   self.skipWaiting();
 });

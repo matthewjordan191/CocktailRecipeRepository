@@ -247,17 +247,23 @@ const FAVORITES_KEY = "cocktail-bar-favorites";
 const favorites = new Set(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]"));
 
 // ── Firebase sync ─────────────────────────────────────────────────────────
-firebase.initializeApp({
-  apiKey:            "AIzaSyAP2CK6O8Q3r1_ENk5J--JgqfVD4oWPE3o",
-  authDomain:        "cocktailrepository.firebaseapp.com",
-  projectId:         "cocktailrepository",
-  storageBucket:     "cocktailrepository.firebasestorage.app",
-  messagingSenderId: "55261064714",
-  appId:             "1:55261064714:web:878091784d9db20c0cf9f3",
-});
-const auth     = firebase.auth();
-const db       = firebase.firestore();
-const provider = new firebase.auth.GoogleAuthProvider();
+// The SDK loads cross-origin from gstatic, so it can be missing offline (or
+// blocked). The app must still boot in local-only mode: localStorage
+// favorites/inventory, no sign-in, no ratings.
+let auth = null, db = null, provider = null;
+if (typeof firebase !== "undefined") {
+  firebase.initializeApp({
+    apiKey:            "AIzaSyAP2CK6O8Q3r1_ENk5J--JgqfVD4oWPE3o",
+    authDomain:        "cocktailrepository.firebaseapp.com",
+    projectId:         "cocktailrepository",
+    storageBucket:     "cocktailrepository.firebasestorage.app",
+    messagingSenderId: "55261064714",
+    appId:             "1:55261064714:web:878091784d9db20c0cf9f3",
+  });
+  auth     = firebase.auth();
+  db       = firebase.firestore();
+  provider = new firebase.auth.GoogleAuthProvider();
+}
 let currentUser = null;
 
 function userDocRef(uid) {
@@ -305,6 +311,7 @@ function updateAuthBtn(user) {
 }
 
 authBtn.addEventListener("click", () => {
+  if (!auth) return;   // local-only mode: sign-in unavailable
   if (currentUser) {
     auth.signOut();
   } else {
@@ -1171,7 +1178,7 @@ async function init(user) {
 
   currentUser = user;
   updateAuthBtn(user);
-  await loadFromCloud(user.uid);
+  if (user) await loadFromCloud(user.uid);
 
   // Migrate any legacy/specific inventory entries to base names so saved bars
   // map onto the new checklist.
@@ -1189,21 +1196,24 @@ async function init(user) {
   refreshRecommended = initRecommended(cocktails);
   refreshBar        = initBar(allIngredients);
 
-  // Persistent listener for auth changes after initial load.
-  let knownUid = user.uid;
-  auth.onAuthStateChanged(async user => {
-    const uid = user?.uid ?? null;
-    if (uid === knownUid) return;
-    knownUid = uid;
-    currentUser = user;
-    updateAuthBtn(user);
-    if (user) {
-      await loadFromCloud(user.uid);
-      refreshFavorites();
-      refreshRecommended();
-      refreshBar();
-    }
-  });
+  // Persistent listener for auth changes after initial load. In local-only
+  // mode (no SDK) there is no auth to listen to — user is null here.
+  if (auth) {
+    let knownUid = user.uid;
+    auth.onAuthStateChanged(async user => {
+      const uid = user?.uid ?? null;
+      if (uid === knownUid) return;
+      knownUid = uid;
+      currentUser = user;
+      updateAuthBtn(user);
+      if (user) {
+        await loadFromCloud(user.uid);
+        refreshFavorites();
+        refreshRecommended();
+        refreshBar();
+      }
+    });
+  }
 
   const cocktailsBySlug = new Map(cocktails.map(c => [slugify(c.name), c]));
 
@@ -1242,18 +1252,31 @@ async function init(user) {
 }
 
 // Boot: show sign-in screen until Firebase confirms a signed-in user.
+// Auth state is restored from IndexedDB, so returning users get through the
+// gate even offline (as long as the precached SDK loaded).
 let appBooted = false;
 
 document.getElementById("signin-btn").addEventListener("click", () => {
+  if (!auth) return;
   auth.signInWithPopup(provider).catch(err => console.error("Sign-in failed:", err));
 });
 
-auth.onAuthStateChanged(async user => {
-  if (user && !appBooted) {
-    appBooted = true;
-    document.getElementById("view-signin").hidden = true;
-    await init(user);
-  } else if (!user && appBooted) {
-    location.reload();
-  }
-});
+if (auth) {
+  auth.onAuthStateChanged(async user => {
+    if (user && !appBooted) {
+      appBooted = true;
+      document.getElementById("view-signin").hidden = true;
+      await init(user);
+    } else if (!user && appBooted) {
+      location.reload();
+    }
+  });
+} else {
+  // SDK unavailable (offline before it was cached, or blocked): skip the
+  // sign-in gate and boot with local data only.
+  appBooted = true;
+  document.getElementById("view-signin").hidden = true;
+  authBtn.disabled = true;
+  authBtn.title = "Sign-in unavailable offline";
+  init(null);
+}
