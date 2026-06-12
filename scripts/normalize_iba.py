@@ -59,6 +59,21 @@ PAREN_RE = re.compile(r"\([^)]+\)")
 # Matches a leading number: fraction before decimal so "1/2" beats "1".
 NUMBER_RE = re.compile(r"^(\d+/\d+|\d+(?:\.\d+)?)(?:\s*(?:to|-)\s*\d+(?:\.\d+)?)?")
 
+# Word amounts the source spells out ("Two dashes…", "One sugar cube",
+# "Few drops of egg white"). Vague quantifiers (few/several/couple) parse as
+# amount=None but are still stripped so they don't pollute the name.
+WORD_NUMBERS = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+    "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11, "twelve": 12,
+}
+WORD_AMOUNT_RE = re.compile(
+    r"^(?:a\s+)?(" + "|".join([*WORD_NUMBERS, "few", "several", "couple"]) + r")\s+(?:of\s+)?",
+    re.IGNORECASE,
+)
+
+# Trailing instruction fragments that aren't part of the ingredient name.
+TRAILING_QUALIFIER_RE = re.compile(r"\s+at\s+the\s+end$", re.IGNORECASE)
+
 # Catches leftover measure fragments inside a name, e.g. "Goslings Rum100 ml Ginger Beer".
 TRAILING_MEASURE_RE = re.compile(r"\s*\d+\s*(?:ml|cl|oz)\s+.*$", re.IGNORECASE)
 
@@ -104,14 +119,18 @@ def parse_ingredient(raw: str, cocktail_name: str) -> dict:
     unit: str | None = None
     name: str = s.lower()
 
-    # Try to extract a leading number.
+    # Try to extract a leading amount — numeric first, then spelled out.
     num_match = NUMBER_RE.match(s)
-    if not num_match:
-        # No leading number — descriptive entry like "Soda water" or "Black pepper".
-        return {"name": name, "amount": None, "unit": None, "notes": None, "raw": original_raw}
-
-    amount = parse_number(num_match.group(1))
-    remainder = s[num_match.end():].lstrip()
+    if num_match:
+        amount = parse_number(num_match.group(1))
+        remainder = s[num_match.end():].lstrip()
+    else:
+        word_match = WORD_AMOUNT_RE.match(s)
+        if not word_match:
+            # No leading amount — descriptive entry like "Soda water".
+            return {"name": name, "amount": None, "unit": None, "notes": None, "raw": original_raw}
+        amount = WORD_NUMBERS.get(word_match.group(1).lower())
+        remainder = s[word_match.end():].lstrip()
 
     # Try to match a unit immediately after the number.
     unit_match = UNIT_RE.match(remainder)
@@ -127,8 +146,10 @@ def parse_ingredient(raw: str, cocktail_name: str) -> dict:
     remainder = re.sub(r"^of\s+", "", remainder, flags=re.IGNORECASE)
     name = remainder.strip().lower()
 
-    # Remove trailing concatenated measure fragments (data quality issue in source).
+    # Remove trailing concatenated measure fragments (data quality issue in
+    # source) and instruction fragments ("… at the end").
     name = TRAILING_MEASURE_RE.sub("", name).strip()
+    name = TRAILING_QUALIFIER_RE.sub("", name).strip()
 
     if not name:
         logging.warning("[%s] Empty ingredient name after parsing '%s'", cocktail_name, original_raw)

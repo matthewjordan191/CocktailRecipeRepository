@@ -151,6 +151,7 @@ const ALCOHOLIC_PATTERNS = [
 const NON_ALCOHOLIC_EXCEPTIONS = new Set([
   "ginger", "ginger ale", "ginger beer", "ginger beer to top up",
   "ginger syrup", "root beer", "cream of coconut", "port wine reduction",
+  "apple cider vinegar",
 ]);
 
 function isAlcoholicIngredient(name) {
@@ -181,12 +182,15 @@ function normalizeIngName(name) {
 // names are cleaned of parentheticals and "alc. free" qualifiers.
 const SPIRIT_FAMILIES = [
   ["sloe gin", "sloe gin"],
-  ["bourbon", "bourbon"], ["rye whiskey", "rye whiskey"], ["scotch", "scotch"],
-  ["irish whiskey", "irish whiskey"], ["whiskey", "whiskey"], ["whisky", "whiskey"],
+  ["bourbon", "bourbon"], ["jim beam", "bourbon"],
+  ["rye whiskey", "rye whiskey"], ["scotch", "scotch"],
+  ["irish whiskey", "irish whiskey"], ["jack daniel", "whiskey"],
+  ["whiskey", "whiskey"], ["whisky", "whiskey"],
   ["gin", "gin"],
   ["pot still rum", "rum"], ["overproof rum", "rum"], ["white rum", "rum"],
   ["light rum", "rum"], ["gold rum", "rum"], ["dark rum", "rum"],
-  ["spiced rum", "rum"], ["aged rum", "rum"], ["jamaican rum", "rum"], ["rum", "rum"],
+  ["spiced rum", "rum"], ["aged rum", "rum"], ["jamaican rum", "rum"],
+  ["bacardi", "rum"], ["rum", "rum"],
   ["mezcal", "mezcal"], ["tequila", "tequila"],
   ["cognac", "brandy"], ["armagnac", "brandy"], ["apple brandy", "calvados"],
   ["calvados", "calvados"], ["pisco", "pisco"],
@@ -199,9 +203,42 @@ const SPIRIT_FAMILIES = [
   ["amaro", "amaro"], ["fernet", "fernet"],
 ];
 
+// Synonym/variant folding for non-spirit bottles, checked after spirit
+// families (so e.g. "xo champagne cognac" stays brandy). First match wins;
+// more specific keywords must precede the broader ones they contain.
+const INGREDIENT_ALIASES = [
+  ["chartreuse green", "green chartreuse"], ["green chartreuse", "green chartreuse"],
+  ["chartreuse yellow", "yellow chartreuse"], ["yellow chartreuse", "yellow chartreuse"],
+  ["creme de banane", "banana liqueur"],
+  ["rose champagne", "rose champagne"],
+  ["champagne", "brut sparkling wine"],
+  ["quinquina", "red quinquina"], ["dubonnet", "red quinquina"],
+  ["blue curacao", "blue curacao"],
+  ["almond milk amaretto", "almond milk amaretto"],
+  ["amaretto", "amaretto"],
+  ["galliano espresso", "galliano espresso"],
+  ["galliano", "galliano"],
+  ["black sambuca", "black sambuca"],
+  ["sambuca", "sambuca"],
+  ["pilsner lager", "pilsner lager"],
+  ["stout beer", "stout beer"],
+  ["grappa", "grappa"],
+  ["red wine", "red wine"],
+  ["eau-de-vie", "eau-de-vie"],
+  ["cider", "cider"],
+  ["chambord", "black raspberry liqueur"],
+  ["kahlua", "coffee liqueur"],
+  ["cointreau", "triple sec"],
+  ["campari", "red bitter liqueur"],
+  ["baileys", "irish cream liqueur"], ["irish cream", "irish cream liqueur"],
+];
+
 function baseIngredient(name) {
   const n = normalizeIngName(name);
   for (const [kw, base] of SPIRIT_FAMILIES) {
+    if (n.includes(kw)) return base;
+  }
+  for (const [kw, base] of INGREDIENT_ALIASES) {
     if (n.includes(kw)) return base;
   }
   // Keep distinct, but strip parenthetical notes and alcohol-free qualifiers.
@@ -697,7 +734,24 @@ function scoreCocktail(cocktail, inventorySet) {
 }
 
 // ── Bar view ───────────────────────────────────────────────────────────────
-function initBar(allIngredients) {
+// Bottles used by fewer cocktails than this are hidden from the checklist
+// (the long tail is one-off obscurities); anything already checked is always
+// shown so a stored bar never has invisible entries.
+const MIN_BAR_USES = 5;
+
+const BAR_CATEGORY_ORDER = [
+  "Spirits", "Liqueurs & more", "Vermouth & fortified", "Bitters", "Wine, beer & cider",
+];
+
+function barCategory(name) {
+  if (/\b(gin|vodka|rum|tequila|mezcal|whiskey|bourbon|scotch|brandy|pisco|cachaca|calvados|absinthe|grappa|aquavit|akvavit|ouzo|arrack|soju|shochu|baijiu|moonshine|eau-de-vie)\b/.test(name)) return "Spirits";
+  if (/vermouth|sherry|\bport\b|quinquina|lillet|madeira|chinato|\bsake\b/.test(name)) return "Vermouth & fortified";
+  if (/bitters/.test(name)) return "Bitters";
+  if (/wine|prosecco|cava|champagne|beer|lager|stout|\bale\b|cider|perry/.test(name)) return "Wine, beer & cider";
+  return "Liqueurs & more";
+}
+
+function initBar(barCounts) {
   const ingSearch   = document.getElementById("ing-search");
   const ingList     = document.getElementById("ing-list");
   const barSubtitle = document.getElementById("bar-subtitle");
@@ -711,18 +765,41 @@ function initBar(allIngredients) {
 
   function renderIngredients() {
     const query = ingSearch.value.toLowerCase().trim();
-    const filtered = query
-      ? allIngredients.filter(name => name.includes(query))
-      : allIngredients;
+
+    const items = [];
+    for (const [name, count] of barCounts) {
+      if (count >= MIN_BAR_USES || inventory.has(name)) items.push({ name, count });
+    }
+    for (const name of inventory) {
+      if (!barCounts.has(name)) items.push({ name, count: 0 });
+    }
+    const filtered = query ? items.filter(i => i.name.includes(query)) : items;
 
     ingList.innerHTML = "";
-    const sorted = [
-      ...filtered.filter(n => inventory.has(n)),
-      ...filtered.filter(n => !inventory.has(n)),
-    ];
-
     const frag = document.createDocumentFragment();
-    for (const name of sorted) {
+    for (const cat of BAR_CATEGORY_ORDER) {
+      // Within each category: checked bottles first, then by popularity.
+      const group = filtered
+        .filter(i => barCategory(i.name) === cat)
+        .sort((a, b) =>
+          (inventory.has(b.name) - inventory.has(a.name)) ||
+          (b.count - a.count) ||
+          a.name.localeCompare(b.name));
+      if (!group.length) continue;
+
+      const heading = document.createElement("li");
+      heading.className = "ing-group-label";
+      heading.setAttribute("aria-hidden", "true");
+      heading.textContent = cat;
+      frag.appendChild(heading);
+
+      renderGroupRows(group, frag);
+    }
+    ingList.appendChild(frag);
+  }
+
+  function renderGroupRows(group, frag) {
+    for (const { name } of group) {
       const li = document.createElement("li");
       li.className = "ing-check-item";
 
@@ -760,7 +837,6 @@ function initBar(allIngredients) {
       li.appendChild(browseBtn);
       frag.appendChild(li);
     }
-    ingList.appendChild(frag);
   }
 
   ingSearch.addEventListener("input", renderIngredients);
@@ -1190,15 +1266,15 @@ async function init(user) {
 
   // Build the bar checklist from alcoholic ingredients, collapsed to base
   // spirits so the list stays shelf-level rather than listing every variant.
-  const ingSet = new Set();
+  // Counts (cocktails per base) drive the popularity sort and usage floor.
+  const barCounts = new Map();
   for (const c of cocktails) {
+    const bases = new Set();
     for (const i of c.ingredients) {
-      if (i.name && isAlcoholicIngredient(i.name)) {
-        ingSet.add(baseIngredient(i.name));
-      }
+      if (i.name && isAlcoholicIngredient(i.name)) bases.add(baseIngredient(i.name));
     }
+    for (const b of bases) barCounts.set(b, (barCounts.get(b) || 0) + 1);
   }
-  const allIngredients = [...ingSet].sort();
 
   currentUser = user;
   updateAuthBtn(user);
@@ -1218,7 +1294,7 @@ async function init(user) {
   filterByIngredient = browse.filterByIngredient;
   refreshFavorites  = initFavorites(cocktails);
   refreshRecommended = initRecommended(cocktails);
-  refreshBar        = initBar(allIngredients);
+  refreshBar        = initBar(barCounts);
 
   // Persistent listener for auth changes after initial load. In local-only
   // mode (no SDK) there is no auth to listen to — user is null here.

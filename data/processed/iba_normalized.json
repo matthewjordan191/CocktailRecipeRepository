@@ -1013,9 +1013,9 @@
         "raw": "1 egg white"
       },
       {
-        "name": "several drops of aromatic bitters at the end",
+        "name": "aromatic bitters",
         "amount": null,
-        "unit": null,
+        "unit": "drops",
         "notes": null,
         "raw": "Several drops of aromatic bitters at the end"
       }
@@ -1738,9 +1738,9 @@
         "raw": "1.5 cl simple syrup"
       },
       {
-        "name": "few drops of egg white",
+        "name": "egg white",
         "amount": null,
-        "unit": null,
+        "unit": "drops",
         "notes": null,
         "raw": "Few drops of egg white (optional)"
       }
@@ -1863,9 +1863,9 @@
         "raw": "3 cl fresh lemon juice"
       },
       {
-        "name": "few drops of egg white",
+        "name": "egg white",
         "amount": null,
-        "unit": null,
+        "unit": "drops",
         "notes": null,
         "raw": "Few drops of egg white"
       },
@@ -2162,9 +2162,9 @@
         "raw": "5-6 mint leaves"
       },
       {
-        "name": "few drops of egg white",
+        "name": "egg white",
         "amount": null,
-        "unit": null,
+        "unit": "drops",
         "notes": null,
         "raw": "few drops of egg white (Optional)"
       }
@@ -3331,16 +3331,16 @@
         "raw": "1 sugar cube"
       },
       {
-        "name": "few dashes angostura bitters",
+        "name": "angostura bitters",
         "amount": null,
-        "unit": null,
+        "unit": "dash",
         "notes": null,
         "raw": "Few dashes Angostura bitters"
       },
       {
-        "name": "few dashes plain water",
+        "name": "plain water",
         "amount": null,
-        "unit": null,
+        "unit": "dash",
         "notes": null,
         "raw": "Few dashes plain water"
       }
@@ -3588,16 +3588,16 @@
         "raw": "1 cl absinthe (or Herbsaint)"
       },
       {
-        "name": "one sugar cube",
-        "amount": null,
-        "unit": null,
+        "name": "sugar cube",
+        "amount": 1,
+        "unit": "piece",
         "notes": null,
         "raw": "One sugar cube"
       },
       {
-        "name": "two dashes peychaud's bitters",
-        "amount": null,
-        "unit": null,
+        "name": "peychaud's bitters",
+        "amount": 2,
+        "unit": "dash",
         "notes": null,
         "raw": "Two dashes Peychaud's Bitters"
       }

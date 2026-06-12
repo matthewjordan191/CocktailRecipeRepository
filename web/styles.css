@@ -658,3 +658,18 @@ h3 {
 }
 
 #update-toast button:hover { background: var(--accent); color: var(--bg); }
+
+/* ── My Bar category headers ── */
+.ing-group-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  padding: 1rem 0 0.3rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0.3rem;
+  list-style: none;
+}
+
+.ing-group-label:first-child { padding-top: 0.25rem; }
