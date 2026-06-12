@@ -4,3 +4,8 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
+
+# Node / scratch verification workspaces
+node_modules/
+_*_tmp/
+_verify_*/

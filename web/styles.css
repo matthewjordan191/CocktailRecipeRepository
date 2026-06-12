@@ -8,7 +8,8 @@
   --accent:   #7dd3fc;
   --green:    #86efac;
   --amber:    #fcd34d;
-  --font:     ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+  --font:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
   --radius:   6px;
   --max-w:    680px;
   --nav-h:    48px;
@@ -195,6 +196,7 @@ h3 {
 }
 
 .chip {
+  font-family: var(--font-mono);
   font-size: 0.75rem;
   padding: 0.2rem 0.55rem;
   border: 1px solid var(--border);
@@ -536,6 +538,7 @@ h3 {
 }
 
 .ing-amount {
+  font-family: var(--font-mono);
   color: var(--accent);
   min-width: 4.5rem;
   flex-shrink: 0;
@@ -568,6 +571,7 @@ h3 {
 }
 
 .tag {
+  font-family: var(--font-mono);
   font-size: 0.75rem;
   padding: 0.2rem 0.55rem;
   background: var(--surface);

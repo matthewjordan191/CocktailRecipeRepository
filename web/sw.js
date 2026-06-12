@@ -1,5 +1,5 @@
 // Bump this date whenever you deploy changes — forces all users to get fresh files.
-const CACHE = "cocktails-20260612181024";
+const CACHE = "cocktails-20260612184007";
 
 const APP_SHELL = [
   "./",
