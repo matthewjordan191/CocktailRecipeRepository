@@ -99,11 +99,12 @@
 
   <!-- Detail view -->
   <div id="view-detail" hidden>
+    <!-- Outside <header> so it can stick for the full page height -->
+    <div class="detail-header-row">
+      <button id="back-btn" aria-label="Back">&#8592; Back</button>
+      <button id="fav-btn" aria-label="Favourite">&#9734;</button>
+    </div>
     <header>
-      <div class="detail-header-row">
-        <button id="back-btn" aria-label="Back">&#8592; Back</button>
-        <button id="fav-btn" aria-label="Favourite">&#9734;</button>
-      </div>
       <h2 id="detail-name"></h2>
       <div id="detail-meta"></div>
     </header>

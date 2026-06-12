@@ -142,11 +142,22 @@ h3 {
 #bar-clear[hidden] { display: none; }
 
 /* ── Back / fav button row ── */
+/* Sticky so Back / ☆ stay reachable while scrolled down a recipe.
+   Pinned just below the fixed nav; translucent so content reads through. */
 .detail-header-row {
+  position: sticky;
+  top: var(--nav-h);
+  z-index: 9;   /* beneath the nav (10) */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.5rem;
+  max-width: var(--max-w);
+  margin-inline: auto;
+  padding: 0.55rem 1rem;
+  background: rgba(17, 17, 17, 0.88);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
 }
 
 #back-btn {
@@ -625,6 +636,7 @@ h3 {
 
 @media (min-width: 768px) {
   header, main { padding-inline: 2rem; }
+  .detail-header-row { padding-inline: 2rem; }
   #cocktail-list li, #ingredient-list li { font-size: 0.95rem; }
   .ing-amount { min-width: 5.5rem; }
 }
