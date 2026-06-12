@@ -1,5 +1,5 @@
 // Bump this date whenever you deploy changes — forces all users to get fresh files.
-const CACHE = "cocktails-20260612180047";
+const CACHE = "cocktails-20260612181024";
 
 const APP_SHELL = [
   "./",
@@ -25,11 +25,16 @@ const FIREBASE_SDK = [
 // Install: cache everything up front. `cache: "reload"` bypasses the HTTP
 // cache (Pages serves max-age=600), otherwise a rapid redeploy can fill the
 // new versioned cache with files the browser cached up to 10 minutes ago.
+// The SDK must use fetch + cache.put: addAll rejects opaque (no-cors)
+// responses outright, which silently fails the whole install.
 self.addEventListener("install", event => {
   event.waitUntil(
     caches.open(CACHE).then(cache => Promise.all([
       cache.addAll(APP_SHELL.map(url => new Request(url, { cache: "reload" }))),
-      cache.addAll(FIREBASE_SDK.map(url => new Request(url, { mode: "no-cors", cache: "reload" }))),
+      ...FIREBASE_SDK.map(url =>
+        fetch(new Request(url, { mode: "no-cors", cache: "reload" }))
+          .then(resp => cache.put(url, resp))
+      ),
     ]))
   );
   self.skipWaiting();
