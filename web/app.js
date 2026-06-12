@@ -47,39 +47,62 @@ function compileQuery(query) {
   };
 }
 
-// Match a single query word against a name, using the token's precomputed
+// Score a single query word against a name, using the token's precomputed
 // trigram set (qt): exact substring, per-word subsequence, or per-word trigram
-// similarity for typo tolerance.
-function wordMatch(token, qt, name) {
-  if (name.includes(token)) return true;
-  if (token.length < 3) return false;
-  if (name.split(" ").some(word => isSubsequence(token, word))) return true;
-  return name.split(" ").some(word => {
+// similarity for typo tolerance. 0 = no match; higher = stronger match.
+function wordMatchScore(token, qt, name) {
+  if (name.includes(token)) {
+    // Word-start matches read as more intentional than mid-word hits
+    // ("mar" → "Blue Margarita" over "Amaretto Sour").
+    return name.startsWith(token) || name.includes(" " + token) ? 80 : 70;
+  }
+  if (token.length < 3) return 0;
+  if (name.split(" ").some(word => isSubsequence(token, word))) return 40;
+  let best = 0;
+  for (const word of name.split(" ")) {
     const nt = trigrams(word);
-    if (nt.size === 0) return false;
+    if (nt.size === 0) continue;
     let shared = 0;
     for (const g of qt) if (nt.has(g)) shared++;
-    return (2 * shared) / (qt.size + nt.size) > 0.45;
-  });
+    const sim = (2 * shared) / (qt.size + nt.size);
+    if (sim > 0.45) best = Math.max(best, 10 + sim * 20);
+  }
+  return best;
 }
 
-// Match a precompiled query against a name.
-function fuzzyMatch(q, name) {
-  if (name.includes(q.query)) return true;
+// Score a precompiled query against a name. 0 = no match. Tiers: exact (100)
+// > prefix (90) > word-start (85) > substring (75) > all-words (≤80 avg)
+// > subsequence (40) > trigram similarity (≤30). The browse list sorts
+// matches by this score so e.g. "mar" surfaces Margarita before names that
+// merely contain the letters.
+function matchScore(q, name) {
+  if (name.includes(q.query)) {
+    if (name === q.query) return 100;
+    if (name.startsWith(q.query)) return 90;
+    if (name.includes(" " + q.query)) return 85;
+    return 75;
+  }
   // Multi-word queries: require every word to match so the search narrows
   // instead of matching every "… Cocktail" via the shared common word.
   if (q.tokens.length > 1) {
-    return q.tokens.every((t, i) => wordMatch(t, q.tokenTrigrams[i], name));
+    let sum = 0;
+    for (let i = 0; i < q.tokens.length; i++) {
+      const s = wordMatchScore(q.tokens[i], q.tokenTrigrams[i], name);
+      if (s === 0) return 0;
+      sum += s;
+    }
+    return sum / q.tokens.length;   // per-word avg ≤ 80, below any phrase hit
   }
-  if (!q.queryTrigrams) return false;   // query shorter than a trigram
+  if (!q.queryTrigrams) return 0;   // query shorter than a trigram
   // Subsequence check per word: catches abbreviations like "daq" → "daiquiri".
-  if (name.split(" ").some(word => isSubsequence(q.query, word))) return true;
+  if (name.split(" ").some(word => isSubsequence(q.query, word))) return 40;
   // Trigram similarity: catches misspellings like "margerita" → "margarita".
   const qt = q.queryTrigrams;
   const nt = trigrams(name);
   let shared = 0;
   for (const g of qt) if (nt.has(g)) shared++;
-  return (2 * shared) / (qt.size + nt.size) > 0.3;
+  const sim = (2 * shared) / (qt.size + nt.size);
+  return sim > 0.3 ? 10 + sim * 20 : 0;
 }
 
 // ── Alcoholic ingredient filter ────────────────────────────────────────────
@@ -901,7 +924,11 @@ function initBrowse(cocktails) {
     const ingFilterSet = activeIngredientFilter ? new Set([activeIngredientFilter]) : null;
 
     filtered = cocktails.filter(c => {
-      if (compiledQuery && !fuzzyMatch(compiledQuery, c._lname)) return false;
+      if (compiledQuery) {
+        const score = matchScore(compiledQuery, c._lname);
+        if (score === 0) return false;
+        c._score = score;
+      }
       if (filterTag && !c._tagSet.has(filterTag)) return false;
       if (makeableActive) {
         const s = scoreCocktail(c, inventory);
@@ -910,6 +937,13 @@ function initBrowse(cocktails) {
       if (ingFilterSet && !c.ingredients.some(i => i.name && isCovered(i.name, ingFilterSet))) return false;
       return true;
     });
+
+    // Rank search results by relevance; ties go to shorter names ("Margarita"
+    // before "Margarita Especial"), then dataset (alphabetical) order via
+    // stable sort. Without a query, dataset order is kept as-is.
+    if (compiledQuery) {
+      filtered.sort((a, b) => b._score - a._score || a._lname.length - b._lname.length);
+    }
 
     const isFiltering = query || filterTag || makeableActive || activeIngredientFilter;
     count.textContent = isFiltering
