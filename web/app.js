@@ -339,12 +339,31 @@ function userDocRef(uid) {
   return db.collection("users").doc(uid).collection("data").doc("sync");
 }
 
+// Timestamp of the last local edit — compared against the cloud doc's
+// updatedAt so the newer set wins wholesale. Union-merging instead would
+// mean deletions never propagate (a cleared bar resurrects from any device
+// still holding a stale local copy). The owner key records which account
+// made the local edits, so one user's local data can never be pushed into
+// a different account's cloud ("" = edited while signed out).
+const SYNC_STAMP_KEY = "cocktail-bar-updated";
+const SYNC_OWNER_KEY = "cocktail-bar-owner";
+
+// Persist favorites + inventory locally and stamp the edit time. Every user
+// mutation goes through here (followed by saveToCloud).
+function persistLocal() {
+  localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
+  localStorage.setItem(STORAGE_KEY,   JSON.stringify([...inventory]));
+  localStorage.setItem(SYNC_STAMP_KEY, String(Date.now()));
+  localStorage.setItem(SYNC_OWNER_KEY, currentUser?.uid ?? "");
+}
+
 async function saveToCloud() {
   if (!currentUser) return;
   try {
     await userDocRef(currentUser.uid).set({
       favorites: [...favorites],
       inventory: [...inventory],
+      updatedAt: Number(localStorage.getItem(SYNC_STAMP_KEY)) || Date.now(),
     });
   } catch (err) {
     console.warn("Cloud sync failed:", err);
@@ -354,12 +373,40 @@ async function saveToCloud() {
 async function loadFromCloud(uid) {
   try {
     const snap = await userDocRef(uid).get();
-    if (!snap.exists) { saveToCloud(); return; }
+    if (!snap.exists) {
+      // First sign-in for this account. Adopt the device's local data only
+      // if it wasn't written by a *different* account on a shared device.
+      const localOwner = localStorage.getItem(SYNC_OWNER_KEY) ?? "";
+      if (localOwner !== "" && localOwner !== uid) {
+        favorites.clear();
+        inventory.clear();
+      }
+      persistLocal();
+      saveToCloud();
+      return;
+    }
     const data = snap.data();
+
+    const cloudStamp = data.updatedAt || 0;
+    const localStamp = Number(localStorage.getItem(SYNC_STAMP_KEY)) || 0;
+    const owner = localStorage.getItem(SYNC_OWNER_KEY) ?? "";
+    if (localStamp > cloudStamp && (owner === uid || owner === "")) {
+      // Local set is newer (e.g. edits made offline, or made signed-out and
+      // now adopted by this account) — push it up.
+      saveToCloud();
+      return;
+    }
+
+    // Cloud is newer or same (or local belongs to another account): replace
+    // local state so deletions propagate.
+    favorites.clear();
     (data.favorites || []).forEach(n => favorites.add(n));
+    inventory.clear();
     (data.inventory || []).map(normalizeIngName).forEach(n => inventory.add(n));
     localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
     localStorage.setItem(STORAGE_KEY,   JSON.stringify([...inventory]));
+    localStorage.setItem(SYNC_STAMP_KEY, String(cloudStamp || Date.now()));
+    localStorage.setItem(SYNC_OWNER_KEY, uid);
   } catch (err) {
     console.warn("Cloud load failed:", err);
   }
@@ -592,7 +639,7 @@ function renderDetail(c) {
   updateFavBtn();
   favBtn.onclick = () => {
     if (favorites.has(c.name)) favorites.delete(c.name); else favorites.add(c.name);
-    localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
+    persistLocal();
     saveToCloud();
     updateFavBtn();
     if (refreshFavorites) refreshFavorites();
@@ -778,7 +825,7 @@ function initBar(barCounts) {
     if (!n) return;
     if (!confirm(`Uncheck all ${n} ingredient${n === 1 ? "" : "s"} in your bar?`)) return;
     inventory.clear();
-    localStorage.setItem(STORAGE_KEY, JSON.stringify([]));
+    persistLocal();
     saveToCloud();
     updateSubtitle();
     renderIngredients();
@@ -831,7 +878,7 @@ function initBar(barCounts) {
       cb.checked = inventory.has(name);
       cb.addEventListener("change", () => {
         if (cb.checked) inventory.add(name); else inventory.delete(name);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify([...inventory]));
+        persistLocal();
         saveToCloud();
         updateSubtitle();
         if (!ingSearch.value.trim()) renderIngredients();
@@ -1310,7 +1357,8 @@ async function init(user) {
   if (migrated.size !== inventory.size || [...migrated].some(x => !inventory.has(x))) {
     inventory.clear();
     migrated.forEach(x => inventory.add(x));
-    localStorage.setItem(STORAGE_KEY, JSON.stringify([...inventory]));
+    persistLocal();
+    saveToCloud();   // propagate migrated names so other devices don't re-migrate
   }
 
   const browse      = initBrowse(cocktails);
