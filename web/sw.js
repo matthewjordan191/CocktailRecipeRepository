@@ -1,5 +1,5 @@
 // Bump this date whenever you deploy changes — forces all users to get fresh files.
-const CACHE = "cocktails-20260612073349";
+const CACHE = "cocktails-20260612073847";
 
 const APP_SHELL = [
   "./",
@@ -13,10 +13,9 @@ const APP_SHELL = [
 ];
 
 // Firebase SDK loads cross-origin from gstatic. Precache it explicitly in
-// no-cors mode (opaque responses): script tags can consume opaque responses,
-// but the runtime handler below never caches them (opaque ⇒ !response.ok),
-// so without this the app can't boot offline. Keep versions in sync with
-// index.html.
+// no-cors mode (opaque responses, which script tags can consume) so the app
+// can boot offline; the runtime handler never caches cross-origin requests.
+// Keep versions in sync with index.html.
 const FIREBASE_SDK = [
   "https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js",
   "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js",
@@ -44,16 +43,29 @@ self.addEventListener("activate", event => {
   self.clients.claim();
 });
 
-// Fetch: cache-first for everything we pre-cached, network-first for the rest.
+// Fetch: cache-first with runtime caching for same-origin GETs; the precached
+// Firebase SDK is served from cache; all other cross-origin requests
+// (Firestore/auth API calls, recipe images) pass through to the network
+// untouched — caching API responses would serve stale auth/data, and image
+// responses are opaque (heavily quota-padded), so neither belongs in the cache.
 self.addEventListener("fetch", event => {
+  const { request } = event;
+  if (request.method !== "GET") return;
+
+  if (new URL(request.url).origin !== location.origin) {
+    if (FIREBASE_SDK.includes(request.url)) {
+      event.respondWith(caches.match(request).then(cached => cached || fetch(request)));
+    }
+    return;
+  }
+
   event.respondWith(
-    caches.match(event.request).then(cached => {
+    caches.match(request).then(cached => {
       if (cached) return cached;
-      return fetch(event.request).then(response => {
-        // Don't cache non-GET or error responses.
-        if (event.request.method !== "GET" || !response.ok) return response;
+      return fetch(request).then(response => {
+        if (!response.ok) return response;
         const copy = response.clone();
-        caches.open(CACHE).then(cache => cache.put(event.request, copy));
+        caches.open(CACHE).then(cache => cache.put(request, copy));
         return response;
       });
     })
