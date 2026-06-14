@@ -1,5 +1,5 @@
 // Bump this date whenever you deploy changes — forces all users to get fresh files.
-const CACHE = "cocktails-20260614165809";
+const CACHE = "cocktails-20260614170850";
 
 const APP_SHELL = [
   "./",
@@ -20,6 +20,7 @@ const FIREBASE_SDK = [
   "https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js",
   "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js",
   "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js",
+  "https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics-compat.js",
 ];
 
 // Install: cache everything up front. `cache: "reload"` bypasses the HTTP

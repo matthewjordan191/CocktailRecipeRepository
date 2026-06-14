@@ -319,7 +319,7 @@ const favorites = new Set(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]"
 // The SDK loads cross-origin from gstatic, so it can be missing offline (or
 // blocked). The app must still boot in local-only mode: localStorage
 // favorites/inventory, no sign-in, no ratings.
-let auth = null, db = null, provider = null;
+let auth = null, db = null, provider = null, analytics = null;
 if (typeof firebase !== "undefined") {
   firebase.initializeApp({
     apiKey:            "AIzaSyAP2CK6O8Q3r1_ENk5J--JgqfVD4oWPE3o",
@@ -328,10 +328,28 @@ if (typeof firebase !== "undefined") {
     storageBucket:     "cocktailrepository.firebasestorage.app",
     messagingSenderId: "55261064714",
     appId:             "1:55261064714:web:878091784d9db20c0cf9f3",
+    // Google Analytics measurement ID (Firebase console → Project settings, or
+    // Analytics → Admin → Data streams). When empty, analytics stays off and
+    // track() is a no-op.
+    measurementId:     "G-CKLHS3LT8L",
   });
   auth     = firebase.auth();
   db       = firebase.firestore();
   provider = new firebase.auth.GoogleAuthProvider();
+  // Analytics is optional: it only initialises once a measurementId is set and
+  // the SDK actually loaded (it's cross-origin from gstatic, so it can be
+  // missing offline/blocked — same as the rest of Firebase here).
+  if (firebase.app().options.measurementId && typeof firebase.analytics === "function") {
+    try { analytics = firebase.analytics(); }
+    catch (err) { console.warn("Analytics init failed:", err); }
+  }
+}
+
+// Log a custom event to Google Analytics. No-ops when analytics is unavailable
+// (offline, blocked, or no measurementId configured) so callers never need to
+// guard. See https://firebase.google.com/docs/analytics/events
+function track(event, params) {
+  if (analytics) analytics.logEvent(event, params);
 }
 let currentUser = null;
 
@@ -501,6 +519,7 @@ async function renderRatingUI(container, slug) {
       star.addEventListener("mouseenter", () => updateStarDisplay(i));
       star.addEventListener("click", async () => {
         await submitRating(slug, i);
+        track("rating_set", { recipe_slug: slug, rating: i });
         renderRatingUI(container, slug);
       });
       stars.push(star);
@@ -572,6 +591,7 @@ function showDetail(cocktail) {
   history.pushState(null, "", "#" + slugify(cocktail.name));
   showView("detail");
   window.scrollTo(0, 0);
+  track("recipe_view", { recipe_name: cocktail.name });
 }
 
 document.getElementById("back-btn").addEventListener("click", () => {
@@ -638,11 +658,13 @@ function renderDetail(c) {
   };
   updateFavBtn();
   favBtn.onclick = () => {
-    if (favorites.has(c.name)) favorites.delete(c.name); else favorites.add(c.name);
+    const added = !favorites.has(c.name);
+    if (added) favorites.add(c.name); else favorites.delete(c.name);
     persistLocal();
     saveToCloud();
     updateFavBtn();
     if (refreshFavorites) refreshFavorites();
+    track("favorite_toggle", { recipe_name: c.name, added });
   };
 
   renderRatingUI(document.getElementById("rating-content"), slugify(c.name));
@@ -1151,9 +1173,15 @@ function initBrowse(cocktails) {
   // and rebuilds the list, so coalesce rapid input. The clear (×) toggle stays
   // immediate since it's just showing/hiding the button.
   const debouncedApply = debounce(applyFilters, 120);
+  // Log the settled query, not each keystroke, and skip trivial fragments.
+  const trackSearch = debounce(() => {
+    const q = search.value.trim();
+    if (q.length >= 2) track("search", { search_term: q });
+  }, 1000);
   search.addEventListener("input", () => {
     searchClear.hidden = search.value === "";
     debouncedApply();
+    trackSearch();
   });
   searchClear.addEventListener("click", () => {
     search.value = "";
@@ -1379,6 +1407,7 @@ async function init(user) {
       currentUser = user;
       updateAuthBtn(user);
       if (user) {
+        track("login", { method: "google" });
         await loadFromCloud(user.uid);
         refreshFavorites();
         refreshRecommended();
