@@ -1015,6 +1015,8 @@ function initBrowse(cocktails) {
       activeFilter = isActive ? null : { tags: [tag] };
       if (!isActive) btn.classList.add("active");
       applyFilters();
+      // Log only when turning a filter on, not when toggling it back off.
+      if (!isActive) track("filter_apply", { filter_type: "tag", filter_value: tag });
     });
     container.appendChild(btn);
     allPills.push(btn);
@@ -1035,6 +1037,7 @@ function initBrowse(cocktails) {
     makeableActive = !makeableActive;
     makeableBtn.classList.toggle("active", makeableActive);
     applyFilters();
+    if (makeableActive) track("filter_apply", { filter_type: "makeable" });
   });
   filterBar.appendChild(makeableBtn);
 
@@ -1097,6 +1100,7 @@ function initBrowse(cocktails) {
       moreBtn.textContent = "Less ▴";
     }
     applyFilters();
+    track("filter_apply", { filter_type: "tag", filter_value: tag });
   }
 
   function filterByIngredientFn(name) {
@@ -1109,6 +1113,7 @@ function initBrowse(cocktails) {
     makeableActive = false;
     makeableBtn.classList.remove("active");
     applyFilters();
+    track("filter_apply", { filter_type: "ingredient", filter_value: name });
   }
 
   moreBtn.addEventListener("click", () => {
@@ -1195,6 +1200,7 @@ function initBrowse(cocktails) {
     if (!filtered.length) return;
     const pick = filtered[Math.floor(Math.random() * filtered.length)];
     previousView = "list";
+    track("random_recipe", { recipe_name: pick.name });
     showDetail(pick);
   });
 
