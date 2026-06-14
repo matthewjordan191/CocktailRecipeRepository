@@ -205,6 +205,17 @@ h3 {
   text-transform: capitalize;
 }
 
+/* ── Form controls ── */
+/* iOS Safari auto-zooms when a focused text field renders below 16px, and in
+   this SPA that zoom persists into other views (e.g. pushing the favourite
+   star off-screen on a recipe). Keep every text-entry control at >=16px so it
+   never triggers. Checkboxes/radios are exempt — they don't zoom. */
+input:not([type="checkbox"]):not([type="radio"]),
+textarea,
+select {
+  font-size: 1rem;
+}
+
 /* ── Search inputs ── */
 #search, #ing-search {
   display: block;
@@ -216,7 +227,6 @@ h3 {
   border-radius: var(--radius);
   color: var(--text);
   font-family: var(--font);
-  font-size: 0.9rem;
   outline: none;
   transition: border-color 120ms ease;
 }
