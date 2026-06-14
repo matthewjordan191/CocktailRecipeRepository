@@ -216,7 +216,8 @@ h3 {
   border-radius: var(--radius);
   color: var(--text);
   font-family: var(--font);
-  font-size: 0.9rem;
+  /* Keep at >=16px so iOS Safari doesn't auto-zoom when the field is focused. */
+  font-size: 1rem;
   outline: none;
   transition: border-color 120ms ease;
 }
